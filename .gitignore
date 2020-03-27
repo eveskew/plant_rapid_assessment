@@ -1,0 +1,14 @@
+.DS_Store
+.Rhistory
+.Rproj.user/
+
+archive_code/
+data/gbif_cleaned/
+data/gbif_miscellaneous/unfiltered_gbif_data_deficient.csv
+data/gbif_occurrences/
+data/IUCN/
+!data/IUCN/all_other_fields.csv
+!data/IUCN/assessments.csv
+outputs/plots_for_validation/
+scraps/
+.Rproj.user
