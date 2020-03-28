@@ -11,4 +11,3 @@ data/IUCN/
 !data/IUCN/assessments.csv
 outputs/plots_for_validation/
 scraps/
-.Rproj.user

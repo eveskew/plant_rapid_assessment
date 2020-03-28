@@ -132,3 +132,43 @@ plot_grid(plot1, plot2, plot3, ncol = 1)
 
 ggsave("outputs/old_recent_metric_comparison.jpg", 
        width = 7, height = 12)
+
+#==============================================================================
+
+
+# Compared stated AOO and EOO values from the IUCN assessments (where they 
+# exist) with the metrics we've calculated
+
+plot1 <- rcat %>%
+  ggplot(aes(x = AOO_assessment, y = AOOkm2)) +
+  geom_point() +
+  geom_abline(slope = 1, intercept = 0, lty = 2) +
+  xlim(0, 150000) +
+  ylim(0, 150000) +
+  theme_minimal()
+
+plot2 <- rcat %>%
+  ggplot(aes(x = EOO_assessment, y = EOOkm2)) +
+  geom_point() +
+  geom_abline(slope = 1, intercept = 0, lty = 2) +
+  ylim(0, 300000000) +
+  theme_minimal()
+
+plot3 <- rcat %>%
+  ggplot(aes(x = EOO_assessment, y = EOOkm2_manual)) +
+  geom_point() +
+  geom_abline(slope = 1, intercept = 0, lty = 2) +
+  ylim(0, 300000000) +
+  theme_minimal()
+
+plot4 <- rcat %>%
+  ggplot(aes(x = EOO_assessment, y = EOOkm2_clipped)) +
+  geom_point() +
+  geom_abline(slope = 1, intercept = 0, lty = 2) +
+  ylim(0, 300000000) +
+  theme_minimal()
+
+plot_grid(plot1, plot2, plot3, plot4, ncol = 2)
+
+ggsave("outputs/IUCN_assessment_metrics_vs_GBIF_metrics.jpg", 
+       width = 8, height = 6)
