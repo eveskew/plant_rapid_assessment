@@ -47,10 +47,10 @@ rcat <- ConBatch(
   # Convert relevant variables to numeric data
   mutate_at(c("NOP", "MER", "EOOkm2", "AOOkm2"), as.numeric) %>%
   # Join in data indicating the species name that was originally queried
-  # in GBIF
+  # in GBIF and the IUCN assessment year
   left_join(
     .,
-    distinct(d, species, query_name),
+    distinct(d, species, query_name, iucn_assessment_year),
     by = c("taxa" = "species")
   ) %>%
   # Join in data indicating the IUCN status of the queried species
@@ -402,7 +402,7 @@ rcat <- rcat %>%
     EOO_clipped_recent_cat = EOORating_custom(EOOkm2_clipped_recent)
   ) %>%
   select(
-    query_name, gbif_name, iucn_redlist_category,
+    query_name, gbif_name, iucn_assessment_year, iucn_redlist_category, 
     AOO.range, AOO_assessment, AOO_assessment_cat, 
     EOO.range, EOO_assessment, EOO_assessment_cat,
     NOP, MER, 
