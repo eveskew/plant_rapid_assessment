@@ -400,12 +400,57 @@ rcat <- rcat %>%
     EOO_clipped_old_cat = EOORating_custom(EOOkm2_clipped_old),
     EOO_manual_recent_cat = EOORating_custom(EOOkm2_manual_recent),
     EOO_clipped_recent_cat = EOORating_custom(EOOkm2_clipped_recent)
-  ) %>%
+  )
+
+#==============================================================================
+
+
+# Determine which species do not actually have GBIF data from North America
+
+# Generate a spatial layer representing North America
+
+NA.union <- ne_countries(scale = 110, continent = "North America") %>%
+  maptools::unionSpatialPolygons(., IDs = rep("North America", nrow(.))) %>%
+  st_as_sf()
+plot(NA.union, col = "lightgray")
+
+# Loop over all species to determine whether they contain any North
+# American occurrence records
+
+rcat$GBIF_points_in_NA <- rep(NA, nrow(rcat))
+
+for(species.to.calculate in rcat$gbif_name) {
+  
+  print(paste0(species.to.calculate))
+  
+  species.data <- filter(d, species == species.to.calculate)
+  
+  d.sf <- st_as_sf(
+    species.data, 
+    coords = c("longitude", "latitude"), 
+    crs = "+proj=longlat +datum=WGS84"
+  )
+  
+  test <- st_within(d.sf, NA.union) %>%
+    unlist() %>%
+    length()
+  
+  result <- ifelse(test > 0, "Yes", "No")
+  
+  rcat$GBIF_points_in_NA[rcat$gbif_name == species.to.calculate] <- result
+}
+
+#==============================================================================
+
+
+# Arrange variables and save output to disk
+
+rcat <- rcat %>%
   select(
     query_name, gbif_name, iucn_assessment_year, iucn_redlist_category, 
     AOO.range, AOO_assessment, AOO_assessment_cat, 
     EOO.range, EOO_assessment, EOO_assessment_cat,
-    NOP, MER, 
+    NOP, GBIF_points_in_NA, MER, 
     AOOkm2, AOOcat, EOOkm2, EOOcat,
     EOOkm2_manual, EOO_manual_cat, EOOkm2_clipped, EOO_clipped_cat,
     NOP_old, MER_old, 
