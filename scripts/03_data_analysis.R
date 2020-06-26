@@ -23,6 +23,9 @@ d <- d %>%
   ) %>%
   filter(number_of_points > 3)
 
+n_distinct(d$query_name) # number of cleaned species with > 3 points
+n_distinct(d$species)
+
 # Import the IUCN assessment data
 a <- read_csv("data/IUCN/assessments.csv")
 
@@ -361,7 +364,6 @@ for(species.to.plot in rcat$gbif_name) {
     ggtitle(title) +
     geom_sf(fill = "gainsboro") +
     geom_sf(data = hull, color = "red", fill = NA, lty = 2) +
-    geom_sf(data = mask, color = NA, fill = alpha("pink", 0.4)) +
     geom_point(
       data = species.data,
       aes(x = longitude, y = latitude, color = basisOfRecord),
@@ -375,6 +377,11 @@ for(species.to.plot in rcat$gbif_name) {
     ylim(min(species.data$latitude) - 10, max(species.data$latitude) + 10)  +
     theme_bw() +
     theme(legend.position = "bottom", legend.title = element_blank()) 
+  
+  if(!(TRUE %in% str_detect(class(mask), "POINT"))) {
+    plot <- plot + 
+      geom_sf(data = mask, color = NA, fill = alpha("pink", 0.4))
+  }
   
   ggsave(
     paste0("outputs/plots_for_validation/", species.to.plot, ".png"), 

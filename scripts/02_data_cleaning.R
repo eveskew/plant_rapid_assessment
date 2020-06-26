@@ -19,7 +19,7 @@ files <- list.files("data/gbif_occurrences", full.names = TRUE)
 cleaning.table <- data_frame(file_name = files) %>%
   mutate(
     species = gsub("data/gbif_occurrences/", "", file_name) %>%
-      str_extract(., "[a-zA-Z]+_[a-z]+") %>%
+      str_extract(., "[a-zA-Z]+_[a-z\\-]+") %>%
       gsub("_", " ", .),
     limit = as.numeric(str_extract(file_name, "[0-9]+"))
   ) %>%
@@ -45,6 +45,15 @@ sapply(files.to.delete, function(x) file.remove(x))
 # was queried using the "query_name" column
 d <- data.frame()
 files <- list.files("data/gbif_occurrences", full.names = TRUE)
+
+gbif.metadata <- read_csv("data/gbif_miscellaneous/gbif_metadata.csv")
+nrow(gbif.metadata) # number of species queried on GBIF
+n.species.wo.data <- filter(gbif.metadata, n_records == 0) %>% nrow()
+n.species.wo.data
+n.species.w.data <- filter(gbif.metadata, n_records > 0) %>% nrow()
+n.species.w.data
+assert_that(length(files) == n.species.w.data)
+
 d <- plyr::ldply(files, custom_read_csv)
 
 # Arrange by the data by (GBIF) species name and rename columns
@@ -59,7 +68,10 @@ dim(d)
 
 # Verify that the full data frame has the same number of species as we have 
 # occurrence files
-assert_that(length(files) == length(unique(d$species)))
+assert_that(length(unique(d$species)) == length(files))
+# Verify that the full data frame has the same number of records as the 
+# metadata suggests
+assert_that(nrow(d) == sum(gbif.metadata$n_records))
 
 #==============================================================================
 

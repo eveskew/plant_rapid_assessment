@@ -63,10 +63,10 @@ for (name in species.names) {
     fields = fields.of.interest
   )
 
-  if(is.data.frame(records)) {
+  if(is.data.frame(records$data)) {
 
     write_csv(
-      records,
+      records$data,
       paste0("data/gbif_occurrences/",
              str_replace(name, " ", "_"),
              "_",
@@ -77,7 +77,7 @@ for (name in species.names) {
     temp <- data_frame(
       species = name,
       limit = limit,
-      n_records = nrow(records)
+      n_records = nrow(records$data)
     )
 
     gbif.metadata <- bind_rows(gbif.metadata, temp)
