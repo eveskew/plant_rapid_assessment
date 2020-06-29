@@ -11,7 +11,8 @@ source("R/functions.R")
 #==============================================================================
 
 
-# Import the cleaned GBIF occurrence (filtering to only species with > 3 point)
+# Import the cleaned GBIF occurrence 
+# (filtering to only species with > 3 points)
 d <- read_csv("data/gbif_cleaned/gbif_all.csv")
 d <- d %>%
   left_join(

@@ -6,7 +6,8 @@ library(cowplot)
 #==============================================================================
 
 
-# Import the cleaned GBIF occurrence (filtering to only species with > 3 point)
+# Import the cleaned GBIF occurrence 
+# (filtering to only species with > 3 points)
 d <- read_csv("data/gbif_cleaned/gbif_all.csv")
 d <- d %>%
   left_join(
@@ -22,6 +23,10 @@ d <- d %>%
 a <- read_csv("data/IUCN/assessments.csv")
 
 # Import the rCAT output
+category.levels <- 
+  c("Least Concern", "Near Threatened", "Vulnerable",
+    "Endangered", "Critically Endangered")
+
 rcat <- read_csv("data/rcat/rCAT_output.csv") %>%
   mutate(
     iucn_assessment_year_binned = case_when(
@@ -33,8 +38,104 @@ rcat <- read_csv("data/rcat/rCAT_output.csv") %>%
     iucn_assessment_year_binned = 
       factor(iucn_assessment_year_binned,
              levels = c("pre-2001", "2001-2010", "2011-2015", "post-2015")
-      )
+      ),
+    AOOcat_long = case_when(
+      AOOcat == "CR" ~ "Critically Endangered",
+      AOOcat == "EN" ~ "Endangered",
+      AOOcat == "VU" ~ "Vulnerable",
+      AOOcat == "NT" ~ "Near Threatened",
+      AOOcat == "LC" ~ "Least Concern"
+    ),
+    AOOcat_long = factor(AOOcat_long, levels = category.levels),
+    EOOcat_long = case_when(
+      EOOcat == "CR" ~ "Critically Endangered",
+      EOOcat == "EN" ~ "Endangered",
+      EOOcat == "VU" ~ "Vulnerable",
+      EOOcat == "NT" ~ "Near Threatened",
+      EOOcat == "LC" ~ "Least Concern"
+    ),
+    EOOcat_long = factor(EOOcat_long, levels = category.levels)
   )
+
+#==============================================================================
+
+
+# Tile plotting
+
+line.size <- 3
+color.over <- "forestgreen"
+color.under <- "darkred"
+
+rcat %>%
+  mutate(
+    iucn_redlist_category = ifelse(
+      iucn_redlist_category == "Lower Risk/near threatened",
+      "Near Threatened", iucn_redlist_category),
+    iucn_redlist_category = factor(
+      iucn_redlist_category, levels = c(category.levels, "Data Deficient")
+    )
+  ) %>%
+  group_by(iucn_redlist_category, EOOcat_long) %>%
+  summarize(n = n()) %>%
+  ggplot(aes(x = EOOcat_long, y = iucn_redlist_category)) +
+  geom_tile(aes(fill = log10(n)), color = "black") +
+  geom_text(aes(label = n, fontface = "bold"), 
+            color = "white", size = 16) +
+  scale_fill_gradient(low = "lightgray", high = "black") +
+  theme_bw() +
+  labs(
+    x = "Automated Red List Category Classifications Based on rCAT EOO Calculation",
+    y = "IUCN Red List Category Classifications"
+  ) +
+  theme(
+    legend.position = "none",
+    panel.grid.major = element_blank(),
+    text = element_text(size = 20)
+  ) +
+  
+  geom_segment(x = 1.5, y = 0, xend = 1.5, yend = 1.5,
+               color = color.over, linetype = 2, size = line.size) +
+  geom_segment(x = 1.5, y = 1.5, xend = 2.5, yend = 1.5,
+               color = color.over, linetype = 2, size = line.size) +
+  geom_segment(x = 2.5, y = 1.5, xend = 2.5, yend = 2.5,
+               color = color.over, linetype = 2, size = line.size) +
+  geom_segment(x = 2.5, y = 2.5, xend = 3.5, yend = 2.5,
+               color = color.over, linetype = 2, size = line.size) +
+  geom_segment(x = 3.5, y = 2.5, xend = 3.5, yend = 3.5,
+               color = color.over, linetype = 2, size = line.size) +
+  geom_segment(x = 3.5, y = 3.5, xend = 4.5, yend = 3.5,
+               color = color.over, linetype = 2, size = line.size) +
+  geom_segment(x = 4.5, y = 3.5, xend = 4.5, yend = 4.5,
+               color = color.over, linetype = 2, size = line.size) +
+  geom_segment(x = 4.5, y = 4.5, xend = 5.5, yend = 4.5,
+               color = color.over, linetype = 2, size = line.size) +
+  geom_segment(x = 5.5, y = 4.5, xend = 5.5, yend = 0,
+               color = color.over, linetype = 2, size = line.size) +
+  
+  geom_segment(x = 0.5, y = 1.5, xend = 0.5, yend = 5.5,
+               color = color.under, linetype = 2, size = line.size) +
+  geom_segment(x = 0.5, y = 1.5, xend = 1.5, yend = 1.5,
+               color = color.under, linetype = 2, size = line.size) +
+  geom_segment(x = 1.5, y = 1.5, xend = 1.5, yend = 2.5,
+               color = color.under, linetype = 2, size = line.size) +
+  geom_segment(x = 1.5, y = 2.5, xend = 2.5, yend = 2.5,
+               color = color.under, linetype = 2, size = line.size) +
+  geom_segment(x = 1.5, y = 2.5, xend = 2.5, yend = 2.5,
+               color = color.under, linetype = 2, size = line.size) +
+  geom_segment(x = 2.5, y = 2.5, xend = 2.5, yend = 3.5,
+               color = color.under, linetype = 2, size = line.size) +
+  geom_segment(x = 2.5, y = 3.5, xend = 3.5, yend = 3.5,
+               color = color.under, linetype = 2, size = line.size) +
+  geom_segment(x = 3.5, y = 3.5, xend = 3.5, yend = 4.5,
+               color = color.under, linetype = 2, size = line.size) +
+  geom_segment(x = 3.5, y = 4.5, xend = 4.5, yend = 4.5,
+               color = color.under, linetype = 2, size = line.size) +
+  geom_segment(x = 4.5, y = 4.5, xend = 4.5, yend = 5.5,
+               color = color.under, linetype = 2, size = line.size) +
+  
+  geom_hline(yintercept = 5.5, size = 2)
+
+ggsave("outputs/tile_plot.jpg", width = 14, height = 7)
 
 #==============================================================================
 
