@@ -1,0 +1,3527 @@
+assessmentId,internalTaxonId,scientificName,code,name
+576736,151923,Pediocactus paradinei,SH,Succulent - shrub
+610853,152215,Echinocereus chisosensis,SH,Succulent - shrub
+642048,152484,Sclerocactus nyensis,SH,Succulent - shrub
+1017558,163990,Eleocharis palustris,H,Hydrophyte
+1017558,163990,Eleocharis palustris,GR,Graminoid
+1021826,164064,Phalaris arundinacea,GR,Graminoid
+1021826,164064,Phalaris arundinacea,F,Forb or Herb
+1023200,164118,Leersia oryzoides,F,Forb or Herb
+1025862,164156,Alopecurus aequalis,A,Annual
+1025862,164156,Alopecurus aequalis,GR,Graminoid
+1027583,164175,Ranunculus sceleratus,F,Forb or Herb
+1029195,164189,Potamogeton perfoliatus,H,Hydrophyte
+1029195,164189,Potamogeton perfoliatus,F,Forb or Herb
+1034194,164247,Eleocharis acicularis,GE,Geophyte
+1036377,164272,Brachiaria mutica,GR,Graminoid
+1036377,164272,Brachiaria mutica,F,Forb or Herb
+1036571,164276,Bolboschoenus maritimus,F,Forb or Herb
+1040462,164311,Nasturtium officinale,F,Forb or Herb
+1042718,164335,Myriophyllum verticillatum,H,Hydrophyte
+1043245,164340,Arundo donax,GR,Graminoid
+1043245,164340,Arundo donax,F,Forb or Herb
+1044291,164347,Epilobium hirsutum,F,Forb or Herb
+1048733,164411,Persicaria lapathifolia,F,Forb or Herb
+1051649,164450,Epilobium parviflorum,F,Forb or Herb
+1056668,164512,Catabrosa aquatica,GR,Graminoid
+1057132,164521,Potentilla supina,A,Annual
+1057746,164522,Paspalidium geminatum,GR,Graminoid
+1057746,164522,Paspalidium geminatum,F,Forb or Herb
+1178323,167856,Elatine triandra,F,Forb or Herb
+1178985,167870,Hippuris vulgaris,H,Hydrophyte
+1178985,167870,Hippuris vulgaris,F,Forb or Herb
+1179645,167888,Nuphar pumila,H,Hydrophyte
+1179645,167888,Nuphar pumila,F,Forb or Herb
+1180709,167903,Potamogeton friesii,F,Forb or Herb
+1193038,168634,Veronica peregrina,F,Forb or Herb
+1213531,168711,Najas gracillima,H,Hydrophyte
+1213531,168711,Najas gracillima,A,Annual
+1217340,168729,Poa annua,A,Annual
+1217340,168729,Poa annua,GR,Graminoid
+1219085,168737,Epilobium palustre,F,Forb or Herb
+1220938,168748,Beckmannia syzigachne,GR,Graminoid
+1220938,168748,Beckmannia syzigachne,F,Forb or Herb
+1220938,168748,Beckmannia syzigachne,A,Annual
+1232630,168798,Drosera rotundifolia,PT,Fern
+1257878,168960,Plantago major,F,Forb or Herb
+1260955,168983,Paspalum scrobiculatum,GR,Graminoid
+1260955,168983,Paspalum scrobiculatum,F,Forb or Herb
+1266611,169030,Paspalum distichum,GR,Graminoid
+1266611,169030,Paspalum distichum,F,Forb or Herb
+1267310,169043,Brachiaria reptans,GR,Graminoid
+1267901,169055,Fimbristylis quinquangularis,GR,Graminoid
+1268828,169061,Azolla microphylla,PT,Fern
+1270473,169072,Nelumbo lutea,F,Forb or Herb
+1270473,169072,Nelumbo lutea,H,Hydrophyte
+1420606,175246,Schoenoplectus tabernaemontani,GE,Geophyte
+1423029,175559,Persicaria maculosa,A,Annual
+1423029,175559,Persicaria maculosa,F,Forb or Herb
+1467909,177124,Najas guadalupensis,F,Forb or Herb
+1467909,177124,Najas guadalupensis,H,Hydrophyte
+1468608,177137,Pteris vittata,E,Epiphyte
+1468608,177137,Pteris vittata,F,Forb or Herb
+1468608,177137,Pteris vittata,PT,Fern
+1726149,181378,Sclerocactus brevispinus,SH,Succulent - shrub
+2242484,193533,Acer circinatum,SL,Shrub - large
+2242484,193533,Acer circinatum,TS,Tree - small
+2284337,193830,Acer macrophyllum,TL,Tree - large
+2285894,193849,Acer pensylvanicum,TS,Tree - small
+2285894,193849,Acer pensylvanicum,SL,Shrub - large
+2286184,193853,Acer platanoides,TL,Tree - large
+2287111,193860,Acer rubrum,TL,Tree - large
+2287256,193862,Acer saccharinum,T,Tree - size unknown
+2287256,193862,Acer saccharinum,TL,Tree - large
+2287314,193863,Acer saccharum,TL,Tree - large
+2289975,193896,Magnolia acuminata,TL,Tree - large
+2291599,193941,Magnolia fraseri,TL,Tree - large
+2291865,193948,Magnolia grandiflora,T,Tree - size unknown
+2294339,194013,Magnolia tripetala,T,Tree - size unknown
+2294401,194015,Liriodendron tulipifera,TL,Tree - large
+2294506,194018,Magnolia virginiana,T,Tree - size unknown
+2295175,194049,Quercus agrifolia,SL,Shrub - large
+2295175,194049,Quercus agrifolia,TL,Tree - large
+2295175,194049,Quercus agrifolia,TS,Tree - small
+2295211,194050,Quercus ajoensis,SS,Shrub - small
+2295268,194051,Quercus alba,TL,Tree - large
+2295645,194058,Quercus arizonica,TL,Tree - large
+2296028,194067,Quercus austrina,TS,Tree - small
+2296028,194067,Quercus austrina,TL,Tree - large
+2296058,194068,Quercus berberidifolia,SL,Shrub - large
+2296216,194072,Quercus carmenensis,TS,Tree - small
+2296302,194074,Quercus cerris,TL,Tree - large
+2296502,194076,Quercus chrysolepis,SL,Shrub - large
+2296502,194076,Quercus chrysolepis,TS,Tree - small
+2296502,194076,Quercus chrysolepis,TL,Tree - large
+2296706,194079,Quercus coccinea,TL,Tree - large
+2301887,194127,Quercus falcata,TL,Tree - large
+2302046,194130,Quercus fusiformis,TL,Tree - large
+2302147,194132,Quercus gambelii,SL,Shrub - large
+2302147,194132,Quercus gambelii,TS,Tree - small
+2302183,194133,Quercus garryana,SL,Shrub - large
+2302183,194133,Quercus garryana,TS,Tree - small
+2302183,194133,Quercus garryana,TL,Tree - large
+2302219,194134,Quercus geminata,TL,Tree - large
+2302375,194137,Quercus hemisphaerica,TL,Tree - large
+2303387,194186,Quercus laurifolia,TL,Tree - large
+2303635,194195,Quercus marilandica,SL,Shrub - large
+2303635,194195,Quercus marilandica,TS,Tree - small
+2303665,194196,Quercus michauxii,TL,Tree - large
+2303725,194198,Quercus minima,SS,Shrub - small
+2303755,194199,Quercus mohriana,TS,Tree - small
+2303967,194204,Quercus myrtifolia,SL,Shrub - large
+2303967,194204,Quercus myrtifolia,TS,Tree - small
+2303997,194205,Quercus nigra,TL,Tree - large
+2304635,194220,Quercus phellos,TL,Tree - large
+2304665,194221,Quercus polymorpha,TS,Tree - small
+2304962,194224,Quercus pumila,SS,Shrub - small
+2305058,194226,Quercus rubra,TL,Tree - large
+2305094,194227,Quercus rugosa,SL,Shrub - large
+2305094,194227,Quercus rugosa,TS,Tree - small
+2305418,194234,Quercus sinuata,TL,Tree - large
+2305418,194234,Quercus sinuata,SL,Shrub - large
+2305500,194236,Quercus stellata,TL,Tree - large
+2305742,194242,Quercus turbinella,SL,Shrub - large
+2305742,194242,Quercus turbinella,TS,Tree - small
+2305832,194244,Quercus velutina,TL,Tree - large
+2305868,194245,Quercus virginiana,TL,Tree - large
+2306701,194255,Betula alleghaniensis,TL,Tree - large
+2307102,194257,Corylus americana,SL,Shrub - large
+2308692,194277,Carpinus caroliniana,TS,Tree - small
+2309626,194284,Ostrya chisosensis,TS,Tree - small
+2338986,194472,Alnus incana,SL,Shrub - large
+2338986,194472,Alnus incana,TS,Tree - small
+2340770,194483,Betula lenta,TL,Tree - large
+2341542,194495,Betula nana,SS,Shrub - small
+2342659,194502,Betula papyrifera,TL,Tree - large
+2346581,194540,Ostrya virginiana,TS,Tree - small
+2347475,51203944,Alnus alnobetula,TS,Tree - small
+2347475,51203944,Alnus alnobetula,SL,Shrub - large
+2348770,194551,Betula nigra,TL,Tree - large
+2349148,194557,Ostrya knowltonii,TS,Tree - small
+2350073,194571,Betula michauxii,SL,Shrub - large
+2350587,194580,Alnus oblongifolia,TL,Tree - large
+2351803,194598,Alnus rubra,TL,Tree - large
+2353611,194626,Betula glandulosa,SL,Shrub - large
+2353611,194626,Betula glandulosa,SS,Shrub - small
+2354478,194635,Betula populifolia,TS,Tree - small
+2354664,194637,Betula pumila,SL,Shrub - large
+2355167,194643,Betula occidentalis,SL,Shrub - large
+2355167,194643,Betula occidentalis,TS,Tree - small
+2355642,194648,Alnus rhombifolia,TS,Tree - small
+2355642,194648,Alnus rhombifolia,TL,Tree - large
+2355690,194649,Alnus nepalensis,TL,Tree - large
+2356660,194664,Alnus serrulata,SL,Shrub - large
+2356660,194664,Alnus serrulata,TS,Tree - small
+2608155,199640,Opuntia abjecta,SH,Succulent - shrub
+2793139,30375,Cupressus macrocarpa,TL,Tree - large
+2795402,30727,Quercus cedrosensis,SL,Shrub - large
+2795402,30727,Quercus cedrosensis,TS,Tree - small
+2798888,30955,Quercus hinckleyi,SS,Shrub - small
+2798949,30956,Quercus oglethorpensis,TL,Tree - large
+2799049,30959,Quercus tomentella,TS,Tree - small
+2810241,32101,Abies fraseri,TL,Tree - large
+2822877,32762,Quercus depressipes,SS,Shrub - small
+2828337,32947,Delonix regia,TL,Tree - large
+2838274,33635,Quercus boyntonii,TS,Tree - small
+2839807,33991,Quercus macrocarpa,TL,Tree - large
+2840024,34004,Chamaecyparis lawsoniana,TL,Tree - large
+2840268,34011,Quercus georgiana,TS,Tree - small
+2840436,34019,Abies bracteata,TL,Tree - large
+2840625,34020,Quercus engelmannii,TS,Tree - small
+2840625,34020,Quercus engelmannii,TL,Tree - large
+2840676,34023,Sequoiadendron giganteum,TL,Tree - large
+2840746,34025,Pseudotsuga macrocarpa,TL,Tree - large
+2840781,34026,Torreya californica,TL,Tree - large
+2840943,34029,Taxodium mucronatum,TL,Tree - large
+2841110,34030,Quercus buckleyi,TS,Tree - small
+2841142,34041,Taxus brevifolia,TS,Tree - small
+2841142,34041,Taxus brevifolia,SL,Shrub - large
+2841226,34047,Cupressus bakeri,TS,Tree - small
+2841277,34049,Picea breweriana,TL,Tree - large
+2841499,34050,Pinus clausa,TL,Tree - large
+2841558,34051,Sequoia sempervirens,TL,Tree - large
+2841625,34053,Alnus maritima,SL,Shrub - large
+2841625,34053,Alnus maritima,TS,Tree - small
+2841717,34057,Pinus aristata,TS,Tree - small
+2841776,34058,Pinus muricata,TS,Tree - small
+2841776,34058,Pinus muricata,SL,Shrub - large
+2850654,34200,Tsuga caroliniana,TL,Tree - large
+2853964,34662,Quercus dumosa,SL,Shrub - large
+2853964,34662,Quercus dumosa,TS,Tree - small
+2854060,34665,Quercus gravesii,TS,Tree - small
+2854238,34683,Quercus toumeyi,TS,Tree - small
+2854238,34683,Quercus toumeyi,SL,Shrub - large
+2857026,34885,Colvillea racemosa,TL,Tree - large
+2858212,35039,Quercus acerifolia,TS,Tree - small
+2858212,35039,Quercus acerifolia,SL,Shrub - large
+2885918,39049,Pinus albicaulis,TS,Tree - small
+2886222,39068,Pinus palustris,TL,Tree - large
+2895685,39242,Geothallus tuberosus,B,Moss
+2962006,42210,Calocedrus decurrens,TL,Tree - large
+2962150,42214,Chamaecyparis thyoides,TL,Tree - large
+2962318,42216,Cupressus arizonica,TS,Tree - small
+2962566,42219,Cupressus goveniana,TS,Tree - small
+2962608,42220,Cupressus guadalupensis,TS,Tree - small
+2962703,42222,Cupressus macnabiana,TS,Tree - small
+2962793,42224,Juniperus ashei,SL,Shrub - large
+2962888,42226,Juniperus californica,TS,Tree - small
+2962888,42226,Juniperus californica,SL,Shrub - large
+2963023,16335864,Juniperus coahuilensis,SL,Shrub - large
+2963096,42229,Juniperus communis,TS,Tree - small
+2963096,42229,Juniperus communis,SL,Shrub - large
+2963096,42229,Juniperus communis,SS,Shrub - small
+2964728,42231,Juniperus deppeana,TS,Tree - small
+2964728,42231,Juniperus deppeana,SL,Shrub - large
+2964906,42233,Juniperus flaccida,TS,Tree - small
+2964906,42233,Juniperus flaccida,SL,Shrub - large
+2965318,42237,Juniperus horizontalis,SS,Shrub - small
+2965568,42239,Juniperus monosperma,TS,Tree - small
+2965568,42239,Juniperus monosperma,SL,Shrub - large
+2965708,42241,Juniperus osteosperma,TS,Tree - small
+2965708,42241,Juniperus osteosperma,SL,Shrub - large
+2965783,42242,Juniperus occidentalis,TS,Tree - small
+2967054,42252,Juniperus scopulorum,TS,Tree - small
+2967510,42257,Juniperus virginiana,TS,Tree - small
+2967510,42257,Juniperus virginiana,SL,Shrub - large
+2967745,42258,Cupressus sargentii,TS,Tree - small
+2967873,42261,Taxodium distichum,TL,Tree - large
+2967995,42262,Thuja occidentalis,TL,Tree - large
+2968155,42263,Thuja plicata,TL,Tree - large
+2968657,42271,Abies amabilis,TL,Tree - large
+2968717,42272,Abies balsamea,TL,Tree - large
+2969061,42276,Abies concolor,TL,Tree - large
+2969709,42284,Abies grandis,TL,Tree - large
+2970039,42289,Abies lasiocarpa,TS,Tree - small
+2970154,42290,Abies magnifica,TL,Tree - large
+2970458,42296,Abies procera,TL,Tree - large
+2971618,42313,Larix laricina,TS,Tree - small
+2971618,42313,Larix laricina,TL,Tree - large
+2971798,42314,Larix lyallii,TS,Tree - small
+2971858,42315,Larix occidentalis,TL,Tree - large
+2972365,42322,Picea engelmannii,TL,Tree - large
+2972485,42323,Picea glauca,TL,Tree - large
+2972877,42328,Picea mariana,TL,Tree - large
+2972877,42328,Picea mariana,TS,Tree - small
+2973433,42333,Picea pungens,TL,Tree - large
+2973433,42333,Picea pungens,TS,Tree - small
+2973542,42335,Picea rubens,TL,Tree - large
+2973701,42337,Picea sitchensis,TL,Tree - large
+2973948,42341,Pinus arizonica,TL,Tree - large
+2974092,42343,Pinus attenuata,TS,Tree - small
+2974092,42343,Pinus attenuata,SL,Shrub - large
+2974187,42345,Pinus balfouriana,TL,Tree - large
+2974187,42345,Pinus balfouriana,TS,Tree - small
+2974230,42346,Pinus banksiana,TS,Tree - small
+2974560,42350,Pinus cembroides,TS,Tree - small
+2974560,42350,Pinus cembroides,SL,Shrub - large
+2974612,42351,Pinus contorta,TL,Tree - large
+2974612,42351,Pinus contorta,TS,Tree - small
+2974687,42352,Pinus coulteri,TL,Tree - large
+2974993,42359,Pinus echinata,TL,Tree - large
+2975133,42360,Pinus edulis,SL,Shrub - large
+2975133,42360,Pinus edulis,TS,Tree - small
+2975203,42361,Pinus elliottii,TL,Tree - large
+2975263,42362,Pinus engelmannii,TL,Tree - large
+2975338,42363,Pinus flexilis,TS,Tree - small
+2975443,42364,Pinus glabra,TS,Tree - small
+2975870,42371,Pinus jeffreyi,TL,Tree - large
+2976106,42374,Pinus lambertiana,TL,Tree - large
+2976226,42376,Pinus leiophylla,TS,Tree - small
+2976514,42381,Pinus monophylla,TS,Tree - small
+2976604,42383,Pinus monticola,TL,Tree - large
+2977432,42401,Pinus ponderosa,TL,Tree - large
+2977840,42406,Pinus pungens,TS,Tree - small
+2977910,42407,Pinus quadrifolia,TS,Tree - small
+2977955,42408,Pinus radiata,TL,Tree - large
+2978032,42409,Pinus remota,TS,Tree - small
+2978032,42409,Pinus remota,SL,Shrub - large
+2978087,42410,Pinus resinosa,TL,Tree - large
+2978217,42411,Pinus rigida,TL,Tree - large
+2978429,42413,Pinus sabiniana,TS,Tree - small
+2978464,42414,Pinus serotina,TS,Tree - small
+2978637,42416,Pinus strobiformis,TL,Tree - large
+2978687,42417,Pinus strobus,TL,Tree - large
+2978958,42420,Pinus taeda,TL,Tree - large
+2979186,42424,Pinus torreyana,TS,Tree - small
+2979266,42426,Pinus virginiana,TS,Tree - small
+2979531,42429,Pseudotsuga menziesii,TL,Tree - large
+2979676,42431,Tsuga canadensis,TL,Tree - large
+2980087,42435,Tsuga heterophylla,TL,Tree - large
+2980162,42436,Tsuga mertensiana,TL,Tree - large
+2986960,42547,Taxus canadensis,SS,Shrub - small
+2986960,42547,Taxus canadensis,SL,Shrub - large
+2991690,44029,Xanthocyparis nootkatensis,TL,Tree - large
+3115662,62535,Betula pendula,TL,Tree - large
+3116230,62538,Quercus parvula,SL,Shrub - large
+3116230,62538,Quercus parvula,TS,Tree - small
+3116514,62595,Magnolia macrophylla,TL,Tree - large
+3117065,62940,Acer negundo,SL,Shrub - large
+3117065,62940,Acer negundo,TS,Tree - small
+3117065,62940,Acer negundo,TL,Tree - large
+3125479,63517,Alnus glutinosa,TL,Tree - large
+3125935,63521,Corylus avellana,SL,Shrub - large
+3125935,63521,Corylus avellana,TS,Tree - small
+3126955,63549,Juniperus arizonica,S,Shrub - size unknown
+3464336,132834,Platanthera praeclara,F,Forb or Herb
+4516675,153538,Zostera marina,H,Hydrophyte
+4516675,153538,Zostera marina,A,Annual
+4516675,153538,Zostera marina,GR,Graminoid
+4516675,153538,Zostera marina,GE,Geophyte
+5505853,161864,Marsilea quadrifolia,H,Hydrophyte
+5505853,161864,Marsilea quadrifolia,PT,Fern
+5551773,162168,Galanthus nivalis,F,Forb or Herb
+5551773,162168,Galanthus nivalis,GE,Geophyte
+5681486,163984,Juncus articulatus,F,Forb or Herb
+5681486,163984,Juncus articulatus,GE,Geophyte
+5758374,164164,Cyperus imbricatus,A,Annual
+5758374,164164,Cyperus imbricatus,F,Forb or Herb
+5772487,164199,Typha angustifolia,H,Hydrophyte
+5772487,164199,Typha angustifolia,A,Annual
+5891942,164493,Leptochloa panicea,A,Annual
+5891942,164493,Leptochloa panicea,GR,Graminoid
+5897605,164508,Ruppia maritima,GR,Graminoid
+6407237,167890,Nymphaea tetragona,H,Hydrophyte
+6411823,167905,Potamogeton obtusifolius,H,Hydrophyte
+6417775,167926,Sparganium emersum,H,Hydrophyte
+6417775,167926,Sparganium emersum,GR,Graminoid
+6417775,167926,Sparganium emersum,F,Forb or Herb
+6527440,168695,Lemna perpusilla,H,Hydrophyte
+6530815,168735,Rotala indica,H,Hydrophyte
+6530815,168735,Rotala indica,A,Annual
+6541061,168850,Nymphoides parvifolia,F,Forb or Herb
+6545066,168882,Hygrophila pinnatifida,H,Hydrophyte
+6545862,168884,Cryptocoryne ciliata,F,Forb or Herb
+6557560,168974,Dopatrium junceum,F,Forb or Herb
+6559440,168991,Landoltia punctata,H,Hydrophyte
+6562890,169023,Zeuxine strateumatica,F,Forb or Herb
+6566565,169039,Nechamandra alternifolia,H,Hydrophyte
+6566565,169039,Nechamandra alternifolia,F,Forb or Herb
+6566565,169039,Nechamandra alternifolia,GE,Geophyte
+6990381,173320,Phyllospadix torreyi,GR,Graminoid
+6990996,173324,Halophila johnsonii,GR,Graminoid
+6994043,173337,Halophila engelmanni,GR,Graminoid
+6994270,173338,Halophila hawaiiana,GR,Graminoid
+6994461,173339,Zostera asiatica,GR,Graminoid
+6995927,173346,Thalassia testudinum,GR,Graminoid
+6996472,173348,Zostera japonica,GR,Graminoid
+6997485,173352,Halophila decipiens,GR,Graminoid
+7000590,173366,Phyllospadix serrulatus,GR,Graminoid
+7000726,173367,Phyllospadix scouleri,GR,Graminoid
+7001725,173372,Halodule wrightii,GR,Graminoid
+7002177,173373,Zostera pacifica,GR,Graminoid
+7003203,173378,Syringodium filiforme,GR,Graminoid
+7332417,176925,Eragrostis unioloides,A,Annual
+7332417,176925,Eragrostis unioloides,GR,Graminoid
+7332417,176925,Eragrostis unioloides,F,Forb or Herb
+7332852,176927,Glossostigma diandrum,H,Hydrophyte
+7332852,176927,Glossostigma diandrum,A,Annual
+7332852,176927,Glossostigma diandrum,L,Lithophyte
+7332852,176927,Glossostigma diandrum,F,Forb or Herb
+7335196,176940,Nitella oligospira,H,Hydrophyte
+7335196,176940,Nitella oligospira,F,Forb or Herb
+7337178,176953,Aniseia martinicensis,A,Annual
+7337178,176953,Aniseia martinicensis,F,Forb or Herb
+7342930,176972,Commelina erecta,A,Annual
+7342930,176972,Commelina erecta,F,Forb or Herb
+7366131,177110,Acrostichum aureum,F,Forb or Herb
+7369942,177051,Eragrostis japonica,A,Annual
+7369942,177051,Eragrostis japonica,GR,Graminoid
+7370568,177052,Kyllinga bulbosa,F,Forb or Herb
+7373683,177128,Polygonum plebeium,F,Forb or Herb
+7378813,177155,Fimbristylis schoenoides,A,Annual
+7378813,177155,Fimbristylis schoenoides,F,Forb or Herb
+7394696,177227,Paspalum conjugatum,GR,Graminoid
+7395255,177231,Chara hydropitys,H,Hydrophyte
+7400738,177256,Nitella flexilis,H,Hydrophyte
+7400738,177256,Nitella flexilis,F,Forb or Herb
+7401474,177263,Eriochloa procera,A,Annual
+7401474,177263,Eriochloa procera,GR,Graminoid
+7403676,177276,Cyperus cyperoides,A,Annual
+7403676,177276,Cyperus cyperoides,F,Forb or Herb
+7420283,177356,Neptunia plena,F,Forb or Herb
+7421088,177359,Eleusine indica,GR,Graminoid
+7421088,177359,Eleusine indica,F,Forb or Herb
+7422894,177366,Centipeda minima,A,Annual
+7422894,177366,Centipeda minima,F,Forb or Herb
+7609219,178798,Laguncularia racemosa,TL,Tree - large
+7609219,178798,Laguncularia racemosa,TS,Tree - small
+7612125,178806,Conocarpus erectus,SL,Shrub - large
+7612125,178806,Conocarpus erectus,TS,Tree - small
+7613396,178810,Acrostichum danaeifolium,F,Forb or Herb
+7613866,178811,Avicennia germinans,SL,Shrub - large
+7613866,178811,Avicennia germinans,TL,Tree - large
+7613866,178811,Avicennia germinans,TS,Tree - small
+9160475,201668,Ephedra californica,SL,Shrub - large
+9160475,201668,Ephedra californica,SS,Shrub - small
+9161824,201674,Ephedra trifurca,SL,Shrub - large
+9162063,201675,Ephedra cutleri,SS,Shrub - small
+9162483,201677,Ephedra torreyana,SL,Shrub - large
+9164657,201685,Ephedra aspera,SL,Shrub - large
+9165012,201686,Ephedra funerea,SL,Shrub - large
+9165264,201687,Ephedra pedunculata,V,Vines
+9165264,201687,Ephedra pedunculata,SL,Shrub - large
+9166513,201692,Ephedra coryi,SL,Shrub - large
+9166943,201694,Ephedra fasciculata,SS,Shrub - small
+9167953,201698,Ephedra nevadensis,SL,Shrub - large
+9169780,201705,Ephedra viridis,SS,Shrub - small
+9171521,201712,Ephedra antisyphilitica,SL,Shrub - large
+9536230,30396,Hibiscadelphus giffardianus,T,Tree - size unknown
+9542441,30379,Asimina tetramera,SL,Shrub - large
+9542441,30379,Asimina tetramera,TS,Tree - small
+9572002,30779,Pittosporum napaliense,TS,Tree - small
+9572142,30780,Bobea sandwicensis,T,Tree - size unknown
+9572434,30782,Exocarpos gaudichaudii,T,Tree - size unknown
+9572679,30784,Nothocestrum breviflorum,T,Tree - size unknown
+9572832,30785,Eurya sandwicensis,T,Tree - size unknown
+9573107,30787,Hibiscadelphus hualalaiensis,T,Tree - size unknown
+9573266,30788,Wikstroemia bicornuta,T,Tree - size unknown
+9577060,30768,Clermontia tuberculata,S,Shrub - size unknown
+9577060,30768,Clermontia tuberculata,T,Tree - size unknown
+9577148,30769,Cyanea procera,T,Tree - size unknown
+9577225,30770,Dubautia arborea,S,Shrub - size unknown
+9577225,30770,Dubautia arborea,TS,Tree - small
+9577304,30771,Cryptocarya mannii,T,Tree - size unknown
+9577485,30773,Cheirodendron forbesii,T,Tree - size unknown
+9584804,30902,Acacia koaia,TS,Tree - small
+9584928,30965,Taxus floridana,TS,Tree - small
+9585373,30904,Bobea timonioides,T,Tree - size unknown
+9585489,30968,Torreya taxifolia,T,Tree - size unknown
+9587760,30912,Clermontia drepanomorpha,E,Epiphyte
+9587760,30912,Clermontia drepanomorpha,T,Tree - size unknown
+9588160,30913,Clermontia lindseyana,E,Epiphyte
+9588160,30913,Clermontia lindseyana,S,Shrub - size unknown
+9588160,30913,Clermontia lindseyana,T,Tree - size unknown
+9588537,30914,Clermontia pyrularia,TS,Tree - small
+9588935,30915,Colubrina oppositifolia,T,Tree - size unknown
+9591437,30922,Cyrtandra giffardii,TS,Tree - small
+9591763,30923,Dubautia reticulata,T,Tree - size unknown
+9593228,30927,Gardenia brighamii,T,Tree - size unknown
+9593512,30929,Hesperomannia lydgatei,TS,Tree - small
+9593655,30931,Hibiscus clayi,S,Shrub - size unknown
+9593655,30931,Hibiscus clayi,T,Tree - size unknown
+9593828,30933,Kokia drynarioides,T,Tree - size unknown
+9593903,30934,Kokia kauaiensis,T,Tree - size unknown
+9593987,30935,Labordia lydgatei,T,Tree - size unknown
+9594131,30937,Leitneria floridana,S,Shrub - size unknown
+9594131,30937,Leitneria floridana,TS,Tree - small
+9594399,30941,Morinda trimera,T,Tree - size unknown
+9594462,30942,Myrsine fernseei,S,Shrub - size unknown
+9594462,30942,Myrsine fernseei,TS,Tree - small
+9594540,30943,Myrsine mezii,TS,Tree - small
+9594615,30944,Myrsine petiolata,S,Shrub - size unknown
+9594615,30944,Myrsine petiolata,TS,Tree - small
+9594690,30945,Neraudia ovata,T,Tree - size unknown
+9594781,30946,Nothocestrum latifolium,TS,Tree - small
+9594854,30947,Nothocestrum peltatum,T,Tree - size unknown
+9594946,30948,Platydesma remyi,T,Tree - size unknown
+9595142,30951,Psychotria grandiflora,T,Tree - size unknown
+9595215,30952,Pteralyxia kauaiensis,T,Tree - size unknown
+9595920,30960,Salix floridana,TS,Tree - small
+9596199,30970,Urera kaalae,S,Shrub - size unknown
+9596199,30970,Urera kaalae,T,Tree - size unknown
+9596425,30973,Xylosma crenatum,T,Tree - size unknown
+9622131,31365,Gardenia mannii,T,Tree - size unknown
+9622279,31364,Sapindus oahuensis,T,Tree - size unknown
+9673343,32010,Nesoluma polynesicum,T,Tree - size unknown
+9679135,32102,Ziziphus celata,T,Tree - size unknown
+9786858,33562,Ochrosia kilaueaensis,T,Tree - size unknown
+9787032,33563,Pteralyxia macrocarpa,T,Tree - size unknown
+9787184,33565,Pittosporum terminalioides,T,Tree - size unknown
+9787519,33566,Gardenia remyi,T,Tree - size unknown
+9787654,33567,Psychotria greenwelliae,T,Tree - size unknown
+9788344,33582,Cyanea horrida,T,Tree - size unknown
+9790022,33596,Euphorbia atrococca,T,Tree - size unknown
+9793341,33557,Melicope ovalis,T,Tree - size unknown
+9793423,33558,Melicope pallida,T,Tree - size unknown
+9793510,33559,Melicope quadrangularis,T,Tree - size unknown
+9793585,33560,Ochrosia haleakalae,T,Tree - size unknown
+9793735,33568,Psychotria hobdyi,T,Tree - size unknown
+9793879,33570,Clermontia persicifolia,E,Epiphyte
+9793879,33570,Clermontia persicifolia,S,Shrub - size unknown
+9793879,33570,Clermontia persicifolia,T,Tree - size unknown
+9793944,33571,Cyanea aculeatiflora,T,Tree - size unknown
+9794006,33572,Zanthoxylum kauaense,T,Tree - size unknown
+9794078,33573,Zanthoxylum oahuense,TS,Tree - small
+9794512,33577,Nothocestrum longifolium,S,Shrub - size unknown
+9794512,33577,Nothocestrum longifolium,TS,Tree - small
+9794586,33662,Melicope christophersenii,T,Tree - size unknown
+9794741,33663,Melicope cinerea,T,Tree - size unknown
+9795166,33603,Euphorbia olowaluana,T,Tree - size unknown
+9795262,33666,Melicope haupuensis,T,Tree - size unknown
+9795465,33667,Melicope hawaiensis,T,Tree - size unknown
+9795540,33605,Flueggea neowawraea,TL,Tree - large
+9795614,33678,Melicope sandwicensis,T,Tree - size unknown
+9795802,33679,Melicope waialealae,S,Shrub - size unknown
+9795802,33679,Melicope waialealae,T,Tree - size unknown
+9795930,33680,Melicope wawraeana,TS,Tree - small
+9796070,33681,Melicope zahlbruckneri,T,Tree - size unknown
+9796235,33682,Neraudia melastomifolia,T,Tree - size unknown
+9796374,33683,Polyscias sandwicensis,T,Tree - size unknown
+9797873,33619,Labordia hirtella,T,Tree - size unknown
+9798849,33628,Myrsine degeneri,TS,Tree - small
+9798911,33629,Myrsine fosbergii,T,Tree - size unknown
+9798986,33630,Myrsine knudsenii,T,Tree - size unknown
+9799315,33633,Pisonia wagneriana,T,Tree - size unknown
+9801384,33661,Melicope balloui,TS,Tree - small
+9801463,33668,Melicope kaalaensis,T,Tree - size unknown
+9801536,33669,Melicope knudsenii,T,Tree - size unknown
+9801685,33671,Melicope makahae,T,Tree - size unknown
+9801758,33672,Melicope mucronulata,TS,Tree - small
+9801896,33674,Melicope orbicularis,TS,Tree - small
+9802039,33676,Melicope puberula,S,Shrub - size unknown
+9802039,33676,Melicope puberula,TS,Tree - small
+9802103,33677,Melicope saint-johnii,T,Tree - size unknown
+9822561,33997,Dubautia microcephala,T,Tree - size unknown
+9826151,34001,Celtis lindheimeri,T,Tree - size unknown
+9826270,34002,Hesperomannia arborescens,TS,Tree - small
+9826564,34003,Hesperomannia arbuscula,SL,Shrub - large
+9826564,34003,Hesperomannia arbuscula,T,Tree - size unknown
+9827263,34007,Polyscias gymnocarpa,T,Tree - size unknown
+9827420,34008,Quercus macdonaldii,T,Tree - size unknown
+9828784,34014,Cyanea solenocalyx,T,Tree - size unknown
+9829139,34016,Cyanea stictophylla,T,Tree - size unknown
+9829296,34017,Cyanea tritomantha,T,Tree - size unknown
+9830878,34024,Pinus longaeva,TL,Tree - large
+9832654,34031,Labordia kaalae,S,Shrub - size unknown
+9832654,34031,Labordia kaalae,TS,Tree - small
+9832997,34034,Clermontia hawaiiensis,E,Epiphyte
+9832997,34034,Clermontia hawaiiensis,S,Shrub - size unknown
+9832997,34034,Clermontia hawaiiensis,T,Tree - size unknown
+9833134,34036,Clermontia grandiflora,S,Shrub - size unknown
+9833134,34036,Clermontia grandiflora,T,Tree - size unknown
+9915544,35157,Zanthoxylum hawaiiense,T,Tree - size unknown
+10058133,37562,Cercocarpus traskiae,S,Shrub - size unknown
+10058133,37562,Cercocarpus traskiae,TS,Tree - small
+10058334,37563,Arctostaphylos catalinae,S,Shrub - size unknown
+10058334,37563,Arctostaphylos catalinae,TS,Tree - small
+10141295,38641,Pritchardia affinis,T,Tree - size unknown
+10141365,38642,Pritchardia aylmer-robinsonii,T,Tree - size unknown
+10141418,38643,Pritchardia elliptica,T,Tree - size unknown
+10141462,38644,Pritchardia forbesiana,T,Tree - size unknown
+10141515,38645,Pritchardia glabrata,TS,Tree - small
+10141568,38646,Pritchardia hardyi,TS,Tree - small
+10141682,38648,Pritchardia lanigera,TS,Tree - small
+10141737,38649,Pritchardia lowreyana,TS,Tree - small
+10141788,38650,Pritchardia munroi,T,Tree - size unknown
+10141858,38651,Pritchardia napaliensis,T,Tree - size unknown
+10141913,38652,Pritchardia remota,T,Tree - size unknown
+10141962,38653,Pritchardia schattaueri,T,Tree - size unknown
+10142070,38655,Pritchardia viscosa,T,Tree - size unknown
+10142123,38656,Pritchardia waialealeana,T,Tree - size unknown
+10145920,38725,Washingtonia filifera,T,Tree - size unknown
+10147127,38740,Pritchardia lanaiensis,T,Tree - size unknown
+10147180,38741,Pritchardia limahuliensis,T,Tree - size unknown
+10147233,38742,Pritchardia perlmanii,T,Tree - size unknown
+10166698,39166,Donrichardsia macroneuron,L,Lithophyte
+10166698,39166,Donrichardsia macroneuron,B,Moss
+10167506,39182,Ozobryum ogalalense,L,Lithophyte
+10167506,39182,Ozobryum ogalalense,B,Moss
+10167615,39183,Aschisma kansanum,L,Lithophyte
+10167615,39183,Aschisma kansanum,B,Moss
+10168338,39189,Takakia ceratophylla,B,Moss
+10171538,39156,Limbella fryei,E,Epiphyte
+10171538,39156,Limbella fryei,B,Moss
+10178781,39243,Sphaerocarpos drewei,B,Moss
+10253384,39636,Dionaea muscipula,F,Forb or Herb
+10258751,39713,Sarracenia alata,F,Forb or Herb
+10259059,39714,Darlingtonia californica,F,Forb or Herb
+10259287,39715,Sarracenia flava,F,Forb or Herb
+10259555,39716,Sarracenia leucophylla,F,Forb or Herb
+10259811,39717,Sarracenia minor,F,Forb or Herb
+10260069,39718,Sarracenia oreophila,F,Forb or Herb
+10260157,39719,Sarracenia psittacina,F,Forb or Herb
+10670852,42164,Zamia integrifolia,SS,Shrub - small
+10670852,42164,Zamia integrifolia,C,Cycad
+10846606,44059,Abutilon eremitopetalum,S,Shrub - size unknown
+10846936,44061,Abutilon sandwicense,S,Shrub - size unknown
+10847191,44060,Abutilon menziesii,S,Shrub - size unknown
+10847463,44062,Phlegmariurus nutans,B,Moss
+10847623,44063,Phyllostegia kaalaensis,F,Forb or Herb
+10847805,44073,Alsinidendron lychnoides,SS,Shrub - small
+10848211,44075,Achyranthes mutica,S,Shrub - size unknown
+10848537,44076,Alphitonia ponderosa,T,Tree - size unknown
+10849477,44081,Brighamia rockii,S,Shrub - size unknown
+10851106,44091,Anoectochilus sandvicensis,GE,Geophyte
+10851253,44092,Cyanea crispa,S,Shrub - size unknown
+10851729,44095,Cyanea dunbariae,S,Shrub - size unknown
+10851961,44097,Cyanea gibsonii,T,Tree - size unknown
+10852085,44098,Cyanea glabra,S,Shrub - size unknown
+10853805,44052,Cyanea st-johnii,S,Shrub - size unknown
+10853947,44054,Cyrtandra kaulantha,S,Shrub - size unknown
+10854011,44055,Cyrtandra polyantha,S,Shrub - size unknown
+10854142,44057,Gouania vitifolia,V,Vines
+10854142,44057,Gouania vitifolia,S,Shrub - size unknown
+10854258,44058,Alsinidendron obovatum,S,Shrub - size unknown
+10854258,44058,Alsinidendron obovatum,SS,Shrub - small
+10854339,44064,Phyllostegia mollis,F,Forb or Herb
+10854416,44065,Schiedea adamantis,S,Shrub - size unknown
+10854561,44067,Schiedea kaalae,S,Shrub - size unknown
+10854645,44068,Labordia cyrtandrae,S,Shrub - size unknown
+10854725,44069,Lobelia monostachya,S,Shrub - size unknown
+10855151,44160,Bidens campylotheca,SS,Shrub - small
+10856036,44104,Cyanea acuminata,S,Shrub - size unknown
+10856226,44105,Cyanea asplenifolia,S,Shrub - size unknown
+10856407,44106,Cyanea calycina,S,Shrub - size unknown
+10856571,44107,Cyanea fauriei,S,Shrub - size unknown
+10857043,44110,Alsinidendron trinerve,SS,Shrub - small
+10857544,44111,Alsinidendron viscosum,SS,Shrub - small
+10857697,44112,Argyroxiphium caliginis,SS,Shrub - small
+10858069,44113,Argyroxiphium kauense,S,Shrub - size unknown
+10858398,44114,Bidens amplectens,F,Forb or Herb
+10858550,44115,Bidens conjuncta,F,Forb or Herb
+10858867,44117,Bidens molokaiensis,F,Forb or Herb
+10859398,44118,Bidens populifolia,SS,Shrub - small
+10859398,44118,Bidens populifolia,F,Forb or Herb
+10859607,44119,Bidens wiebkei,F,Forb or Herb
+10859774,44120,Canavalia molokaiensis,V,Vines
+10860798,44122,Canavalia pubescens,V,Vines
+10860956,44123,Capparis sandwichiana,S,Shrub - size unknown
+10861117,44124,Clermontia calophylla,S,Shrub - size unknown
+10861402,44125,Clermontia waimeae,S,Shrub - size unknown
+10861402,44125,Clermontia waimeae,T,Tree - size unknown
+10862276,44128,Ctenitis squamigera,PT,Fern
+10862572,44129,Bonamia menziesii,V,Vines
+10862735,44131,Euphorbia eleanoriae,SS,Shrub - small
+10862794,44132,Euphorbia halemanui,S,Shrub - size unknown
+10862946,44134,Euphorbia sparsiflora,SS,Shrub - small
+10863109,44136,Centaurium sebaeoides,F,Forb or Herb
+10863184,44137,Calamagrostis expansa,GR,Graminoid
+10863250,44138,Calamagrostis hillebrandii,GR,Graminoid
+10863313,44139,Cyanea hamatiflora,S,Shrub - size unknown
+10863313,44139,Cyanea hamatiflora,T,Tree - size unknown
+10863839,44143,Clermontia oblongifolia,S,Shrub - size unknown
+10863839,44143,Clermontia oblongifolia,T,Tree - size unknown
+10863892,44144,Alectryon macrococcus,T,Tree - size unknown
+10864007,44145,Achyranthes splendens,S,Shrub - size unknown
+10864688,44150,Euphorbia remyi,V,Vines
+10864688,44150,Euphorbia remyi,S,Shrub - size unknown
+10865179,44157,Argyroxiphium sandwicense,S,Shrub - size unknown
+12480183,61423,Cyclosorus boydiae,PT,Fern
+12480377,61424,Cyclosorus wailele,PT,Fern
+13254142,13254117,Cypripedium kentuckiense,GE,Geophyte
+13254142,13254117,Cypripedium kentuckiense,F,Forb or Herb
+13491792,13491788,Spartina alterniflora,F,Forb or Herb
+13506651,13506646,Elodea canadensis,F,Forb or Herb
+13506651,13506646,Elodea canadensis,H,Hydrophyte
+13537523,202961,Nerium oleander,SL,Shrub - large
+13538043,164334,Spergularia marina,A,Annual
+13541669,164013,Pulicaria arabica,A,Annual
+13541669,164013,Pulicaria arabica,F,Forb or Herb
+13542516,175575,Rorippa microphylla,F,Forb or Herb
+13542516,175575,Rorippa microphylla,H,Hydrophyte
+13543252,164119,Carex distans,GR,Graminoid
+13545918,164079,Cyperus fuscus,GR,Graminoid
+13548404,164239,Eleocharis uniglumis,F,Forb or Herb
+13550847,164234,Isolepis setacea,GR,Graminoid
+13550847,164234,Isolepis setacea,A,Annual
+13553540,164086,Schoenoplectiella mucronata,GR,Graminoid
+13553540,164086,Schoenoplectiella mucronata,F,Forb or Herb
+13553777,164511,Schoenus nigricans,GR,Graminoid
+13553777,164511,Schoenus nigricans,F,Forb or Herb
+13555566,164067,Hemarthria altissima,GR,Graminoid
+13555566,164067,Hemarthria altissima,GE,Geophyte
+13556201,164337,Polypogon viridis,GR,Graminoid
+13556201,164337,Polypogon viridis,F,Forb or Herb
+13564968,164091,Lythrum hyssopifolia,A,Annual
+13565290,164352,Ludwigia palustris,F,Forb or Herb
+13565290,164352,Ludwigia palustris,H,Hydrophyte
+13566131,184425,Persicaria amphibia,F,Forb or Herb
+13566131,184425,Persicaria amphibia,H,Hydrophyte
+13566131,184425,Persicaria amphibia,GE,Geophyte
+13571192,163967,Samolus valerandi,F,Forb or Herb
+13572532,164138,Ranunculus trichophyllus,H,Hydrophyte
+13575099,164203,Apium graveolens,F,Forb or Herb
+13575878,164378,Berula erecta,F,Forb or Herb
+13575878,164378,Berula erecta,GE,Geophyte
+13598400,13583698,Pentodon pentandrus,F,Forb or Herb
+13598469,13581832,Hydrocotyle ranunculoides,F,Forb or Herb
+16195172,16184852,Bidens micrantha,F,Forb or Herb
+16195172,16184852,Bidens micrantha,SS,Shrub - small
+16329597,16329591,Consolea corallicola,ST,Succulent - tree
+16703434,202950,Centaurium erythraea,F,Forb or Herb
+16703816,164149,Centaurium pulchellum,A,Annual
+17046277,17046274,Polygonum argyrocoleon,A,Annual
+17046277,17046274,Polygonum argyrocoleon,SS,Shrub - small
+17722668,164168,Bacopa monnieri,A,Annual
+17722668,164168,Bacopa monnieri,F,Forb or Herb
+17770480,164059,Ammannia auriculata,F,Forb or Herb
+18435622,18435618,Aleurites moluccanus,TS,Tree - small
+18435622,18435618,Aleurites moluccanus,TL,Tree - large
+19027623,164287,Cyperus longus,F,Forb or Herb
+19391728,172256,Allium schoenoprasum,GE,Geophyte
+19495876,164479,Potamogeton natans,H,Hydrophyte
+19620846,19619916,Stuckenia filiformis,F,Forb or Herb
+19620846,19619916,Stuckenia filiformis,H,Hydrophyte
+19620851,19620186,Potentilla palustris,F,Forb or Herb
+19620856,19619934,Lysimachia punctata,F,Forb or Herb
+19620861,19618171,Kobresia simpliciuscula,GR,Graminoid
+19620866,19617611,Carex diandra,F,Forb or Herb
+19620886,19618181,Rhynchospora alba,H,Hydrophyte
+19620886,19618181,Rhynchospora alba,F,Forb or Herb
+19620896,19619032,Juncus filiformis,GR,Graminoid
+19620901,19619028,Juncus alpinoarticulatus,GR,Graminoid
+19620926,19620681,Scrophularia umbrosa,F,Forb or Herb
+19620971,19617543,Sonchus palustris,F,Forb or Herb
+19621031,19619815,Lycopodiella inundata,PT,Fern
+19621071,19620785,Angelica sylvestris,F,Forb or Herb
+19621146,19620542,Pedicularis palustris,F,Forb or Herb
+19621161,19617721,Carex pauciflora,GR,Graminoid
+19621161,19617721,Carex pauciflora,F,Forb or Herb
+19621201,19617802,Carex vulpinoidea,GR,Graminoid
+19621201,19617802,Carex vulpinoidea,GE,Geophyte
+19621226,19618096,Eriophorum vaginatum,GR,Graminoid
+19621241,19619041,Juncus minutulus,GR,Graminoid
+19621251,19617691,Carex microglochin,GR,Graminoid
+19621281,19617678,Carex magellanica,GR,Graminoid
+19621296,19620468,Salix cinerea,TS,Tree - small
+19621366,19620739,Veronica serpyllifolia,F,Forb or Herb
+19631946,175287,Pinguicula vulgaris,F,Forb or Herb
+19635751,167883,Utricularia intermedia,F,Forb or Herb
+19635928,167884,Utricularia ochroleuca,F,Forb or Herb
+19668133,177226,Hydrocotyle sibthorpioides,A,Annual
+19668133,177226,Hydrocotyle sibthorpioides,F,Forb or Herb
+19668133,177226,Hydrocotyle sibthorpioides,H,Hydrophyte
+19996730,19892219,Acacia aneura,T,Tree - size unknown
+19996730,19892219,Acacia aneura,SL,Shrub - large
+19997222,19891902,Acacia auriculiformis,T,Tree - size unknown
+19997222,19891902,Acacia auriculiformis,S,Shrub - size unknown
+19999145,19891713,Acacia koa,T,Tree - size unknown
+20005262,19892228,Amorpha californica,A,Annual
+20005262,19892228,Amorpha californica,S,Shrub - size unknown
+20005262,19892228,Amorpha californica,S,Shrub - size unknown
+20005638,19893100,Amorpha crenulata,SL,Shrub - large
+20005828,19891556,Amorpha ouachitensis,S,Shrub - size unknown
+20008399,19892777,Astragalus altus,F,Forb or Herb
+20009751,19891964,Astragalus calycosus,F,Forb or Herb
+20010100,19892208,Astragalus castetteri,F,Forb or Herb
+20010462,19892240,Astragalus cobrensis,F,Forb or Herb
+20010808,19892442,Astragalus coltonii,F,Forb or Herb
+20011546,19892983,Astragalus cottamii,F,Forb or Herb
+20011898,19891488,Astragalus crassicarpus,F,Forb or Herb
+20012267,19893114,Astragalus crotalariae,F,Forb or Herb
+20012561,19892382,Astragalus didymocarpus,A,Annual
+20012561,19892382,Astragalus didymocarpus,F,Forb or Herb
+20013070,19892581,Astragalus ensiformis,F,Forb or Herb
+20013454,19892709,Astragalus flexuosus,F,Forb or Herb
+20013949,19892516,Astragalus geyeri,A,Annual
+20014315,19892548,Astragalus harrisonii,F,Forb or Herb
+20014804,19892575,Astragalus inyoensis,F,Forb or Herb
+20015322,19891930,Astragalus kolymensis,F,Forb or Herb
+20015782,19892168,Astragalus lentiginosus,A,Annual
+20015782,19892168,Astragalus lentiginosus,F,Forb or Herb
+20015782,19892168,Astragalus lentiginosus,F,Forb or Herb
+20015782,19892168,Astragalus lentiginosus,F,Forb or Herb
+20015782,19892168,Astragalus lentiginosus,F,Forb or Herb
+20016264,19893094,Astragalus leucolobus,F,Forb or Herb
+20016771,19891567,Astragalus piutensis,S,Shrub - size unknown
+20016771,19891567,Astragalus piutensis,F,Forb or Herb
+20016896,19893117,Astragalus miser,F,Forb or Herb
+20017256,19892003,Astragalus mollissimus,F,Forb or Herb
+20017606,19891799,Astragalus molybdenus,F,Forb or Herb
+20017957,19892274,Astragalus nuttallianus,A,Annual
+20017957,19892274,Astragalus nuttallianus,F,Forb or Herb
+20018307,19892057,Astragalus oophorus,F,Forb or Herb
+20018770,19892692,Astragalus pachypus,F,Forb or Herb
+20019919,19892093,Astragalus pubentissimus,A,Annual
+20019919,19892093,Astragalus pubentissimus,F,Forb or Herb
+20021163,19892102,Astragalus sinuatus,F,Forb or Herb
+20021676,19891748,Astragalus sparsiflorus,A,Annual
+20021676,19891748,Astragalus sparsiflorus,F,Forb or Herb
+20021676,19891748,Astragalus sparsiflorus,A,Annual
+20021676,19891748,Astragalus sparsiflorus,F,Forb or Herb
+20022449,19892179,Astragalus tener,A,Annual
+20022449,19892179,Astragalus tener,F,Forb or Herb
+20022879,19892607,Astragalus terminalis,F,Forb or Herb
+20024012,19892715,Astragalus whitneyi,F,Forb or Herb
+20024357,19892792,Astragalus williamsii,F,Forb or Herb
+20025496,19892853,Baptisia sphaerocarpa,F,Forb or Herb
+20027617,19891953,Bauhinia purpurea,T,Tree - size unknown
+20027617,19891953,Bauhinia purpurea,S,Shrub - size unknown
+20028421,19893142,Bauhinia variegata,T,Tree - size unknown
+20031740,19893082,Erythrostemon phyllanthoides,S,Shrub - size unknown
+20031740,19893082,Erythrostemon phyllanthoides,F,Forb or Herb
+20035307,19892974,Canavalia hawaiiensis,V,Vines
+20035307,19892974,Canavalia hawaiiensis,F,Forb or Herb
+20035815,19892334,Canavalia sericea,L,Lithophyte
+20035815,19892334,Canavalia sericea,F,Forb or Herb
+20035815,19892334,Canavalia sericea,V,Vines
+20037636,19893034,Cercis chinensis,T,Tree - size unknown
+20037636,19893034,Cercis chinensis,S,Shrub - size unknown
+20038235,19891606,Chamaecrista absus,A,Annual
+20038235,19891606,Chamaecrista absus,F,Forb or Herb
+20039952,19891928,Chamaecrista lineata,S,Shrub - size unknown
+20040380,19893070,Chamaecrista nictitans,A,Annual
+20040380,19893070,Chamaecrista nictitans,F,Forb or Herb
+20043696,19891909,Coronilla valentina,S,Shrub - size unknown
+20047894,19892472,Crotalaria micans,S,Shrub - size unknown
+20047894,19892472,Crotalaria micans,F,Forb or Herb
+20049942,19891771,Crotalaria pumila,A,Annual
+20049942,19891771,Crotalaria pumila,F,Forb or Herb
+20050344,19892391,Dalea obovata,A,Annual
+20050344,19892391,Dalea obovata,F,Forb or Herb
+20050817,19892189,Dalea ornata,F,Forb or Herb
+20051146,19891725,Dalea sabinalis,F,Forb or Herb
+20051504,19892312,Dalea scandens,S,Shrub - size unknown
+20051504,19892312,Dalea scandens,S,Shrub - size unknown
+20052492,19892482,Crotalaria rotundifolia,F,Forb or Herb
+20054282,19892837,Cytisus striatus,S,Shrub - size unknown
+20058096,19892800,Dalea bicolor,S,Shrub - size unknown
+20058229,19892761,Dalea compacta,F,Forb or Herb
+20058229,19892761,Dalea compacta,F,Forb or Herb
+20058877,19893131,Dalea formosa,S,Shrub - size unknown
+20059231,19892999,Dalea lasiathera,F,Forb or Herb
+20062869,19892387,Desmodium glutinosum,F,Forb or Herb
+20063284,19892074,Desmodium grahamii,F,Forb or Herb
+20063284,19892074,Desmodium grahamii,V,Vines
+20063797,19891529,Desmodium intortum,S,Shrub - size unknown
+20063797,19891529,Desmodium intortum,F,Forb or Herb
+20063797,19891529,Desmodium intortum,V,Vines
+20064340,19892479,Desmodium lindheimeri,F,Forb or Herb
+20065589,19891814,Desmodium nuttallii,F,Forb or Herb
+20066865,164134,Dichrostachys cinerea,T,Tree - size unknown
+20066865,164134,Dichrostachys cinerea,S,Shrub - size unknown
+20070381,19891615,Ebenopsis ebano,T,Tree - size unknown
+20072331,19891448,Erythrina variegata,T,Tree - size unknown
+20073549,19892426,Eysenhardtia polystachya,TL,Tree - large
+20073549,19892426,Eysenhardtia polystachya,SL,Shrub - large
+20075943,19891674,Gleditsia microphylla,S,Shrub - size unknown
+20078436,19892450,Hippocrepis comosa,F,Forb or Herb
+20078730,19891635,Hoffmannseggia repens,F,Forb or Herb
+20079094,19892492,Lotus aboriginus,F,Forb or Herb
+20086067,19892543,Indigofera miniata,S,Shrub - size unknown
+20086067,19892543,Indigofera miniata,F,Forb or Herb
+20088437,19892008,Indigofera trita,S,Shrub - size unknown
+20088437,19892008,Indigofera trita,F,Forb or Herb
+20091575,19891627,Lackeya multiflora,S,Shrub - size unknown
+20091575,19891627,Lackeya multiflora,V,Vines
+20093791,19892702,Lespedeza cuneata,F,Forb or Herb
+20094485,19892369,Lespedeza hirta,F,Forb or Herb
+20094847,19892863,Lespedeza thunbergii,F,Forb or Herb
+20096869,19893055,Lupinus abramsii,SS,Shrub - small
+20097017,19892530,Lupinus argenteus,F,Forb or Herb
+20097549,19891609,Lupinus breweri,F,Forb or Herb
+20097887,19891469,Lupinus diffusus,A,Annual
+20097887,19891469,Lupinus diffusus,S,Shrub - size unknown
+20097887,19891469,Lupinus diffusus,F,Forb or Herb
+20098217,19892176,Lupinus grayi,S,Shrub - size unknown
+20098217,19892176,Lupinus grayi,F,Forb or Herb
+20098563,19892376,Lupinus kingii,A,Annual
+20098563,19892376,Lupinus kingii,F,Forb or Herb
+20098908,19892809,Lupinus microcarpus,A,Annual
+20098908,19892809,Lupinus microcarpus,F,Forb or Herb
+20099277,19893044,Lupinus nootkatensis,F,Forb or Herb
+20099428,19891552,Lupinus obtusilobus,F,Forb or Herb
+20099770,19893107,Lupinus peirsonii,S,Shrub - size unknown
+20099770,19893107,Lupinus peirsonii,F,Forb or Herb
+20100330,19891938,Lupinus rivularis,S,Shrub - size unknown
+20100330,19891938,Lupinus rivularis,F,Forb or Herb
+20100713,19892385,Lupinus texensis,A,Annual
+20100713,19892385,Lupinus texensis,S,Shrub - size unknown
+20100713,19892385,Lupinus texensis,F,Forb or Herb
+20101063,19892533,Lupinus variicolor,S,Shrub - size unknown
+20101063,19892533,Lupinus variicolor,F,Forb or Herb
+20101361,19891535,Lupinus westianus,A,Annual
+20101361,19891535,Lupinus westianus,S,Shrub - size unknown
+20101361,19891535,Lupinus westianus,F,Forb or Herb
+20101848,19892768,Maackia amurensis,T,Tree - size unknown
+20101848,19892768,Maackia amurensis,S,Shrub - size unknown
+20104764,19891659,Marina orcuttii,F,Forb or Herb
+20105120,19892813,Marina parryi,S,Shrub - size unknown
+20113154,19893031,Mimosa wherryana,S,Shrub - size unknown
+20115115,19892457,Neonotonia wightii,F,Forb or Herb
+20115115,19892457,Neonotonia wightii,V,Vines
+20117423,19891743,Oxyrhynchus volubilis,F,Forb or Herb
+20117423,19891743,Oxyrhynchus volubilis,V,Vines
+20120153,19891888,Oxytropis lambertii,F,Forb or Herb
+20126631,19892153,Pediomelum aromaticum,F,Forb or Herb
+20127299,19892040,Phaseolus polystachios,F,Forb or Herb
+20127299,19892040,Phaseolus polystachios,V,Vines
+20129619,19891413,Pomaria jamesii,F,Forb or Herb
+20129906,168724,Pongamia pinnata,TS,Tree - small
+20131153,19891733,Psoralea esculenta,F,Forb or Herb
+20131518,19891913,Psoralea reverchonii,F,Forb or Herb
+20132259,19892963,Psorothamnus thompsoniae,S,Shrub - size unknown
+20135353,19379374,Rhynchosia minima,F,Forb or Herb
+20135353,19379374,Rhynchosia minima,V,Vines
+20135353,19379374,Rhynchosia minima,F,Forb or Herb
+20135353,19379374,Rhynchosia minima,V,Vines
+20137453,19891570,Rhynchosia senna,F,Forb or Herb
+20137453,19891570,Rhynchosia senna,V,Vines
+20138109,19892296,Robinia hispida,T,Tree - size unknown
+20138109,19892296,Robinia hispida,S,Shrub - size unknown
+20138525,19892906,Robinia neomexicana,T,Tree - size unknown
+20138525,19892906,Robinia neomexicana,S,Shrub - size unknown
+20138922,19891648,Robinia pseudoacacia,TL,Tree - large
+20140710,19892504,Senna pendula,SS,Shrub - small
+20140710,19892504,Senna pendula,SL,Shrub - large
+20142166,19891518,Sesbania drummondii,T,Tree - size unknown
+20142166,19891518,Sesbania drummondii,S,Shrub - size unknown
+20142981,19892156,Sophora gypsophila,S,Shrub - size unknown
+20143567,19893077,Sophora nuttalliana,F,Forb or Herb
+20145738,19891638,Sphaerophysa salsula,F,Forb or Herb
+20148511,19892876,Lotus nuttallianus,A,Annual
+20148511,19892876,Lotus nuttallianus,F,Forb or Herb
+20148914,19893048,Syrmatium tomentosum,F,Forb or Herb
+20149830,19892512,Tephrosia angustissima,F,Forb or Herb
+20151788,19892588,Tephrosia onobrychoides,F,Forb or Herb
+20152557,19892640,Tephrosia seminole,F,Forb or Herb
+20153824,19892015,Thermopsis montana,F,Forb or Herb
+20154255,19892797,Trifolium amabile,F,Forb or Herb
+20154500,19893086,Trifolium bejariense,A,Annual
+20154500,19893086,Trifolium bejariense,F,Forb or Herb
+20155071,19891961,Trifolium ciliolatum,A,Annual
+20155071,19891961,Trifolium ciliolatum,F,Forb or Herb
+20155567,19891874,Trifolium gymnocarpon,F,Forb or Herb
+20156004,19892929,Trifolium parryi,F,Forb or Herb
+20156449,174713,Trifolium pratense,F,Forb or Herb
+20156449,174713,Trifolium pratense,F,Forb or Herb
+20157951,176372,Trifolium subterraneum,A,Annual
+20157951,176372,Trifolium subterraneum,F,Forb or Herb
+20161035,19892489,Vicia leucophaea,F,Forb or Herb
+20161035,19892489,Vicia leucophaea,V,Vines
+20161467,19892655,Vicia minutiflora,A,Annual
+20161467,19892655,Vicia minutiflora,F,Forb or Herb
+20161467,19892655,Vicia minutiflora,V,Vines
+20162000,19892285,Vicia ocalensis,F,Forb or Herb
+20162000,19892285,Vicia ocalensis,V,Vines
+20162684,19379811,Vicia tenuifolia,F,Forb or Herb
+20164421,19891812,Zapoteca formosa,S,Shrub - size unknown
+20694821,20680285,Ilex opaca,SL,Shrub - large
+20694821,20680285,Ilex opaca,TS,Tree - small
+20695061,20678718,Ilex cassine,TS,Tree - small
+20695256,20694238,Helianthus anomalus,A,Annual
+20695256,20694238,Helianthus anomalus,F,Forb or Herb
+20695261,20694242,Helianthus argophyllus,A,Annual
+20695261,20694242,Helianthus argophyllus,F,Forb or Herb
+20695266,20694246,Helianthus arizonensis,F,Forb or Herb
+20695271,20694250,Helianthus atrorubens,F,Forb or Herb
+20695276,20694260,Helianthus bolanderi,A,Annual
+20695276,20694260,Helianthus bolanderi,F,Forb or Herb
+20695281,20694276,Helianthus californicus,F,Forb or Herb
+20695286,20694280,Helianthus debilis,F,Forb or Herb
+20695291,20694284,Helianthus deserticola,A,Annual
+20695291,20694284,Helianthus deserticola,F,Forb or Herb
+20695296,20694288,Helianthus divaricatus,F,Forb or Herb
+20695301,20694293,Helianthus exilis,A,Annual
+20695301,20694293,Helianthus exilis,F,Forb or Herb
+20695306,20694297,Helianthus giganteus,A,Annual
+20695306,20694297,Helianthus giganteus,F,Forb or Herb
+20695311,20694301,Helianthus grosseserratus,A,Annual
+20695311,20694301,Helianthus grosseserratus,F,Forb or Herb
+20695316,20694305,Helianthus maximiliani,F,Forb or Herb
+20695321,20694311,Helianthus neglectus,F,Forb or Herb
+20695326,20694323,Helianthus niveus,F,Forb or Herb
+20695331,20694327,Helianthus nuttallii,A,Annual
+20695331,20694327,Helianthus nuttallii,F,Forb or Herb
+20695336,20694331,Helianthus paradoxus,A,Annual
+20695336,20694331,Helianthus paradoxus,F,Forb or Herb
+20695341,20694335,Helianthus pauciflorus,A,Annual
+20695341,20694335,Helianthus pauciflorus,F,Forb or Herb
+20695346,20694339,Helianthus petiolaris,A,Annual
+20695346,20694339,Helianthus petiolaris,F,Forb or Herb
+20695351,20694343,Helianthus praecox,F,Forb or Herb
+20695356,20694347,Helianthus resinosus,A,Annual
+20695356,20694347,Helianthus resinosus,F,Forb or Herb
+20695361,20694351,Helianthus salicifolius,A,Annual
+20695361,20694351,Helianthus salicifolius,F,Forb or Herb
+20695371,20694360,Helianthus silphioides,A,Annual
+20695371,20694360,Helianthus silphioides,F,Forb or Herb
+20695376,20694364,Helianthus tuberosus,F,Forb or Herb
+20755891,20742877,Cucurbita okeechobeensis,F,Forb or Herb
+20755891,20742877,Cucurbita okeechobeensis,V,Vines
+21251696,167866,Scolochloa festucacea,GR,Graminoid
+21251696,167866,Scolochloa festucacea,F,Forb or Herb
+21251696,167866,Scolochloa festucacea,H,Hydrophyte
+21251982,21251979,Tamarix ramosissima,SL,Shrub - large
+21413375,21344233,Hordeum depressum,GR,Graminoid
+21413380,21345256,Hordeum pusillum,GR,Graminoid
+21413445,21344051,Hordeum brachyantherum,GR,Graminoid
+21413460,21344013,Hordeum arizonicum,GR,Graminoid
+21413510,21344760,Hordeum jubatum,GR,Graminoid
+22486762,22486557,Brodiaea pallida,GE,Geophyte
+22488106,22486502,Spiranthes delitescens,F,Forb or Herb
+22569735,161916,Kosteletzkya pentacarpos,F,Forb or Herb
+22609595,164405,Anacamptis palustris,GE,Geophyte
+42308818,164438,Butomus umbellatus,F,Forb or Herb
+42312376,164014,Carex divisa,GR,Graminoid
+42313146,164048,Carex flava,GR,Graminoid
+42313146,164048,Carex flava,F,Forb or Herb
+42313838,167845,Carex rostrata,GR,Graminoid
+42314491,164353,Eleocharis quinqueflora,GR,Graminoid
+42314491,164353,Eleocharis quinqueflora,F,Forb or Herb
+42314931,167859,Equisetum palustre,PT,Fern
+42314931,167859,Equisetum palustre,H,Hydrophyte
+42315452,203004,Equisetum telmateia,F,Forb or Herb
+42315452,203004,Equisetum telmateia,PT,Fern
+42317827,164139,Crypsis alopecuroides,GR,Graminoid
+42318165,164424,Crypsis schoenoides,GR,Graminoid
+42318165,164424,Crypsis schoenoides,A,Annual
+42319125,167863,Glyceria maxima,GR,Graminoid
+42319125,167863,Glyceria maxima,F,Forb or Herb
+42319125,167863,Glyceria maxima,H,Hydrophyte
+42319751,163972,Lycopus europaeus,F,Forb or Herb
+42321061,19210380,Scutellaria galericulata,F,Forb or Herb
+42322449,164396,Gratiola officinalis,F,Forb or Herb
+42324583,19128012,Spergularia bocconei,A,Annual
+42325250,175266,Carex atherodes,GR,Graminoid
+42326782,163999,Iris pseudacorus,H,Hydrophyte
+42326782,163999,Iris pseudacorus,GE,Geophyte
+42327709,164109,Mentha suaveolens,F,Forb or Herb
+42328740,164063,Lythrum junceum,F,Forb or Herb
+42329075,164323,Lythrum salicaria,SS,Shrub - small
+42330756,164339,Galium uliginosum,F,Forb or Herb
+42330756,164339,Galium uliginosum,GE,Geophyte
+42331187,164136,Thelypteris palustris,F,Forb or Herb
+42331187,164136,Thelypteris palustris,GE,Geophyte
+42331187,164136,Thelypteris palustris,PT,Fern
+42332261,164327,Baldellia ranunculoides,F,Forb or Herb
+42334121,167822,Calla palustris,F,Forb or Herb
+42334457,164300,Callitriche brutia,H,Hydrophyte
+42336259,164371,Callitriche stagnalis,H,Hydrophyte
+42337102,175257,Bidens cernua,A,Annual
+42337582,168750,Bidens tripartita,H,Hydrophyte
+42338497,176585,Barbarea vulgaris,F,Forb or Herb
+42339673,176580,Rorippa austriaca,F,Forb or Herb
+42339980,176369,Rorippa islandica,A,Annual
+42339980,176369,Rorippa islandica,F,Forb or Herb
+42340328,176486,Rorippa sylvestris,F,Forb or Herb
+42340328,176486,Rorippa sylvestris,GE,Geophyte
+42342418,164523,Carex extensa,GR,Graminoid
+42342746,167842,Carex lasiocarpa,GR,Graminoid
+42343153,167843,Carex limosa,GR,Graminoid
+42343536,164003,Carex nigra,GR,Graminoid
+42343536,164003,Carex nigra,F,Forb or Herb
+42369247,164389,Carex pseudocyperus,GR,Graminoid
+42369247,164389,Carex pseudocyperus,F,Forb or Herb
+42370710,167846,Carex vesicaria,GR,Graminoid
+42373294,167849,Eriophorum angustifolium,GR,Graminoid
+42373294,167849,Eriophorum angustifolium,F,Forb or Herb
+42373294,167849,Eriophorum angustifolium,H,Hydrophyte
+42376572,164040,Schoenoplectus triqueter,GR,Graminoid
+42376572,164040,Schoenoplectus triqueter,F,Forb or Herb
+42379760,175254,Elatine ambigua,F,Forb or Herb
+42379760,175254,Elatine ambigua,H,Hydrophyte
+42381075,167858,Equisetum fluviatile,PT,Fern
+42381075,167858,Equisetum fluviatile,H,Hydrophyte
+42381564,203003,Equisetum hyemale,F,Forb or Herb
+42382326,167861,Agrostis canina,GR,Graminoid
+42382326,167861,Agrostis canina,H,Hydrophyte
+42383133,164020,Agrostis stolonifera,GR,Graminoid
+42383133,164020,Agrostis stolonifera,F,Forb or Herb
+42384780,164299,Glyceria fluitans,H,Hydrophyte
+42384780,164299,Glyceria fluitans,GE,Geophyte
+42385633,164468,Glyceria notata,H,Hydrophyte
+42385633,164468,Glyceria notata,GE,Geophyte
+42387003,164128,Hydrocharis morsus-ranae,F,Forb or Herb
+42387003,164128,Hydrocharis morsus-ranae,H,Hydrophyte
+42392941,164370,Juncus bulbosus,F,Forb or Herb
+42392941,164370,Juncus bulbosus,GE,Geophyte
+42393382,164391,Juncus compressus,F,Forb or Herb
+42393382,164391,Juncus compressus,GE,Geophyte
+42393654,164416,Juncus conglomeratus,F,Forb or Herb
+42393925,185722,Juncus hybridus,GR,Graminoid
+42393925,185722,Juncus hybridus,A,Annual
+42393925,185722,Juncus hybridus,H,Hydrophyte
+42395474,164256,Mentha pulegium,F,Forb or Herb
+42395980,164464,Mentha spicata,F,Forb or Herb
+42396400,203274,Stachys palustris,F,Forb or Herb
+42396780,167881,Lemna turionifera,F,Forb or Herb
+42396780,167881,Lemna turionifera,H,Hydrophyte
+42397476,164154,Lythrum portula,A,Annual
+42397943,163993,Menyanthes trifoliata,H,Hydrophyte
+42398483,164309,Nymphoides peltata,F,Forb or Herb
+42398483,164309,Nymphoides peltata,H,Hydrophyte
+42399385,164421,Parnassia palustris,F,Forb or Herb
+42399743,163977,Persicaria hydropiper,GR,Graminoid
+42399743,163977,Persicaria hydropiper,F,Forb or Herb
+42399743,163977,Persicaria hydropiper,H,Hydrophyte
+42401362,167897,Potamogeton berchtoldii,F,Forb or Herb
+42401362,167897,Potamogeton berchtoldii,H,Hydrophyte
+42401843,167904,Potamogeton gramineus,H,Hydrophyte
+42402297,167906,Potamogeton praelongus,H,Hydrophyte
+42404562,164460,Lysimachia vulgaris,F,Forb or Herb
+42404562,164460,Lysimachia vulgaris,GE,Geophyte
+42405074,164282,Ranunculus flammula,F,Forb or Herb
+42408831,203433,Filipendula ulmaria,F,Forb or Herb
+42409554,203465,Salix alba,TL,Tree - large
+42409596,164419,Veronica catenata,F,Forb or Herb
+42410009,167924,Veronica scutellata,F,Forb or Herb
+42410009,167924,Veronica scutellata,H,Hydrophyte
+42412037,167925,Sparganium angustifolium,GR,Graminoid
+42412037,167925,Sparganium angustifolium,F,Forb or Herb
+42412037,167925,Sparganium angustifolium,H,Hydrophyte
+42413426,164140,Sparganium erectum,F,Forb or Herb
+42413426,164140,Sparganium erectum,H,Hydrophyte
+42414281,164166,Sparganium natans,H,Hydrophyte
+42415001,167932,Cicuta virosa,F,Forb or Herb
+42415881,167934,Oenanthe aquatica,F,Forb or Herb
+42415881,167934,Oenanthe aquatica,H,Hydrophyte
+42575192,164232,Polypogon monspeliensis,GR,Graminoid
+42575192,164232,Polypogon monspeliensis,A,Annual
+43116307,168639,Acorus calamus,GR,Graminoid
+43118133,177168,Eleocharis atropurpurea,A,Annual
+43118133,177168,Eleocharis atropurpurea,F,Forb or Herb
+43120269,164245,Juncus inflexus,F,Forb or Herb
+43123412,164446,Najas minor,A,Annual
+43123412,164446,Najas minor,H,Hydrophyte
+43315840,203370,Cypripedium guttatum,GE,Geophyte
+43315840,203370,Cypripedium guttatum,F,Forb or Herb
+43327599,43315493,Cypripedium acaule,F,Forb or Herb
+43327599,43315493,Cypripedium acaule,GE,Geophyte
+43327604,43315496,Cypripedium arietinum,F,Forb or Herb
+43327604,43315496,Cypripedium arietinum,GE,Geophyte
+43327619,43315511,Cypripedium californicum,F,Forb or Herb
+43327619,43315511,Cypripedium californicum,GE,Geophyte
+43327624,43315514,Cypripedium candidum,F,Forb or Herb
+43327624,43315514,Cypripedium candidum,GE,Geophyte
+43327649,43315656,Cypripedium fasciculatum,F,Forb or Herb
+43327649,43315656,Cypripedium fasciculatum,GE,Geophyte
+43327694,43316810,Cypripedium montanum,F,Forb or Herb
+43327694,43316810,Cypripedium montanum,GE,Geophyte
+43327704,43316816,Cypripedium parviflorum,F,Forb or Herb
+43327704,43316816,Cypripedium parviflorum,GE,Geophyte
+43327709,43316819,Cypripedium passerinum,F,Forb or Herb
+43327709,43316819,Cypripedium passerinum,GE,Geophyte
+43327719,43316825,Cypripedium reginae,F,Forb or Herb
+43327719,43316825,Cypripedium reginae,GE,Geophyte
+43327759,43316849,Cypripedium yatabeanum,F,Forb or Herb
+43327759,43316849,Cypripedium yatabeanum,GE,Geophyte
+44340071,44340011,Hydrastis canadensis,F,Forb or Herb
+44399779,44392988,Scleria reticularis,GR,Graminoid
+44400777,44393137,Carex debilis,GE,Geophyte
+44401411,13506888,Andropogon virginicus,GR,Graminoid
+44401411,13506888,Andropogon virginicus,F,Forb or Herb
+44403733,44393073,Gloriosa superba,GE,Geophyte
+44412740,44392622,Sporobolus coahuilensis,GR,Graminoid
+44412740,44392622,Sporobolus coahuilensis,A,Annual
+44414263,44392189,Ventenata dubia,GR,Graminoid
+44414464,44392775,Cyperus drummondii,GR,Graminoid
+44414464,44392775,Cyperus drummondii,GE,Geophyte
+44414464,44392775,Cyperus drummondii,F,Forb or Herb
+44415699,44392606,Ehrharta stipoides,GR,Graminoid
+44418025,44392866,Brodiaea minor,GE,Geophyte
+44418025,44392866,Brodiaea minor,F,Forb or Herb
+44418323,44392890,Scleria triglomerata,F,Forb or Herb
+44418323,44392890,Scleria triglomerata,GE,Geophyte
+44418726,44392610,Bromus suksdorfii,GR,Graminoid
+44418726,44392610,Bromus suksdorfii,F,Forb or Herb
+44419499,44392844,Carex louisianica,GR,Graminoid
+44419499,44392844,Carex louisianica,GE,Geophyte
+44420029,44392569,Platanthera tipuloides,GE,Geophyte
+44421968,19002684,Asphodelus fistulosus,GE,Geophyte
+44422197,44392806,Fritillaria falcata,GE,Geophyte
+44422250,175302,Carex canescens,GR,Graminoid
+44422250,175302,Carex canescens,GE,Geophyte
+44423567,44392665,Chondrosum gracile,GR,Graminoid
+44423567,44392665,Chondrosum gracile,F,Forb or Herb
+44428513,44392747,Stipa scribneri,GR,Graminoid
+44428926,44392456,Carex vulpina,GR,Graminoid
+44428926,44392456,Carex vulpina,A,Annual
+44429924,44393213,Lipocarpha maculata,A,Annual
+44429924,44393213,Lipocarpha maculata,GR,Graminoid
+44430349,44393264,Cyperus grayi,GR,Graminoid
+44430349,44393264,Cyperus grayi,GE,Geophyte
+44439796,44393334,Calamagrostis canadensis,GR,Graminoid
+44439796,44393334,Calamagrostis canadensis,GE,Geophyte
+44441027,44393151,Cottea pappophoroides,GR,Graminoid
+44443711,44393469,Cynodon transvaalensis,GR,Graminoid
+44445105,44392205,Helictotrichon canescens,GR,Graminoid
+44447499,44393090,Muhlenbergia arenicola,GR,Graminoid
+44449022,44393211,Muhlenbergia spiciformis,GR,Graminoid
+44453901,44393076,Paspalum pleostachyum,GR,Graminoid
+44453987,44393145,Paspalum repens,GR,Graminoid
+44456174,44393141,Setaria setosa,GR,Graminoid
+44456174,44393141,Setaria setosa,F,Forb or Herb
+44457931,44392390,Xyris elliottii,GR,Graminoid
+44457931,44392390,Xyris elliottii,F,Forb or Herb
+44458107,44392335,Phippsia algida,GR,Graminoid
+44458510,44393060,Tillandsia ionantha,L,Lithophyte
+44458510,44393060,Tillandsia ionantha,F,Forb or Herb
+44458510,44393060,Tillandsia ionantha,E,Epiphyte
+44458929,44393234,Phleum alpinum,GR,Graminoid
+44460201,44393427,Spiranthes casei,GE,Geophyte
+44460201,44393427,Spiranthes casei,F,Forb or Herb
+44461465,44392137,Aristida purpurea,GR,Graminoid
+44461465,44392137,Aristida purpurea,F,Forb or Herb
+44462548,44392274,Poa bolanderi,GR,Graminoid
+44462548,44392274,Poa bolanderi,A,Annual
+44464089,44392899,Carex digitalis,GR,Graminoid
+44464089,44392899,Carex digitalis,GE,Geophyte
+44464480,44393344,Carex conoidea,GR,Graminoid
+44464480,44393344,Carex conoidea,GE,Geophyte
+44465046,44392674,Carex bulbostylis,GR,Graminoid
+44465046,44392674,Carex bulbostylis,GE,Geophyte
+44465219,44392897,Carex fissa,GR,Graminoid
+44465219,44392897,Carex fissa,GE,Geophyte
+44466058,44393696,Echeandia flavescens,F,Forb or Herb
+44466058,44393696,Echeandia flavescens,GE,Geophyte
+44466658,44392936,Carex rossii,GR,Graminoid
+44466658,44392936,Carex rossii,GE,Geophyte
+44466959,44392280,Carex parryana,GR,Graminoid
+44466959,44392280,Carex parryana,GE,Geophyte
+44467538,44393064,Carex lachenalii,GR,Graminoid
+44467538,44393064,Carex lachenalii,GE,Geophyte
+44468013,44392761,Carex norvegica,GR,Graminoid
+44468013,44392761,Carex norvegica,GE,Geophyte
+44468279,44392324,Eleocharis flavescens,GR,Graminoid
+44468279,44392324,Eleocharis flavescens,GE,Geophyte
+44469615,44392649,Glyceria septentrionalis,GR,Graminoid
+44488384,44393464,Lasiacis divaricata,GR,Graminoid
+44490861,44392694,Puccinellia arctica,GR,Graminoid
+44491047,44392781,Brachiaria subquadripara,GR,Graminoid
+44491047,44392781,Brachiaria subquadripara,A,Annual
+44492598,18963261,Setaria parviflora,GR,Graminoid
+44493019,44393631,Vulpia octoflora,GR,Graminoid
+44494847,44393298,Panicum strigosum,GR,Graminoid
+44495560,44392435,Bulbostylis capillaris,GR,Graminoid
+44495560,44392435,Bulbostylis capillaris,A,Annual
+44502078,18990775,Gladiolus italicus,GE,Geophyte
+44508366,44392851,Poa angustifolia,GR,Graminoid
+44514773,44392733,Oeceoclades maculata,GE,Geophyte
+44514773,44392733,Oeceoclades maculata,F,Forb or Herb
+44514773,44392733,Oeceoclades maculata,E,Epiphyte
+44515695,44392741,Malaxis brachystachys,GE,Geophyte
+44515695,44392741,Malaxis brachystachys,F,Forb or Herb
+44519710,44393259,Calamagrostis coarctata,GR,Graminoid
+44519710,44393259,Calamagrostis coarctata,F,Forb or Herb
+44520303,44392366,Eragrostis silveana,GR,Graminoid
+44520303,44392366,Eragrostis silveana,F,Forb or Herb
+44520505,44393191,Chusquea circinata,GR,Graminoid
+44520505,44393191,Chusquea circinata,F,Forb or Herb
+44521191,44392289,Stipa kingii,GR,Graminoid
+44521620,44392395,Calamagrostis inexpansa,GR,Graminoid
+44531856,13507050,Asparagus aethiopicus,V,Vines
+44531856,13507050,Asparagus aethiopicus,SL,Shrub - large
+44534132,44392488,Poa hartzii,GR,Graminoid
+44535997,44392858,Festuca elmeri,GR,Graminoid
+44535997,44392858,Festuca elmeri,F,Forb or Herb
+44538932,44393135,Puccinellia angustata,GR,Graminoid
+44539931,44393654,Calamagrostis lapponica,GR,Graminoid
+44539931,44393654,Calamagrostis lapponica,F,Forb or Herb
+44541190,44392588,Carex arapahoensis,GE,Geophyte
+44541190,44392588,Carex arapahoensis,GR,Graminoid
+44544960,44393126,Schizostachyum glaucifolium,GR,Graminoid
+44545361,44393376,Brachiaria texana,GR,Graminoid
+44545361,44393376,Brachiaria texana,F,Forb or Herb
+45461549,164488,Leucojum aestivum,F,Forb or Herb
+45461549,164488,Leucojum aestivum,GE,Geophyte
+45461779,169024,Limnophila indica,F,Forb or Herb
+47600649,62390,Ilex vomitoria,SL,Shrub - large
+47600649,62390,Ilex vomitoria,TS,Tree - small
+47600755,19073408,Helianthus annuus,F,Forb or Herb
+49196223,49196213,Spathodea campanulata,TL,Tree - large
+49529257,169017,Cyperus iria,GR,Graminoid
+50025912,50025687,Amygdalus minutiflora,SS,Shrub - small
+50025987,50025974,Amygdalus texana,SS,Shrub - small
+50135655,50135652,Prunus besseyi,SS,Shrub - small
+50472010,50471966,Prunus hortulana,TS,Tree - small
+50475935,50475932,Prunus maritima,SS,Shrub - small
+50475935,50475932,Prunus maritima,SL,Shrub - large
+50623181,50623166,Prunus munsoniana,TL,Tree - large
+50623779,50623767,Prunus murrayana,SS,Shrub - small
+50623779,50623767,Prunus murrayana,TS,Tree - small
+50626781,50049394,Amygdalus andersonii,SS,Shrub - small
+50632509,50631663,Prunus pensylvanica,TL,Tree - large
+50635661,50635658,Prunus rivularis,SS,Shrub - small
+50636877,50636821,Prunus subcordata,TS,Tree - small
+50668334,50668331,Prunus umbellata,TS,Tree - small
+50668334,50668331,Prunus umbellata,SL,Shrub - large
+50672305,50669154,Prunus americana,TL,Tree - large
+50673313,50673310,Prunus angustifolia,SL,Shrub - large
+50673313,50673310,Prunus angustifolia,TS,Tree - small
+50673950,50136459,Prunus emarginata,SL,Shrub - large
+50673950,50136459,Prunus emarginata,TS,Tree - small
+50673957,50403541,Prunus gracilis,SL,Shrub - large
+50673974,50458195,Prunus harvardii,SS,Shrub - small
+50674005,50137962,Prunus mexicana,TL,Tree - large
+51207392,51207376,Betula cordifolia,TS,Tree - small
+51208054,51208029,Betula murrayana,TS,Tree - small
+53798707,19108751,Silene vulgaris,F,Forb or Herb
+56503810,56503729,Strumpfia maritima,SS,Shrub - small
+56503835,56503710,Ernodea littoralis,TS,Tree - small
+56503850,56503696,Guettarda scabra,SL,Shrub - large
+56503850,56503696,Guettarda scabra,TS,Tree - small
+56503860,56503706,Catesbaea parviflora,SL,Shrub - large
+56503890,62558,Cordia sebestena,TL,Tree - large
+56503966,56503531,Chiococca alba,SL,Shrub - large
+56504046,56499094,Varronia bullata,SL,Shrub - large
+58084864,58084855,Alopecurus magellanicus,GR,Graminoid
+58084864,58084855,Alopecurus magellanicus,F,Forb or Herb
+60757583,60757580,Aesculus flava,TL,Tree - large
+60757592,60757589,Aesculus glabra,TL,Tree - large
+60761662,60761659,Andira inermis,TS,Tree - small
+60761662,60761659,Andira inermis,TL,Tree - large
+61220275,61220272,Arbutus menziesii,TS,Tree - small
+61220275,61220272,Arbutus menziesii,TL,Tree - large
+61580281,173010,Pyrus communis,TS,Tree - small
+61580281,173010,Pyrus communis,TL,Tree - large
+61788179,61788175,Thespesia populnea,SL,Shrub - large
+61788179,61788175,Thespesia populnea,TS,Tree - small
+61788232,61788230,Tilia americana,TL,Tree - large
+61855173,61855167,Malus fusca,TS,Tree - small
+61886723,61886714,Maclura pomifera,TS,Tree - small
+61890113,61890109,Morus rubra,TS,Tree - small
+61918432,61918430,Fraxinus americana,TL,Tree - large
+61918522,61918519,Fraxinus latifolia,TL,Tree - large
+61918721,61918683,Fraxinus nigra,TL,Tree - large
+61919002,61918934,Fraxinus pennsylvanica,TL,Tree - large
+61919114,61919112,Fraxinus quadrangulata,TL,Tree - large
+61957074,61957071,Frangula purshiana,SL,Shrub - large
+61957074,61957071,Frangula purshiana,TS,Tree - small
+61959757,61959749,Populus balsamifera,TS,Tree - small
+61959757,61959749,Populus balsamifera,TL,Tree - large
+61959843,61959841,Populus grandidentata,TS,Tree - small
+61959843,61959841,Populus grandidentata,TL,Tree - large
+61959867,61959850,Populus heterophylla,TL,Tree - large
+61960206,61960204,Populus trichocarpa,TL,Tree - large
+61960328,61960325,Salix nigra,TS,Tree - small
+61960328,61960325,Salix nigra,TL,Tree - large
+61961056,61961045,Acer nigrum,TL,Tree - large
+61966819,61966807,Ulmus glabra,TL,Tree - large
+61966949,61966946,Ulmus crassifolia,TS,Tree - small
+61966949,61966946,Ulmus crassifolia,TL,Tree - large
+61967384,61967382,Ulmus rubra,TL,Tree - large
+61967401,61967392,Ulmus thomasii,TL,Tree - large
+61983002,61982990,Quercus kelloggii,SL,Shrub - large
+61983002,61982990,Quercus kelloggii,TS,Tree - small
+61983002,61982990,Quercus kelloggii,TL,Tree - large
+61983023,61983021,Quercus lobata,TL,Tree - large
+61984088,61984086,Rhus typhina,TS,Tree - small
+61985362,61985360,Catalpa bignonioides,TS,Tree - small
+61985373,61985370,Catalpa speciosa,TL,Tree - large
+61987970,61987968,Celtis laevigata,TL,Tree - large
+61987998,61987996,Celtis occidentalis,TL,Tree - large
+61990555,61990552,Nyssa aquatica,TL,Tree - large
+61990590,61990588,Nyssa sylvatica,TS,Tree - small
+61990590,61990588,Nyssa sylvatica,TL,Tree - large
+62002628,62002626,Elaeagnus angustifolia,SL,Shrub - large
+62002628,62002626,Elaeagnus angustifolia,TS,Tree - small
+62002836,62002834,Kalmia latifolia,SS,Shrub - small
+62002836,62002834,Kalmia latifolia,SL,Shrub - large
+62002836,62002834,Kalmia latifolia,TS,Tree - small
+62003254,62002889,Oxydendrum arboreum,TS,Tree - small
+62004469,62004455,Castanea dentata,TS,Tree - small
+62004469,62004455,Castanea dentata,TL,Tree - large
+62004682,62004680,Chrysolepis chrysophylla,SL,Shrub - large
+62004682,62004680,Chrysolepis chrysophylla,TS,Tree - small
+62004682,62004680,Chrysolepis chrysophylla,TL,Tree - large
+62004696,62004694,Fagus grandifolia,TL,Tree - large
+62005616,62005598,Notholithocarpus densiflorus,SL,Shrub - large
+62005616,62005598,Notholithocarpus densiflorus,TL,Tree - large
+62018975,62018973,Hamamelis virginiana,TL,Tree - large
+62019579,62019576,Carya aquatica,TL,Tree - large
+62019600,62019598,Carya cordiformis,TL,Tree - large
+62019609,62019607,Carya glabra,TL,Tree - large
+62019633,62019631,Carya laciniosa,TL,Tree - large
+62019642,62019640,Carya myristiciformis,TL,Tree - large
+62019651,62019649,Carya ovata,TL,Tree - large
+62019714,62019712,Juglans nigra,TL,Tree - large
+62020489,62020487,Sassafras albidum,TL,Tree - large
+62077558,62077548,Gordonia lasianthus,TS,Tree - small
+62077558,62077548,Gordonia lasianthus,TL,Tree - large
+62085867,62085861,Stewartia malacodendron,SL,Shrub - large
+62085867,62085861,Stewartia malacodendron,TS,Tree - small
+62086373,62086365,Stewartia ovata,SL,Shrub - large
+62086373,62086365,Stewartia ovata,TS,Tree - small
+62754647,177006,Fimbristylis littoralis,A,Annual
+62754647,177006,Fimbristylis littoralis,F,Forb or Herb
+63303037,164176,Sphenoclea zeylanica,A,Annual
+63303037,164176,Sphenoclea zeylanica,F,Forb or Herb
+63303556,164026,Isolepis cernua,GR,Graminoid
+63303556,164026,Isolepis cernua,A,Annual
+63306495,164368,Osmunda regalis,PT,Fern
+63307717,164123,Montia fontana,A,Annual
+63309730,164182,Ranunculus aquatilis,H,Hydrophyte
+63310286,164098,Limosella aquatica,A,Annual
+63729730,30954,Quercus graciliformis,TS,Tree - small
+64175905,64175902,Basiphyllaea corallicola,F,Forb or Herb
+64175949,64175940,Corallorhiza bentleyi,F,Forb or Herb
+64175968,64175965,Galeandra bicarinata,F,Forb or Herb
+64176207,64176203,Hexalectris warnockii,F,Forb or Herb
+64176361,64176353,Malaxis bayardii,F,Forb or Herb
+64176428,64176425,Malaxis wendtii,F,Forb or Herb
+64176476,64176473,Oncidium ensatum,F,Forb or Herb
+64176583,64176580,Platanthera yadonii,F,Forb or Herb
+64176638,64176634,Platanthera chapmanii,F,Forb or Herb
+64176727,64176722,Peristylus holochila,F,Forb or Herb
+64176739,64176733,Platanthera integrilabia,F,Forb or Herb
+64176769,64176760,Platanthera leucophaea,F,Forb or Herb
+64176787,64176784,Platanthera yosemitensis,F,Forb or Herb
+64176813,64176810,Platanthera zothecina,F,Forb or Herb
+64176871,64176842,Eulophia ecristata,F,Forb or Herb
+64176893,64176890,Spiranthes torta,F,Forb or Herb
+64176934,64176923,Spiranthes brevilabris,F,Forb or Herb
+64176968,64176965,Spiranthes diluvialis,F,Forb or Herb
+64176992,64176975,Spiranthes infernalis,F,Forb or Herb
+64177008,64177005,Spiranthes parksii,F,Forb or Herb
+64177020,64177016,Triphora craigheadii,F,Forb or Herb
+64177045,64177031,Triphora amazonica,F,Forb or Herb
+64177065,64177061,Triphora yucatanensis,F,Forb or Herb
+64990486,64990398,Helianthus hirsutus,F,Forb or Herb
+64990523,64989879,Helianthus decapetalus,F,Forb or Herb
+65215480,64176265,Isotria medeoloides,F,Forb or Herb
+65215487,64176137,Hexalectris revoluta,F,Forb or Herb
+65905991,167871,Hydrilla verticillata,H,Hydrophyte
+65905991,167871,Hydrilla verticillata,F,Forb or Herb
+65910896,164157,Cladium mariscus,F,Forb or Herb
+65910896,164157,Cladium mariscus,GR,Graminoid
+65914179,164223,Juncus effusus,F,Forb or Herb
+65914179,164223,Juncus effusus,GE,Geophyte
+66788365,66788288,Carya pallida,TL,Tree - large
+66889787,64268932,Callitriche heterophylla,F,Forb or Herb
+66889787,64268932,Callitriche heterophylla,H,Hydrophyte
+66891680,64311298,Eleocharis macrostachya,GR,Graminoid
+66891790,64322022,Proserpinaca palustris,F,Forb or Herb
+66906215,64272072,Carex lurida,GR,Graminoid
+66906215,64272072,Carex lurida,F,Forb or Herb
+66909828,64322147,Ranunculus cymbalaria,F,Forb or Herb
+66909833,64324421,Schizaea pusilla,PT,Fern
+67694049,64311215,Drosera linearis,F,Forb or Herb
+67694064,64311210,Drosera filiformis,F,Forb or Herb
+67700725,33966,Liquidambar styraciflua,TL,Tree - large
+67728468,64262084,Agrostis aequivalvis,GR,Graminoid
+67728473,64262122,Agrostis clavata,F,Forb or Herb
+67728473,64262122,Agrostis clavata,GR,Graminoid
+67728478,64263217,Agrostis perennans,GR,Graminoid
+67728478,64263217,Agrostis perennans,F,Forb or Herb
+67728483,64263394,Alisma subcordatum,F,Forb or Herb
+67728488,64263415,Alisma triviale,F,Forb or Herb
+67728493,64263485,Allium geyeri,F,Forb or Herb
+67728498,64263649,Alopecurus carolinianus,GR,Graminoid
+67728508,64263777,Ammannia robusta,F,Forb or Herb
+67728513,64263809,Amphiscirpus nevadensis,GR,Graminoid
+67728518,64263821,Andromeda polifolia,S,Shrub - size unknown
+67728523,64263861,Angelica atropurpurea,F,Forb or Herb
+67728528,64264082,Arctanthemum arcticum,F,Forb or Herb
+67728533,64264102,Arethusa bulbosa,F,Forb or Herb
+67728538,64264135,Asclepias exaltata,F,Forb or Herb
+67728548,64264258,Bacopa rotundifolia,F,Forb or Herb
+67728553,64264306,Bartonia paniculata,F,Forb or Herb
+67728558,64264310,Bidens beckii,F,Forb or Herb
+67728563,64264329,Bidens eatonii,F,Forb or Herb
+67728568,64264333,Bidens frondosa,F,Forb or Herb
+67728573,64264338,Bidens hyperborea,F,Forb or Herb
+67728578,64264402,Bidens vulgata,F,Forb or Herb
+67728583,64264431,Boehmeria cylindrica,F,Forb or Herb
+67728588,64264444,Boisduvalia glabella,F,Forb or Herb
+67728593,64264486,Bolboschoenus novae-angliae,GR,Graminoid
+67728593,64264486,Bolboschoenus novae-angliae,F,Forb or Herb
+67728603,64264547,Boltonia asteroides,F,Forb or Herb
+67728608,64268993,Callitriche marginata,F,Forb or Herb
+67728608,64268993,Callitriche marginata,H,Hydrophyte
+67728613,64269019,Callitriche terrestris,F,Forb or Herb
+67728618,64269039,Calopogon tuberosus,F,Forb or Herb
+67728623,64269065,Caltha leptosepala,F,Forb or Herb
+67728628,64269077,Caltha natans,F,Forb or Herb
+67728633,64269116,Campanula aparinoides,F,Forb or Herb
+67728638,64269620,Canadanthus modestus,F,Forb or Herb
+67728643,64269647,Cardamine bulbosa,F,Forb or Herb
+67728648,64269656,Cardamine pensylvanica,F,Forb or Herb
+67728653,64269714,Carex adelostoma,GR,Graminoid
+67728653,64269714,Carex adelostoma,F,Forb or Herb
+67728663,64269754,Carex alopecoidea,GR,Graminoid
+67728679,64270123,Carex anthoxanthea,GR,Graminoid
+67728679,64270123,Carex anthoxanthea,F,Forb or Herb
+67728684,64270143,Carex aperta,GR,Graminoid
+67728689,64270157,Carex arcta,GR,Graminoid
+67728694,64270171,Carex arctiformis,GR,Graminoid
+67728699,64270175,Carex atlantica,GR,Graminoid
+67728709,64270331,Carex bebbii,GR,Graminoid
+67728714,64270356,Carex bicolor,GR,Graminoid
+67728719,64270380,Carex brunnescens,GR,Graminoid
+67728719,64270380,Carex brunnescens,F,Forb or Herb
+67728724,64270394,Carex bullata,GR,Graminoid
+67728724,64270394,Carex bullata,F,Forb or Herb
+67728729,64270410,Carex buxbaumii,GR,Graminoid
+67728739,64270920,Carex comosa,GR,Graminoid
+67728744,64270998,Carex crinita,GR,Graminoid
+67728754,64271098,Carex cryptolepis,GR,Graminoid
+67728759,64271123,Carex cusickii,GR,Graminoid
+67728759,64271123,Carex cusickii,F,Forb or Herb
+67728764,64271133,Carex emoryi,GR,Graminoid
+67728764,64271133,Carex emoryi,F,Forb or Herb
+67728769,64271142,Carex exilis,GR,Graminoid
+67728769,64271142,Carex exilis,F,Forb or Herb
+67728774,64271146,Carex exsiccata,GR,Graminoid
+67728774,64271146,Carex exsiccata,F,Forb or Herb
+67728779,64271157,Carex folliculata,GR,Graminoid
+67728779,64271157,Carex folliculata,F,Forb or Herb
+67728789,64271217,Carex glareosa,GR,Graminoid
+67728789,64271217,Carex glareosa,F,Forb or Herb
+67728794,64271226,Carex granularis,GR,Graminoid
+67728794,64271226,Carex granularis,F,Forb or Herb
+67728799,64271241,Carex gynandra,GR,Graminoid
+67728799,64271241,Carex gynandra,F,Forb or Herb
+67728805,64271261,Carex gynocrates,GR,Graminoid
+67728805,64271261,Carex gynocrates,F,Forb or Herb
+67728810,64271276,Carex haydenii,GR,Graminoid
+67728810,64271276,Carex haydenii,F,Forb or Herb
+67728815,64271359,Carex heleonastes,GR,Graminoid
+67728815,64271359,Carex heleonastes,F,Forb or Herb
+67728825,64271385,Carex hyalinolepis,GR,Graminoid
+67728825,64271385,Carex hyalinolepis,F,Forb or Herb
+67728830,64271477,Carex hystericina,GR,Graminoid
+67728830,64271477,Carex hystericina,F,Forb or Herb
+67728835,64271495,Carex interior,GR,Graminoid
+67728835,64271495,Carex interior,F,Forb or Herb
+67728845,64271536,Carex intumescens,GR,Graminoid
+67728845,64271536,Carex intumescens,F,Forb or Herb
+67728855,64271548,Carex lacustris,GR,Graminoid
+67728855,64271548,Carex lacustris,F,Forb or Herb
+67728860,64271551,Carex laeviconica,GR,Graminoid
+67728860,64271551,Carex laeviconica,F,Forb or Herb
+67728865,64271682,Carex laevivaginata,GR,Graminoid
+67728865,64271682,Carex laevivaginata,F,Forb or Herb
+67728870,64271697,Carex lapponica,GR,Graminoid
+67728870,64271697,Carex lapponica,F,Forb or Herb
+67728875,64271725,Carex laxa,GR,Graminoid
+67728880,64271758,Carex lenticularis,GR,Graminoid
+67728880,64271758,Carex lenticularis,F,Forb or Herb
+67728885,64271813,Carex leptalea,GR,Graminoid
+67728885,64271813,Carex leptalea,F,Forb or Herb
+67728890,64271818,Carex livida,GR,Graminoid
+67728890,64271818,Carex livida,F,Forb or Herb
+67728895,64271826,Carex loliacea,GR,Graminoid
+67728895,64271826,Carex loliacea,F,Forb or Herb
+67728905,64272069,Carex lupulina,GR,Graminoid
+67728905,64272069,Carex lupulina,F,Forb or Herb
+67728910,64272076,Carex luzulina,GR,Graminoid
+67728910,64272076,Carex luzulina,F,Forb or Herb
+67728915,64272080,Carex lyngbyei,GR,Graminoid
+67728915,64272080,Carex lyngbyei,F,Forb or Herb
+67728920,64272102,Carex macrochaeta,GR,Graminoid
+67728920,64272102,Carex macrochaeta,F,Forb or Herb
+67728925,64272352,Carex marina,GR,Graminoid
+67728925,64272352,Carex marina,F,Forb or Herb
+67728935,64272369,Carex michauxiana,GR,Graminoid
+67728935,64272369,Carex michauxiana,F,Forb or Herb
+67728945,64272375,Carex nebrascensis,GR,Graminoid
+67728945,64272375,Carex nebrascensis,F,Forb or Herb
+67728950,64272382,Carex normalis,GR,Graminoid
+67728950,64272382,Carex normalis,F,Forb or Herb
+67728955,64272387,Carex obnupta,GR,Graminoid
+67728955,64272387,Carex obnupta,F,Forb or Herb
+67728960,64272624,Carex oederi,GR,Graminoid
+67728960,64272624,Carex oederi,F,Forb or Herb
+67728965,64272628,Carex oligosperma,GR,Graminoid
+67728965,64272628,Carex oligosperma,F,Forb or Herb
+67728970,64272648,Carex paleacea,GR,Graminoid
+67728970,64272648,Carex paleacea,F,Forb or Herb
+67728975,64273033,Carex pedunculata,GR,Graminoid
+67728975,64273033,Carex pedunculata,F,Forb or Herb
+67728980,64273037,Carex pellita,GR,Graminoid
+67728980,64273037,Carex pellita,F,Forb or Herb
+67728985,64273045,Carex pluriflora,GR,Graminoid
+67728985,64273045,Carex pluriflora,F,Forb or Herb
+67728995,64273052,Carex prairea,GR,Graminoid
+67728995,64273052,Carex prairea,F,Forb or Herb
+67729000,64273055,Carex prasina,GR,Graminoid
+67729000,64273055,Carex prasina,F,Forb or Herb
+67729005,64273071,Carex rariflora,GR,Graminoid
+67729005,64273071,Carex rariflora,F,Forb or Herb
+67729010,64273084,Carex retrorsa,GR,Graminoid
+67729010,64273084,Carex retrorsa,F,Forb or Herb
+67729015,64273116,Carex rotundata,GR,Graminoid
+67729015,64273116,Carex rotundata,F,Forb or Herb
+67729020,64273119,Carex sartwellii,GR,Graminoid
+67729020,64273119,Carex sartwellii,F,Forb or Herb
+67729025,64273122,Carex saxatilis,GR,Graminoid
+67729025,64273122,Carex saxatilis,F,Forb or Herb
+67729030,64273126,Carex scabrata,GR,Graminoid
+67729030,64273126,Carex scabrata,F,Forb or Herb
+67729045,64273165,Carex simulata,GR,Graminoid
+67729045,64273165,Carex simulata,F,Forb or Herb
+67729050,64273174,Carex sterilis,GR,Graminoid
+67729050,64273174,Carex sterilis,F,Forb or Herb
+67729055,64273177,Carex stipata,GR,Graminoid
+67729055,64273177,Carex stipata,F,Forb or Herb
+67729060,64273180,Carex stricta,GR,Graminoid
+67729060,64273180,Carex stricta,F,Forb or Herb
+67729065,64273471,Carex stylosa,GR,Graminoid
+67729065,64273471,Carex stylosa,F,Forb or Herb
+67729075,64273493,Carex subspathacea,GR,Graminoid
+67729075,64273493,Carex subspathacea,F,Forb or Herb
+67729080,64273534,Carex tenuiflora,GR,Graminoid
+67729080,64273534,Carex tenuiflora,F,Forb or Herb
+67729090,64273555,Carex trisperma,GR,Graminoid
+67729090,64273555,Carex trisperma,F,Forb or Herb
+67729095,64273564,Carex tuckermanii,GR,Graminoid
+67729095,64273564,Carex tuckermanii,F,Forb or Herb
+67729105,64273589,Carex utriculata,GR,Graminoid
+67729105,64273589,Carex utriculata,F,Forb or Herb
+67729110,64273612,Carex vaginata,GR,Graminoid
+67729110,64273612,Carex vaginata,F,Forb or Herb
+67729115,64273615,Carex wiegandii,GR,Graminoid
+67729115,64273615,Carex wiegandii,F,Forb or Herb
+67729120,64310257,Castilleja minor,F,Forb or Herb
+67729125,64310261,Cephalanthus occidentalis,S,Shrub - size unknown
+67729130,64310278,Cerastium arvense,F,Forb or Herb
+67729135,64310601,Chamaedaphne calyculata,SS,Shrub - small
+67729140,64310637,Chelone glabra,F,Forb or Herb
+67729145,64310645,Chenopodium rubrum,F,Forb or Herb
+67729151,64310648,Chrysosplenium americanum,F,Forb or Herb
+67729161,64310667,Chrysosplenium tetrandrum,F,Forb or Herb
+67729166,64310693,Cicuta bulbifera,F,Forb or Herb
+67729171,64310718,Cicuta douglasii,F,Forb or Herb
+67729176,64310721,Cicuta maculata,F,Forb or Herb
+67729181,64310725,Cladium mariscoides,GR,Graminoid
+67729181,64310725,Cladium mariscoides,F,Forb or Herb
+67729186,64310797,Comarum palustre,F,Forb or Herb
+67729196,64310848,Cornus sericea,SS,Shrub - small
+67729201,64310857,Cuscuta gronovii,F,Forb or Herb
+67729211,64310870,Cyperus dentatus,GR,Graminoid
+67729211,64310870,Cyperus dentatus,F,Forb or Herb
+67729216,64310884,Cyperus eragrostis,GR,Graminoid
+67729216,64310884,Cyperus eragrostis,F,Forb or Herb
+67729221,64310893,Cyperus erythrorhizos,GR,Graminoid
+67729221,64310893,Cyperus erythrorhizos,F,Forb or Herb
+67729226,64310948,Cyperus strigosus,GR,Graminoid
+67729226,64310948,Cyperus strigosus,F,Forb or Herb
+67729231,64311180,Decodon verticillatus,F,Forb or Herb
+67729236,64311188,Distichlis spicata,F,Forb or Herb
+67729241,64311196,Doellingeria umbellata,F,Forb or Herb
+67729246,64311201,Downingia elegans,F,Forb or Herb
+67729251,64311205,Downingia laeta,F,Forb or Herb
+67729256,64311222,Dulichium arundinaceum,GR,Graminoid
+67729256,64311222,Dulichium arundinaceum,F,Forb or Herb
+67729261,64311248,Echinochloa walteri,F,Forb or Herb
+67729266,64311251,Elaeagnus commutata,S,Shrub - size unknown
+67729271,64311254,Elatine americana,F,Forb or Herb
+67729276,64311257,Elatine brachysperma,F,Forb or Herb
+67729281,64311260,Elatine minima,F,Forb or Herb
+67729286,64311264,Elatine ojibwayensis,F,Forb or Herb
+67729291,64311267,Elatine rubella,F,Forb or Herb
+67729291,64311267,Elatine rubella,H,Hydrophyte
+67729306,64311276,Eleocharis compressa,GR,Graminoid
+67729306,64311276,Eleocharis compressa,F,Forb or Herb
+67729316,64311283,Eleocharis elliptica,GR,Graminoid
+67729316,64311283,Eleocharis elliptica,F,Forb or Herb
+67729331,64311292,Eleocharis erythropoda,GR,Graminoid
+67729331,64311292,Eleocharis erythropoda,F,Forb or Herb
+67729336,64311295,Eleocharis intermedia,GR,Graminoid
+67729346,64311305,Eleocharis obtusa,GR,Graminoid
+67729356,64311311,Eleocharis robbinsii,GR,Graminoid
+67729361,64311314,Eleocharis rostellata,GR,Graminoid
+67729366,64311317,Eleocharis suksdorfiana,GR,Graminoid
+67729381,64311327,Elodea bifoliata,F,Forb or Herb
+67729381,64311327,Elodea bifoliata,H,Hydrophyte
+67729386,64311330,Elodea nuttallii,F,Forb or Herb
+67729391,64311334,Elymus violaceus,GR,Graminoid
+67729391,64311334,Elymus violaceus,F,Forb or Herb
+67729401,64311341,Epilobium coloratum,F,Forb or Herb
+67729406,64311344,Epilobium latifolium,F,Forb or Herb
+67729411,64311347,Epilobium leptophyllum,F,Forb or Herb
+67729416,64311350,Epilobium strictum,F,Forb or Herb
+67729421,64311354,Epipactis gigantea,F,Forb or Herb
+67729421,64311354,Epipactis gigantea,H,Hydrophyte
+67729426,64311359,Equisetum scirpoides,PT,Fern
+67729431,64311363,Eragrostis hypnoides,GR,Graminoid
+67729431,64311363,Eragrostis hypnoides,F,Forb or Herb
+67729436,64311366,Erigeron elatus,F,Forb or Herb
+67729441,64311370,Erigeron lonchophyllus,F,Forb or Herb
+67729451,64311480,Eriophorum callitrix,GR,Graminoid
+67729456,64311483,Eriophorum chamissonis,GR,Graminoid
+67729456,64311483,Eriophorum chamissonis,F,Forb or Herb
+67729461,64311486,Eriophorum tenellum,GR,Graminoid
+67729466,64311490,Eriophorum virginicum,GR,Graminoid
+67729471,64311493,Eriophorum viridicarinatum,GR,Graminoid
+67729476,64311529,Eucephalus engelmannii,F,Forb or Herb
+67729481,64311534,Eupatorium maculatum,F,Forb or Herb
+67729486,64311538,Eupatorium perfoliatum,F,Forb or Herb
+67729491,64311558,Euphrasia hudsoniana,F,Forb or Herb
+67729496,64311579,Eurybia radula,F,Forb or Herb
+67729501,64311584,Euthamia graminifolia,F,Forb or Herb
+67729506,64311594,Eutrema edwardsii,F,Forb or Herb
+67729511,64312996,Fauria crista-galli,F,Forb or Herb
+67729516,64313013,Fimbristylis autumnalis,GR,Graminoid
+67729521,64313521,Galium asprellum,F,Forb or Herb
+67729526,64313527,Galium labradoricum,F,Forb or Herb
+67729531,64313531,Galium tinctorium,F,Forb or Herb
+67729536,64313534,Galium trifidum,F,Forb or Herb
+67729541,64313537,Galium triflorum,F,Forb or Herb
+67729546,64313540,Gaultheria hispidula,SS,Shrub - small
+67729551,64313562,Gaylussacia bigeloviana,SL,Shrub - large
+67729561,64313619,Gentiana douglasiana,F,Forb or Herb
+67729566,64313642,Gentiana rubricaulis,F,Forb or Herb
+67729571,64313658,Gentiana sceptrum,F,Forb or Herb
+67729576,64313866,Gentianopsis crinita,F,Forb or Herb
+67729581,64313871,Gentianopsis detonsa,F,Forb or Herb
+67729586,64313924,Gentianopsis virgata,F,Forb or Herb
+67729591,64314003,Geocaulon lividum,F,Forb or Herb
+67729596,64314067,Geum peckii,F,Forb or Herb
+67729601,64314072,Geum rivale,F,Forb or Herb
+67729606,64314079,Glyceria borealis,GR,Graminoid
+67729606,64314079,Glyceria borealis,F,Forb or Herb
+67729611,64314082,Glyceria canadensis,GR,Graminoid
+67729611,64314082,Glyceria canadensis,F,Forb or Herb
+67729616,64314086,Glyceria grandis,GR,Graminoid
+67729616,64314086,Glyceria grandis,F,Forb or Herb
+67729621,64314090,Glyceria leptostachya,GR,Graminoid
+67729626,64314131,Glyceria melicaria,F,Forb or Herb
+67729631,64314136,Glyceria obtusa,F,Forb or Herb
+67729636,64314144,Glyceria pulchella,F,Forb or Herb
+67729641,64314149,Glyceria striata,GR,Graminoid
+67729641,64314149,Glyceria striata,F,Forb or Herb
+67729646,64314157,Glycyrrhiza lepidota,F,Forb or Herb
+67729651,64314162,Gnaphalium palustre,F,Forb or Herb
+67729656,64314167,Gratiola aurea,F,Forb or Herb
+67729661,64314170,Gratiola ebracteata,F,Forb or Herb
+67729666,64314174,Gratiola neglecta,F,Forb or Herb
+67729671,64314193,Hedysarum alpinum,F,Forb or Herb
+67729676,64314219,Heliotropium curassavicum,F,Forb or Herb
+67729681,64314237,Heracleum maximum,F,Forb or Herb
+67729686,64314241,Heteranthera dubia,F,Forb or Herb
+67729691,64314251,Hibiscus moscheutos,F,Forb or Herb
+67729696,64314320,Hippuris lanceolata,F,Forb or Herb
+67729701,64314371,Hydrocotyle americana,F,Forb or Herb
+67729706,64314702,Hydrocotyle umbellata,F,Forb or Herb
+67729711,64314709,Hypericum anagalloides,F,Forb or Herb
+67729716,64314729,Hypericum boreale,F,Forb or Herb
+67729721,64314773,Hypericum ellipticum,F,Forb or Herb
+67729726,64314794,Hypericum majus,F,Forb or Herb
+67729731,64314821,Impatiens capensis,F,Forb or Herb
+67729736,64314907,Impatiens noli-tangere,F,Forb or Herb
+67729741,64315027,Iris brevicaulis,F,Forb or Herb
+67729746,64315039,Iris missouriensis,F,Forb or Herb
+67729751,64315076,Iris prismatica,F,Forb or Herb
+67729756,64315086,Iris versicolor,F,Forb or Herb
+67729761,64315090,Iris virginica,F,Forb or Herb
+67729766,64315111,Isoetes acadiensis,H,Hydrophyte
+67729766,64315111,Isoetes acadiensis,B,Moss
+67729771,64315121,Isoetes bolanderi,H,Hydrophyte
+67729771,64315121,Isoetes bolanderi,B,Moss
+67729776,64315141,Isoetes engelmannii,PT,Fern
+67729776,64315141,Isoetes engelmannii,H,Hydrophyte
+67729781,64315204,Isoetes howellii,B,Moss
+67729781,64315204,Isoetes howellii,H,Hydrophyte
+67729786,64315207,Isoetes maritima,H,Hydrophyte
+67729791,64315210,Isoetes nuttallii,H,Hydrophyte
+67729791,64315210,Isoetes nuttallii,B,Moss
+67729796,64315225,Isoetes riparia,H,Hydrophyte
+67729796,64315225,Isoetes riparia,B,Moss
+67729801,64315234,Isoetes tuckermanii,H,Hydrophyte
+67729806,64315276,Iva xanthifolia,F,Forb or Herb
+67729811,64315327,Jaumea carnosa,F,Forb or Herb
+67729816,64315465,Juncus acuminatus,GR,Graminoid
+67729816,64315465,Juncus acuminatus,F,Forb or Herb
+67729821,64315536,Juncus anthelatus,F,Forb or Herb
+67729826,64315553,Juncus balticus,F,Forb or Herb
+67729832,64315557,Juncus biglumis,GR,Graminoid
+67729832,64315557,Juncus biglumis,F,Forb or Herb
+67729837,64315562,Juncus bolanderi,F,Forb or Herb
+67729842,64315574,Juncus brachycephalus,GR,Graminoid
+67729842,64315574,Juncus brachycephalus,F,Forb or Herb
+67729847,64315579,Juncus brevicaudatus,GR,Graminoid
+67729847,64315579,Juncus brevicaudatus,F,Forb or Herb
+67729852,64315594,Juncus caesariensis,GR,Graminoid
+67729857,64315597,Juncus canadensis,GR,Graminoid
+67729857,64315597,Juncus canadensis,F,Forb or Herb
+67729862,64315600,Juncus dudleyi,GR,Graminoid
+67729862,64315600,Juncus dudleyi,F,Forb or Herb
+67729867,64315603,Juncus marginatus,GR,Graminoid
+67729867,64315603,Juncus marginatus,F,Forb or Herb
+67729872,64315615,Juncus mertensianus,GR,Graminoid
+67729872,64315615,Juncus mertensianus,F,Forb or Herb
+67729877,64315633,Juncus militaris,GR,Graminoid
+67729877,64315633,Juncus militaris,F,Forb or Herb
+67729882,64315636,Juncus nodosus,GR,Graminoid
+67729882,64315636,Juncus nodosus,F,Forb or Herb
+67729887,64315713,Juncus pelocarpus,GR,Graminoid
+67729887,64315713,Juncus pelocarpus,F,Forb or Herb
+67729892,64315778,Juncus stygius,GR,Graminoid
+67729892,64315778,Juncus stygius,F,Forb or Herb
+67729897,64315787,Juncus subcaudatus,GR,Graminoid
+67729897,64315787,Juncus subcaudatus,F,Forb or Herb
+67729902,64315790,Juncus subtilis,GR,Graminoid
+67729902,64315790,Juncus subtilis,F,Forb or Herb
+67729907,64315805,Juncus supiniformis,GR,Graminoid
+67729907,64315805,Juncus supiniformis,F,Forb or Herb
+67729912,64315811,Juncus triglumis,GR,Graminoid
+67729912,64315811,Juncus triglumis,F,Forb or Herb
+67729917,64315830,Justicia americana,F,Forb or Herb
+67729922,64316798,Kalmia microphylla,SS,Shrub - small
+67729927,64316801,Kalmia polifolia,S,Shrub - size unknown
+67729932,64316823,Koenigia islandica,F,Forb or Herb
+67729937,64316895,Lachnanthes caroliana,F,Forb or Herb
+67729942,64316916,Lasthenia glaberrima,F,Forb or Herb
+67729947,64316936,Leersia virginica,GR,Graminoid
+67729947,64316936,Leersia virginica,F,Forb or Herb
+67729952,64316939,Lemna minuta,H,Hydrophyte
+67729957,64316981,Lilaeopsis occidentalis,F,Forb or Herb
+67729962,64316999,Limosella acaulis,F,Forb or Herb
+67729967,64317051,Lindernia dubia,F,Forb or Herb
+67729972,64317082,Lipocarpha micrantha,GR,Graminoid
+67729977,64317175,Lobelia cardinalis,F,Forb or Herb
+67729982,64317285,Lobelia kalmii,F,Forb or Herb
+67729987,64317288,Lobelia siphilitica,F,Forb or Herb
+67729992,64317299,Lobelia spicata,F,Forb or Herb
+67729997,64317394,Lomatogonium rotatum,F,Forb or Herb
+67730002,64317403,Lonicera oblongifolia,SS,Shrub - small
+67730007,64317439,Ludwigia alternifolia,F,Forb or Herb
+67730012,64317448,Ludwigia polycarpa,F,Forb or Herb
+67730017,64317478,Luzula wahlenbergii,F,Forb or Herb
+67730022,64317511,Lycopodiella appressa,B,Moss
+67730027,64317515,Lycopus americanus,F,Forb or Herb
+67730032,64317523,Lycopus asper,F,Forb or Herb
+67730037,64317534,Lycopus rubellus,F,Forb or Herb
+67730042,64317541,Lycopus uniflorus,F,Forb or Herb
+67730047,64317554,Lycopus virginicus,F,Forb or Herb
+67730052,64317583,Lysichiton americanus,F,Forb or Herb
+67730057,64317587,Lysimachia ciliata,F,Forb or Herb
+67730062,64317593,Lysimachia hybrida,F,Forb or Herb
+67730067,64317602,Lysimachia maritima,F,Forb or Herb
+67730072,64317621,Lysimachia terrestris,F,Forb or Herb
+67730077,64317654,Lythrum alatum,F,Forb or Herb
+67730082,64317970,Mentha arvensis,F,Forb or Herb
+67730087,64317989,Microseris borealis,F,Forb or Herb
+67730092,64318011,Mimulus alatus,F,Forb or Herb
+67730097,64318014,Mimulus alsinoides,F,Forb or Herb
+67730102,64318064,Mimulus dentatus,F,Forb or Herb
+67730107,64318097,Mimulus floribundus,F,Forb or Herb
+67730112,64318106,Mimulus glabratus,F,Forb or Herb
+67730117,64318116,Mimulus guttatus,F,Forb or Herb
+67730122,64318150,Mimulus lewisii,F,Forb or Herb
+67730127,64318171,Mimulus moschatus,F,Forb or Herb
+67730132,64318181,Mimulus ringens,F,Forb or Herb
+67730137,64318184,Mimulus tilingii,F,Forb or Herb
+67730142,64318243,Montia chamissoi,F,Forb or Herb
+67730147,64318249,Montia parvifolia,F,Forb or Herb
+67730152,64318265,Muhlenbergia glomerata,F,Forb or Herb
+67730157,64318288,Muhlenbergia uniflora,GR,Graminoid
+67730157,64318288,Muhlenbergia uniflora,F,Forb or Herb
+67730162,64318300,Myosurus apetalus,F,Forb or Herb
+67730167,64318305,Myrica gale,SL,Shrub - large
+67730172,64318320,Myriophyllum farwellii,F,Forb or Herb
+67730172,64318320,Myriophyllum farwellii,H,Hydrophyte
+67730177,64318331,Myriophyllum heterophyllum,F,Forb or Herb
+67730177,64318331,Myriophyllum heterophyllum,H,Hydrophyte
+67730182,64318349,Myriophyllum hippuroides,F,Forb or Herb
+67730182,64318349,Myriophyllum hippuroides,H,Hydrophyte
+67730187,64318374,Myriophyllum humile,F,Forb or Herb
+67730187,64318374,Myriophyllum humile,H,Hydrophyte
+67730192,64318391,Myriophyllum pinnatum,F,Forb or Herb
+67730197,64318412,Myriophyllum quitense,F,Forb or Herb
+67730202,64318464,Myriophyllum tenellum,F,Forb or Herb
+67730207,64318582,Myriophyllum ussuriense,F,Forb or Herb
+67730207,64318582,Myriophyllum ussuriense,H,Hydrophyte
+67730212,64318755,Navarretia leucocephala,F,Forb or Herb
+67730222,64318788,Neobeckia aquatica,F,Forb or Herb
+67730232,64318915,Nymphaea leibergii,H,Hydrophyte
+67730237,64318950,Nymphaea odorata,F,Forb or Herb
+67730242,64319018,Nymphoides cordata,F,Forb or Herb
+67730242,64319018,Nymphoides cordata,H,Hydrophyte
+67730247,64319028,Oclemena nemoralis,F,Forb or Herb
+67730252,64319071,Oenanthe sarmentosa,F,Forb or Herb
+67730257,64319082,Onoclea sensibilis,PT,Fern
+67730262,64319095,Oxypolis occidentalis,F,Forb or Herb
+67730267,64319127,Oxypolis rigidior,F,Forb or Herb
+67730272,64319146,Panicum acuminatum,GR,Graminoid
+67730272,64319146,Panicum acuminatum,F,Forb or Herb
+67730277,64319156,Panicum scabriusculum,F,Forb or Herb
+67730282,64319175,Parnassia fimbriata,F,Forb or Herb
+67730287,64319184,Parnassia glauca,F,Forb or Herb
+67730292,64319288,Parnassia kotzebuei,F,Forb or Herb
+67730297,64319294,Pedicularis groenlandica,F,Forb or Herb
+67730302,64319311,Pedicularis labradorica,F,Forb or Herb
+67730307,64319314,Pedicularis lanceolata,F,Forb or Herb
+67730312,64319331,Pedicularis parviflora,F,Forb or Herb
+67730317,64319363,Peltandra virginica,F,Forb or Herb
+67730322,64319417,Penthorum sedoides,F,Forb or Herb
+67730327,64319482,Persicaria arifolia,F,Forb or Herb
+67730332,64320296,Persicaria hydropiperoides,F,Forb or Herb
+67730337,64320299,Persicaria robustior,F,Forb or Herb
+67730342,64320302,Persicaria sagittata,F,Forb or Herb
+67730347,64320313,Petasites frigidus,F,Forb or Herb
+67730352,64320389,Phyla lanceolata,F,Forb or Herb
+67730357,64320451,Physostegia ledinghamii,F,Forb or Herb
+67730362,64320455,Physostegia parviflora,F,Forb or Herb
+67730367,64320464,Pilea fontana,F,Forb or Herb
+67730372,64320490,Pinguicula macroceras,F,Forb or Herb
+67730377,64320539,Pinguicula villosa,F,Forb or Herb
+67730387,64320639,Plantago bigelovii,F,Forb or Herb
+67730392,64320642,Plantago cordata,F,Forb or Herb
+67730392,64320642,Plantago cordata,H,Hydrophyte
+67730397,64320648,Plantago eriopoda,F,Forb or Herb
+67730402,64320663,Plantago macrocarpa,F,Forb or Herb
+67730407,64320667,Plantago maritima,F,Forb or Herb
+67730412,64320684,Platanthera blephariglottis,F,Forb or Herb
+67730417,64320687,Platanthera chorisiana,F,Forb or Herb
+67730422,64320698,Platanthera clavellata,PT,Fern
+67730427,64320706,Platanthera huronensis,F,Forb or Herb
+67730432,64320986,Pleuropogon refractus,GR,Graminoid
+67730437,64321338,Poa leptocoma,GR,Graminoid
+67730437,64321338,Poa leptocoma,F,Forb or Herb
+67730442,64321343,Poa palustris,F,Forb or Herb
+67730447,64321353,Poa reflexa,F,Forb or Herb
+67730452,64321371,Podostemum ceratophyllum,H,Hydrophyte
+67730457,64321383,Pogonia ophioglossoides,F,Forb or Herb
+67730462,64321387,Polemonium acutiflorum,F,Forb or Herb
+67730467,64321407,Polemonium pulcherrimum,F,Forb or Herb
+67730472,64321422,Polemonium viscosum,F,Forb or Herb
+67730477,64321477,Polygonum punctatum,F,Forb or Herb
+67730482,64321496,Potamogeton amplifolius,F,Forb or Herb
+67730482,64321496,Potamogeton amplifolius,H,Hydrophyte
+67730487,64321505,Potamogeton bicupulatus,H,Hydrophyte
+67730492,64321522,Potamogeton confervoides,F,Forb or Herb
+67730497,64321531,Potamogeton foliosus,F,Forb or Herb
+67730502,64321546,Potamogeton hillii,H,Hydrophyte
+67730507,64321552,Potamogeton oakesianus,F,Forb or Herb
+67730512,64321558,Potamogeton ogdenii,H,Hydrophyte
+67730517,64321565,Potamogeton pulcher,H,Hydrophyte
+67730522,64321569,Potamogeton richardsonii,F,Forb or Herb
+67730522,64321569,Potamogeton richardsonii,H,Hydrophyte
+67730527,64321575,Potamogeton robbinsii,F,Forb or Herb
+67730527,64321575,Potamogeton robbinsii,H,Hydrophyte
+67730532,64321581,Potamogeton spirillus,F,Forb or Herb
+67730532,64321581,Potamogeton spirillus,H,Hydrophyte
+67730537,64321584,Potamogeton strictifolius,F,Forb or Herb
+67730537,64321584,Potamogeton strictifolius,H,Hydrophyte
+67730542,64321592,Potamogeton vaseyi,F,Forb or Herb
+67730542,64321592,Potamogeton vaseyi,H,Hydrophyte
+67730547,64321666,Potentilla anserina,F,Forb or Herb
+67730552,64321705,Potentilla diversifolia,F,Forb or Herb
+67730557,64321721,Potentilla drummondii,F,Forb or Herb
+67730562,64321725,Potentilla norvegica,F,Forb or Herb
+67730567,64321742,Potentilla rivalis,F,Forb or Herb
+67730572,64321787,Primula cuneifolia,F,Forb or Herb
+67730577,64321902,Primula incana,F,Forb or Herb
+67730582,64321906,Primula mistassinica,F,Forb or Herb
+67730587,64321924,Primula stricta,F,Forb or Herb
+67730592,64322019,Proserpinaca intermedia,F,Forb or Herb
+67730597,64322037,Proserpinaca pectinata,F,Forb or Herb
+67730602,64322054,Psilocarphus brevissimus,A,Annual
+67730602,64322054,Psilocarphus brevissimus,F,Forb or Herb
+67730607,64322062,Psilocarphus tenellus,F,Forb or Herb
+67730612,64322086,Puccinellia nuttalliana,GR,Graminoid
+67730612,64322086,Puccinellia nuttalliana,F,Forb or Herb
+67730617,64322123,Pycreus bipartitus,GR,Graminoid
+67730622,64322143,Ranunculus ambigens,F,Forb or Herb
+67730627,64322157,Ranunculus flabellaris,F,Forb or Herb
+67730632,64322166,Ranunculus gmelinii,F,Forb or Herb
+67730632,64322166,Ranunculus gmelinii,H,Hydrophyte
+67730637,64322177,Ranunculus hispidus,F,Forb or Herb
+67730642,64322180,Ranunculus hyperboreus,F,Forb or Herb
+67730647,64322185,Ranunculus lobbii,F,Forb or Herb
+67730652,64322200,Ranunculus macounii,F,Forb or Herb
+67730662,64323209,Rhexia virginica,F,Forb or Herb
+67730667,64323216,Rhynchospora capillacea,GR,Graminoid
+67730672,64323220,Rhynchospora capitellata,GR,Graminoid
+67730677,64323224,Rhynchospora fusca,GR,Graminoid
+67730682,64323232,Rhynchospora macrostachya,F,Forb or Herb
+67730687,64323685,Ribes glandulosum,F,Forb or Herb
+67730692,64323717,Rorippa curvisiliqua,F,Forb or Herb
+67730697,64323755,Rosa acicularis,SS,Shrub - small
+67730702,64323786,Rosa palustris,SS,Shrub - small
+67730707,64323857,Rotala ramosior,F,Forb or Herb
+67730712,64323866,Rubus arcticus,SS,Shrub - small
+67730717,64323876,Rubus chamaemorus,SS,Shrub - small
+67730722,64323892,Rubus pedatus,F,Forb or Herb
+67730727,64323907,Rubus pubescens,SS,Shrub - small
+67730732,64324002,Rumex britannica,F,Forb or Herb
+67730737,64324181,Rumex occidentalis,F,Forb or Herb
+67730742,64324190,Sabatia kennedyana,F,Forb or Herb
+67730747,64324204,Sagittaria brevirostra,F,Forb or Herb
+67730752,64324207,Sagittaria cristata,F,Forb or Herb
+67730757,64324210,Sagittaria cuneata,F,Forb or Herb
+67730757,64324210,Sagittaria cuneata,H,Hydrophyte
+67730762,64324213,Sagittaria graminea,F,Forb or Herb
+67730767,64324216,Sagittaria latifolia,F,Forb or Herb
+67730772,64324226,Sagittaria rigida,F,Forb or Herb
+67730772,64324226,Sagittaria rigida,H,Hydrophyte
+67730777,64324246,Salicornia rubra,F,Forb or Herb
+67730782,64324256,Salix athabascensis,SL,Shrub - large
+67730787,64324259,Salix bebbiana,SL,Shrub - large
+67730787,64324259,Salix bebbiana,TS,Tree - small
+67730792,64324263,Salix candida,SL,Shrub - large
+67730797,64324271,Salix commutata,S,Shrub - size unknown
+67730802,64324281,Salix eriocephala,TS,Tree - small
+67730807,64324286,Salix farriae,SS,Shrub - small
+67730812,64324296,Salix lanata,TS,Tree - small
+67730817,64324306,Salix lutea,SL,Shrub - large
+67730817,64324306,Salix lutea,TS,Tree - small
+67730822,64324312,Salix melanopsis,SL,Shrub - large
+67730822,64324312,Salix melanopsis,TS,Tree - small
+67730827,64324315,Salix monticola,SL,Shrub - large
+67730827,64324315,Salix monticola,TS,Tree - small
+67730832,64324330,Salix myrtillifolia,SL,Shrub - large
+67730832,64324330,Salix myrtillifolia,TS,Tree - small
+67730837,64324333,Salix pedicellaris,F,Forb or Herb
+67730842,64324336,Salix petiolaris,SL,Shrub - large
+67730842,64324336,Salix petiolaris,TS,Tree - small
+67730847,64324339,Salix planifolia,TS,Tree - small
+67730852,64324343,Salix prolixa,SL,Shrub - large
+67730852,64324343,Salix prolixa,TS,Tree - small
+67730857,64324347,Salix pyrifolia,SL,Shrub - large
+67730857,64324347,Salix pyrifolia,TS,Tree - small
+67730862,64324350,Salix sericea,SL,Shrub - large
+67730862,64324350,Salix sericea,TS,Tree - small
+67730867,64324355,Salix serissima,SL,Shrub - large
+67730867,64324355,Salix serissima,TS,Tree - small
+67730872,64324390,Sarcobatus vermiculatus,S,Shrub - size unknown
+67730877,64324394,Saururus cernuus,F,Forb or Herb
+67730882,64324410,Saxifraga foliolosa,F,Forb or Herb
+67730887,64324425,Schoenoplectiella purshiana,F,Forb or Herb
+67730892,64324795,Schoenoplectiella saximontana,GR,Graminoid
+67730897,64324800,Schoenoplectiella smithii,GR,Graminoid
+67730897,64324800,Schoenoplectiella smithii,F,Forb or Herb
+67730902,64324813,Schoenoplectus acutus,GR,Graminoid
+67730907,64324817,Schoenoplectus americanus,GR,Graminoid
+67730912,64324821,Schoenoplectus heterochaetus,GR,Graminoid
+67730912,64324821,Schoenoplectus heterochaetus,F,Forb or Herb
+67730917,64324832,Schoenoplectus subterminalis,GR,Graminoid
+67730922,64324837,Schoenoplectus torreyi,GR,Graminoid
+67730927,64324851,Scirpus ancistrochaetus,F,Forb or Herb
+67730932,64324856,Scirpus atrocinctus,GR,Graminoid
+67730937,64324859,Scirpus atrovirens,GR,Graminoid
+67730942,64324862,Scirpus cyperinus,GR,Graminoid
+67730942,64324862,Scirpus cyperinus,F,Forb or Herb
+67730947,64324865,Scirpus expansus,PT,Fern
+67730952,64324870,Scirpus georgianus,GR,Graminoid
+67730952,64324870,Scirpus georgianus,F,Forb or Herb
+67730957,64324874,Scirpus hattorianus,GR,Graminoid
+67730957,64324874,Scirpus hattorianus,F,Forb or Herb
+67730962,64324877,Scirpus longii,F,Forb or Herb
+67730967,64324880,Scirpus microcarpus,GR,Graminoid
+67730967,64324880,Scirpus microcarpus,F,Forb or Herb
+67730972,64324883,Scirpus pallidus,GR,Graminoid
+67730972,64324883,Scirpus pallidus,F,Forb or Herb
+67730977,64324886,Scirpus pedicellatus,GR,Graminoid
+67730977,64324886,Scirpus pedicellatus,F,Forb or Herb
+67730982,64324889,Scirpus pendulus,GR,Graminoid
+67730982,64324889,Scirpus pendulus,F,Forb or Herb
+67730987,64324892,Scleria verticillata,F,Forb or Herb
+67730992,64324897,Scutellaria lateriflora,F,Forb or Herb
+67730997,64324900,Senecio hydrophilus,F,Forb or Herb
+67731002,64324910,Sium suave,F,Forb or Herb
+67731007,64325060,Solidago houghtonii,F,Forb or Herb
+67731012,64325065,Solidago latissimifolia,F,Forb or Herb
+67731017,64325073,Solidago ohioensis,F,Forb or Herb
+67731022,64325076,Solidago patula,F,Forb or Herb
+67731027,64325079,Solidago riddellii,F,Forb or Herb
+67731032,64325083,Solidago uliginosa,F,Forb or Herb
+67731037,64325105,Sparganium americanum,F,Forb or Herb
+67731042,64325108,Sparganium androcladum,F,Forb or Herb
+67731047,64325114,Sparganium eurycarpum,F,Forb or Herb
+67731052,64325118,Sparganium fluctuans,F,Forb or Herb
+67731052,64325118,Sparganium fluctuans,H,Hydrophyte
+67731057,64325157,Spartina gracilis,F,Forb or Herb
+67731062,64325161,Spartina pectinata,F,Forb or Herb
+67731067,64325183,Stellaria calycantha,F,Forb or Herb
+67731072,64325204,Stellaria humifusa,F,Forb or Herb
+67731077,64325262,Symphyotrichum boreale,F,Forb or Herb
+67731082,64325267,Symphyotrichum ciliatum,F,Forb or Herb
+67731087,64325281,Symphyotrichum lanceolatum,F,Forb or Herb
+67731092,64325296,Symphyotrichum praealtum,F,Forb or Herb
+67731097,64325300,Symphyotrichum puniceum,F,Forb or Herb
+67731102,64325342,Symplocarpus foetidus,F,Forb or Herb
+67731107,64325345,Torreyochloa pallida,GR,Graminoid
+67731107,64325345,Torreyochloa pallida,F,Forb or Herb
+67731112,64325354,Toxicodendron vernix,SL,Shrub - large
+67731112,64325354,Toxicodendron vernix,TS,Tree - small
+67731117,64325500,Tradescantia occidentalis,F,Forb or Herb
+67731122,64325510,Triadenum fraseri,F,Forb or Herb
+67731127,64325513,Triadenum virginicum,F,Forb or Herb
+67731132,64325767,Trichophorum alpinum,GR,Graminoid
+67731132,64325767,Trichophorum alpinum,F,Forb or Herb
+67731137,64326156,Trichophorum caespitosum,F,Forb or Herb
+67731142,64326165,Trichophorum clintonii,GR,Graminoid
+67731142,64326165,Trichophorum clintonii,F,Forb or Herb
+67731147,64326168,Trientalis borealis,F,Forb or Herb
+67731152,64326171,Triglochin scilloides,F,Forb or Herb
+67731157,64326174,Trollius laxus,F,Forb or Herb
+67731162,64326177,Utricularia cornuta,F,Forb or Herb
+67731167,64326181,Utricularia geminiscapa,F,Forb or Herb
+67731167,64326181,Utricularia geminiscapa,H,Hydrophyte
+67731172,64326200,Utricularia purpurea,A,Annual
+67731172,64326200,Utricularia purpurea,F,Forb or Herb
+67731172,64326200,Utricularia purpurea,H,Hydrophyte
+67731177,64326203,Utricularia radiata,H,Hydrophyte
+67731182,64326207,Utricularia resupinata,F,Forb or Herb
+67731187,64326215,Utricularia subulata,F,Forb or Herb
+67731192,64326218,Vaccinium macrocarpon,SS,Shrub - small
+67731197,64326221,Vaccinium oxycoccos,F,Forb or Herb
+67731202,64326239,Valeriana dioica,F,Forb or Herb
+67731207,64326243,Valeriana uliginosa,F,Forb or Herb
+67731212,64326246,Vallisneria americana,F,Forb or Herb
+67731212,64326246,Vallisneria americana,H,Hydrophyte
+67731217,64326255,Veronica americana,F,Forb or Herb
+67731222,64326265,Viola lanceolata,F,Forb or Herb
+67731227,64326274,Viola macloskeyi,F,Forb or Herb
+67731232,64326277,Viola nephrophylla,F,Forb or Herb
+67731237,64326281,Viola obliqua,F,Forb or Herb
+67731242,64326289,Viola palustris,F,Forb or Herb
+67731247,64326292,Viola renifolia,F,Forb or Herb
+67731252,64326301,Wolffia borealis,F,Forb or Herb
+67731252,64326301,Wolffia borealis,H,Hydrophyte
+67731257,64326304,Wolffia brasiliensis,H,Hydrophyte
+67731262,64326308,Wolffia columbiana,F,Forb or Herb
+67731262,64326308,Wolffia columbiana,H,Hydrophyte
+67731267,64326311,Woodwardia areolata,PT,Fern
+67731272,64326314,Woodwardia virginica,PT,Fern
+67731277,64326317,Xyris difformis,F,Forb or Herb
+67731282,64326321,Xyris montana,F,Forb or Herb
+67731287,64326324,Zizania aquatica,GR,Graminoid
+67731287,64326324,Zizania aquatica,F,Forb or Herb
+67731294,64326333,Zizania palustris,GR,Graminoid
+67731294,64326333,Zizania palustris,F,Forb or Herb
+68085952,32955,Guaiacum sanctum,TL,Tree - large
+68272468,169008,Fimbristylis dichotoma,GR,Graminoid
+68272468,169008,Fimbristylis dichotoma,A,Annual
+68274646,164329,Juncus acutus,GR,Graminoid
+68274646,164329,Juncus acutus,H,Hydrophyte
+68274646,164329,Juncus acutus,GE,Geophyte
+68278050,44393356,Tillandsia fasciculata,F,Forb or Herb
+68278050,44393356,Tillandsia fasciculata,L,Lithophyte
+68278050,44393356,Tillandsia fasciculata,E,Epiphyte
+68983948,68983611,Psychotria ligustrifolia,SL,Shrub - large
+68984006,68983987,Spermacoce tetraquetra,F,Forb or Herb
+68984006,68983987,Spermacoce tetraquetra,A,Annual
+69024847,178851,Rhizophora mangle,SL,Shrub - large
+69024847,178851,Rhizophora mangle,TS,Tree - small
+69584848,167841,Carex aquatilis,GR,Graminoid
+69585026,167828,Callitriche hermaphroditica,H,Hydrophyte
+69585303,164452,Callitriche palustris,H,Hydrophyte
+69585303,164452,Callitriche palustris,F,Forb or Herb
+69585870,175279,Carex chordorrhiza,GR,Graminoid
+69586141,163994,Carex echinata,GR,Graminoid
+69586141,163994,Carex echinata,F,Forb or Herb
+69586374,162303,Carex holostoma,GR,Graminoid
+69690853,69690665,Bidens trichosperma,F,Forb or Herb
+69732454,69727585,Callitriche fassettii,F,Forb or Herb
+69732454,69727585,Callitriche fassettii,H,Hydrophyte
+69732469,69728164,Callitriche stenoptera,F,Forb or Herb
+69732469,69728164,Callitriche stenoptera,H,Hydrophyte
+70870136,70485370,Isoetes prototypus,H,Hydrophyte
+70870136,70485370,Isoetes prototypus,B,Moss
+72420469,72420426,Quercus pungens,TS,Tree - small
+72420528,72420414,Quercus inopina,SL,Shrub - large
+72420528,72420414,Quercus inopina,TS,Tree - small
+72420948,72420404,Quercus havardii,SS,Shrub - small
+72420970,72420232,Quercus chapmanii,TS,Tree - small
+72420979,72420977,Quercus vaseyana,SL,Shrub - large
+72420979,72420977,Quercus vaseyana,TS,Tree - small
+72668627,62543,Vallesia glabra,SL,Shrub - large
+72668627,62543,Vallesia glabra,TS,Tree - small
+75457355,167910,Potamogeton subsibiricus,H,Hydrophyte
+76917676,21610439,Amaranthus tuberculatus,F,Forb or Herb
+78457012,202909,Achillea millefolium,F,Forb or Herb
+78457017,161889,Arctophila fulva,GR,Graminoid
+78457017,161889,Arctophila fulva,F,Forb or Herb
+78457022,19035773,Aster subulatus,F,Forb or Herb
+78457027,185681,Brasenia schreberi,F,Forb or Herb
+78457027,185681,Brasenia schreberi,H,Hydrophyte
+78457032,19224959,Calystegia sepium,F,Forb or Herb
+78457037,161844,Coleanthus subtilis,GR,Graminoid
+78457037,161844,Coleanthus subtilis,F,Forb or Herb
+78457042,164212,Epilobium angustifolium,F,Forb or Herb
+78457047,167860,Eriocaulon aquaticum,F,Forb or Herb
+78457047,167860,Eriocaulon aquaticum,H,Hydrophyte
+78457052,176004,Hammarbya paludosa,F,Forb or Herb
+78457057,161957,Hippuris tetraphylla,F,Forb or Herb
+78457062,167877,Isoetes echinospora,F,Forb or Herb
+78457062,167877,Isoetes echinospora,H,Hydrophyte
+78457067,167878,Isoetes lacustris,F,Forb or Herb
+78457067,167878,Isoetes lacustris,H,Hydrophyte
+78457072,164451,Littorella uniflora,F,Forb or Herb
+78457082,167831,Lobelia dortmanna,F,Forb or Herb
+78457087,18775218,Lonicera caerulea,SS,Shrub - small
+78457092,167914,Lysimachia thyrsiflora,F,Forb or Herb
+78457097,164338,Myriophyllum alterniflorum,F,Forb or Herb
+78457102,167869,Myriophyllum sibiricum,F,Forb or Herb
+78457107,162310,Najas flexilis,F,Forb or Herb
+78457107,162310,Najas flexilis,H,Hydrophyte
+78457112,175931,Neottia cordata,F,Forb or Herb
+78457117,161814,Pedicularis sudetica,F,Forb or Herb
+78457122,175967,Platanthera hyperborea,F,Forb or Herb
+78457127,175241,Pleuropogon sabinei,F,Forb or Herb
+78457132,176440,Poa pratensis,GR,Graminoid
+78457132,176440,Poa pratensis,F,Forb or Herb
+78457137,167901,Potamogeton epihydrus,F,Forb or Herb
+78457142,164496,Potamogeton polygonifolius,F,Forb or Herb
+78457147,165272,Primula egaliksensis,F,Forb or Herb
+78457152,203256,Prunella vulgaris,F,Forb or Herb
+78457157,164528,Ranunculus hederaceus,F,Forb or Herb
+78457162,167921,Ranunculus reptans,F,Forb or Herb
+78457167,203458,Sanguisorba officinalis,F,Forb or Herb
+78457172,162099,Saxifraga hirculus,F,Forb or Herb
+78457177,201616,Scheuchzeria palustris,F,Forb or Herb
+78457182,175276,Sparganium glomeratum,F,Forb or Herb
+78457187,167928,Sparganium hyperboreum,F,Forb or Herb
+78457192,175925,Spiranthes romanzoffiana,F,Forb or Herb
+78457197,195506,Stuckenia vaginata,F,Forb or Herb
+78457197,195506,Stuckenia vaginata,H,Hydrophyte
+78457202,167839,Subularia aquatica,PT,Fern
+78457202,167839,Subularia aquatica,H,Hydrophyte
+78457207,164116,Triglochin maritima,F,Forb or Herb
+78457212,167815,Urtica dioica,F,Forb or Herb
+78457217,18748884,Vaccinium vitis-idaea,SS,Shrub - small
+78747319,44156,Clermontia samuelii,SL,Shrub - large
+78749191,16201591,Euphorbia skottsbergii,SS,Shrub - small
+78764685,62986,Zanthoxylum dipetalum,TL,Tree - large
+78774501,78774453,Asplenium dielerectum,PT,Fern
+78774709,78774640,Asplenium dielpallidum,PT,Fern
+78777138,78777135,Cyanea grimesiana,SL,Shrub - large
+78777138,78777135,Cyanea grimesiana,SS,Shrub - small
+78777222,78777213,Cyanea lobata,SS,Shrub - small
+78777287,78777282,Cyanea longiflora,SS,Shrub - small
+78777314,78777299,Cyanea magnicalyx,SS,Shrub - small
+78777314,78777299,Cyanea magnicalyx,SL,Shrub - large
+78777477,78777444,Cyanea platyphylla,SS,Shrub - small
+78777477,78777444,Cyanea platyphylla,SL,Shrub - large
+78777788,78777783,Cyanea shipmanii,SS,Shrub - small
+78786332,78786326,Cyperus pennatiformis,GR,Graminoid
+78810739,78810736,Quercus chihuahuensis,TL,Tree - large
+78811590,78811580,Quercus cornelius-mulleri,SS,Shrub - small
+78811590,78811580,Quercus cornelius-mulleri,TS,Tree - small
+78914539,78914533,Quercus douglasii,TS,Tree - small
+78914539,78914533,Quercus douglasii,TL,Tree - large
+78921998,78921986,Quercus grisea,TS,Tree - small
+78921998,78921986,Quercus grisea,SL,Shrub - large
+78923869,78923860,Quercus hypoleucoides,SL,Shrub - large
+78923869,78923860,Quercus hypoleucoides,TS,Tree - small
+78967171,78967163,Quercus intricata,SL,Shrub - large
+78969911,78969903,Quercus oblongifolia,SL,Shrub - large
+78969911,78969903,Quercus oblongifolia,TS,Tree - small
+78970982,78970940,Quercus palmeri,SL,Shrub - large
+78970982,78970940,Quercus palmeri,TS,Tree - small
+78972404,78972401,Quercus sadleriana,SL,Shrub - large
+78978971,78978851,Quercus vacciniifolia,SS,Shrub - small
+78978971,78978851,Quercus vacciniifolia,SL,Shrub - large
+79005397,79005393,Quercus viminea,SL,Shrub - large
+79005397,79005393,Quercus viminea,TS,Tree - small
+79129558,79129553,Cyrtandra cyaneoides,SL,Shrub - large
+79751216,164219,Eleocharis geniculata,A,Annual
+79751216,164219,Eleocharis geniculata,F,Forb or Herb
+79862844,79862837,Delissea rhytidosperma,SS,Shrub - small
+79863686,79863661,Delissea takeuchii,SS,Shrub - small
+79864881,79864848,Delissea waianaeensis,SS,Shrub - small
+79866383,79866379,Dubautia plantaginea,SL,Shrub - large
+79866383,79866379,Dubautia plantaginea,TS,Tree - small
+80090399,80090392,Geranium arboreum,SL,Shrub - large
+80090399,80090392,Geranium arboreum,TS,Tree - small
+80091437,80091402,Isodendrion laurifolium,SL,Shrub - large
+80091437,80091402,Isodendrion laurifolium,TS,Tree - small
+80091571,80091565,Kadua cordata,SS,Shrub - small
+80091868,80091826,Kadua coriacea,SS,Shrub - small
+80091973,80091967,Kadua degeneri,SS,Shrub - small
+80092278,80092275,Kadua parvula,SS,Shrub - small
+80092317,80092309,Kadua st-johnii,F,Forb or Herb
+80092639,80092636,Labordia triflora,SS,Shrub - small
+80166509,80166506,Lobelia oahuensis,SS,Shrub - small
+80166509,80166506,Lobelia oahuensis,SL,Shrub - large
+80166827,80166801,Lysimachia maxima,SS,Shrub - small
+80167407,80167382,Melanthera fauriei,SS,Shrub - small
+80167432,80167423,Melanthera kamolensis,F,Forb or Herb
+80167627,80167580,Melanthera micrantha,F,Forb or Herb
+80167994,80167978,Melanthera waimeaensis,F,Forb or Herb
+80168188,80168163,Melicope adscendens,SL,Shrub - large
+80168330,80168308,Melicope lydgatei,SS,Shrub - small
+80172818,80172785,Melicope reflexa,SL,Shrub - large
+80173296,80173279,Myrsine linearifolia,SL,Shrub - large
+80173296,80173279,Myrsine linearifolia,TS,Tree - small
+80173360,80173352,Neraudia angulata,SS,Shrub - small
+80173360,80173352,Neraudia angulata,SL,Shrub - large
+80173454,80173451,Nototrichium humile,SS,Shrub - small
+80173711,80173703,Panicum niihauense,GR,Graminoid
+80174315,80174299,Phyllostegia haliakalae,F,Forb or Herb
+80174331,80174327,Phyllostegia hirsuta,SS,Shrub - small
+80174360,80174349,Phyllostegia hispida,V,Vines
+80174390,80174379,Phyllostegia knudsenii,SS,Shrub - small
+80174466,80174447,Phyllostegia parviflora,F,Forb or Herb
+80174466,80174447,Phyllostegia parviflora,SS,Shrub - small
+80174875,80174830,Phyllostegia waimeae,F,Forb or Herb
+80174908,80174894,Phyllostegia warshaueri,V,Vines
+80175086,80175066,Phyllostegia wawrana,F,Forb or Herb
+80176840,80176565,Poa mannii,GR,Graminoid
+80176961,80176944,Poa siphonoglossa,GR,Graminoid
+80180195,80180177,Portulaca sclerocarpa,F,Forb or Herb
+80212519,80212515,Sanicula mariversa,F,Forb or Herb
+80217975,80217972,Schiedea haleakalensis,SS,Shrub - small
+80218200,80218194,Schiedea hookeri,SS,Shrub - small
+80219484,80219480,Silene alexandri,SS,Shrub - small
+80219567,80219542,Silene perlmanii,SS,Shrub - small
+80219651,80219624,Solanum incompletum,SL,Shrub - large
+80220205,80220185,Stenogyne bifida,F,Forb or Herb
+80220397,80220314,Stenogyne kanehoana,V,Vines
+80220996,80220991,Tetramolopium rockii,SS,Shrub - small
+80221198,80221174,Trematolobelia singularis,SS,Shrub - small
+80221235,80221227,Vicia menziesii,F,Forb or Herb
+80221235,80221227,Vicia menziesii,V,Vines
+80221371,80221367,Viola chamissoniana,SS,Shrub - small
+80228754,80228720,Polyscias bisattenuata,TL,Tree - large
+80228805,80228773,Polyscias flynnii,T,Tree - size unknown
+80228923,80228875,Pritchardia flynnii,TL,Tree - large
+80228956,80228952,Pritchardia minor,TL,Tree - large
+80229060,80229055,Asplenium diellaciniatum,PT,Fern
+80229092,80229074,Asplenium dielmannii,PT,Fern
+80230380,80230346,Lepidium serra,SS,Shrub - small
+80230474,80230419,Cyanea kolekoleensis,SS,Shrub - small
+80230941,80230682,Schiedea viscosa,V,Vines
+80231479,80231460,Canavalia kauaiensis,V,Vines
+80231679,80231538,Geranium kauaiense,SS,Shrub - small
+80231775,80231759,Cyrtandra heinrichii,F,Forb or Herb
+80231936,80231899,Cyrtandra oenobarba,SS,Shrub - small
+80231960,80231951,Cyrtandra paliku,SS,Shrub - small
+80232072,80232055,Phyllostegia electra,F,Forb or Herb
+80232090,80232087,Phyllostegia helleri,F,Forb or Herb
+80232114,80232109,Phyllostegia kahiliensis,F,Forb or Herb
+80232168,80232159,Phyllostegia renovans,SS,Shrub - small
+80232353,80232348,Labordia helleri,SS,Shrub - small
+80232463,80232429,Labordia lorenceana,SS,Shrub - small
+80232546,80232542,Pittosporum gayanum,TS,Tree - small
+80232570,80232566,Festuca aloha,GR,Graminoid
+80232606,80232582,Lysimachia daphnoides,SS,Shrub - small
+80232770,80232735,Lysimachia iniki,SS,Shrub - small
+80232980,80232847,Lysimachia ovoidea,SS,Shrub - small
+80233025,80233005,Lysimachia pendens,SS,Shrub - small
+80233168,80233116,Lysimachia scopulensis,SS,Shrub - small
+80233256,80233182,Lysimachia venosa,SS,Shrub - small
+80233480,80233453,Doryopteris angelica,PT,Fern
+80233709,80233548,Kadua flynnii,SS,Shrub - small
+80233748,80233735,Kadua haupuensis,SS,Shrub - small
+80233886,80233838,Melicope degeneri,TS,Tree - small
+80233979,80233969,Platydesma rostrata,SL,Shrub - large
+80234130,80234094,Neraudia kauaiensis,SL,Shrub - large
+80958507,80603050,Allium validum,F,Forb or Herb
+80958517,80603211,Bidens amplissima,F,Forb or Herb
+80958532,80603334,Carex unilateralis,GR,Graminoid
+80958532,80603334,Carex unilateralis,F,Forb or Herb
+80958537,80603388,Chrysosplenium rosendahlii,F,Forb or Herb
+80958547,80603495,Claytonia cordifolia,F,Forb or Herb
+80958552,80603544,Claytonia sarmentosa,F,Forb or Herb
+80958557,80603599,Claytonia tuberosa,F,Forb or Herb
+80958562,80603621,Coreopsis rosea,F,Forb or Herb
+80958592,80604993,Iris lacustris,GE,Geophyte
+80958597,80605013,Juncus kelloggii,GR,Graminoid
+80958602,80605049,Juncus lesueurii,GR,Graminoid
+80958602,80605049,Juncus lesueurii,F,Forb or Herb
+80958612,80606278,Juncus oxymeris,F,Forb or Herb
+80958627,80606680,Ranunculus allenii,F,Forb or Herb
+80958642,80606791,Sidalcea hendersonii,F,Forb or Herb
+80958647,80606804,Symphyotrichum anticostense,F,Forb or Herb
+80958667,80606887,Symphyotrichum nahanniense,SS,Shrub - small
+81357901,81357846,Salix raupii,SL,Shrub - large
+81358429,81358340,Minuartia pusilla,F,Forb or Herb
+81360324,81359075,Nymphaea loriana,F,Forb or Herb
+83787008,33564,Cheirodendron dominii,TS,Tree - small
+83787008,33564,Cheirodendron dominii,SL,Shrub - large
+83787166,34055,Polyscias racemosa,TS,Tree - small
+83788584,44116,Bidens cosmoides,F,Forb or Herb
+83789215,44080,Brighamia insignis,S,Shrub - size unknown
+83789783,30767,Clermontia peleana,E,Epiphyte
+83789783,30767,Clermontia peleana,TS,Tree - small
+83789783,30767,Clermontia peleana,SL,Shrub - large
+83790517,44140,Cyanea copelandii,V,Vines
+83790517,44140,Cyanea copelandii,E,Epiphyte
+83790517,44140,Cyanea copelandii,SL,Shrub - large
+83791995,44053,Cyanea truncata,SL,Shrub - large
+83794760,44079,Astelia waialealae,F,Forb or Herb
+83795552,44121,Canavalia napaliensis,V,Vines
+83795719,30772,Charpentiera densiflora,TS,Tree - small
+83801583,30930,Hibiscadelphus distans,TS,Tree - small
+83801583,30930,Hibiscadelphus distans,SL,Shrub - large
+83806087,30972,Wikstroemia villosa,SL,Shrub - large
+83806087,30972,Wikstroemia villosa,TS,Tree - small
+83999434,164482,Ottelia alismoides,H,Hydrophyte
+84269491,164058,Carex acutiformis,GR,Graminoid
+84269491,164058,Carex acutiformis,GE,Geophyte
+84275593,164129,Alisma plantago-aquatica,H,Hydrophyte
+84276761,168967,Blyxa aubertii,H,Hydrophyte
+84287155,164042,Juncus bufonius,A,Annual
+84287155,164042,Juncus bufonius,F,Forb or Herb
+84289063,164103,Lemna gibba,A,Annual
+84289063,164103,Lemna gibba,F,Forb or Herb
+84289752,164467,Lemna trisulca,F,Forb or Herb
+84289752,164467,Lemna trisulca,H,Hydrophyte
+84300723,164165,Typha latifolia,H,Hydrophyte
+84300723,164165,Typha latifolia,F,Forb or Herb
+84939383,84939369,Casasia clusiifolia,SL,Shrub - large
+86066804,64175911,Calopogon multiflorus,F,Forb or Herb
+86136031,83752938,Erica lusitanica,SL,Shrub - large
+86138815,19891755,Ulex europaeus,SL,Shrub - large
+86599185,194233,Quercus similis,TL,Tree - large
+86599508,72420423,Quercus laceyi,TL,Tree - large
+88108282,30953,Quercus arkansana,TS,Tree - small
+88667308,86583109,Quercus durata,SL,Shrub - large
+88667798,86583133,Quercus john-tuckeri,SL,Shrub - large
+88668862,34021,Quercus robusta,T,Tree - size unknown
+88668914,30958,Quercus tardifolia,T,Tree - size unknown
+89254811,89254808,Quercus wislizeni,SL,Shrub - large
+89254811,89254808,Quercus wislizeni,TS,Tree - small
+89587721,18942466,Eragrostis prolifera,GR,Graminoid
+91076881,30920,Cyanea marksii,SL,Shrub - large
+91115860,91115847,Lobelia gaudichaudii,SS,Shrub - small
+91150610,91150579,Adenophorus epigaeus,PT,Fern
+91151192,91150858,Artemisia kauaiensis,SS,Shrub - small
+91151536,91151440,Astelia argyrocoma,F,Forb or Herb
+91151536,91151440,Astelia argyrocoma,E,Epiphyte
+91153989,91153800,Bidens valida,F,Forb or Herb
+91154642,91154618,Carex kauaiensis,GR,Graminoid
+91155572,91155227,Charpentiera elliptica,TS,Tree - small
+95817407,62929,Santalum freycinetianum,TS,Tree - small
+95817407,62929,Santalum freycinetianum,SS,Shrub - small
+96443673,96443671,Fraxinus anomala,SL,Shrub - large
+96443673,96443671,Fraxinus anomala,TS,Tree - small
+96443730,96443722,Fraxinus berlandieriana,TL,Tree - large
+96443776,96443765,Fraxinus cuspidata,TS,Tree - small
+96443862,96443856,Fraxinus dipetala,SL,Shrub - large
+96443862,96443856,Fraxinus dipetala,TS,Tree - small
+96443940,96443938,Fraxinus gooddingii,TS,Tree - small
+96443940,96443938,Fraxinus gooddingii,SL,Shrub - large
+96443948,96443946,Fraxinus greggii,S,Shrub - size unknown
+96443948,96443946,Fraxinus greggii,TS,Tree - small
+96444709,96444707,Fraxinus uhdei,TL,Tree - large
+96444730,96444728,Fraxinus velutina,TS,Tree - small
+96445289,63004,Fraxinus caroliniana,TL,Tree - large
+96575438,164133,Zannichellia palustris,F,Forb or Herb
+96575438,164133,Zannichellia palustris,H,Hydrophyte
+97186318,17222946,Stictocardia tiliifolia,V,Vines
+97820800,97820728,Polyscias waialealae,TS,Tree - small
+97820800,97820728,Polyscias waialealae,TL,Tree - large
+97821105,97821101,Polyscias waimeae,SL,Shrub - large
+97821105,97821101,Polyscias waimeae,TS,Tree - small
+97821105,97821101,Polyscias waimeae,TL,Tree - large
+100101097,100101021,Gossypium thurberi,SS,Shrub - small
+100672193,100503272,Eurybia furcata,F,Forb or Herb
+103451750,103451747,Acer drummondi,T,Tree - size unknown
+103451818,103451786,Acer floridanum,TL,Tree - large
+103451885,103451869,Acer grandidentatum,SL,Shrub - large
+103451885,103451869,Acer grandidentatum,TS,Tree - small
+103451931,103451921,Acer leucoderme,SL,Shrub - large
+103451931,103451921,Acer leucoderme,TS,Tree - small
+106128043,19241191,Physalis angulata,A,Annual
+106128043,19241191,Physalis angulata,F,Forb or Herb
+107275926,194213,Quercus pacifica,SL,Shrub - large
+107275926,194213,Quercus pacifica,TS,Tree - small
+109615529,19218728,Celtis australis,TL,Tree - large
+109619654,19892697,Astragalus schmolliae,F,Forb or Herb
+111189345,194069,Quercus bicolor,TL,Tree - large
+111265329,194175,Quercus incana,TS,Tree - small
+111265329,194175,Quercus incana,SL,Shrub - large
+111265467,194182,Quercus laevis,TS,Tree - small
+111265467,194182,Quercus laevis,SL,Shrub - large
+111265467,194182,Quercus laevis,TL,Tree - large
+111265611,194201,Quercus montana,TL,Tree - large
+111265845,194239,Quercus texana,TL,Tree - large
+111278885,194174,Quercus imbricaria,TL,Tree - large
+111279087,194191,Quercus margarettae,TS,Tree - small
+111279204,194202,Quercus muehlenbergii,TL,Tree - large
+111279508,194215,Quercus palustris,TL,Tree - large
+111279762,33897,Quercus prinoides,TS,Tree - small
+111279985,194232,Quercus shumardii,TL,Tree - large
+111335227,33896,Quercus ellipsoidalis,TL,Tree - large
+111335378,194126,Quercus emoryi,SL,Shrub - large
+111335378,194126,Quercus emoryi,TS,Tree - small
+111335600,194173,Quercus ilicifolia,TS,Tree - small
+111335600,194173,Quercus ilicifolia,SL,Shrub - large
+111335780,194214,Quercus pagoda,TL,Tree - large
+111335986,194190,Quercus lyrata,TL,Tree - large
+111581444,42245,Juniperus pinchotii,SL,Shrub - large
+112961614,64264155,Asclepias incarnata,F,Forb or Herb
+113525283,61919022,Fraxinus profunda,TL,Tree - large
+113899490,112680564,Oryza nivara,F,Forb or Herb
+113899490,112680564,Oryza nivara,GR,Graminoid
+114199256,33583,Chrysodracon auwahiensis,T,Tree - size unknown
+114199375,31363,Chrysodracon fernaldii,T,Tree - size unknown
+114199496,33584,Chrysodracon forbesii,T,Tree - size unknown
+114199639,33585,Chrysodracon halapepe,T,Tree - size unknown
+114200045,33586,Chrysodracon hawaiiensis,T,Tree - size unknown
+114893092,91115648,Labordia hosakana,SS,Shrub - small
+115172189,34038,Delissea kauaiensis,SS,Shrub - small
+115337731,194448,Corylus cornuta,SL,Shrub - large
+115493475,78772698,Adenophorus periens,E,Epiphyte
+115493475,78772698,Adenophorus periens,PT,Fern
+115493702,78774610,Asplenium dielfalcatum,PT,Fern
+115493966,78775516,Asplenium unisorum,PT,Fern
+115494216,78776120,Diplazium molokaiense,PT,Fern
+115494515,78777071,Marsilea villosa,V,Vines
+115494515,78777071,Marsilea villosa,PT,Fern
+115494798,78777080,Pteris lidgatei,PT,Fern
+115495079,78777176,Cyanea humboldtiana,SS,Shrub - small
+115495360,78777204,Cyanea koolauensis,SL,Shrub - large
+115495617,78777332,Cyanea mannii,SS,Shrub - small
+115495891,78777416,Cyanea mceldowneyi,SS,Shrub - small
+115496141,78777599,Cyanea remyi,SS,Shrub - small
+115496448,78777626,Cyanea rivularis,SS,Shrub - small
+115496980,78777794,Cyanea undulata,SS,Shrub - small
+115497354,78787179,Cyrtandra crenata,SS,Shrub - small
+115497572,79129577,Cyrtandra dentata,SL,Shrub - large
+115498112,79830986,Cyrtandra subumbellata,SS,Shrub - small
+115498392,79853183,Cyrtandra viridiflora,SS,Shrub - small
+115498717,79865085,Dubautia herbstobatae,SS,Shrub - small
+115498972,79866204,Dubautia latifolia,V,Vines
+115499408,79866309,Dubautia pauciflorula,SS,Shrub - small
+115500084,80090352,Exocarpos luteolus,SL,Shrub - large
+115500417,80090580,Gouania meyenii,SL,Shrub - large
+115500417,80090580,Gouania meyenii,SS,Shrub - small
+115500737,80091469,Isodendrion longifolium,SS,Shrub - small
+115501327,80091503,Isodendrion pyrifolium,SS,Shrub - small
+115501626,80091537,Kadua cookiana,F,Forb or Herb
+115501626,80091537,Kadua cookiana,SS,Shrub - small
+115501877,80092248,Kadua laxiflora,SS,Shrub - small
+115502184,80092456,Kanaloa kahoolawensis,SL,Shrub - large
+115502444,80165940,Lepidium arbuscula,SS,Shrub - small
+115502744,80166134,Lobelia koolauensis,SS,Shrub - small
+115503028,80166609,Lysimachia lydgatei,SS,Shrub - small
+115503789,80167726,Melanthera tenuifolia,F,Forb or Herb
+115504058,80172901,Myrsine juddii,SS,Shrub - small
+115504355,80173437,Neraudia sericea,SL,Shrub - large
+115504938,80212484,Remya kauaiensis,SS,Shrub - small
+115505350,80212504,Remya montgomeryi,SS,Shrub - small
+115505660,80212525,Sanicula purpurea,F,Forb or Herb
+115505937,80217216,Schiedea apokremnos,SS,Shrub - small
+115506232,80218137,Schiedea helleri,V,Vines
+115506576,80218247,Schiedea kauaiensis,F,Forb or Herb
+115506982,80218288,Schiedea kealiae,SS,Shrub - small
+115507263,80218319,Schiedea nuttallii,SS,Shrub - small
+115507560,80218373,Schiedea perlmanii,F,Forb or Herb
+115507906,80218429,Schiedea membranacea,SS,Shrub - small
+115508170,80219156,Schiedea spergulina,F,Forb or Herb
+115508583,80219174,Schiedea stellarioides,F,Forb or Herb
+115508926,80220290,Stenogyne campanulata,F,Forb or Herb
+115509218,80221505,Viola helenae,F,Forb or Herb
+115509552,80224011,Viola oahuensis,SS,Shrub - small
+115509811,80224047,Wilkesia hobdyi,SS,Shrub - small
+115510171,80229156,Dubautia kalalauensis,SL,Shrub - large
+115510171,80229156,Dubautia kalalauensis,TS,Tree - small
+115510429,80229184,Dubautia kenwoodii,TS,Tree - small
+115510429,80229184,Dubautia kenwoodii,SL,Shrub - large
+115510680,80229274,Sadleria wagneriana,PT,Fern
+115510951,80230301,Lepidium orbiculare,F,Forb or Herb
+115511187,80230488,Cyanea kuhihewa,TS,Tree - small
+115511187,80230488,Cyanea kuhihewa,SL,Shrub - large
+115511371,80230525,Schiedea attenuata,SS,Shrub - small
+115511697,80230597,Schiedea lychnoides,V,Vines
+115513161,80232294,Stenogyne kealiae,F,Forb or Herb
+116337224,194521,Betula pubescens,SL,Shrub - large
+116337224,194521,Betula pubescens,TL,Tree - large
+117270613,172098,Aegilops ventricosa,GR,Graminoid
+117270613,172098,Aegilops ventricosa,A,Annual
+119232727,152925,Acanthocereus tetragonus,SH,Succulent - shrub
+120745329,33606,Mezoneuron kavaiense,T,Tree - size unknown
+121435805,152093,Ariocarpus fissuratus,SC,Succulent - form unknown
+121438670,40961,Astrophytum asterias,SH,Succulent - shrub
+121438670,40961,Astrophytum asterias,SC,Succulent - form unknown
+121439029,46517,Brasiliopuntia brasiliensis,ST,Succulent - tree
+121440161,62363,Coryphantha robustispina,SH,Succulent - shrub
+121440333,62364,Epithelantha micromeris,SH,Succulent - shrub
+121440514,151193,Echinocereus poselgeri,SH,Succulent - shrub
+121440514,151193,Echinocereus poselgeri,GE,Geophyte
+121440822,151712,Cylindropuntia versicolor,SH,Succulent - shrub
+121442956,151777,Corynopuntia schottii,SH,Succulent - shrub
+121443112,151779,Corynopuntia emoryi,SH,Succulent - shrub
+121444783,151819,Echinocereus fasciculatus,SH,Succulent - shrub
+121446611,151872,Coryphantha ramillosa,SH,Succulent - shrub
+121447511,151886,Echinocereus reichenbachii,SH,Succulent - shrub
+121450287,151936,Cylindropuntia californica,SH,Succulent - shrub
+121452534,151980,Bergerocactus emoryi,SH,Succulent - shrub
+121454316,152015,Corynopuntia pulchella,SH,Succulent - shrub
+121454616,152021,Echinocereus papillosus,SH,Succulent - shrub
+121455315,152032,Echinocereus viridiflorus,SH,Succulent - shrub
+121455943,152048,Echinocereus pectinatus,SH,Succulent - shrub
+121456482,152053,Echinocactus horizonthalonius,SH,Succulent - shrub
+121456709,152054,Corynopuntia grahamii,SH,Succulent - shrub
+121457023,152059,Echinocereus pentalophus,SH,Succulent - shrub
+121457365,152066,Echinocereus rigidissimus,SH,Succulent - shrub
+121459369,152128,Cylindropuntia arbuscula,SH,Succulent - shrub
+121460549,152140,Coryphantha echinus,SH,Succulent - shrub
+121460697,152144,Cylindropuntia imbricata,SH,Succulent - shrub
+121462084,152184,Echinocereus pseudopectinatus,SH,Succulent - shrub
+121463477,152221,Echinocactus polycephalus,SH,Succulent - shrub
+121464227,152239,Echinocereus dasyacanthus,SH,Succulent - shrub
+121464528,152246,Cylindropuntia prolifera,SH,Succulent - shrub
+121465443,152260,Echinocereus stramineus,SH,Succulent - shrub
+121467346,152293,Cylindropuntia munzii,SH,Succulent - shrub
+121468353,152305,Echinocereus arizonicus,SH,Succulent - shrub
+121468510,152307,Cylindropuntia davisii,SH,Succulent - shrub
+121468948,152312,Echinocereus coccineus,SH,Succulent - shrub
+121470314,152347,Corynopuntia kunzei,SH,Succulent - shrub
+121470599,152355,Echinocereus berlandieri,SH,Succulent - shrub
+121473829,152410,Echinocereus triglochidiatus,SH,Succulent - shrub
+121474761,152447,Cylindropuntia fulgida,SH,Succulent - shrub
+121475345,152453,Epithelantha bokei,SH,Succulent - shrub
+121476885,152495,Carnegiea gigantea,ST,Succulent - tree
+121477560,152528,Coryphantha sulcata,SH,Succulent - shrub
+121477750,152534,Cylindropuntia spinosior,SH,Succulent - shrub
+121478141,152538,Coryphantha nickelsiae,SH,Succulent - shrub
+121479637,152578,Coryphantha recurvata,SH,Succulent - shrub
+121480407,152600,Cylindropuntia leptocaulis,SH,Succulent - shrub
+121481119,152613,Corynopuntia clavata,SH,Succulent - shrub
+121482267,152642,Cylindropuntia tunicata,SH,Succulent - shrub
+121482870,152655,Coryphantha difficilis,SH,Succulent - shrub
+121483033,152659,Cylindropuntia bigelovii,SH,Succulent - shrub
+121483790,152673,Corynopuntia parishiorum,SH,Succulent - shrub
+121484139,152682,Echinocereus fendleri,SH,Succulent - shrub
+121484472,152692,Echinocereus enneacanthus,SH,Succulent - shrub
+121485736,152721,Cylindropuntia whipplei,SH,Succulent - shrub
+121486897,152740,Cylindropuntia echinocarpa,SH,Succulent - shrub
+121487332,152764,Echinocereus nicholii,SH,Succulent - shrub
+121487726,152776,Cylindropuntia abyssi,SH,Succulent - shrub
+121488178,152783,Cylindropuntia ganderi,SH,Succulent - shrub
+121488318,152784,Echinocereus russanthus,SH,Succulent - shrub
+121489740,152811,Coryphantha macromeris,SH,Succulent - shrub
+121491125,152837,Corynopuntia aggeria,SH,Succulent - shrub
+121491259,152845,Echinocereus bonkerae,SH,Succulent - shrub
+121491804,152855,Cylindropuntia acanthocarpa,SH,Succulent - shrub
+121491985,152859,Cylindropuntia kleiniae,SH,Succulent - shrub
+121492205,152860,Cylindropuntia wolfii,SH,Succulent - shrub
+121492784,152878,Echinocactus texensis,SH,Succulent - shrub
+121493754,152898,Echinocereus engelmannii,SH,Succulent - shrub
+121494104,152902,Echinocereus ledingii,SH,Succulent - shrub
+121494589,152915,Echinocereus santaritensis,SH,Succulent - shrub
+121495084,152923,Cylindropuntia ramosissima,SH,Succulent - shrub
+121496929,181376,Cylindropuntia multigeniculata,SH,Succulent - shrub
+121503951,151197,Mammillaria lasiacantha,SH,Succulent - shrub
+121505261,151721,Escobaria tuberculosa,SH,Succulent - shrub
+121506370,151738,Mammillaria sphaerica,SH,Succulent - shrub
+121507984,151766,Escobaria hesteri,SH,Succulent - shrub
+121508124,151769,Mammillaria mainiae,SH,Succulent - shrub
+121508260,151771,Mammillaria tetrancistra,SH,Succulent - shrub
+121509902,151830,Ferocactus emoryi,SH,Succulent - shrub
+121510797,151844,Escobaria missouriensis,SH,Succulent - shrub
+121512450,151890,Ferocactus viridescens,SH,Succulent - shrub
+121515326,151962,Lophophora williamsii,SH,Succulent - shrub
+121516006,151969,Neolloydia conoidea,SH,Succulent - shrub
+121519210,152037,Ferocactus wislizeni,SH,Succulent - shrub
+121523094,152135,Escobaria emskoetteriana,SH,Succulent - shrub
+121524270,152157,Escobaria dasyacantha,SH,Succulent - shrub
+121525667,152183,Hylocereus undatus,E,Epiphyte
+121525667,152183,Hylocereus undatus,L,Lithophyte
+121525667,152183,Hylocereus undatus,SH,Succulent - shrub
+121527679,152233,Escobaria vivipara,SH,Succulent - shrub
+121528680,152256,Harrisia gracilis,SH,Succulent - shrub
+121529777,152284,Mammillaria dioica,SH,Succulent - shrub
+121531579,152329,Escobaria alversonii,SH,Succulent - shrub
+121532036,152338,Mammillaria wrightii,SH,Succulent - shrub
+121532824,152350,Escobaria minima,SH,Succulent - shrub
+121534460,152423,Mammillaria thornberi,SH,Succulent - shrub
+121534621,152425,Mammillaria pottsii,SH,Succulent - shrub
+121534771,152430,Escobaria duncanii,SH,Succulent - shrub
+121536725,152479,Mammillaria prolifera,SH,Succulent - shrub
+121539513,152556,Ferocactus cylindraceus,SH,Succulent - shrub
+121543560,152639,Escobaria sneedii,SH,Succulent - shrub
+121543756,152645,Escobaria robbinsorum,SH,Succulent - shrub
+121546147,152723,Mammillaria grahamii,SH,Succulent - shrub
+121548701,152786,Mammillaria heyderi,SH,Succulent - shrub
+121552237,152900,Ferocactus hamatacanthus,SH,Succulent - shrub
+121558980,46508,Pereskia aculeata,V,Vines
+121561919,62378,Rhipsalis baccifera,SH,Succulent - shrub
+121561919,62378,Rhipsalis baccifera,E,Epiphyte
+121565302,151747,Opuntia polyacantha,SH,Succulent - shrub
+121565810,151764,Pachycereus schottii,SH,Succulent - shrub
+121566290,151778,Sclerocactus polyancistrus,SH,Succulent - shrub
+121569995,151842,Stenocereus thurberi,SH,Succulent - shrub
+121569995,151842,Stenocereus thurberi,ST,Succulent - tree
+121570185,151845,Sclerocactus glaucus,SH,Succulent - shrub
+121570879,151852,Opuntia aureispina,SH,Succulent - shrub
+121571003,151859,Thelocactus setispinus,SH,Succulent - shrub
+121572262,151913,Opuntia fragilis,SH,Succulent - shrub
+121572585,151915,Pediocactus peeblesianus,SH,Succulent - shrub
+121574153,151954,Opuntia aurea,SH,Succulent - shrub
+121574408,151972,Opuntia pottsii,SH,Succulent - shrub
+121575769,152020,Pilosocereus polygonus,ST,Succulent - tree
+121577101,152052,Sclerocactus mariposensis,SH,Succulent - shrub
+121578914,152090,Sclerocactus whipplei,SH,Succulent - shrub
+121579218,152099,Sclerocactus pubispinus,SH,Succulent - shrub
+121581008,152154,Sclerocactus warnockii,SH,Succulent - shrub
+121581140,152155,Pediocactus nigrispinus,SH,Succulent - shrub
+121581671,152166,Peniocereus greggii,SH,Succulent - shrub
+121582119,152187,Sclerocactus intertextus,SH,Succulent - shrub
+121582858,152203,Opuntia littoralis,SH,Succulent - shrub
+121586749,152298,Sclerocactus parviflorus,SH,Succulent - shrub
+121587572,152316,Opuntia basilaris,SH,Succulent - shrub
+121588774,152343,Thelocactus bicolor,SH,Succulent - shrub
+121589234,152354,Opuntia rufida,SH,Succulent - shrub
+121590014,152366,Opuntia chlorotica,SH,Succulent - shrub
+121590189,152367,Sclerocactus papyracanthus,SH,Succulent - shrub
+121590513,152371,Opuntia macrorhiza,SH,Succulent - shrub
+121591012,152374,Opuntia humifusa,SH,Succulent - shrub
+121591665,152400,Sclerocactus spinosior,SH,Succulent - shrub
+121593961,152457,Peniocereus striatus,SH,Succulent - shrub
+121594584,152465,Pediocactus bradyi,SH,Succulent - shrub
+121597996,152519,Sclerocactus mesae-verdae,SH,Succulent - shrub
+121598710,152531,Opuntia engelmannii,SH,Succulent - shrub
+121598932,152535,Sclerocactus brevihamatus,SH,Succulent - shrub
+121600035,152567,Sclerocactus uncinatus,SH,Succulent - shrub
+121602125,152633,Selenicereus spinulosus,SH,Succulent - shrub
+121602125,152633,Selenicereus spinulosus,E,Epiphyte
+121602438,152640,Sclerocactus wrightiae,SH,Succulent - shrub
+121604306,152679,Pediocactus sileri,SH,Succulent - shrub
+121604669,152685,Opuntia aciculata,SH,Succulent - shrub
+121606684,152717,Sclerocactus erectocentrus,SH,Succulent - shrub
+121607317,152736,Selenicereus grandiflorus,SH,Succulent - shrub
+121609014,152758,Pediocactus simpsonii,SH,Succulent - shrub
+121609318,152768,Opuntia oricola,ST,Succulent - tree
+121609318,152768,Opuntia oricola,SH,Succulent - shrub
+121609630,152773,Opuntia stricta,SH,Succulent - shrub
+121611295,152815,Sclerocactus johnsonii,SH,Succulent - shrub
+121611617,152820,Sclerocactus scheeri,SH,Succulent - shrub
+121612761,152846,Opuntia macrocentra,SH,Succulent - shrub
+121613069,152850,Opuntia strigil,SH,Succulent - shrub
+121613191,152851,Opuntia phaeacantha,SH,Succulent - shrub
+121614199,152871,Opuntia atrispina,SH,Succulent - shrub
+121614485,152874,Opuntia robusta,SH,Succulent - shrub
+121616105,152901,Opuntia pinkavae,SH,Succulent - shrub
+121617944,152942,Opuntia pusilla,SH,Succulent - shrub
+121619059,153107,Pediocactus winkleri,SH,Succulent - shrub
+121619198,153464,Pediocactus despainii,SH,Succulent - shrub
+121619481,181377,Sclerocactus wetlandicus,SH,Succulent - shrub
+121619633,181379,Sclerocactus sileri,SH,Succulent - shrub
+121620403,199641,Opuntia ammophila,SH,Succulent - shrub
+121620558,199642,Opuntia austrina,SH,Succulent - shrub
+121620718,199644,Opuntia lata,SH,Succulent - shrub
+121620886,199645,Opuntia pollardii,SH,Succulent - shrub
+121712286,164494,Phragmites australis,GR,Graminoid
+121712286,164494,Phragmites australis,GE,Geophyte
+121745227,152903,Pediocactus knowltonii,SH,Succulent - shrub
+121893624,177167,Commelina caroliniana,A,Annual
+121893624,177167,Commelina caroliniana,F,Forb or Herb
+121894451,164051,Eclipta prostrata,A,Annual
+121894451,164051,Eclipta prostrata,F,Forb or Herb
+121902124,64311338,Epilobium ciliatum,F,Forb or Herb
+121917281,168653,Kyllinga brevifolia,GE,Geophyte
+122927579,122927323,Ilex ambigua,TS,Tree - small
+122927579,122927323,Ilex ambigua,S,Shrub - size unknown
+122927584,122927373,Ilex amelanchier,SL,Shrub - large
+122927584,122927373,Ilex amelanchier,TS,Tree - small
+122927594,122927419,Ilex decidua,SL,Shrub - large
+122927594,122927419,Ilex decidua,TS,Tree - small
+122927604,122927429,Ilex laevigata,S,Shrub - size unknown
+122927604,122927429,Ilex laevigata,TS,Tree - small
+122927609,122927459,Ilex longipes,SL,Shrub - large
+122927609,122927459,Ilex longipes,TS,Tree - small
+122927614,64318779,Ilex mucronata,SS,Shrub - small
+122927614,64318779,Ilex mucronata,SL,Shrub - large
+122927614,64318779,Ilex mucronata,TS,Tree - small
+122927619,122927472,Ilex myrtifolia,TS,Tree - small
+122927619,122927472,Ilex myrtifolia,SL,Shrub - large
+122927624,122927488,Ilex verticillata,SS,Shrub - small
+122927624,122927488,Ilex verticillata,SL,Shrub - large
+122927624,122927488,Ilex verticillata,TS,Tree - small
+123000640,123000619,Ilex collina,SS,Shrub - small
+123000640,123000619,Ilex collina,SL,Shrub - large
+123000640,123000619,Ilex collina,TS,Tree - small
+123000701,123000685,Ilex glabra,SL,Shrub - large
+123600091,123600074,Ilex coriacea,SL,Shrub - large
+123600091,123600074,Ilex coriacea,TS,Tree - small
+125923759,193546,Acer glabrum,SL,Shrub - large
+125923759,193546,Acer glabrum,TS,Tree - small
+126194528,126194480,Carya tomentosa,TL,Tree - large
+1228302,168782,Rhynchospora rugosa,GR,Graminoid
+1228302,168782,Rhynchospora rugosa,F,Forb or Herb
+1258665,168969,Cyperus haspan,GR,Graminoid
+1258665,168969,Cyperus haspan,F,Forb or Herb
+1461592,131762561,Cyperus sesquiflorus,F,Forb or Herb
+1461592,131762561,Cyperus sesquiflorus,GR,Graminoid
+2287797,193872,Acer spicatum,TS,Tree - small
+13490765,13490755,Cenchrus setaceus,GR,Graminoid
+17661152,177074,Echinochloa frumentacea,A,Annual
+17661152,177074,Echinochloa frumentacea,F,Forb or Herb
+61957527,61957524,Prunus serotina,TL,Tree - large
+61959828,61959821,Populus deltoides,TL,Tree - large
+61960136,61960127,Populus tremuloides,TS,Tree - small
+61960136,61960127,Populus tremuloides,TL,Tree - large
+61990538,61990536,Cornus florida,SL,Shrub - large
+61990538,61990536,Cornus florida,TS,Tree - small
+61990570,61990567,Nyssa ogeche,TS,Tree - small
+62019624,62019622,Carya illinoinensis,TL,Tree - large
+62026063,62026061,Gleditsia triacanthos,TL,Tree - large
+62026718,62026716,Olneya tesota,TS,Tree - small
+65923957,164060,Cyperus laevigatus,GR,Graminoid
+65923957,164060,Cyperus laevigatus,F,Forb or Herb
+66785481,66785479,Carya floridana,SL,Shrub - large
+66785481,66785479,Carya floridana,TS,Tree - small
+66785481,66785479,Carya floridana,TL,Tree - large
+66789184,66789177,Carya texana,TL,Tree - large
+66906647,168912,Cyperus alternifolius,F,Forb or Herb
+66906647,168912,Cyperus alternifolius,GR,Graminoid
+67770327,164082,Adiantum capillus-veneris,GE,Geophyte
+67776407,177028,Commelina diffusa,F,Forb or Herb
+67776407,177028,Commelina diffusa,A,Annual
+68077480,62572,Umbellularia californica,TS,Tree - small
+68077480,62572,Umbellularia californica,TL,Tree - large
+68133259,62026287,Leucaena pulverulenta,SL,Shrub - large
+68133259,62026287,Leucaena pulverulenta,TS,Tree - small
+78757481,62743,Hibiscus brackenridgei,SS,Shrub - small
+78757481,62743,Hibiscus brackenridgei,SL,Shrub - large
+78757481,62743,Hibiscus brackenridgei,TS,Tree - small
+78766712,44153,Cenchrus agrimonioides,GR,Graminoid
+80087812,80087743,Eragrostis fosbergii,GR,Graminoid
+80166480,80166475,Lobelia niihauensis,SS,Shrub - small
+80174429,80174419,Phyllostegia mannii,V,Vines
+80174659,80174634,Phyllostegia pilosa,SS,Shrub - small
+80174659,80174634,Phyllostegia pilosa,V,Vines
+80175443,80175325,Plantago hawaiensis,F,Forb or Herb
+80218312,80218307,Schiedea lydgatei,SS,Shrub - small
+80218492,80218482,Schiedea sarmentosa,SS,Shrub - small
+80219249,80219238,Schiedea verticillata,F,Forb or Herb
+80220564,80220552,Tetramolopium capillare,SS,Shrub - small
+83787605,38647,Pritchardia kaalae,TS,Tree - small
+83799421,30778,Eugenia koolauensis,TS,Tree - small
+83799515,44130,Euphorbia deppeana,SS,Shrub - small
+83799674,30925,Euphorbia haeleeleana,TS,Tree - small
+83799836,33602,Euphorbia herbstii,TS,Tree - small
+83799836,33602,Euphorbia herbstii,SL,Shrub - large
+83799960,44133,Euphorbia kuwaleana,SS,Shrub - small
+83800558,33604,Euphorbia rockii,T,Tree - size unknown
+83800558,33604,Euphorbia rockii,S,Shrub - size unknown
+83804639,33561,Ochrosia kauaiensis,TS,Tree - small
+83806043,30971,Wikstroemia skottsbergiana,TS,Tree - small
+83806043,30971,Wikstroemia skottsbergiana,SL,Shrub - large
+91115486,91115476,Cyanea membranacea,SL,Shrub - large
+91116111,91116107,Schiedea mannii,SS,Shrub - small
+91150643,91150638,Antidesma platyphyllum,TS,Tree - small
+91150643,91150638,Antidesma platyphyllum,TL,Tree - large
+91152980,91152973,Bidens forbesii,F,Forb or Herb
+91158077,91158071,Cheirodendron fauriei,SL,Shrub - large
+91158077,91158071,Cheirodendron fauriei,TS,Tree - small
+91161468,91161449,Chrysodracon aurea,T,Tree - size unknown
+91168806,91168785,Cibotium nealiae,PT,Fern
+91168899,91168887,Coprosma elliptica,SS,Shrub - small
+91169013,91168960,Coprosma kauensis,SL,Shrub - large
+91169013,91168960,Coprosma kauensis,TS,Tree - small
+91169234,91169123,Coprosma kawaikiniensis,TS,Tree - small
+97911062,97910910,Wilkesia gymnoxiphium,SS,Shrub - small
+97911062,97910910,Wilkesia gymnoxiphium,SL,Shrub - large
+97911585,97911574,Trematolobelia kauaiensis,SS,Shrub - small
+99015793,177091,Fuirena umbellata,GR,Graminoid
+99015793,177091,Fuirena umbellata,F,Forb or Herb
+99016461,177093,Cyperus distans,GR,Graminoid
+99016461,177093,Cyperus distans,F,Forb or Herb
+103801532,103801483,Coprosma cordicarpa,SL,Shrub - large
+103801532,103801483,Coprosma cordicarpa,TS,Tree - small
+103801952,103801946,Cyanea konahuanuiensis,SS,Shrub - small
+103802955,103802920,Melicope oppenheimeri,TS,Tree - small
+103804037,103804024,Metrosideros macropus,TS,Tree - small
+103804037,103804024,Metrosideros macropus,TL,Tree - large
+103804109,103804082,Metrosideros rugosa,TS,Tree - small
+103804124,103804120,Metrosideros tremuloides,TS,Tree - small
+103804124,103804120,Metrosideros tremuloides,TL,Tree - large
+104430427,104430418,Physalis caudella,F,Forb or Herb
+104430980,104430975,Physalis cinerascens,F,Forb or Herb
+104431052,104431036,Physalis cordata,A,Annual
+105907530,105907527,Physalis crassifolia,F,Forb or Herb
+114849617,114849613,Athyrium haleakalae,PT,Fern
+114849663,114849627,Lysimachia glutinosa,SS,Shrub - small
+114849722,114849693,Lysimachia kalalauensis,SS,Shrub - small
+117196633,117196619,Daucus pusillus,A,Annual
+117196633,117196619,Daucus pusillus,F,Forb or Herb
+120124962,164404,Lemna aequinoctialis,H,Hydrophyte
+120143653,164459,Ceratophyllum demersum,H,Hydrophyte
+120145118,177240,Commelina benghalensis,A,Annual
+120145118,177240,Commelina benghalensis,F,Forb or Herb
+120145878,168908,Ipomoea aquatica,F,Forb or Herb
+120147992,164443,Cyperus alopecuroides,GR,Graminoid
+120147992,164443,Cyperus alopecuroides,F,Forb or Herb
+120148551,177321,Cyperus amabilis,A,Annual
+120148551,177321,Cyperus amabilis,F,Forb or Herb
+120149016,164147,Cyperus articulatus,GR,Graminoid
+120149016,164147,Cyperus articulatus,F,Forb or Herb
+120149016,164147,Cyperus articulatus,H,Hydrophyte
+120149831,164257,Cyperus compressus,GR,Graminoid
+120149831,164257,Cyperus compressus,A,Annual
+120152171,164158,Cyperus papyrus,F,Forb or Herb
+120152171,164158,Cyperus papyrus,GR,Graminoid
+120153257,158183,Cyperus rotundus,GR,Graminoid
+120153257,158183,Cyperus rotundus,F,Forb or Herb
+120154840,177290,Cyperus squarrosus,F,Forb or Herb
+120154840,177290,Cyperus squarrosus,GR,Graminoid
+120157948,157979,Cyperus flavescens,GR,Graminoid
+120157948,157979,Cyperus flavescens,F,Forb or Herb
+120158712,120158708,Cyperus hystricoides,GR,Graminoid
+120158712,120158708,Cyperus hystricoides,F,Forb or Herb
+120159114,120159111,Cyperus lanceolatus,GR,Graminoid
+120159114,120159111,Cyperus lanceolatus,F,Forb or Herb
+120159483,177048,Cyperus macrostachyos,GR,Graminoid
+120159483,177048,Cyperus macrostachyos,A,Annual
+120159483,177048,Cyperus macrostachyos,F,Forb or Herb
+120160815,164195,Cyperus polystachyos,GR,Graminoid
+120160815,164195,Cyperus polystachyos,F,Forb or Herb
+120170359,120170355,Eleocharis nigrescens,GR,Graminoid
+120170359,120170355,Eleocharis nigrescens,F,Forb or Herb
+120180338,120180276,Scleria distans,GR,Graminoid
+120180338,120180276,Scleria distans,F,Forb or Herb
+120183780,14828406,Equisetum ramosissimum,PT,Fern
+120202807,120202792,Dicranopteris linearis,F,Forb or Herb
+120202807,120202792,Dicranopteris linearis,PT,Fern
+120202807,120202792,Dicranopteris linearis,L,Lithophyte
+120214367,120214361,Ludwigia leptocarpa,F,Forb or Herb
+120214367,120214361,Ludwigia leptocarpa,SS,Shrub - small
+120215159,13490727,Cenchrus macrourus,GR,Graminoid
+120222480,16241920,Ceratopteris cornuta,PT,Fern
+120230697,164350,Cyclosorus interruptus,PT,Fern
+120980468,120979891,Baphia massaiensis,SL,Shrub - large
+120980468,120979891,Baphia massaiensis,TS,Tree - small
+122395452,19375580,Senna obtusifolia,F,Forb or Herb
+122396032,65899567,Guilandina bonduc,SL,Shrub - large
+122396032,65899567,Guilandina bonduc,TS,Tree - small
+122396227,62026169,Haematoxylum campechianum,SS,Shrub - small
+122927589,122927400,Ilex cuthbertii,SL,Shrub - large
+122927589,122927400,Ilex cuthbertii,TS,Tree - small
+126589484,79927480,Salix glauca,SL,Shrub - large
+126589484,79927480,Salix glauca,TS,Tree - small
+126591010,126588435,Salix alaxensis,TS,Tree - small
+126591010,126588435,Salix alaxensis,SL,Shrub - large
+126591015,126588956,Salix amygdaloides,SL,Shrub - large
+126591015,126588956,Salix amygdaloides,TS,Tree - small
+126591020,126588988,Salix arbusculoides,TL,Tree - large
+126591025,126589010,Salix barclayi,S,Shrub - size unknown
+126591030,126589074,Salix bonplandiana,TS,Tree - small
+126591040,126589170,Salix caroliniana,TS,Tree - small
+126591040,126589170,Salix caroliniana,SL,Shrub - large
+126591045,126589188,Salix discolor,SL,Shrub - large
+126591045,126589188,Salix discolor,TS,Tree - small
+126591050,126589236,Salix exigua,SS,Shrub - small
+126591050,126589236,Salix exigua,SL,Shrub - large
+126591055,126589461,Salix geyeriana,SS,Shrub - small
+126591055,126589461,Salix geyeriana,SL,Shrub - large
+126591060,126589665,Salix gooddingii,TS,Tree - small
+126591060,126589665,Salix gooddingii,TL,Tree - large
+126591065,126589685,Salix hookeriana,TS,Tree - small
+126591065,126589685,Salix hookeriana,SL,Shrub - large
+126591070,126589800,Salix interior,TS,Tree - small
+126591075,126589815,Salix lasiolepis,SL,Shrub - large
+126591075,126589815,Salix lasiolepis,TS,Tree - small
+126591080,126589853,Salix ligulifolia,SL,Shrub - large
+126591085,126590173,Salix lucida,TL,Tree - large
+126591090,126590256,Salix maccalliana,SL,Shrub - large
+126591095,126590302,Salix myricoides,SS,Shrub - small
+126591095,126590302,Salix myricoides,SL,Shrub - large
+126591100,126590319,Salix pellita,SL,Shrub - large
+126591100,126590319,Salix pellita,TS,Tree - small
+126591105,126590342,Salix pseudomyrsinites,SL,Shrub - large
+126591110,126590480,Salix richardsonii,SL,Shrub - large
+126591110,126590480,Salix richardsonii,TS,Tree - small
+126591115,126590504,Salix scouleriana,SL,Shrub - large
+126591115,126590504,Salix scouleriana,TS,Tree - small
+126591120,126590565,Salix sessilifolia,SL,Shrub - large
+126591125,126590674,Salix sitchensis,SL,Shrub - large
+126591125,126590674,Salix sitchensis,TS,Tree - small
+126591130,126590688,Salix taxifolia,SL,Shrub - large
+126591130,126590688,Salix taxifolia,TS,Tree - small
+130047033,130047024,Cornus alternifolia,SL,Shrub - large
+130047033,130047024,Cornus alternifolia,TS,Tree - small
+130047062,130047059,Cornus amomum,SL,Shrub - large
+130047062,130047059,Cornus amomum,TS,Tree - small
+130048322,130048308,Cornus drummondii,SS,Shrub - small
+130048322,130048308,Cornus drummondii,SL,Shrub - large
+130048385,130048382,Cornus foemina,SL,Shrub - large
+130048385,130048382,Cornus foemina,TS,Tree - small
+130048426,130048412,Cornus glabrata,SL,Shrub - large
+130048426,130048412,Cornus glabrata,TS,Tree - small
+130048883,130048880,Cornus nuttallii,SL,Shrub - large
+130048883,130048880,Cornus nuttallii,TS,Tree - small
+130049823,130049815,Cornus rugosa,SL,Shrub - large
+130049823,130049815,Cornus rugosa,TS,Tree - small
+130049869,130049866,Cornus sessilis,SL,Shrub - large
+130049869,130049866,Cornus sessilis,TS,Tree - small
+130495114,66296722,Suriana maritima,T,Tree - size unknown
+130495496,101163071,Triumfetta semitriloba,T,Tree - size unknown
+131552936,131552927,Cornus obliqua,SL,Shrub - large
+131552936,131552927,Cornus obliqua,TS,Tree - small
+132760345,81441044,Pedicularis furbishiae,F,Forb or Herb
+135821501,135821499,Trema lamarckiana,T,Tree - size unknown
+135836708,135836706,Euphorbia tithymaloides,T,Tree - size unknown
+135956079,135952473,Shepherdia argentea,T,Tree - size unknown
+135956142,135952711,Halesia carolina,T,Tree - size unknown
+135956201,135956199,Amelanchier laevis,T,Tree - size unknown
+135956272,135956270,Amelanchier bartramiana,T,Tree - size unknown
+135956342,82889952,Rhododendron maximum,T,Tree - size unknown
+135956407,135956405,Zanthoxylum americanum,T,Tree - size unknown
+135956473,135956470,Crataegus pruinosa,T,Tree - size unknown
+135956538,135956536,Crataegus punctata,T,Tree - size unknown
+135956603,135956601,Persea borbonia,T,Tree - size unknown
+135956668,135956666,Sorbus americana,T,Tree - size unknown
+135956739,135956737,Sorbus sitchensis,T,Tree - size unknown
+135956802,135952518,Viburnum lentago,T,Tree - size unknown
+135956867,135956865,Euonymus atropurpureus,T,Tree - size unknown
+135956932,135956930,Lindera benzoin,T,Tree - size unknown
+135956997,135956995,Crataegus succulenta,T,Tree - size unknown
+135957062,135957060,Crataegus submollis,T,Tree - size unknown
+135957127,135957125,Staphylea trifolia,T,Tree - size unknown
+135957192,135957190,Sorbus decora,T,Tree - size unknown
+135957263,135957261,Crataegus macrosperma,T,Tree - size unknown
+135957328,135957326,Crataegus douglasii,T,Tree - size unknown
+135957393,135957391,Crataegus chrysocarpa,T,Tree - size unknown
+135957452,135957450,Crataegus calpodendron,T,Tree - size unknown
+135957517,135957515,Crataegus mollis,T,Tree - size unknown
+135957581,124270038,Rhus glabra,T,Tree - size unknown
+135957650,83773098,Sambucus racemosa,T,Tree - size unknown
+135957714,64133468,Prunus virginiana,T,Tree - size unknown
+135957791,135957789,Crataegus crus-galli,T,Tree - size unknown
+135957856,135957854,Amelanchier interior,T,Tree - size unknown
+135957921,135957919,Amelanchier alnifolia,T,Tree - size unknown
+135957980,135957978,Amelanchier canadensis,T,Tree - size unknown
+135958045,135958043,Crataegus holmesiana,T,Tree - size unknown
+135958108,135952538,Populus angustifolia,T,Tree - size unknown
+135958177,135952557,Morella pensylvanica,T,Tree - size unknown
+135958246,126373492,Celtis pallida,T,Tree - size unknown
+135958359,135958357,Asimina triloba,T,Tree - size unknown
+136056183,61956705,Platanus occidentalis,TL,Tree - large
+136055620,96444634,Fraxinus albicans,TS,Tree - small
+136261512,172157,Allium triquetrum,GE,Geophyte
+49485759,49485755,Psidium guajava,SL,Shrub - large
+49485759,49485755,Psidium guajava,TS,Tree - small
+62019696,62019689,Juglans cinerea,TL,Tree - large
+66813150,66813121,Juglans major,TL,Tree - large
+66813479,66813477,Juglans microcarpa,SL,Shrub - large
+66813479,66813477,Juglans microcarpa,TS,Tree - small
+110688030,110688013,Aloe arborescens,SH,Succulent - shrub
+110688030,110688013,Aloe arborescens,E,Epiphyte
+120980308,120960888,Crotalaria lanceolata,A,Annual
+120980308,120960888,Crotalaria lanceolata,F,Forb or Herb
+123733770,123730244,Scleria lithosperma,GR,Graminoid
+124279013,117234456,Etlingera elatior,F,Forb or Herb
+124279013,117234456,Etlingera elatior,GE,Geophyte
+129134242,129105140,Myrcianthes fragrans,SL,Shrub - large
+129134242,129105140,Myrcianthes fragrans,TS,Tree - small
+129134242,129105140,Myrcianthes fragrans,TL,Tree - large
+143296099,143276774,Ficus citrifolia,T,Tree - size unknown
+143296470,143276748,Ficus americana,T,Tree - size unknown
+143321753,143321751,Asimina parviflora,T,Tree - size unknown
+143753393,61786470,Hibiscus tiliaceus,SL,Shrub - large
+143753393,61786470,Hibiscus tiliaceus,TS,Tree - small
+143826567,100895534,Capsicum annuum,SS,Shrub - small
+143998267,99442727,Utricularia amethystina,F,Forb or Herb
+143998517,99442739,Utricularia floridana,H,Hydrophyte
+143998517,99442739,Utricularia floridana,F,Forb or Herb
+143998658,99442744,Utricularia foliosa,H,Hydrophyte
+143998658,99442744,Utricularia foliosa,F,Forb or Herb
+143999150,99442753,Utricularia juncea,F,Forb or Herb
+143999369,99442760,Utricularia olivacea,A,Annual
+143999369,99442760,Utricularia olivacea,F,Forb or Herb
+143999369,99442760,Utricularia olivacea,H,Hydrophyte
+143999568,99442790,Utricularia striata,H,Hydrophyte
+143999568,99442790,Utricularia striata,F,Forb or Herb
+144799235,136089885,Psydrax odorata,T,Tree - size unknown
+145082692,169069,Echinochloa crus-galli,GR,Graminoid
+145082692,169069,Echinochloa crus-galli,A,Annual
+145082692,169069,Echinochloa crus-galli,F,Forb or Herb
+1019624,164022,Leersia hexandra,GR,Graminoid
+1019624,164022,Leersia hexandra,F,Forb or Herb
+1432918,176113,Vicia lathyroides,F,Forb or Herb
+19405346,176447,Lathyrus tingitanus,A,Annual
+19405346,176447,Lathyrus tingitanus,F,Forb or Herb
+19405519,176568,Lathyrus sylvestris,F,Forb or Herb
+19406412,176573,Lathyrus latifolius,F,Forb or Herb
+19407110,174708,Lathyrus cicera,F,Forb or Herb
+19407110,174708,Lathyrus cicera,A,Annual
+20694871,20681728,Ipomoea lacunosa,A,Annual
+20694871,20681728,Ipomoea lacunosa,F,Forb or Herb
+20694871,20681728,Ipomoea lacunosa,V,Vines
+20694901,20681852,Ipomoea tenuissima,F,Forb or Herb
+20694901,20681852,Ipomoea tenuissima,V,Vines
+20694946,20681691,Ipomoea cordatotriloba,F,Forb or Herb
+20694946,20681691,Ipomoea cordatotriloba,V,Vines
+20755876,20742647,Cucurbita foetidissima,V,Vines
+20755876,20742647,Cucurbita foetidissima,F,Forb or Herb
+20755901,20742885,Cucurbita pepo,V,Vines
+20755961,20746195,Manihot angustiloba,SS,Shrub - small
+20755991,20753206,Manihot davisiae,SL,Shrub - large
+20755991,20753206,Manihot davisiae,SS,Shrub - small
+20756066,20755842,Manihot walkerae,F,Forb or Herb
+21413455,21343347,Elymus elongatus,GR,Graminoid
+21413470,21343956,Elymus hispidus,GR,Graminoid
+21413545,21343402,Elymus farctus,GR,Graminoid
+47611047,47608213,Peltophorum africanum,SL,Shrub - large
+47611047,47608213,Peltophorum africanum,TS,Tree - small
+61524825,35154,Juglans californica,TL,Tree - large
+61528487,176401,Lathyrus rotundifolius,V,Vines
+61528487,176401,Lathyrus rotundifolius,F,Forb or Herb
+61986320,61986316,Bixa orellana,TS,Tree - small
+65920094,164362,Utricularia gibba,A,Annual
+65920094,164362,Utricularia gibba,H,Hydrophyte
+65920094,164362,Utricularia gibba,F,Forb or Herb
+67369790,67369777,Pleurozia gigantea,B,Moss
+67369790,67369777,Pleurozia gigantea,E,Epiphyte
+67369790,67369777,Pleurozia gigantea,L,Lithophyte
+67786872,169056,Ludwigia octovalvis,H,Hydrophyte
+67786872,169056,Ludwigia octovalvis,F,Forb or Herb
+67789742,164053,Phyla nodiflora,F,Forb or Herb
+68149955,68149952,Ipomoea littoralis,F,Forb or Herb
+68149955,68149952,Ipomoea littoralis,V,Vines
+71784465,71784462,Solanum stoloniferum,F,Forb or Herb
+84005839,168862,Ceratopteris thalictroides,PT,Fern
+96986469,96986466,Ipomoea triloba,V,Vines
+101527574,101527571,Solanum jamesii,F,Forb or Herb
+103296313,103296305,Physalis lobata,F,Forb or Herb
+103296405,103296402,Physalis acutifolia,A,Annual
+103296405,103296402,Physalis acutifolia,F,Forb or Herb
+105908158,105908133,Physalis hederifolia,F,Forb or Herb
+105908480,105908457,Physalis lagascae,A,Annual
+105908480,105908457,Physalis lagascae,F,Forb or Herb
+105908506,105908504,Physalis latiphysa,A,Annual
+109716668,109716665,Physalis pubescens,A,Annual
+109716668,109716665,Physalis pubescens,F,Forb or Herb
+109716711,109716708,Physalis solanaceus,F,Forb or Herb
+109716766,109716763,Physalis virginiana,F,Forb or Herb
+109928576,109928565,Cucurbita digitata,V,Vines
+109928576,109928565,Cucurbita digitata,F,Forb or Herb
+109928807,109928737,Cucurbita palmata,V,Vines
+109928807,109928737,Cucurbita palmata,F,Forb or Herb
+109973360,109973357,Tripsacum lanceolatum,F,Forb or Herb
+109973360,109973357,Tripsacum lanceolatum,GR,Graminoid
+120104943,19379058,Lathyrus sphaericus,A,Annual
+120104943,19379058,Lathyrus sphaericus,F,Forb or Herb
+120104943,19379058,Lathyrus sphaericus,V,Vines
+120105648,19379015,Lathyrus aphaca,A,Annual
+120105648,19379015,Lathyrus aphaca,F,Forb or Herb
+120107931,120072348,Lathyrus angulatus,A,Annual
+120107931,120072348,Lathyrus angulatus,F,Forb or Herb
+120108293,176501,Lathyrus hirsutus,A,Annual
+120108293,176501,Lathyrus hirsutus,F,Forb or Herb
+120108293,176501,Lathyrus hirsutus,V,Vines
+120120173,164480,Alternanthera sessilis,F,Forb or Herb
+120125670,164057,Lemna minor,F,Forb or Herb
+120125670,164057,Lemna minor,H,Hydrophyte
+120126770,168937,Pistia stratiotes,F,Forb or Herb
+120126770,168937,Pistia stratiotes,H,Hydrophyte
+120202097,168855,Aeschynomene indica,A,Annual
+120202097,168855,Aeschynomene indica,F,Forb or Herb
+120202935,164481,Myriophyllum spicatum,H,Hydrophyte
+120204953,164322,Najas marina,F,Forb or Herb
+120204953,164322,Najas marina,H,Hydrophyte
+120208445,164229,Spirodela polyrhiza,F,Forb or Herb
+120208445,164229,Spirodela polyrhiza,H,Hydrophyte
+120212467,164326,Marsilea minuta,F,Forb or Herb
+120212467,164326,Marsilea minuta,H,Hydrophyte
+120217787,164434,Potamogeton crispus,F,Forb or Herb
+120217787,164434,Potamogeton crispus,H,Hydrophyte
+120218868,163982,Potamogeton pusillus,F,Forb or Herb
+120218868,163982,Potamogeton pusillus,H,Hydrophyte
+120220519,168962,Stuckenia pectinata,F,Forb or Herb
+120220519,168962,Stuckenia pectinata,H,Hydrophyte
+120228484,164153,Trapa natans,A,Annual
+120228484,164153,Trapa natans,H,Hydrophyte
+120229199,164208,Typha domingensis,H,Hydrophyte
+122201936,120074445,Lathyrus japonicus,A,Annual
+122201936,120074445,Lathyrus japonicus,F,Forb or Herb
+124279968,117266774,Alpinia mutica,F,Forb or Herb
+124279968,117266774,Alpinia mutica,GE,Geophyte
+129739550,129739546,Philodendron gloriosum,F,Forb or Herb
+135078285,18762781,Lathyrus palustris,F,Forb or Herb
+136781749,73230544,Piper aduncum,T,Tree - size unknown
+136782618,136778520,Xylosma flexuosa,T,Tree - size unknown
+136783008,136777749,Illicium floridanum,T,Tree - size unknown
+136785011,126504972,Arctostaphylos pungens,T,Tree - size unknown
+136789524,136789522,Gleditsia aquatica,T,Tree - size unknown
+136789580,136789578,Hamelia patens,T,Tree - size unknown
+136792412,136792410,Tabernaemontana alba,T,Tree - size unknown
+136792520,136778595,Trema micranthum,T,Tree - size unknown
+136793927,136793925,Cupania glabra,T,Tree - size unknown
+145351550,145351548,Duranta erecta,T,Tree - size unknown
+145352146,60330342,Citharexylum spinosum,TS,Tree - small
+145369527,145364576,Trema cannabinum,T,Tree - size unknown
+145823048,18435782,Acacia confusa,TS,Tree - small
+145841789,177401,Paspalum vaginatum,GR,Graminoid
+145841789,177401,Paspalum vaginatum,F,Forb or Herb
+146212834,146188276,Ximenia americana,T,Tree - size unknown
+146224257,66292425,Dodonaea viscosa,T,Tree - size unknown
+147004306,96813340,Cordyline fruticosa,T,Tree - size unknown
+147614484,147480856,Trema tomentosum,T,Tree - size unknown
+147623376,73088912,Ficus microcarpa,T,Tree - size unknown
+147623604,85554094,Rhodomyrtus tomentosa,T,Tree - size unknown
+147627660,49838597,Ligustrum lucidum,TS,Tree - small
+147629611,49834580,Broussonetia papyrifera,TL,Tree - large
+147645142,18435729,Triadica sebifera,TS,Tree - small
+148815157,175232,Tripidium ravennae,GR,Graminoid
+148815157,175232,Tripidium ravennae,F,Forb or Herb
+148815157,175232,Tripidium ravennae,H,Hydrophyte
+148987820,144310628,Pavonia spinifex,T,Tree - size unknown
+148988028,126504863,Arbutus arizonica,T,Tree - size unknown
+148988104,144116667,Bourreria succulenta,T,Tree - size unknown
+148988791,126092099,Peucephyllum schottii,T,Tree - size unknown
+148990472,144295201,Pavonia paludicola,T,Tree - size unknown
+148994617,144041025,Quadrella cynophallophora,T,Tree - size unknown
+148995923,144249650,Eysenhardtia texana,T,Tree - size unknown
+148995999,131179230,Melochia pyramidata,T,Tree - size unknown
+149001453,144282654,Arctostaphylos glauca,T,Tree - size unknown
+149004518,82889698,Parkinsonia aculeata,T,Tree - size unknown
+149004798,125994889,Nolina bigelovii,T,Tree - size unknown
+149005040,130206970,Eysenhardtia orthocarpa,T,Tree - size unknown
+149005271,144048256,Viburnum recognitum,T,Tree - size unknown
+149005738,144255700,Trixis inula,T,Tree - size unknown
+149008129,144308616,Ageratina havanensis,T,Tree - size unknown
+149008557,130105627,Coursetia glandulosa,T,Tree - size unknown
+149010033,144285095,Acacia amentacea,T,Tree - size unknown
+149010941,130206924,Erythrina flabelliformis,T,Tree - size unknown
+149016840,62020988,Lysiloma latisiliquum,T,Tree - size unknown
+149018776,126299675,Canotia holacantha,T,Tree - size unknown
+149018852,126504924,Arctostaphylos pringlei,T,Tree - size unknown
+149019643,144117987,Ehretia anacua,T,Tree - size unknown
+149022133,144313081,Euonymus occidentalis,T,Tree - size unknown
+149022481,144307043,Mimosa quadrivalvis,T,Tree - size unknown
+149024153,144271997,Borrichia arborescens,T,Tree - size unknown
+149031363,144301905,Rhus copallinum,T,Tree - size unknown
+149032431,144316027,Acacia rigidula,T,Tree - size unknown
+149034197,80603164,Baccharis halimifolia,T,Tree - size unknown
+149037153,144117382,Cordia boissieri,T,Tree - size unknown
+149038460,144276378,Leptecophylla tameiameiae,T,Tree - size unknown
+149038540,126373689,Atamisquea emarginata,T,Tree - size unknown
+149038751,130521598,Prosopis pubescens,T,Tree - size unknown
+149038833,144048348,Viburnum rufidulum,T,Tree - size unknown
+149039057,130105549,Coursetia caribaea,T,Tree - size unknown
+149039301,144313433,Erythroxylum havanense,T,Tree - size unknown
+149039565,126106487,Chilopsis linearis,T,Tree - size unknown
+149042014,144047738,Viburnum nudum,T,Tree - size unknown
+149043009,144281974,Tetrazygia bicolor,T,Tree - size unknown
+149044478,144305218,Cyrilla racemiflora,T,Tree - size unknown
+149045443,144303862,Lepidospartum squamatum,T,Tree - size unknown
+149045971,144293325,Havardia pallens,T,Tree - size unknown
+149047136,125992596,Dasylirion wheeleri,T,Tree - size unknown
+149049892,144302882,Croton cortesianus,T,Tree - size unknown
+149050111,144312941,Arctostaphylos columbiana,T,Tree - size unknown
+149050336,144310219,Erythrina herbacea,T,Tree - size unknown
+149052746,130224531,Mimosa aculeaticarpa,T,Tree - size unknown
+149054389,144316752,Hippomane mancinella,T,Tree - size unknown
+149055994,144301060,Jatropha dioica,T,Tree - size unknown
+149056791,72231760,Chrysobalanus icaco,T,Tree - size unknown
+149057898,126570208,Jatropha cinerea,T,Tree - size unknown
+149058212,130521611,Prosopis velutina,T,Tree - size unknown
+149061127,126373348,Celtis iguanaea,T,Tree - size unknown
+149061805,130223383,Lysiloma watsonii,T,Tree - size unknown
+150016334,150016331,Cnidoscolus urens,T,Tree - size unknown
+1314034,170450,Vigna luteola,F,Forb or Herb
+13507074,13507070,Agave americana,SH,Succulent - shrub
+61905657,61905636,Corymbia citriodora,TL,Tree - large
+61909786,61909777,Eucalyptus bridgesiana,TL,Tree - large
+61913091,61913082,Eucalyptus grandis,TL,Tree - large
+61913703,61913695,Eucalyptus marginata,TL,Tree - large
+61915614,61915612,Eucalyptus pilularis,TL,Tree - large
+61957305,61957303,Crataegus coccinea,SL,Shrub - large
+61957305,61957303,Crataegus coccinea,TS,Tree - small
+61987597,61987595,Bursera simaruba,TL,Tree - large
+79087761,79087660,Phaseolus acutifolius,V,Vines
+83689185,156392750,Equisetum giganteum,PT,Fern
+96816082,96816015,Zingiber zerumbet,F,Forb or Herb
+96816082,96816015,Zingiber zerumbet,GE,Geophyte
+109275224,109275221,Phaseolus angustissimus,V,Vines
+109759520,109759517,Phaseolus filiformis,V,Vines
+109759699,109759696,Phaseolus scabrellus,V,Vines
+109760225,109760222,Phaseolus leptostachyus,V,Vines
+109811767,109811756,Phaseolus ritensis,V,Vines
+109818536,109818527,Phaseolus parvulus,V,Vines
+110214411,109810801,Phaseolus maculatus,F,Forb or Herb
+114963316,114936808,Agave albomarginata,SH,Succulent - shrub
+114963351,114936914,Agave applanata,SH,Succulent - shrub
+116353748,114979533,Agave deserti,SH,Succulent - shrub
+116354258,115689468,Agave palmeri,SH,Succulent - shrub
+116354473,115690981,Agave shawii,SH,Succulent - shrub
+116354563,115698297,Agave toumeyana,SH,Succulent - shrub
+116354598,115698571,Agave univittata,ST,Succulent - tree
+116358413,116358411,Tilia caroliniana,TL,Tree - large
+125198188,44393414,Agave lechuguilla,SH,Succulent - shrub
+126620663,126618162,Randia obcordata,SL,Shrub - large
+126620663,126618162,Randia obcordata,T,Tree - size unknown
+131369229,131368905,Tillandsia usneoides,F,Forb or Herb
+134927491,116997793,Bursera microphylla,SL,Shrub - large
+134927491,116997793,Bursera microphylla,ST,Succulent - tree
+135987404,62335,Pandanus tectorius,SL,Shrub - large
+135987404,62335,Pandanus tectorius,TS,Tree - small
+141522836,141522638,Esenbeckia runyonii,TS,Tree - small
+144254109,142674555,Inga sertulifera,TL,Tree - large
+144254109,142674555,Inga sertulifera,TS,Tree - small
+146769679,130035828,Acaciella angustissima,TS,Tree - small
+146769679,130035828,Acaciella angustissima,SL,Shrub - large
+149010215,96817101,Abutilon incanum,T,Tree - size unknown
+149018700,124270448,Rhus virens,T,Tree - size unknown
+149053966,124270117,Rhus microphylla,T,Tree - size unknown
+149060597,82858855,Tecoma stans,T,Tree - size unknown
+150108260,150108258,Simarouba glauca,T,Tree - size unknown
+150110130,150110128,Picramnia pentandra,T,Tree - size unknown
+150111231,62912,Randia aculeata,T,Tree - size unknown
+150111841,138311656,Cephalanthus salicifolius,T,Tree - size unknown
+150112088,62988,Zanthoxylum fagara,T,Tree - size unknown
+150114921,150114919,Morinda royoc,T,Tree - size unknown
+150115164,150115162,Drypetes lateriflora,T,Tree - size unknown
+150115688,150115681,Eugenia axillaris,T,Tree - size unknown
+150116320,61957841,Exostema caribaeum,T,Tree - size unknown
+150116664,150116662,Coccoloba diversifolia,T,Tree - size unknown
+150116997,150116995,Alvaradoa amorphoides,T,Tree - size unknown
+150117207,13542412,Pluchea carolinensis,T,Tree - size unknown
+150119410,103121329,Pimenta dioica,T,Tree - size unknown
+150119894,150119892,Eugenia rhombea,T,Tree - size unknown
+151961363,151961361,Myrsine cubana,TS,Tree - small
+156530170,61966604,Ulmus alata,TS,Tree - small
+156530170,61966604,Ulmus alata,TL,Tree - large
+156530742,61966619,Ulmus americana,TL,Tree - large
+157815887,157815878,Tabebuia heterophylla,TL,Tree - large
+161242108,167896,Potamogeton alpinus,H,Hydrophyte
+161580271,167857,Equisetum arvense,PT,Fern
+16196338,16196279,Euphorbia arnottiana,SS,Shrub - small
+18435800,18435792,Vachellia farnesiana,SL,Shrub - large
+18435800,18435792,Vachellia farnesiana,TS,Tree - small
+59310516,56359763,Sabal mexicana,SL,Shrub - large
+59310516,56359763,Sabal mexicana,TS,Tree - small
+61957112,61957086,Krugiodendron ferreum,SS,Shrub - small
+61957112,61957086,Krugiodendron ferreum,SL,Shrub - large
+61957112,61957086,Krugiodendron ferreum,TS,Tree - small
+61961645,61961642,Hypelate trifoliata,TS,Tree - small
+62003513,62003511,Gymnanthes lucida,SS,Shrub - small
+62003513,62003511,Gymnanthes lucida,SL,Shrub - large
+62003513,62003511,Gymnanthes lucida,TS,Tree - small
+62019705,62019703,Juglans hindsii,TL,Tree - large
+62019705,62019703,Juglans hindsii,TS,Tree - small
+68084004,31861,Zanthoxylum flavum,TS,Tree - small
+68084004,31861,Zanthoxylum flavum,SL,Shrub - large
+68104916,32519,Swietenia mahagoni,TL,Tree - large
+68104916,32519,Swietenia mahagoni,TS,Tree - small
+68104916,32519,Swietenia mahagoni,SL,Shrub - large
+78756998,62742,Hibiscus arnottianus,SS,Shrub - small
+78756998,62742,Hibiscus arnottianus,SL,Shrub - large
+78756998,62742,Hibiscus arnottianus,TS,Tree - small
+78777536,78777489,Cyanea recta,S,Shrub - size unknown
+79521207,79521201,Sabal minor,TS,Tree - small
+80090432,80090413,Geranium multiflorum,SS,Shrub - small
+80090481,80090472,Gouania hillebrandii,SL,Shrub - large
+83790262,44100,Cyanea asarifolia,S,Shrub - size unknown
+83791172,44108,Cyanea habenata,SL,Shrub - large
+83791283,33581,Cyanea hardyi,T,Tree - size unknown
+83791283,33581,Cyanea hardyi,S,Shrub - size unknown
+83791385,34006,Cyanea leptostegia,T,Tree - size unknown
+83998419,162346,Aldrovanda vesiculosa,H,Hydrophyte
+88331556,88331553,Viburnum prunifolium,SL,Shrub - large
+88331556,88331553,Viburnum prunifolium,TS,Tree - small
+91115932,91115916,Pritchardia martii,TL,Tree - large
+91169406,91169400,Coprosma waimeae,SL,Shrub - large
+91170567,91170518,Cyanea coriacea,S,Shrub - size unknown
+91171553,91171380,Cyanea fissa,S,Shrub - size unknown
+91172024,91172008,Cyanea hirtella,S,Shrub - size unknown
+91172118,91172100,Cyanea kahiliensis,S,Shrub - size unknown
+91173756,91173738,Cyanea pseudofauriei,S,Shrub - size unknown
+91174275,91174154,Cyanea spathulata,S,Shrub - size unknown
+97888938,97888931,Hibiscadelphus stellatus,SL,Shrub - large
+97888938,97888931,Hibiscadelphus stellatus,TS,Tree - small
+100675080,100675065,Echinochloa crus-pavonis,GR,Graminoid
+103782471,103782467,Euphorbia clusiifolia,SS,Shrub - small
+103804148,103804142,Metrosideros waialealae,TS,Tree - small
+103804148,103804142,Metrosideros waialealae,TL,Tree - large
+114963501,114937213,Agave chrysantha,SH,Succulent - shrub
+116354108,115645853,Agave mckelveyana,SH,Succulent - shrub
+116354283,115689594,Agave parryi,SH,Succulent - shrub
+116354298,115689669,Agave parviflora,SH,Succulent - shrub
+116354453,115690779,Agave schottii,SH,Succulent - shrub
+116354603,115698677,Agave utahensis,SH,Succulent - shrub
+117469947,117423066,Yucca baccata,SH,Succulent - shrub
+117469952,117423069,Yucca baileyi,SH,Succulent - shrub
+117470032,117427934,Yucca faxoniana,SH,Succulent - shrub
+117470037,117427949,Yucca filamentosa,SH,Succulent - shrub
+117470057,117427973,Yucca glauca,ST,Succulent - tree
+117470132,117428346,Yucca necopina,SS,Shrub - small
+117470142,117428365,Yucca pallida,SH,Succulent - shrub
+117470167,117428413,Yucca reverchonii,SH,Succulent - shrub
+117470187,117428510,Yucca rupicola,SH,Succulent - shrub
+120702761,120702630,Erythrina sandwicensis,TL,Tree - large
+120702770,116996583,Santalum paniculatum,TS,Tree - small
+120702770,116996583,Santalum paniculatum,TL,Tree - large
+120871861,120871854,Hesperoyucca newberryi,ST,Succulent - tree
+122908206,122908178,Gossypium tomentosum,SL,Shrub - large
+123988850,123988828,Agave simplex,SH,Succulent - shrub
+124572347,124572344,Yucca nana,SH,Succulent - shrub
+126604169,126603572,Garrya flavescens,SS,Shrub - small
+126604169,126603572,Garrya flavescens,SL,Shrub - large
+126604169,126603572,Garrya flavescens,TS,Tree - small
+126609758,126608665,Dendromecon rigida,SS,Shrub - small
+126609758,126608665,Dendromecon rigida,SL,Shrub - large
+126609758,126608665,Dendromecon rigida,TS,Tree - small
+126613026,126610157,Adenostoma sparsifolium,SS,Shrub - small
+126613026,126610157,Adenostoma sparsifolium,SL,Shrub - large
+126613026,126610157,Adenostoma sparsifolium,TS,Tree - small
+126625150,126624876,Cestrum elegans,SS,Shrub - small
+126625150,126624876,Cestrum elegans,SL,Shrub - large
+136746262,136746227,Leucaena retusa,SL,Shrub - large
+136746262,136746227,Leucaena retusa,TS,Tree - small
+138783277,138783248,Adenostemma viscosum,A,Annual
+138783277,138783248,Adenostemma viscosum,F,Forb or Herb
+146651530,146610686,Damburneya coriacea,SL,Shrub - large
+146651530,146610686,Damburneya coriacea,TS,Tree - small
+148952198,148948270,Bursera fagaroides,SL,Shrub - large
+148952198,148948270,Bursera fagaroides,TS,Tree - small
+148999704,49485845,Prosopis glandulosa,T,Tree - size unknown
+152905307,126604274,Koeberlinia spinosa,T,Tree - size unknown
+152905428,126383542,Maytenus phyllanthoides,TS,Tree - small
+152905428,126383542,Maytenus phyllanthoides,SL,Shrub - large
+152905470,152857812,Symplocos tinctoria,T,Tree - size unknown
+152905527,152857713,Halesia diptera,T,Tree - size unknown
+152905585,64134621,Malus ioensis,T,Tree - size unknown
+152905642,152858625,Ulmus serotina,T,Tree - size unknown
+152905699,152858603,Planera aquatica,T,Tree - size unknown
+152905758,152905756,Crataegus phaenopyrum,T,Tree - size unknown
+152905822,126609388,Colubrina greggii,T,Tree - size unknown
+152905887,136312479,Clusia rosea,T,Tree - size unknown
+152906128,152906126,Crataegus lassa,TS,Tree - small
+152906128,152906126,Crataegus lassa,SL,Shrub - large
+152906152,144220543,Amelanchier arborea,T,Tree - size unknown
+152906219,152906212,Crataegus dodgei,T,Tree - size unknown
+152906284,152906282,Zanthoxylum clava-herculis,T,Tree - size unknown
+152906343,152906341,Vaccinium arboreum,T,Tree - size unknown
+152906401,126608531,Forestiera angustifolia,T,Tree - size unknown
+152906465,126623216,Buddleja sessiliflora,T,Tree - size unknown
+152906529,64134490,Malus angustifolia,T,Tree - size unknown
+152906650,152858348,Celtis ehrenbergiana,TS,Tree - small
+152906650,152858348,Celtis ehrenbergiana,SL,Shrub - large
+152906722,152857743,Styrax grandifolius,T,Tree - size unknown
+152906779,152858227,Morella cerifera,T,Tree - size unknown
+152906961,152857728,Styrax americanus,T,Tree - size unknown
+152907018,152857979,Frangula caroliniana,T,Tree - size unknown
+152907076,130025001,Senegalia greggii,T,Tree - size unknown
+152907139,152857869,Ceanothus velutinus,T,Tree - size unknown
+152907201,152907199,Crataegus brainerdii,T,Tree - size unknown
+152907266,152907264,Crataegus quaesita,TS,Tree - small
+152907266,152907264,Crataegus quaesita,SL,Shrub - large
+152907292,152907290,Crataegus marshallii,T,Tree - size unknown
+152907351,152907349,Crataegus erythropoda,T,Tree - size unknown
+152907409,62409,Manilkara jaimiqui,T,Tree - size unknown
+152907562,152907560,Crataegus florifera,TS,Tree - small
+152907562,152907560,Crataegus florifera,SL,Shrub - large
+152907593,64134541,Malus coronaria,T,Tree - size unknown
+152907653,152858031,Hamamelis vernalis,T,Tree - size unknown
+152907712,152907710,Forestiera acuminata,T,Tree - size unknown
+152907771,152907769,Crataegus collina,TS,Tree - small
+152907771,152907769,Crataegus collina,SL,Shrub - large
+152907797,152907795,Castela erecta,T,Tree - size unknown
+152907895,152907893,Trichostigma octandrum,T,Tree - size unknown
+152908185,152908183,Crataegus spathulata,T,Tree - size unknown
+152908244,152908242,Crataegus viridis,T,Tree - size unknown
+152908303,152908301,Vachellia macracantha,TS,Tree - small
+152908303,152908301,Vachellia macracantha,SL,Shrub - large
+152908652,126603610,Garrya wrightii,T,Tree - size unknown
+152908716,124606708,Aralia humilis,T,Tree - size unknown
+152908805,152908803,Crataegus iracunda,T,Tree - size unknown
+152908870,152908868,Crataegus beata,T,Tree - size unknown
+152908935,152908933,Guettarda elliptica,T,Tree - size unknown
+152909084,152909082,Pinckneya bracteata,TS,Tree - small
+152909084,152909082,Pinckneya bracteata,SL,Shrub - large
+152909110,152909108,Aesculus sylvatica,T,Tree - size unknown
+152909169,152909167,Aesculus pavia,T,Tree - size unknown
+152909332,152909330,Eugenia foetida,T,Tree - size unknown
+152909475,152909473,Crataegus tracyi,T,Tree - size unknown
+152909540,152909538,Crataegus opaca,T,Tree - size unknown
+152909599,152909597,Crataegus berberifolia,T,Tree - size unknown
+152909658,152909656,Crataegus aestivalis,T,Tree - size unknown
+152909728,152909726,Cotinus obovatus,T,Tree - size unknown
+152909787,152909785,Solanum bahamense,T,Tree - size unknown
+152909939,152909937,Senegalia berlandieri,T,Tree - size unknown
+152910004,152910002,Psychotria nervosa,T,Tree - size unknown
+152910252,152910250,Pisonia aculeata,TS,Tree - small
+152910252,152910250,Pisonia aculeata,SL,Shrub - large
+152910632,152910630,Crataegus schuettei,T,Tree - size unknown
+152910697,152910695,Eugenia confusa,T,Tree - size unknown
+152910831,152910829,Crataegus rivularis,T,Tree - size unknown
+152910889,126603592,Garrya ovata,T,Tree - size unknown
+152910955,138291986,Karwinskia humboldtiana,T,Tree - size unknown
+152911026,152911024,Aralia spinosa,T,Tree - size unknown
+152911085,152911083,Aesculus parviflora,T,Tree - size unknown
+152911144,152911142,Helietta parvifolia,T,Tree - size unknown
+152911209,152911207,Baccharis dioica,T,Tree - size unknown
+152911325,152911323,Crataegus brachyacantha,T,Tree - size unknown
+152911384,152911382,Erithalis fruticosa,T,Tree - size unknown
+154024509,154024394,Senegalia roemeriana,SL,Shrub - large
+154024509,154024394,Senegalia roemeriana,TS,Tree - small
+155693644,33892,Cercis canadensis,SL,Shrub - large
+155693644,33892,Cercis canadensis,TS,Tree - small
+155694459,131036549,Malpighia glabra,SL,Shrub - large
+155694459,131036549,Malpighia glabra,TS,Tree - small
+155695951,144220556,Colubrina arborescens,SL,Shrub - large
+155695951,144220556,Colubrina arborescens,TS,Tree - small
+156769874,156754415,Ardisia escallonioides,T,Tree - size unknown
+156769985,156754600,Colubrina elliptica,T,Tree - size unknown
+156770170,156770168,Coccoloba uvifera,T,Tree - size unknown
+156770481,156770479,Exothea paniculata,T,Tree - size unknown
+156770648,156770646,Licaria triandra,T,Tree - size unknown
+156770821,156770819,Piscidia piscipula,T,Tree - size unknown
+156770958,156770956,Plumeria obtusa,T,Tree - size unknown
+156771089,156771087,Sapindus saponaria,T,Tree - size unknown
+156771371,156771369,Schoepfia schreberi,T,Tree - size unknown
+156771602,156753924,Sideroxylon celastrinum,T,Tree - size unknown
+156771721,156771719,Ptelea trifoliata,T,Tree - size unknown
+156771792,156771790,Amyris balsamifera,T,Tree - size unknown
+156771941,156771939,Amyris elemifera,T,Tree - size unknown
+156820729,130046686,Ilex montana,T,Tree - size unknown
+156820729,130046686,Ilex montana,SL,Shrub - large
+156820753,156812221,Sideroxylon lycioides,T,Tree - size unknown
+156820812,156820810,Aesculus californica,T,Tree - size unknown
+156820870,126609466,Frangula californica,T,Tree - size unknown
+156820929,156820927,Cercocarpus ledifolius,T,Tree - size unknown
+156820995,156820993,Artemisia tridentata,T,Tree - size unknown
+156821033,156821031,Amelanchier sanguinea,TS,Tree - small
+156821033,156821031,Amelanchier sanguinea,SL,Shrub - large
+156821064,124270129,Rhus ovata,T,Tree - size unknown
+156821151,138294081,Amelanchier utahensis,T,Tree - size unknown
+156821209,126609442,Condalia hookeri,T,Tree - size unknown
+156821272,156812596,Morella californica,TS,Tree - small
+156821272,156812596,Morella californica,SL,Shrub - large
+156821304,156821302,Sophora affinis,T,Tree - size unknown
+156821359,156812187,Garrya fremontii,T,Tree - size unknown
+156821418,156821416,Sorbus scopulina,T,Tree - size unknown
+156821482,126610166,Cercocarpus montanus,T,Tree - size unknown
+156821547,156821545,Amelanchier pallida,T,Tree - size unknown
+156821606,156821604,Rhododendron catawbiense,T,Tree - size unknown
+156821631,64120952,Prunus caroliniana,T,Tree - size unknown
+156821690,156821688,Rhus integrifolia,T,Tree - size unknown
+156821755,156821753,Oemleria cerasiformis,TS,Tree - small
+156821755,156821753,Oemleria cerasiformis,SL,Shrub - large
+156821785,156812021,Nyssa biflora,TL,Tree - large
+156821785,156812021,Nyssa biflora,TS,Tree - small
+156821810,130896351,Vachellia constricta,T,Tree - size unknown
+156821875,156821873,Dermatophyllum secundiflorum,T,Tree - size unknown
+156821938,131214885,Morus microphylla,T,Tree - size unknown
+156821969,126609376,Ceanothus thyrsiflorus,T,Tree - size unknown
+156822028,156822026,Rhododendron macrophyllum,T,Tree - size unknown
+156822058,156812180,Garrya elliptica,T,Tree - size unknown
+156822117,156822115,Heteromeles arbutifolia,T,Tree - size unknown
+159491089,138296177,Purshia stansburiana,SS,Shrub - small
+159491089,138296177,Purshia stansburiana,SL,Shrub - large
+159491089,138296177,Purshia stansburiana,TS,Tree - small
+159814259,130225260,Parkinsonia florida,SS,Shrub - small
+159814259,130225260,Parkinsonia florida,SL,Shrub - large
+159814259,130225260,Parkinsonia florida,TS,Tree - small
+159814591,130523030,Psorothamnus spinosus,SS,Shrub - small
+159814591,130523030,Psorothamnus spinosus,SL,Shrub - large
+159814591,130523030,Psorothamnus spinosus,TS,Tree - small
+160081009,131048935,Fremontodendron californicum,SS,Shrub - small
+160081009,131048935,Fremontodendron californicum,SL,Shrub - large
+160081009,131048935,Fremontodendron californicum,TS,Tree - small
+163128194,163128158,Hesperoyucca whipplei,SH,Succulent - shrub
+165203776,162825792,Crossopetalum rhacoma,SL,Shrub - large
+165203776,162825792,Crossopetalum rhacoma,TS,Tree - small

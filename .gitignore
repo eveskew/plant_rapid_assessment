@@ -6,8 +6,9 @@ archive_code/
 data/gbif_cleaned/
 data/gbif_miscellaneous/unfiltered_gbif_data_deficient.csv
 data/gbif_occurrences/
-data/IUCN/
-!data/IUCN/all_other_fields.csv
+data/IUCN/*
 !data/IUCN/assessments.csv
+!data/IUCN/plant_specific.csv
+!data/IUCN/threats.csv
 outputs/plots_for_validation/
 scraps/
