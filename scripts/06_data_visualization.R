@@ -84,8 +84,8 @@ rcat %>%
   scale_fill_gradient(low = "lightgray", high = "black") +
   theme_bw() +
   labs(
-    x = "Automated Red List Category Classifications Based on rCAT EOO Calculation",
-    y = "IUCN Red List Category Classifications"
+    x = "Automated Red List Category classification based on rCAT EOO calculation",
+    y = "IUCN Red List Category classification"
   ) +
   theme(
     legend.position = "none",
@@ -301,16 +301,16 @@ ggsave("outputs/IUCN_assessment_metrics_vs_GBIF_metrics.jpg",
 #==============================================================================
 
 
-# Make predictive plots across varying sample sizes for both plant types
+# Make counterfactual plots across varying sample sizes for both plant types
 # and threats
 
-f <- read.csv("data/modeling_data/final_modelingData.csv")
-f$NOP.s <- scale(f$NOP)
+f <- read.csv("data/modeling_data/full_modeling_data.csv")
+f$NOP_s <- scale(f$NOP)
 
-m.stan1 <- readRDS("data/fit_models/m.stan1.RDS")
-m.stan2 <- readRDS("data/fit_models/m.stan2.RDS")
+m.type.stan <- readRDS("data/fit_models/m.type.stan.RDS")
+m.threat.stan <- readRDS("data/fit_models/m.threat.stan.RDS")
 
-m.stan.samples <- extract.samples(m.stan1)
+m.stan.samples <- extract.samples(m.type.stan)
 
 sample.size.scenarios <- data.frame(raw_N = c(100, 1000, 10000, 20000)) %>%
   mutate(scaled_N = (raw_N - mean(f$NOP))/sd(f$NOP))
@@ -328,7 +328,7 @@ for(x in sample.size.scenarios$scaled_N) {
       m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aGeophyte,
       m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aAnnual_Graminoid,
       m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aFern_Forb_Herb,
-      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aVines_Hydro_Litho_Epi
+      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aVines_Epi_Hydro_Litho
     )
   )
   
@@ -338,7 +338,7 @@ for(x in sample.size.scenarios$scaled_N) {
 d.preds <- data.frame(
   plant_group = rep(
     rep(
-      c("Tree (large)", "Tree (small)", "Shrub", "Succulent", "Geophyte", "Annual/Graminoid", "Fern/Forb/Herb", "Vines/Hydro/Litho/Epi"), 
+      c("Tree (large)", "Tree (small)", "Shrub", "Succulent", "Geophyte", "Annual/Graminoid", "Fern/Forb/Herb", "Vines/Epi/Hydro/Litho"), 
       each = nrow(m.stan.samples$a)
     ),
     times = nrow(sample.size.scenarios)
@@ -347,21 +347,31 @@ d.preds <- data.frame(
   predicted_probs = predicted.probs
 )
 
+d.preds %>%
+  pivot_wider(names_from = 1:2, values_from = 3) %>%
+  unnest() %>%
+  precis(., prob = 0.99)
+
 preds.plot1 <- d.preds %>%
   ggplot(aes(x = predicted_probs, color = as.factor(sample_size))) +
   geom_density(fill = alpha("gray", 0.15)) +
-  xlab("Probability of correct assessment categorization") +
-  ylab("Posterior predictive density") +
+  xlab("Probability of correct Red List Category classification") +
+  ylab("Density") +
   theme_minimal() +
   facet_wrap(~plant_group, ncol = 2, scales = "free_y") +
   guides(color = guide_legend(title = "Sample size")) +
-  theme(legend.position = "bottom")
+  scale_y_continuous(breaks = c(0, 3, 6, 9, 12, 15)) +
+  theme(
+    legend.position = "bottom",
+    text = element_text(size = 16),
+    axis.title = element_text(size = 20)
+  )
 
-ggsave("outputs/plant_type_preds_plot.jpg", 
-       plot = preds.plot1, height = 8, width = 6)
+ggsave("outputs/plant_type_preds_plot.jpg", plot = preds.plot1, 
+       height = 8, width = 8)
 
 
-m.stan.samples <- extract.samples(m.stan2)
+m.stan.samples <- extract.samples(m.threat.stan)
 
 sample.size.scenarios <- data.frame(raw_N = c(100, 1000, 10000, 20000)) %>%
   mutate(scaled_N = (raw_N - mean(f$NOP))/sd(f$NOP))
@@ -400,7 +410,7 @@ d.preds <- data.frame(
         "Biological resource use", 
         "Human intrusions and disturbance",
         "Natural system modifications",
-        "Invasive and other problematic species genes and disease",
+        "Invasive species, genes, and disease",
         "Pollution",
         "Climate change and severe weather",
         "Other options"
@@ -413,28 +423,38 @@ d.preds <- data.frame(
   predicted_probs = predicted.probs
 )
 
+d.preds %>%
+  pivot_wider(names_from = 1:2, values_from = 3) %>%
+  unnest() %>%
+  precis(., prob = 0.99)
+
 preds.plot2 <- d.preds %>%
   ggplot(aes(x = predicted_probs, color = as.factor(sample_size))) +
   geom_density(fill = alpha("gray", 0.15)) +
-  xlab("Probability of correct assessment categorization") +
-  ylab("Posterior predictive density") +
+  xlab("Probability of correct Red List Category classification") +
+  ylab("Density") +
   theme_minimal() +
   facet_wrap(~plant_group, ncol = 3, scales = "free_y") +
   guides(color = guide_legend(title = "Sample size")) +
-  theme(legend.position = "bottom")
+  scale_y_continuous(breaks = c(0, 5, 10, 15, 20, 25)) +
+  theme(
+    legend.position = "bottom",
+    text = element_text(size = 16),
+    axis.title = element_text(size = 20)
+  )
 
-ggsave("outputs/plant_threat_preds_plot.jpg", 
-       plot = preds.plot2, height = 8, width = 12)
+ggsave("outputs/plant_threat_preds_plot.jpg", plot = preds.plot2, 
+       height = 8, width = 12)
 
 #==============================================================================
 
 
-# Make predictive plots for data deficient species
+# Make posterior plots for data deficient species
 
-dd <- read.csv("data/modeling_data/ddPredictors.csv")
-dd$NOP.s <- (dd$NOP - mean(f$NOP))/sd(f$NOP)
+dd <- read.csv("data/modeling_data/dd_modeling_data.csv")
+dd$NOP_s <- (dd$NOP - mean(f$NOP))/sd(f$NOP)
 
-m.stan.samples <- extract.samples(m.stan1)
+m.stan.samples <- extract.samples(m.type.stan)
 
 predicted.probs <- c()
 
@@ -443,7 +463,7 @@ for(i in 1:nrow(dd)) {
   temp <- logistic(
     c(
       m.stan.samples$a + 
-        m.stan.samples$bN*dd$NOP.s[i] +
+        m.stan.samples$bN*dd$NOP_s[i] +
         m.stan.samples$aAnnual_Graminoid*dd$Annual.Graminoid[i] +
         m.stan.samples$aFern_Forb_Herb*dd$Fern.Forb.or.Herb[i] +
         m.stan.samples$aGeophyte*dd$Geophyte[i] +
@@ -451,7 +471,7 @@ for(i in 1:nrow(dd)) {
         m.stan.samples$aSucculent*dd$Succulent[i] +
         m.stan.samples$aTree_large*dd$Tree...large[i] +
         m.stan.samples$aTree_small*dd$Tree...small[i] +
-        m.stan.samples$aVines_Hydro_Litho_Epi*dd$Vines.Epiphytes.Hydrophyte.Lithophyte[i]
+        m.stan.samples$aVines_Epi_Hydro_Litho*dd$Vines.Epiphyte.Hydrophyte.Lithophyte[i]
     )
   )
      
@@ -463,12 +483,22 @@ d.preds <- data.frame(
   predicted_probs = predicted.probs
 )
 
+d.preds %>%
+  pivot_wider(names_from = 1, values_from = 2) %>%
+  unnest() %>%
+  precis(., prob = 0.99)
+
 dd.preds.plot <- d.preds %>%
   ggplot(aes(x = predicted_probs)) +
   geom_density(fill = alpha("gray", 0.15)) +
-  xlab("Probability of correct assessment categorization") +
-  ylab("Posterior predictive density") +
+  xlab("Probability of correct Red List Category classification") +
+  ylab("Density") +
   theme_minimal() +
-  facet_wrap(~plant_species, ncol = 2, scales = "free_y")
+  facet_wrap(~plant_species, ncol = 3, scales = "free_y") +
+  theme(
+    text = element_text(size = 16),
+    axis.title = element_text(size = 20)
+  )
 
-ggsave("outputs/dd_preds_plot.jpg", plot = dd.preds.plot, height = 8, width = 6)
+ggsave("outputs/dd_preds_plot.jpg", plot = dd.preds.plot, 
+       height = 8, width = 10)
