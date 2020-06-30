@@ -348,7 +348,7 @@ d.preds <- data.frame(
 d.preds %>%
   pivot_wider(names_from = 1:2, values_from = 3) %>%
   unnest() %>%
-  precis(., prob = 0.99)
+  rethinking::precis(., prob = 0.99)
 
 preds.plot1 <- d.preds %>%
   ggplot(aes(x = predicted_probs, color = as.factor(sample_size))) +
@@ -425,7 +425,7 @@ d.preds <- data.frame(
 d.preds %>%
   pivot_wider(names_from = 1:2, values_from = 3) %>%
   unnest() %>%
-  precis(., prob = 0.99)
+  rethinking::precis(., prob = 0.99)
 
 preds.plot2 <- d.preds %>%
   ggplot(aes(x = predicted_probs, color = as.factor(sample_size))) +
@@ -450,6 +450,7 @@ ggsave("outputs/plant_threat_preds_plot.jpg", plot = preds.plot2,
 
 # Make posterior plots for data deficient species
 
+f <- read.csv("data/modeling_data/full_modeling_data.csv")
 dd <- read.csv("data/modeling_data/dd_modeling_data.csv")
 dd$NOP_s <- (dd$NOP - mean(f$NOP))/sd(f$NOP)
 
@@ -486,7 +487,7 @@ d.preds <- data.frame(
 d.preds %>%
   pivot_wider(names_from = 1, values_from = 2) %>%
   unnest() %>%
-  precis(., prob = 0.99)
+  rethinking::precis(., prob = 0.99)
 
 dd.preds.plot <- d.preds %>%
   ggplot(aes(x = predicted_probs)) +
