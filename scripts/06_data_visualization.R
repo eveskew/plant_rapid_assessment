@@ -308,8 +308,6 @@ f <- read.csv("data/modeling_data/full_modeling_data.csv")
 f$NOP_s <- scale(f$NOP)
 
 m.type.stan <- readRDS("data/fit_models/m.type.stan.RDS")
-m.threat.stan <- readRDS("data/fit_models/m.threat.stan.RDS")
-
 m.stan.samples <- extract.samples(m.type.stan)
 
 sample.size.scenarios <- data.frame(raw_N = c(100, 1000, 10000, 20000)) %>%
@@ -371,6 +369,7 @@ ggsave("outputs/plant_type_preds_plot.jpg", plot = preds.plot1,
        height = 8, width = 8)
 
 
+m.threat.stan <- readRDS("data/fit_models/m.threat.stan.RDS")
 m.stan.samples <- extract.samples(m.threat.stan)
 
 sample.size.scenarios <- data.frame(raw_N = c(100, 1000, 10000, 20000)) %>%
@@ -454,6 +453,7 @@ ggsave("outputs/plant_threat_preds_plot.jpg", plot = preds.plot2,
 dd <- read.csv("data/modeling_data/dd_modeling_data.csv")
 dd$NOP_s <- (dd$NOP - mean(f$NOP))/sd(f$NOP)
 
+m.type.stan <- readRDS("data/fit_models/m.type.stan.RDS")
 m.stan.samples <- extract.samples(m.type.stan)
 
 predicted.probs <- c()
