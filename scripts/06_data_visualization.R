@@ -2,6 +2,7 @@
 
 library(tidyverse)
 library(cowplot)
+library(rethinking)
 
 #==============================================================================
 
