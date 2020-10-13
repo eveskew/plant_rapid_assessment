@@ -10,5 +10,6 @@ data/IUCN/*
 !data/IUCN/assessments.csv
 !data/IUCN/plant_specific.csv
 !data/IUCN/threats.csv
+documents/
 outputs/plots_for_validation/
 scraps/

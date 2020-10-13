@@ -2,6 +2,7 @@
 
 library(tidyverse)
 library(assertthat)
+library(natserv)
 
 #==============================================================================
 
@@ -152,6 +153,48 @@ d3 <- wide.type %>%
     vars(`5`:`Vines/Epiphyte/Hydrophyte/Lithophyte`), 
     max, na.rm = TRUE
   )
+
+#==============================================================================
+
+
+# Generate NatureServe rank data for all available species
+
+# Initialize empty data frame
+ns <- data.frame()
+
+# Loop through IUCN species names to pull NatureServe rank data 
+for(i in d3$scientificName) {
+  
+  print(i)
+  temp <- ns_search_spp(text = i)$results
+  slice.row <- which(temp$scientificName == i)
+  
+  # If data was returned, only keep the row(s) matching the exact species
+  # name and only keep select columns
+  if(nrow(temp) > 0) {
+    
+    temp <- temp %>%
+      select(
+        recordType, elementGlobalId,
+        scientificName, primaryCommonName,
+        classificationStatus,
+        roundedGRank, gRank
+      ) %>%
+      slice(slice.row) %>%
+      mutate(query_name = i) %>%
+      select(query_name, everything())
+    
+    ns <- bind_rows(ns, temp)
+  }
+}
+
+# Get rid of duplicates if both provisional and standard classifications 
+# were returned
+ns.mod <- ns %>%
+  arrange(scientificName, desc(classificationStatus)) %>%
+  distinct(scientificName, .keep_all = TRUE)
+
+write_csv(ns.mod, "data/NatureServe/ns_data.csv")
 
 #==============================================================================
 
