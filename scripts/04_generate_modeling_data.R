@@ -14,10 +14,12 @@ rcat <- read_csv("data/rcat/rCAT_output.csv") %>%
   dplyr::select(scientificName, everything(), -query_name)
 
 threat.set <- read.csv("data/IUCN/threats.csv") %>%
+  distinct() %>%
   mutate(threatCode = code, threatName = name) %>%
   dplyr::select(scientificName, threatCode, threatName)
 
 type.set <- read.csv("data/IUCN/plant_specific.csv") %>%
+  distinct() %>%
   mutate(typeCode = code, typeName = name) %>%
   dplyr::select(scientificName, typeCode, typeName)
    
@@ -50,7 +52,8 @@ d2 <- d %>%
   # (i.e. 1 column containing 10.2.1 to 3 columns with 10, 2, and 1)
   separate(
     threatCode, 
-    c("primaryThreat", "secondaryThreat", "tertiaryThreat")
+    c("primaryThreat", "secondaryThreat", "tertiaryThreat"),
+    sep = "\\."
   ) %>%
   # Create columns that will set up and ultimately become those that 
   # compare whether we are overclassifying, underclassifying, or 
