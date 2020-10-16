@@ -482,16 +482,16 @@ d.preds <- data.frame(
   plant_group = rep(
     rep(
       c(
-        "Residential and commercial development",
-        "Agriculture and aquaculture", 
-        "Energy production and mining", 
-        "Transportation and service corridors", 
+        "Residential & commercial development",
+        "Agriculture & aquaculture", 
+        "Energy production & mining", 
+        "Transportation & service corridors", 
         "Biological resource use", 
-        "Human intrusions and disturbance",
+        "Human intrusions & disturbance",
         "Natural system modifications",
-        "Invasive species, genes, and disease",
+        "Invasive species, genes, & diseases",
         "Pollution",
-        "Climate change and severe weather",
+        "Climate change & severe weather",
         "Other options"
       ), 
       each = nrow(m.stan.samples$a)
@@ -583,3 +583,206 @@ dd.preds.plot <- d.preds %>%
 
 ggsave("outputs/dd_preds_plot.jpg", plot = dd.preds.plot, 
        height = 8, width = 10)
+
+#==============================================================================
+
+
+# Make stacked proportion plots showing plant type and threats in relation to
+# rapid classification category (relative to IUCN data)
+
+# Import the plant type and threat data and join together with rCAT output
+
+type.set <- read.csv("data/IUCN/plant_specific.csv") %>%
+  distinct() %>%
+  mutate(typeCode = code, typeName = name) %>%
+  dplyr::select(scientificName, typeCode, typeName)
+
+threat.set <- read.csv("data/IUCN/threats.csv") %>%
+  distinct() %>%
+  mutate(threatCode = code, threatName = name) %>%
+  dplyr::select(scientificName, threatCode, threatName)
+
+table.for.prop.plots <- rcat %>%
+  left_join(., threat.set, by = c("query_name" = "scientificName")) %>%
+  left_join(., type.set, by = c("query_name" = "scientificName"))
+
+# Clean and filter this dataset
+
+table.for.prop.plots.mod <- table.for.prop.plots %>%
+  # Change the very few instances of "Lower Risk/near threatened" to just
+  # "Near Threatened"
+  mutate(
+    iucn_redlist_category = ifelse(
+      iucn_redlist_category == "Lower Risk/near threatened",
+      "Near Threatened", iucn_redlist_category
+    )
+  ) %>%
+  mutate(
+    EOOcat_long = case_when(
+      EOOcat == "CR" ~ "Critically Endangered",
+      EOOcat == "EN" ~ "Endangered",
+      EOOcat == "VU" ~ "Vulnerable",
+      EOOcat == "NT" ~ "Near Threatened",
+      EOOcat == "LC" ~ "Least Concern"
+    )
+  ) %>%
+  # Separate the numeric threat code system into its component parts 
+  # (i.e. 1 column containing 10.2.1 to 3 columns with 10, 2, and 1)
+  separate(
+    threatCode, 
+    c("primaryThreat", "secondaryThreat", "tertiaryThreat"),
+    sep = "\\."
+  ) %>%
+  # Create columns that will set up and ultimately become those that 
+  # compare whether we are overclassifying, underclassifying, or 
+  # correctly classifying species when compared to the IUCN scheme
+  mutate(
+    IUCNcat_categoryClass = case_when(
+      iucn_redlist_category == "Critically Endangered" ~ 5,
+      iucn_redlist_category == "Endangered" ~ 4,
+      iucn_redlist_category == "Vulnerable" ~ 3,
+      iucn_redlist_category == "Near Threatened" ~ 2,
+      iucn_redlist_category == "Least Concern" ~ 1,
+      iucn_redlist_category == "Data Deficient" ~ 0
+    ),
+    EOOcat_categoryClass = case_when(
+      EOOcat_long == "Critically Endangered" ~ 5,
+      EOOcat_long == "Endangered" ~ 4,
+      EOOcat_long == "Vulnerable" ~ 3,
+      EOOcat_long == "Near Threatened" ~ 2,
+      EOOcat_long == "Least Concern" ~ 1
+    ),
+    overClassified = if_else(
+      EOOcat_categoryClass > IUCNcat_categoryClass, 1, 0
+    ),
+    underClassified = if_else(
+      EOOcat_categoryClass < IUCNcat_categoryClass, 1, 0
+    ),
+    correctlyClassified = if_else(
+      EOOcat_categoryClass == IUCNcat_categoryClass, 1, 0),
+    classificationCategory = case_when(
+      overClassified == 1 ~ "Overclassified",
+      underClassified == 1 ~ "Underclassified",
+      correctlyClassified == 1 ~ "Correctly classified"
+    ),
+    classificationCategory = factor(
+      classificationCategory, 
+      levels = c("Underclassified", "Correctly classified", "Overclassified")
+    )
+  ) %>%
+  # Condensing Plant Types to account for a lack of data in certain groups
+  mutate(
+    newTypeName = case_when(
+      # Condensing all succulents into a single group
+      typeName == "Succulent - form unknown" ~ "Succulent",
+      typeName == "Succulent - shrub" ~ "Succulent",
+      typeName == "Succulent - tree" ~ "Succulent",
+      # Assuming that if a tree is large, we'd likely know about it 
+      typeName == "Tree - large" ~ "Tree - large",
+      typeName == "Tree - small" ~ "Tree - small",
+      typeName == "Tree - size unknown" ~ "Tree - small",
+      # Condensing all shrubs into a single group
+      typeName == "Shrub - large" ~ "Shrub",
+      typeName == "Shrub - small" ~ "Shrub",
+      typeName == "Shrub - size unknown" ~ "Shrub",
+      # Group Annual and Graminoid
+      typeName == "Annual" ~ "Annual/Graminoid",
+      typeName == "Graminoid" ~ "Annual/Graminoid",
+      # Group Fern and Forb or Herb
+      typeName == "Fern" ~ "Fern/Forb or Herb",
+      typeName == "Forb or Herb" ~ "Fern/Forb or Herb",
+      # Group Vines, Epiphyte, Hydrophyte, Lithophyte
+      typeName == "Vines" ~ "Vines/Epiphyte/Hydrophyte/Lithophyte",
+      typeName == "Epiphyte" ~ "Vines/Epiphyte/Hydrophyte/Lithophyte",
+      typeName == "Hydrophyte" ~ "Vines/Epiphyte/Hydrophyte/Lithophyte",
+      typeName == "Lithophyte" ~ "Vines/Epiphyte/Hydrophyte/Lithophyte",
+      # Geophyte
+      typeName == "Geophyte" ~ "Geophyte"
+    )
+  )
+
+# Verify that the table we've created only lists a species as belonging to 
+# one rapid classification category (relative to the IUCN categories)
+
+table.for.prop.plots.mod %>%
+  select(overClassified, underClassified, correctlyClassified) %>%
+  rowSums() %>%
+  max()
+
+# Create the plant type plot
+
+table.for.prop.plots.mod %>%
+  # Filter out Data Deficient species as these can't be properly categorized
+  filter(iucn_redlist_category != "Data Deficient") %>%
+  distinct(query_name, newTypeName, classificationCategory) %>%
+  mutate(
+    classificationCategory = factor(
+      classificationCategory, 
+      levels = rev(levels(classificationCategory))
+    )
+  ) %>%
+  ggplot(aes(x = newTypeName, fill = classificationCategory)) +
+  geom_bar(position = "fill") +
+  ylab("Proportion of species") +
+  scale_fill_manual(values = c("gold1", "forestgreen", "firebrick4")) +
+  theme_bw() +
+  guides(fill = guide_legend(
+    title = "Rapid classification\nplacement relative\nto the IUCN")
+  ) +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1, size = 16),
+    axis.text.y = element_text(size = 14),
+    axis.title.x = element_blank(),
+    axis.title.y = element_text(size = 20),
+    legend.title = element_text(size = 20),
+    legend.text = element_text(size = 20),
+    plot.margin = margin(5, 5, 5, 40, "pt")
+  )
+
+ggsave("outputs/plant_type_prop_plot.jpg", width = 12, height = 8)
+
+# Create the plant threat plot
+
+table.for.prop.plots.mod %>%
+  # Filter out Data Deficient species as these can't be properly categorized
+  filter(iucn_redlist_category != "Data Deficient") %>%
+  # Filter out species for which we don't have threat data
+  filter(!is.na(primaryThreat)) %>%
+  distinct(query_name, primaryThreat, classificationCategory) %>%
+  mutate(
+    classificationCategory = factor(
+      classificationCategory, 
+      levels = rev(levels(classificationCategory))
+    ),
+    primaryThreat = case_when(
+      primaryThreat == "1" ~ "Residential & commerical development",
+      primaryThreat == "2" ~ "Agriculture & aquaculture",
+      primaryThreat == "3" ~ "Energy production & mining",
+      primaryThreat == "4" ~ "Transportation & service corridors",
+      primaryThreat == "5" ~ "Biological resource use",
+      primaryThreat == "6" ~ "Human intrusions & disturbance",
+      primaryThreat == "7" ~ "Natural system modifications",
+      primaryThreat == "8" ~ "Invasive species, genes, & diseases",
+      primaryThreat == "9" ~ "Pollution",
+      primaryThreat == "11" ~ "Climate change & severe weather",
+      primaryThreat == "12" ~ "Other options")
+  ) %>%
+  ggplot(aes(x = primaryThreat, fill = classificationCategory)) +
+  geom_bar(position = "fill") +
+  ylab("Proportion of species") +
+  scale_fill_manual(values = c("gold1", "forestgreen", "firebrick4")) +
+  theme_bw() +
+  guides(fill = guide_legend(
+    title = "Rapid classification\nplacement relative\nto the IUCN")
+  ) +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1, size = 14),
+    axis.text.y = element_text(size = 14),
+    axis.title.x = element_blank(),
+    axis.title.y = element_text(size = 20),
+    legend.title = element_text(size = 20),
+    legend.text = element_text(size = 20),
+    plot.margin = margin(5, 5, 5, 40, "pt")
+  )
+
+ggsave("outputs/plant_threat_prop_plot.jpg", width = 12, height = 8)
