@@ -64,8 +64,8 @@ rcat <- read_csv("data/rcat/rCAT_output.csv") %>%
 # Tile plotting
 
 line.size <- 3
-color.over <- "forestgreen"
-color.under <- "darkred"
+color.over <- "gold1"
+color.under <- "firebrick4"
 
 rcat %>%
   mutate(
@@ -165,7 +165,7 @@ rcat %>%
   theme_bw() +
   labs(
     x = "Automated Red List Category classification based on rCAT EOO calculation",
-    y = "NatureServe Global Conservation Status Ranks"
+    y = "NatureServe global conservation status ranks"
   ) +
   theme(
     legend.position = "none",
