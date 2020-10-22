@@ -16,7 +16,7 @@ data("buffland")
 # Clean up the "gbif_occurrences" folder, as needed
 files <- list.files("data/gbif_occurrences", full.names = TRUE)
 
-cleaning.table <- data_frame(file_name = files) %>%
+cleaning.table <- tibble(file_name = files) %>%
   mutate(
     species = gsub("data/gbif_occurrences/", "", file_name) %>%
       str_extract(., "[a-zA-Z]+_[a-z\\-]+") %>%
@@ -123,6 +123,8 @@ d <- cc_sea(
 )
 
 dim(d)
+# How many plant species represented?
+n_distinct(d$query_name)
 
 # Write cleaned GBIF data to disk
 write_csv(d, "data/gbif_cleaned/gbif_all.csv")
