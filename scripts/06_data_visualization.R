@@ -420,7 +420,7 @@ for(x in sample.size.scenarios$scaled_N) {
 d.preds <- data.frame(
   plant_group = rep(
     rep(
-      c("Tree", "Shrub", "Graminoid", "Forb/Herb", 
+      c("Tree", "Shrub", "Graminoid", "Forb or Herb", 
         "Annual", "Geophyte", "Succulent", "Hydrophyte", 
         "Vines/Epiphyte/Lithophyte", "Fern"), 
       each = nrow(m.stan.samples$a)
@@ -683,33 +683,25 @@ table.for.prop.plots.mod <- table.for.prop.plots %>%
   ) %>%
   # Condensing Plant Types to account for a lack of data in certain groups
   mutate(
-    newTypeName = case_when(
-      # Condensing all succulents into a single group
-      typeName == "Succulent - form unknown" ~ "Succulent",
-      typeName == "Succulent - shrub" ~ "Succulent",
-      typeName == "Succulent - tree" ~ "Succulent",
-      # Assuming that if a tree is large, we'd likely know about it 
-      typeName == "Tree - large" ~ "Tree - large",
-      typeName == "Tree - small" ~ "Tree - small",
-      typeName == "Tree - size unknown" ~ "Tree - small",
-      # Condensing all shrubs into a single group
-      typeName == "Shrub - large" ~ "Shrub",
-      typeName == "Shrub - small" ~ "Shrub",
-      typeName == "Shrub - size unknown" ~ "Shrub",
-      # Group Annual and Graminoid
-      typeName == "Annual" ~ "Annual/Graminoid",
-      typeName == "Graminoid" ~ "Annual/Graminoid",
-      # Group Fern and Forb or Herb
-      typeName == "Fern" ~ "Fern/Forb or Herb",
-      typeName == "Forb or Herb" ~ "Fern/Forb or Herb",
-      # Group Vines, Epiphyte, Hydrophyte, Lithophyte
-      typeName == "Vines" ~ "Vines/Epiphyte/Hydrophyte/Lithophyte",
-      typeName == "Epiphyte" ~ "Vines/Epiphyte/Hydrophyte/Lithophyte",
-      typeName == "Hydrophyte" ~ "Vines/Epiphyte/Hydrophyte/Lithophyte",
-      typeName == "Lithophyte" ~ "Vines/Epiphyte/Hydrophyte/Lithophyte",
-      # Geophyte
-      typeName == "Geophyte" ~ "Geophyte"
-    )
+      newTypeName = case_when(
+        # Condensing all shrubs into a single group
+        typeName == "Shrub - large" ~ "Shrub",
+        typeName == "Shrub - small" ~ "Shrub",
+        typeName == "Shrub - size unknown" ~ "Shrub",
+        # Condensing all succulents into a single group
+        typeName == "Succulent - shrub" ~ "Succulent",
+        typeName == "Succulent - tree" ~ "Succulent",
+        typeName == "Succulent - form unknown" ~ "Succulent",
+        # Condensing all trees into a single group
+        typeName == "Tree - large" ~ "Tree",
+        typeName == "Tree - small" ~ "Tree",
+        typeName == "Tree - size unknown" ~ "Tree",
+        # Group Vines, Epiphyte, Lithophyte
+        typeName == "Vines" ~ "Vines/Epiphyte/Lithophyte",
+        typeName == "Epiphyte" ~ "Vines/Epiphyte/Lithophyte",
+        typeName == "Lithophyte" ~ "Vines/Epiphyte/Lithophyte",
+        TRUE ~ typeName
+      )
   )
 
 # Verify that the table we've created only lists a species as belonging to 
