@@ -401,14 +401,16 @@ for(x in sample.size.scenarios$scaled_N) {
   
   temp <- logistic(
     c(
-      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aTree_large,
-      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aTree_small,
+      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aTree,
       m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aShrub,
-      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aSucculent,
+      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aGraminoid,
+      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aForb_Herb,
+      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aAnnual,
       m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aGeophyte,
-      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aAnnual_Graminoid,
-      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aFern_Forb_Herb,
-      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aVines_Epi_Hydro_Litho
+      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aSucculent,
+      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aHydrophyte,
+      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aVines_Epi_Litho,
+      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aFern
     )
   )
   
@@ -418,12 +420,14 @@ for(x in sample.size.scenarios$scaled_N) {
 d.preds <- data.frame(
   plant_group = rep(
     rep(
-      c("Tree (large)", "Tree (small)", "Shrub", "Succulent", "Geophyte", "Annual/Graminoid", "Fern/Forb/Herb", "Vines/Epi/Hydro/Litho"), 
+      c("Tree", "Shrub", "Graminoid", "Forb/Herb", 
+        "Annual", "Geophyte", "Succulent", "Hydrophyte", 
+        "Vines/Epiphyte/Lithophyte", "Fern"), 
       each = nrow(m.stan.samples$a)
     ),
     times = nrow(sample.size.scenarios)
   ),
-  sample_size = rep(sample.size.scenarios$raw_N, each = nrow(m.stan.samples$a)*8),
+  sample_size = rep(sample.size.scenarios$raw_N, each = nrow(m.stan.samples$a)*10),
   predicted_probs = predicted.probs
 )
 
@@ -437,10 +441,11 @@ preds.plot1 <- d.preds %>%
   geom_density(fill = alpha("gray", 0.15)) +
   xlab("Probability of correct Red List Category classification") +
   ylab("Density") +
+  xlim(0, 1) +
   theme_minimal() +
   facet_wrap(~plant_group, ncol = 2, scales = "free_y") +
   guides(color = guide_legend(title = "Sample size")) +
-  scale_y_continuous(breaks = c(0, 3, 6, 9, 12, 15)) +
+  scale_y_continuous(breaks = c(0, 50, 100, 150, 200, 250)) +
   theme(
     legend.position = "bottom",
     text = element_text(size = 16),
@@ -514,6 +519,7 @@ preds.plot2 <- d.preds %>%
   geom_density(fill = alpha("gray", 0.15)) +
   xlab("Probability of correct Red List Category classification") +
   ylab("Density") +
+  xlim(0, 1) +
   theme_minimal() +
   facet_wrap(~plant_group, ncol = 3, scales = "free_y") +
   guides(color = guide_legend(title = "Sample size")) +
@@ -547,14 +553,16 @@ for(i in 1:nrow(dd)) {
     c(
       m.stan.samples$a + 
         m.stan.samples$bN*dd$NOP_s[i] +
-        m.stan.samples$aAnnual_Graminoid*dd$Annual.Graminoid[i] +
-        m.stan.samples$aFern_Forb_Herb*dd$Fern.Forb.or.Herb[i] +
-        m.stan.samples$aGeophyte*dd$Geophyte[i] +
+        m.stan.samples$aTree*dd$Tree[i] +
         m.stan.samples$aShrub*dd$Shrub[i] +
+        m.stan.samples$aGraminoid*dd$Graminoid[i] +
+        m.stan.samples$aForb_Herb*dd$Forb.or.Herb[i] +
+        m.stan.samples$aAnnual*dd$Annual[i] +
+        m.stan.samples$aGeophyte*dd$Geophyte[i] +
         m.stan.samples$aSucculent*dd$Succulent[i] +
-        m.stan.samples$aTree_large*dd$Tree...large[i] +
-        m.stan.samples$aTree_small*dd$Tree...small[i] +
-        m.stan.samples$aVines_Epi_Hydro_Litho*dd$Vines.Epiphyte.Hydrophyte.Lithophyte[i]
+        m.stan.samples$aHydrophyte*dd$Hydrophyte[i] +
+        m.stan.samples$aVines_Epi_Litho*dd$Vines.Epiphyte.Lithophyte[i] +
+        m.stan.samples$aFern*dd$Fern[i]
     )
   )
      
@@ -576,6 +584,7 @@ dd.preds.plot <- d.preds %>%
   geom_density(fill = alpha("gray", 0.15)) +
   xlab("Probability of correct Red List Category classification") +
   ylab("Density") +
+  xlim(0, 1) +
   theme_minimal() +
   facet_wrap(~plant_species, ncol = 3, scales = "free_y") +
   theme(

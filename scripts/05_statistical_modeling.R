@@ -2,6 +2,7 @@
 
 library(tidyverse)
 library(rethinking)
+library(assertthat)
 
 #==============================================================================
 
@@ -70,8 +71,8 @@ m.type.stan <- map2stan(
     aGeophyte ~ dnorm(0, sigma_plant_type),
     aSucculent ~ dnorm(0, sigma_plant_type), 
     aHydrophyte ~ dnorm(0, sigma_plant_type),
-    aVines_Epi_Litho ~ dnorm(0, sigma_plant_type)
-    aFern ~ dnorm(0, sigma_plant_type),
+    aVines_Epi_Litho ~ dnorm(0, sigma_plant_type),
+    aFern ~ dnorm(0, sigma_plant_type)
   ),
   chains = 4,
   iter = 7500,
