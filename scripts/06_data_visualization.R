@@ -67,7 +67,7 @@ line.size <- 3
 color.over <- "gold1"
 color.under <- "firebrick4"
 
-rcat %>%
+data.for.plotting <- rcat %>%
   mutate(
     iucn_redlist_category = ifelse(
       iucn_redlist_category == "Lower Risk/near threatened",
@@ -78,6 +78,9 @@ rcat %>%
   ) %>%
   group_by(iucn_redlist_category, EOOcat_long) %>%
   summarize(n = n()) %>%
+  ungroup()
+
+data.for.plotting %>%
   ggplot(aes(x = EOOcat_long, y = iucn_redlist_category)) +
   geom_tile(aes(fill = log10(n)), color = "black") +
   geom_text(
@@ -140,7 +143,93 @@ rcat %>%
 ggsave("outputs/tile_plot.jpg", width = 14, height = 7)
 
 
-rcat %>%
+data.for.plotting <- rcat %>%
+  mutate(
+    iucn_redlist_category = ifelse(
+      iucn_redlist_category == "Lower Risk/near threatened",
+      "Near Threatened", iucn_redlist_category),
+    iucn_redlist_category = factor(
+      iucn_redlist_category, levels = c(category.levels, "Data Deficient")
+    )
+  ) %>%
+  group_by(iucn_redlist_category, EOOcat_long) %>%
+  summarize(n = n()) %>%
+  ungroup() %>%
+  mutate(
+    iucn_numeric = as.numeric(iucn_redlist_category),
+    EOOcat_numeric = as.numeric(EOOcat_long),
+    color = case_when(
+      iucn_numeric == EOOcat_numeric ~ "forestgreen",
+      iucn_numeric == 6 ~ "darkgray",
+      iucn_numeric < EOOcat_numeric ~ "gold1",
+      iucn_numeric > EOOcat_numeric ~ "firebrick4",
+    ),
+    alpha = log10(n + 4)/max(log10(n + 4)),
+    color = alpha(color, alpha = alpha)
+  ) 
+
+data.for.plotting %>%
+  ggplot(aes(x = EOOcat_long, y = iucn_redlist_category)) +
+  geom_tile(fill = data.for.plotting$color) +
+  geom_text(
+    aes(label = n), fontface = "bold", color = "white", size = 16) +
+  theme_bw() +
+  labs(
+    x = "Automated Red List Category classification based on rCAT EOO calculation",
+    y = "IUCN Red List Category classification"
+  ) +
+  theme(
+    legend.position = "none",
+    panel.grid.major = element_blank(),
+    text = element_text(size = 20)
+  ) +
+  
+  geom_segment(x = 1.5, y = 0, xend = 1.5, yend = 1.5,
+               color = color.over, linetype = 2, size = line.size) +
+  geom_segment(x = 1.5, y = 1.5, xend = 2.5, yend = 1.5,
+               color = color.over, linetype = 2, size = line.size) +
+  geom_segment(x = 2.5, y = 1.5, xend = 2.5, yend = 2.5,
+               color = color.over, linetype = 2, size = line.size) +
+  geom_segment(x = 2.5, y = 2.5, xend = 3.5, yend = 2.5,
+               color = color.over, linetype = 2, size = line.size) +
+  geom_segment(x = 3.5, y = 2.5, xend = 3.5, yend = 3.5,
+               color = color.over, linetype = 2, size = line.size) +
+  geom_segment(x = 3.5, y = 3.5, xend = 4.5, yend = 3.5,
+               color = color.over, linetype = 2, size = line.size) +
+  geom_segment(x = 4.5, y = 3.5, xend = 4.5, yend = 4.5,
+               color = color.over, linetype = 2, size = line.size) +
+  geom_segment(x = 4.5, y = 4.5, xend = 5.5, yend = 4.5,
+               color = color.over, linetype = 2, size = line.size) +
+  geom_segment(x = 5.5, y = 4.5, xend = 5.5, yend = 0,
+               color = color.over, linetype = 2, size = line.size) +
+  
+  geom_segment(x = 0.5, y = 1.5, xend = 0.5, yend = 5.5,
+               color = color.under, linetype = 2, size = line.size) +
+  geom_segment(x = 0.5, y = 1.5, xend = 1.5, yend = 1.5,
+               color = color.under, linetype = 2, size = line.size) +
+  geom_segment(x = 1.5, y = 1.5, xend = 1.5, yend = 2.5,
+               color = color.under, linetype = 2, size = line.size) +
+  geom_segment(x = 1.5, y = 2.5, xend = 2.5, yend = 2.5,
+               color = color.under, linetype = 2, size = line.size) +
+  geom_segment(x = 1.5, y = 2.5, xend = 2.5, yend = 2.5,
+               color = color.under, linetype = 2, size = line.size) +
+  geom_segment(x = 2.5, y = 2.5, xend = 2.5, yend = 3.5,
+               color = color.under, linetype = 2, size = line.size) +
+  geom_segment(x = 2.5, y = 3.5, xend = 3.5, yend = 3.5,
+               color = color.under, linetype = 2, size = line.size) +
+  geom_segment(x = 3.5, y = 3.5, xend = 3.5, yend = 4.5,
+               color = color.under, linetype = 2, size = line.size) +
+  geom_segment(x = 3.5, y = 4.5, xend = 4.5, yend = 4.5,
+               color = color.under, linetype = 2, size = line.size) +
+  geom_segment(x = 4.5, y = 4.5, xend = 4.5, yend = 5.5,
+               color = color.under, linetype = 2, size = line.size) +
+  
+  geom_hline(yintercept = 5.5, size = 2)
+
+ggsave("outputs/tile_plot_color.jpg", width = 14, height = 7)
+
+
+data.for.plotting <- rcat %>%
   left_join(
     ., 
     read_csv("data/NatureServe/ns_data.csv"), 
@@ -158,6 +247,9 @@ rcat %>%
   ) %>%
   group_by(roundedGRank, EOOcat_long) %>%
   summarize(n = n()) %>%
+  ungroup()
+
+data.for.plotting %>%
   ggplot(aes(x = EOOcat_long, y = roundedGRank)) +
   geom_tile(aes(fill = log10(n)), color = "black") +
   geom_text(
