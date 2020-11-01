@@ -80,8 +80,9 @@ rcat %>%
   summarize(n = n()) %>%
   ggplot(aes(x = EOOcat_long, y = iucn_redlist_category)) +
   geom_tile(aes(fill = log10(n)), color = "black") +
-  geom_text(aes(label = n, fontface = "bold"), 
-            color = "white", size = 16) +
+  geom_text(
+    aes(label = n), fontface = "bold", color = "white", size = 16
+  ) +
   scale_fill_gradient(low = "lightgray", high = "black") +
   theme_bw() +
   labs(
@@ -159,8 +160,9 @@ rcat %>%
   summarize(n = n()) %>%
   ggplot(aes(x = EOOcat_long, y = roundedGRank)) +
   geom_tile(aes(fill = log10(n)), color = "black") +
-  geom_text(aes(label = n, fontface = "bold"), 
-            color = "white", size = 16) +
+  geom_text(
+    aes(label = n), fontface = "bold", color = "white", size = 16
+  ) +
   scale_fill_gradient(low = "lightgray", high = "black") +
   theme_bw() +
   labs(

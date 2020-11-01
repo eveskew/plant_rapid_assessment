@@ -25,7 +25,8 @@ type.set <- read.csv("data/IUCN/plant_specific.csv") %>%
    
 # Join them all into a single dataset
 
-d <- left_join(rcat, threat.set, by = "scientificName") %>%
+d <- rcat %>%
+  left_join(., threat.set, by = "scientificName") %>%
   left_join(., type.set, by = "scientificName")
 
 # Clean and filter this dataset
@@ -93,31 +94,23 @@ d2 <- d %>%
   # Condensing Plant Types to account for a lack of data in certain groups
   mutate(
     newTypeName = case_when(
-      # Condensing all succulents into a single group
-      typeName == "Succulent - form unknown" ~ "Succulent",
-      typeName == "Succulent - shrub" ~ "Succulent",
-      typeName == "Succulent - tree" ~ "Succulent",
-      # Assuming that if a tree is large, we'd likely know about it 
-      typeName == "Tree - large" ~ "Tree - large",
-      typeName == "Tree - small" ~ "Tree - small",
-      typeName == "Tree - size unknown" ~ "Tree - small",
       # Condensing all shrubs into a single group
       typeName == "Shrub - large" ~ "Shrub",
       typeName == "Shrub - small" ~ "Shrub",
       typeName == "Shrub - size unknown" ~ "Shrub",
-      # Group Annual and Graminoid
-      typeName == "Annual" ~ "Annual/Graminoid",
-      typeName == "Graminoid" ~ "Annual/Graminoid",
-      # Group Fern and Forb or Herb
-      typeName == "Fern" ~ "Fern/Forb or Herb",
-      typeName == "Forb or Herb" ~ "Fern/Forb or Herb",
-      # Group Vines, Epiphyte, Hydrophyte, Lithophyte
-      typeName == "Vines" ~ "Vines/Epiphyte/Hydrophyte/Lithophyte",
-      typeName == "Epiphyte" ~ "Vines/Epiphyte/Hydrophyte/Lithophyte",
-      typeName == "Hydrophyte" ~ "Vines/Epiphyte/Hydrophyte/Lithophyte",
-      typeName == "Lithophyte" ~ "Vines/Epiphyte/Hydrophyte/Lithophyte",
-      # Geophyte
-      typeName == "Geophyte" ~ "Geophyte"
+      # Condensing all succulents into a single group
+      typeName == "Succulent - shrub" ~ "Succulent",
+      typeName == "Succulent - tree" ~ "Succulent",
+      typeName == "Succulent - form unknown" ~ "Succulent",
+      # Condensing all trees into a single group
+      typeName == "Tree - large" ~ "Tree",
+      typeName == "Tree - small" ~ "Tree",
+      typeName == "Tree - size unknown" ~ "Tree",
+      # Group Vines, Epiphyte, Lithophyte
+      typeName == "Vines" ~ "Vines/Epiphyte/Lithophyte",
+      typeName == "Epiphyte" ~ "Vines/Epiphyte/Lithophyte",
+      typeName == "Lithophyte" ~ "Vines/Epiphyte/Lithophyte",
+      TRUE ~ typeName
     )
   )
 
@@ -135,7 +128,7 @@ wide.threats <- d2 %>%
 # Widen plant type data
 wide.type <- d2 %>%
   group_by(scientificName) %>%
-  mutate(newTypeRow = row_number()) %>%
+  mutate(typeRow = row_number()) %>%
   mutate(isType = 1) %>%
   pivot_wider(
     names_from = newTypeName, 
@@ -146,14 +139,14 @@ wide.type <- d2 %>%
 # Collapse into a single dataset
 
 d3 <- wide.type %>%
-  dplyr::select(-iucn_assessment_year:-newTypeRow) %>%
+  dplyr::select(-iucn_assessment_year:-typeRow) %>%
   left_join(wide.threats, ., by = "scientificName") %>%
   dplyr::group_by(
     scientificName, 
     overClassified, underClassified, correctlyClassified
   ) %>%
   summarise_at(
-    vars(`5`:`Vines/Epiphyte/Hydrophyte/Lithophyte`), 
+    vars(`5`:`Fern`), 
     max, na.rm = TRUE
   )
 
@@ -213,25 +206,19 @@ full.data <- left_join(rcat, d3, by = "scientificName") %>%
       EOOcat == "NT" ~ "Near Threatened",
       EOOcat == "LC" ~ "Least Concern"
     )
-  ) 
-
-full.modeling.data <- full.data %>%
-  # Remove those species for which there is no threat data
-  filter(`NA` != 1) %>%
-  # Remove those species with no North American occurrences in GBIF
-  # filter(GBIF_points_in_NA == "Yes") %>% 
-  # Don't model Data Deficient species here
-  filter(iucn_redlist_category != "Data Deficient") %>%
+  ) %>%
   # Change the very few instances of "Lower Risk/near threatened" to just
   # "Near Threatened" to match rest of dataset
   mutate(
     iucn_redlist_category = ifelse(
       iucn_redlist_category == "Lower Risk/near threatened",
       "Near Threatened", iucn_redlist_category)
-  ) %>%
-  # Drop the NA column
-  dplyr::select(-`NA`)
+  )
 
+full.modeling.data <- full.data %>%
+  # Don't model Data Deficient species here
+  filter(iucn_redlist_category != "Data Deficient")
+  
 # Verify every species in this dataset has only one classification direction
 col1 <- which(colnames(full.modeling.data) == "overClassified")
 col2 <- which(colnames(full.modeling.data) == "correctlyClassified")
@@ -239,24 +226,6 @@ class.count <- full.modeling.data %>%
   mutate(class.count = rowSums(.[col1:col2])) %>%
   pull(class.count)
 assert_that(sum(class.count == 1) == length(class.count))
-
-# Verify every species in this dataset has at least one associated threat
-# type
-col1 <- which(colnames(full.modeling.data) == "5")
-col2 <- which(colnames(full.modeling.data) == "12")
-threat.count <- full.modeling.data %>%
-  mutate(threat.count = rowSums(.[col1:col2])) %>%
-  pull(threat.count)
-assert_that(sum(threat.count > 0) == length(threat.count))
-
-# Verify every species in this dataset has at least one associated plant
-# type
-col1 <- which(colnames(full.modeling.data) == "Tree - large")
-col2 <- which(colnames(full.modeling.data) == "Vines/Epiphyte/Hydrophyte/Lithophyte")
-type.count <- full.modeling.data %>%
-  mutate(type.count = rowSums(.[col1:col2])) %>%
-  pull(type.count)
-assert_that(sum(type.count > 0) == length(type.count))
 
 # Write to disk
 write_csv(full.modeling.data, "data/modeling_data/full_modeling_data.csv")
@@ -267,16 +236,12 @@ write_csv(full.modeling.data, "data/modeling_data/full_modeling_data.csv")
 # Generate modeling dataset for Data Deficient species
 
 dd.modeling.data <- full.data %>%
-  filter(iucn_redlist_category == "Data Deficient") %>%
-  # Remove those species with no North American occurrences in GBIF
-  # filter(GBIF_points_in_NA == "Yes") %>% 
-  # Drop the NA column from threats
-  dplyr::select(-`NA`)
+  filter(iucn_redlist_category == "Data Deficient")
 
 # Verify every species in this dataset has at least one associated plant
 # type
-col1 <- which(colnames(dd.modeling.data) == "Tree - large")
-col2 <- which(colnames(dd.modeling.data) == "Vines/Epiphyte/Hydrophyte/Lithophyte")
+col1 <- which(colnames(dd.modeling.data) == "Tree")
+col2 <- which(colnames(dd.modeling.data) == "Fern")
 type.count <- dd.modeling.data %>%
   mutate(type.count = rowSums(.[col1:col2])) %>%
   pull(type.count)
