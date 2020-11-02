@@ -89,7 +89,7 @@ data.for.plotting %>%
   scale_fill_gradient(low = "lightgray", high = "black") +
   theme_bw() +
   labs(
-    x = "Automated Red List Category classification based on rCAT EOO calculation",
+    x = "REBA classification",
     y = "IUCN Red List Category classification"
   ) +
   theme(
@@ -175,7 +175,7 @@ data.for.plotting %>%
     aes(label = n), fontface = "bold", color = "white", size = 16) +
   theme_bw() +
   labs(
-    x = "Automated Red List Category classification based on rCAT EOO calculation",
+    x = "REBA classification",
     y = "IUCN Red List Category classification"
   ) +
   theme(
@@ -183,47 +183,6 @@ data.for.plotting %>%
     panel.grid.major = element_blank(),
     text = element_text(size = 20)
   ) +
-  
-  geom_segment(x = 1.5, y = 0, xend = 1.5, yend = 1.5,
-               color = color.over, linetype = 2, size = line.size) +
-  geom_segment(x = 1.5, y = 1.5, xend = 2.5, yend = 1.5,
-               color = color.over, linetype = 2, size = line.size) +
-  geom_segment(x = 2.5, y = 1.5, xend = 2.5, yend = 2.5,
-               color = color.over, linetype = 2, size = line.size) +
-  geom_segment(x = 2.5, y = 2.5, xend = 3.5, yend = 2.5,
-               color = color.over, linetype = 2, size = line.size) +
-  geom_segment(x = 3.5, y = 2.5, xend = 3.5, yend = 3.5,
-               color = color.over, linetype = 2, size = line.size) +
-  geom_segment(x = 3.5, y = 3.5, xend = 4.5, yend = 3.5,
-               color = color.over, linetype = 2, size = line.size) +
-  geom_segment(x = 4.5, y = 3.5, xend = 4.5, yend = 4.5,
-               color = color.over, linetype = 2, size = line.size) +
-  geom_segment(x = 4.5, y = 4.5, xend = 5.5, yend = 4.5,
-               color = color.over, linetype = 2, size = line.size) +
-  geom_segment(x = 5.5, y = 4.5, xend = 5.5, yend = 0,
-               color = color.over, linetype = 2, size = line.size) +
-  
-  geom_segment(x = 0.5, y = 1.5, xend = 0.5, yend = 5.5,
-               color = color.under, linetype = 2, size = line.size) +
-  geom_segment(x = 0.5, y = 1.5, xend = 1.5, yend = 1.5,
-               color = color.under, linetype = 2, size = line.size) +
-  geom_segment(x = 1.5, y = 1.5, xend = 1.5, yend = 2.5,
-               color = color.under, linetype = 2, size = line.size) +
-  geom_segment(x = 1.5, y = 2.5, xend = 2.5, yend = 2.5,
-               color = color.under, linetype = 2, size = line.size) +
-  geom_segment(x = 1.5, y = 2.5, xend = 2.5, yend = 2.5,
-               color = color.under, linetype = 2, size = line.size) +
-  geom_segment(x = 2.5, y = 2.5, xend = 2.5, yend = 3.5,
-               color = color.under, linetype = 2, size = line.size) +
-  geom_segment(x = 2.5, y = 3.5, xend = 3.5, yend = 3.5,
-               color = color.under, linetype = 2, size = line.size) +
-  geom_segment(x = 3.5, y = 3.5, xend = 3.5, yend = 4.5,
-               color = color.under, linetype = 2, size = line.size) +
-  geom_segment(x = 3.5, y = 4.5, xend = 4.5, yend = 4.5,
-               color = color.under, linetype = 2, size = line.size) +
-  geom_segment(x = 4.5, y = 4.5, xend = 4.5, yend = 5.5,
-               color = color.under, linetype = 2, size = line.size) +
-  
   geom_hline(yintercept = 5.5, size = 2)
 
 ggsave("outputs/tile_plot_color.jpg", width = 14, height = 7)
@@ -258,7 +217,7 @@ data.for.plotting %>%
   scale_fill_gradient(low = "lightgray", high = "black") +
   theme_bw() +
   labs(
-    x = "Automated Red List Category classification based on rCAT EOO calculation",
+    x = "REBA classification",
     y = "NatureServe global conservation status ranks"
   ) +
   theme(
