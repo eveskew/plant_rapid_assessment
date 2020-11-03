@@ -164,7 +164,7 @@ data.for.plotting <- rcat %>%
       iucn_numeric < EOOcat_numeric ~ "gold1",
       iucn_numeric > EOOcat_numeric ~ "firebrick4",
     ),
-    alpha = log10(n + 4)/max(log10(n + 4)),
+    alpha = log10(n + 2)/max(log10(n + 2)),
     color = alpha(color, alpha = alpha)
   ) 
 
@@ -172,7 +172,7 @@ data.for.plotting %>%
   ggplot(aes(x = EOOcat_long, y = iucn_redlist_category)) +
   geom_tile(fill = data.for.plotting$color) +
   geom_text(
-    aes(label = n), fontface = "bold", color = "white", size = 16) +
+    aes(label = n), fontface = "bold", color = "black", size = 16) +
   theme_bw() +
   labs(
     x = "REBA classification",
