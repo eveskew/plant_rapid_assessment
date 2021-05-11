@@ -3,6 +3,7 @@
 library(tidyverse)
 library(cowplot)
 library(rethinking)
+library(dotwhisker)
 
 #==============================================================================
 
@@ -440,8 +441,8 @@ ggsave("outputs/IUCN_assessment_metrics_vs_GBIF_metrics.jpg",
 f <- read.csv("data/modeling_data/full_modeling_data.csv")
 f$NOP_s <- scale(f$NOP)
 
-m.type.stan <- readRDS("data/fit_models/m.type.stan.RDS")
-m.stan.samples <- extract.samples(m.type.stan)
+m.correct.type.stan <- readRDS("data/fit_models/m.correct.type.stan.RDS")
+m.stan.samples <- extract.samples(m.correct.type.stan)
 
 sample.size.scenarios <- data.frame(raw_N = c(100, 1000, 10000, 20000)) %>%
   mutate(scaled_N = (raw_N - mean(f$NOP))/sd(f$NOP))
@@ -507,8 +508,86 @@ ggsave("outputs/plant_type_preds_plot.jpg", plot = preds.plot1,
        height = 8, width = 8)
 
 
-m.threat.stan <- readRDS("data/fit_models/m.threat.stan.RDS")
-m.stan.samples <- extract.samples(m.threat.stan)
+m.under.type.stan <- readRDS("data/fit_models/m.under.type.stan.RDS")
+m.stan.samples <- extract.samples(m.under.type.stan)
+
+sample.size.scenarios <- data.frame(raw_N = c(100, 1000, 10000, 20000)) %>%
+  mutate(scaled_N = (raw_N - mean(f$NOP))/sd(f$NOP))
+
+predicted.probs <- c()
+
+for(x in sample.size.scenarios$scaled_N) {
+  
+  temp <- logistic(
+    c(
+      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aTree,
+      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aShrub,
+      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aGraminoid,
+      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aForb_Herb,
+      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aAnnual,
+      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aGeophyte,
+      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aSucculent,
+      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aHydrophyte,
+      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aVines_Epi_Litho,
+      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aFern
+    )
+  )
+  
+  predicted.probs <- c(predicted.probs, temp)
+}
+
+d.preds <- data.frame(
+  plant_group = rep(
+    rep(
+      c("Tree", "Shrub", "Graminoid", "Forb or Herb", 
+        "Annual", "Geophyte", "Succulent", "Hydrophyte", 
+        "Vines/Epiphyte/Lithophyte", "Fern"), 
+      each = nrow(m.stan.samples$a)
+    ),
+    times = nrow(sample.size.scenarios)
+  ),
+  sample_size = rep(sample.size.scenarios$raw_N, each = nrow(m.stan.samples$a)*10),
+  predicted_probs = predicted.probs
+)
+
+d.preds %>%
+  pivot_wider(names_from = 1:2, values_from = 3) %>%
+  unnest() %>%
+  rethinking::precis(., prob = 0.99)
+
+interval <- 0.95
+
+summary.table <- d.preds %>%
+  group_by(plant_group, sample_size) %>%
+  summarize(
+    estimate = mean(predicted_probs),
+    conf.low = HPDI(predicted_probs, interval)[1],
+    conf.high = HPDI(predicted_probs, interval)[2]
+  ) %>%
+  ungroup()
+
+type.under.plot <- summary.table %>%
+  filter(sample_size != 20000) %>%
+  rename(
+    term = plant_group,
+    model = sample_size
+  ) %>%
+  arrange(desc(model)) %>%
+  dwplot() +
+  xlim(0, 1) +
+  xlab("Probability of REBA underclassification error") +
+  scale_color_discrete(
+    name = "Sample size",
+    guide = guide_legend(reverse = TRUE)
+  ) +
+  theme_minimal()
+
+ggsave("outputs/plant_type_under_plot.jpg", 
+       plot = type.under.plot, height = 5, width = 5)
+
+
+m.correct.threat.stan <- readRDS("data/fit_models/m.correct.threat.stan.RDS")
+m.stan.samples <- extract.samples(m.correct.threat.stan)
 
 sample.size.scenarios <- data.frame(raw_N = c(100, 1000, 10000, 20000)) %>%
   mutate(scaled_N = (raw_N - mean(f$NOP))/sd(f$NOP))
@@ -584,6 +663,95 @@ preds.plot2 <- d.preds %>%
 ggsave("outputs/plant_threat_preds_plot.jpg", plot = preds.plot2, 
        height = 8, width = 12)
 
+
+m.under.threat.stan <- readRDS("data/fit_models/m.under.threat.stan.RDS")
+m.stan.samples <- extract.samples(m.under.threat.stan)
+
+sample.size.scenarios <- data.frame(raw_N = c(100, 1000, 10000, 20000)) %>%
+  mutate(scaled_N = (raw_N - mean(f$NOP))/sd(f$NOP))
+
+predicted.probs <- c()
+
+for(x in sample.size.scenarios$scaled_N) {
+  
+  temp <- logistic(
+    c(
+      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aResidential_and_commercial_development,
+      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aAgriculture_and_Aquaculture,
+      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aEnergy_production_and_mining,
+      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aTransportation_and_service_corridors,
+      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aBiological_resource_use,
+      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aHuman_intrusions_and_disturbance,
+      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aNatural_system_modifications,
+      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aInvasive_and_other_problematic_species_genes_and_disease,
+      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aPollution,
+      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aClimate_change_and_severe_weather,
+      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aOther_options
+    )
+  )
+  
+  predicted.probs <- c(predicted.probs, temp)
+}
+
+d.preds <- data.frame(
+  plant_group = rep(
+    rep(
+      c(
+        "Residential & commercial development",
+        "Agriculture & aquaculture", 
+        "Energy production & mining", 
+        "Transportation & service corridors", 
+        "Biological resource use", 
+        "Human intrusions & disturbance",
+        "Natural system modifications",
+        "Invasive species, genes, & diseases",
+        "Pollution",
+        "Climate change & severe weather",
+        "Other options"
+      ), 
+      each = nrow(m.stan.samples$a)
+    ),
+    times = nrow(sample.size.scenarios)
+  ),
+  sample_size = rep(sample.size.scenarios$raw_N, each = nrow(m.stan.samples$a)*11),
+  predicted_probs = predicted.probs
+)
+
+d.preds %>%
+  pivot_wider(names_from = 1:2, values_from = 3) %>%
+  unnest() %>%
+  rethinking::precis(., prob = 0.99)
+
+interval <- 0.95
+
+summary.table <- d.preds %>%
+  group_by(plant_group, sample_size) %>%
+  summarize(
+    estimate = mean(predicted_probs),
+    conf.low = HPDI(predicted_probs, interval)[1],
+    conf.high = HPDI(predicted_probs, interval)[2]
+  ) %>%
+  ungroup()
+
+threat.under.plot <- summary.table %>%
+  filter(sample_size != 20000) %>%
+  rename(
+    term = plant_group,
+    model = sample_size
+  ) %>%
+  arrange(desc(model)) %>%
+  dwplot() +
+  xlim(0, 1) +
+  xlab("Probability of REBA underclassification error") +
+  scale_color_discrete(
+    name = "Sample size",
+    guide = guide_legend(reverse = TRUE)
+  ) +
+  theme_minimal()
+
+ggsave("outputs/plant_threat_under_plot.jpg", 
+       plot = threat.under.plot, height = 5, width = 5)
+
 #==============================================================================
 
 
@@ -593,8 +761,8 @@ f <- read.csv("data/modeling_data/full_modeling_data.csv")
 dd <- read.csv("data/modeling_data/dd_modeling_data.csv")
 dd$NOP_s <- (dd$NOP - mean(f$NOP))/sd(f$NOP)
 
-m.type.stan <- readRDS("data/fit_models/m.type.stan.RDS")
-m.stan.samples <- extract.samples(m.type.stan)
+m.correct.type.stan <- readRDS("data/fit_models/m.correct.type.stan.RDS")
+m.stan.samples <- extract.samples(m.correct.type.stan)
 
 predicted.probs <- c()
 
