@@ -189,6 +189,26 @@ data.for.plotting %>%
 ggsave("outputs/tile_plot_color.jpg", width = 14, height = 7)
 
 
+data.for.plotting %>%
+  ggplot(aes(x = iucn_redlist_category, y = EOOcat_long)) +
+  geom_tile(fill = data.for.plotting$color) +
+  geom_text(
+    aes(label = n), fontface = "bold", color = "black", size = 16) +
+  theme_bw() +
+  labs(
+    x = "IUCN Red List Category classification",
+    y = "REBA classification"
+  ) +
+  theme(
+    legend.position = "none",
+    panel.grid.major = element_blank(),
+    text = element_text(size = 20)
+  ) +
+  geom_vline(xintercept = 5.5, size = 2)
+
+ggsave("outputs/tile_plot_color_flipped.jpg", width = 14, height = 7)
+
+
 data.for.plotting <- rcat %>%
   left_join(
     ., 
