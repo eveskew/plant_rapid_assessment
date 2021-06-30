@@ -83,7 +83,7 @@ table(d$kingdom, useNA = "ifany")
 
 d <- filter(d, kingdom == "Plantae")
 
-table(d$kingdom, useNA = "ifany")
+assert_that(unique(d$kingdom) == "Plantae")
 
 # Add on IUCN assessment information
 a <- read_csv("data/IUCN/assessments.csv") %>%
@@ -114,17 +114,49 @@ d <- d %>%
 table(d$basisOfRecord, useNA = "ifany")
 dim(d)
 
-# Remove coordinates falling over the open ocean
-d <- cc_sea(
-  d, 
-  lat = "latitude", 
-  lon = "longitude", 
-  ref = buffland
-)
+# CoordinateCleaner flagging
+d <- d %>%
+  mutate(
+    # Flag any invalid coordinates 
+    val = cc_val(., lat = "latitude", lon = "longitude", value = "flagged"),
+    # Flag any identical coordinates 
+    equ = cc_equ(., lat = "latitude", lon = "longitude", value = "flagged"),
+    # Flag any coordinates near country centroids
+    cen = cc_cen(., lat = "latitude", lon = "longitude", 
+                 buffer = 1000, value = "flagged"),
+    # Flag any coordinates near country capitals
+    cap = cc_cap(., lat = "latitude", lon = "longitude", 
+                 buffer = 1000, value = "flagged"),
+    # Flag any coordinates in the vicinity of GBIF headquarters
+    gbif = cc_gbif(., lat = "latitude", lon = "longitude", 
+                   buffer = 1000, value = "flagged"),
+    # Flag any coordinates in the vicinity of biodiversity institutions
+    inst = cc_inst(., lat = "latitude", lon = "longitude", 
+                   buffer = 1000, value = "flagged"),
+    # Flag coordinates falling over the open ocean
+    sea = cc_sea(., lat = "latitude", lon = "longitude", 
+                 ref = buffland, value = "flagged")
+  )
+
+# CoordinateCleaner filtering
+d <- d %>%
+  filter(
+    val == TRUE,
+    equ == TRUE,
+    cen == TRUE,
+    cap == TRUE,
+    gbif == TRUE,
+    inst == TRUE,
+    sea == TRUE
+  ) %>%
+  select(-val, -equ, -cen, -cap, -gbif, -inst, -sea)
 
 dim(d)
 # How many plant species represented?
 n_distinct(d$query_name)
+
+#==============================================================================
+
 
 # Write cleaned GBIF data to disk
 write_csv(d, "data/gbif_cleaned/gbif_all.csv")

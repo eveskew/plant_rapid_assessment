@@ -28,15 +28,20 @@ length(species.names)
 
 # Loop to get and save GBIF occurrence data for each species
 
-# Define the variables we want from GBIF
+# Define the fields we want from GBIF
 fields.of.interest <- c(
-  "key", "scientificName", "occurenceStatus",
-  "decimalLatitude", "decimalLongitude", 
+  "key", "gbifID", "datasetKey", 
+  "publishingOrgKey", "installationKey", "hostingOrganizationKey",
+  "scientificName", "acceptedScientificName", 
+  "occurenceStatus", "decimalLatitude", "decimalLongitude", 
   "geodeticDatum", "coordinateUncertaintyInMeters",
-  "issues", "protocol", "basisOfRecord", "acceptedScientificName", 
+  "issues", "protocol", "basisOfRecord",  
   "kingdom", "phylum", "class", "order", "family", "genus", "species",
   "genericName", "specificEpithet", "taxonRank", "taxonomicStatus",
-  "year", "month", "day", "eventDate", "countryCode", "country"
+  "iucnRedListCategory",
+  "verbatimLocality", "countryCode", "country",
+  "eventDate", "year", "month", "day",  
+  "datasetName", "rightsHolder", "license", "references"
   )
 
 # Define the maximum number of records we want from GBIF
@@ -57,7 +62,6 @@ for (name in species.names) {
   records <- occ_search(
     scientificName = name,
     limit = limit,
-    return = "data",
     hasCoordinate = TRUE,
     hasGeospatialIssue = FALSE,
     fields = fields.of.interest
