@@ -32,9 +32,15 @@ d <- rcat %>%
 # Clean and filter this dataset
 
 d2 <- d %>%
+  # Change the very few instances of "Lower Risk/least concern" to just
+  # "Least Concern"
   # Change the very few instances of "Lower Risk/near threatened" to just
   # "Near Threatened"
   mutate(
+    iucn_redlist_category = ifelse(
+      iucn_redlist_category == "Lower Risk/least concern",
+      "Least Concern", iucn_redlist_category
+    ),
     iucn_redlist_category = ifelse(
       iucn_redlist_category == "Lower Risk/near threatened",
       "Near Threatened", iucn_redlist_category
@@ -207,9 +213,14 @@ full.data <- left_join(rcat, d3, by = "scientificName") %>%
       EOOcat == "LC" ~ "Least Concern"
     )
   ) %>%
+  # Change the very few instances of "Lower Risk/least concern" to just
+  # "Least Concern" to match rest of dataset
   # Change the very few instances of "Lower Risk/near threatened" to just
   # "Near Threatened" to match rest of dataset
   mutate(
+    iucn_redlist_category = ifelse(
+      iucn_redlist_category == "Lower Risk/least concern",
+      "Least Concern", iucn_redlist_category),
     iucn_redlist_category = ifelse(
       iucn_redlist_category == "Lower Risk/near threatened",
       "Near Threatened", iucn_redlist_category)

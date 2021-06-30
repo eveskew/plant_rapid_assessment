@@ -17,16 +17,15 @@ Acer glabrum,SPECIES,138747,Acer glabrum,Mountain Maple,Standard,G5,G5
 Acer grandidentatum,SPECIES,161573,Acer grandidentatum,Bigtooth Maple,Standard,G4,G4G5
 Acer leucoderme,SPECIES,160863,Acer leucoderme,Chalk Maple,Standard,G5,G5
 Acer macrophyllum,SPECIES,143337,Acer macrophyllum,Bigleaf Maple,Standard,G5,G5
-Acer negundo,SPECIES,157048,Acer negundo,Box-elder,Standard,G5,G5
 Acer nigrum,SPECIES,138128,Acer nigrum,Black Maple,Standard,G5,G5
 Acer pensylvanicum,SPECIES,145579,Acer pensylvanicum,Striped Maple,Standard,G5,G5
-Acer platanoides,SPECIES,140646,Acer platanoides,Norway Maple,Standard,GNR,GNR
 Acer rubrum,SPECIES,159330,Acer rubrum,Red Maple,Standard,G5,G5
 Acer saccharinum,SPECIES,136917,Acer saccharinum,Silver Maple,Standard,G5,G5
 Acer saccharum,SPECIES,145639,Acer saccharum,Sugar Maple,Standard,G5,G5
 Acer spicatum,SPECIES,140241,Acer spicatum,Mountain Maple,Standard,G5,G5
 Acorus calamus,SPECIES,134366,Acorus calamus,European Sweetflag,Standard,G4,G4?
 Acrostichum aureum,SPECIES,160827,Acrostichum aureum,Golden Leather Fern,Standard,G5,G5
+Acrostichum danaeifolium,SPECIES,134035,Acrostichum danaeifolium,Inland Leather Fern,Standard,G4,G4G5
 Adenostoma sparsifolium,SPECIES,149415,Adenostoma sparsifolium,Ribbon-wood,Standard,G4,G4G5
 Adiantum capillus-veneris,SPECIES,158611,Adiantum capillus-veneris,Southern Maidenhair Fern,Standard,G5,G5
 Aeschynomene indica,SPECIES,146199,Aeschynomene indica,Indian Joint-vetch,Standard,G5,G5
@@ -49,10 +48,10 @@ Agave shawii,SPECIES,145119,Agave shawii,Shaw's Agave,Standard,G2,G2G3
 Agave toumeyana,SPECIES,154970,Agave toumeyana,Toumey's Agave,Standard,G3,G3
 Agave univittata,SPECIES,160129,Agave univittata,Thorn-crest Agave,Standard,G5,G5?
 Agave utahensis,SPECIES,157120,Agave utahensis,Utah Agave,Standard,G4,G4
+Ageratina havanensis,SPECIES,128250,Ageratina havanensis,Havana Thorough-wort,Standard,G5,G5
 Agrostis canina,SPECIES,152742,Agrostis canina,Brown Bentgrass,Standard,G5,G5
 Agrostis clavata,SPECIES,130390,Agrostis clavata,Clubbed Bent,Standard,G4,G4G5
 Agrostis perennans,SPECIES,148858,Agrostis perennans,Perennial Bentgrass,Standard,G5,G5
-Agrostis stolonifera,SPECIES,147143,Agrostis stolonifera,Creeping Bentgrass,Standard,G5,G5
 Aldrovanda vesiculosa,SPECIES,935212,Aldrovanda vesiculosa,Waterwheel Plant,Provisional,GNR,GNR
 Alisma plantago-aquatica,SPECIES,140234,Alisma plantago-aquatica,European Water-plantain,Standard,GNR,GNR
 Alisma subcordatum,SPECIES,148655,Alisma subcordatum,Broadleaf Water-plantain,Standard,G5,G5
@@ -61,7 +60,6 @@ Allium geyeri,SPECIES,136662,Allium geyeri,Geyer's Onion,Standard,G4,G4G5
 Allium schoenoprasum,SPECIES,160634,Allium schoenoprasum,Wild Chives,Standard,G5,G5
 Allium triquetrum,SPECIES,149898,Allium triquetrum,Triangle Onion,Standard,GNR,GNR
 Allium validum,SPECIES,151987,Allium validum,Tall Swamp Onion,Standard,G4,G4
-Alnus glutinosa,SPECIES,135245,Alnus glutinosa,European Alder,Standard,GNR,GNR
 Alnus incana,SPECIES,161464,Alnus incana,Speckled Alder,Standard,G5,G5
 Alnus maritima,SPECIES,154229,Alnus maritima,Seaside Alder,Standard,G3,G3
 Alnus nepalensis,SPECIES,149446,Alnus nepalensis,Nepal Alder,Standard,GNR,GNR
@@ -69,6 +67,7 @@ Alnus rhombifolia,SPECIES,153451,Alnus rhombifolia,White Alder,Standard,G5,G5
 Alnus rubra,SPECIES,136265,Alnus rubra,Red Alder,Standard,G5,G5
 Alnus serrulata,SPECIES,138391,Alnus serrulata,Brookside Alder,Standard,G5,G5
 Alopecurus aequalis,SPECIES,152667,Alopecurus aequalis,Short-awn Foxtail,Standard,G5,G5
+Alopecurus carolinianus,SPECIES,151682,Alopecurus carolinianus,Tufted Foxtail,Standard,G5,G5
 Alternanthera sessilis,SPECIES,129015,Alternanthera sessilis,Sessile Chaff-flower,Standard,G5,G5
 Alvaradoa amorphoides,SPECIES,134250,Alvaradoa amorphoides,Mexican Alvaradoa,Standard,G5,G5
 Amaranthus tuberculatus,SPECIES,159907,Amaranthus tuberculatus,Rough-fruit Amaranth,Standard,G4,G4G5
@@ -77,6 +76,7 @@ Amelanchier arborea,SPECIES,135581,Amelanchier arborea,Downy Serviceberry,Standa
 Amelanchier bartramiana,SPECIES,138763,Amelanchier bartramiana,Bartram Shadbush,Standard,G5,G5
 Amelanchier canadensis,SPECIES,149301,Amelanchier canadensis,Oblong-leaf Serviceberry,Standard,G5,G5
 Amelanchier laevis,SPECIES,161261,Amelanchier laevis,Allegheny Serviceberry,Standard,G5,G5
+Amelanchier sanguinea,SPECIES,133218,Amelanchier sanguinea,Roundleaf Shadbush,Standard,G5,G5
 Amelanchier utahensis,SPECIES,160985,Amelanchier utahensis,Utah Serviceberry,Standard,G5,G5
 Ammannia auriculata,SPECIES,128197,Ammannia auriculata,Wright's Ammannia,Standard,G5,G5
 Ammannia robusta,SPECIES,154332,Ammannia robusta,Grand Redstem,Standard,G5,G5
@@ -114,6 +114,7 @@ Astragalus crassicarpus,SPECIES,158969,Astragalus crassicarpus,Ground-plum,Stand
 Astragalus lentiginosus,SPECIES,130275,Astragalus lentiginosus,Mottled Milkvetch,Standard,G5,G5
 Astragalus mollissimus,SPECIES,132972,Astragalus mollissimus,Woolly Milkvetch,Standard,G5,G5
 Astragalus oophorus,SPECIES,132971,Astragalus oophorus,Spindle Milkvetch,Standard,G4,G4
+Astragalus whitneyi,SPECIES,130494,Astragalus whitneyi,Whitney's Milkvetch,Standard,G5,G5
 Astrophytum asterias,SPECIES,132943,Astrophytum asterias,Star Cactus,Standard,G1,G1G2
 Atamisquea emarginata,SPECIES,133084,Atamisquea emarginata,Desert Tree Caper,Standard,G4,G4
 Avicennia germinans,SPECIES,157922,Avicennia germinans,Black Mangrove,Standard,G5,G5
@@ -135,10 +136,10 @@ Betula nana,SPECIES,135221,Betula nana,Swamp Birch,Standard,G5,G5
 Betula nigra,SPECIES,160835,Betula nigra,River Birch,Standard,G5,G5
 Betula occidentalis,SPECIES,154206,Betula occidentalis,Spring Birch,Standard,G5,G5
 Betula papyrifera,SPECIES,128519,Betula papyrifera,Paper Birch,Standard,G5,G5
-Betula pendula,SPECIES,159183,Betula pendula,European Weeping Birch,Standard,GNR,GNR
 Betula populifolia,SPECIES,150177,Betula populifolia,Gray Birch,Standard,G5,G5
-Betula pubescens,SPECIES,150156,Betula pubescens,Downy Birch,Standard,GNR,GNR
 Betula pumila,SPECIES,144122,Betula pumila,Swamp Birch,Standard,G5,G5
+Bidens amplissima,SPECIES,142891,Bidens amplissima,Vancouver Island Beggarticks,Standard,G3,G3
+Bidens campylotheca,SPECIES,130281,Bidens campylotheca,Ko`oko`olau,Standard,G2,G2
 Bidens cernua,SPECIES,129882,Bidens cernua,Nodding Beggarticks,Standard,G5,G5
 Bidens frondosa,SPECIES,130456,Bidens frondosa,Devil's Beggarticks,Standard,G5,G5
 Bidens tripartita,SPECIES,147825,Bidens tripartita,Three-lobe Beggarticks,Standard,G5,G5
@@ -153,6 +154,7 @@ Brachiaria reptans,SPECIES,147523,Brachiaria reptans,Sprawling Signal Grass,Stan
 Brachiaria subquadripara,SPECIES,155905,Brachiaria subquadripara,Tropical Signal Grass,Standard,GNR,GNR
 Brachiaria texana,SPECIES,155000,Brachiaria texana,Texas Signal Grass,Standard,G5,G5?
 Brasenia schreberi,SPECIES,130243,Brasenia schreberi,Watershield,Standard,G5,G5
+Brighamia insignis,SPECIES,142536,Brighamia insignis,Alula,Standard,G1,G1
 Broussonetia papyrifera,SPECIES,150463,Broussonetia papyrifera,Paper-mulberry,Standard,GNR,GNR
 Buddleja sessiliflora,SPECIES,152923,Buddleja sessiliflora,Rio Grande Butterfly-bush,Standard,G5,G5
 Bulbostylis capillaris,SPECIES,158114,Bulbostylis capillaris,Dense-tuft Hairsedge,Standard,G5,G5
@@ -165,9 +167,11 @@ Calamagrostis lapponica,SPECIES,152486,Calamagrostis lapponica,Lapland Reedgrass
 Calla palustris,SPECIES,130791,Calla palustris,Wild Calla,Standard,G5,G5
 Callitriche brutia,SPECIES,982608,Callitriche brutia,NA,Provisional,GNR,GNR
 Callitriche hermaphroditica,SPECIES,132913,Callitriche hermaphroditica,Autumnal Water-starwort,Standard,G5,G5
+Callitriche heterophylla,SPECIES,133004,Callitriche heterophylla,Large Water-starwort,Standard,G5,G5
 Callitriche palustris,SPECIES,151877,Callitriche palustris,Vernal Water-starwort,Standard,G5,G5
 Callitriche stagnalis,SPECIES,128613,Callitriche stagnalis,Pond Water-starwort,Standard,GNR,GNR
 Calocedrus decurrens,SPECIES,161140,Calocedrus decurrens,Incense Cedar,Standard,G5,G5
+Calopogon multiflorus,SPECIES,138609,Calopogon multiflorus,Many-flower Grass-pink,Standard,G2,G2G3
 Calopogon tuberosus,SPECIES,130848,Calopogon tuberosus,Tuberous Grass-pink,Standard,G5,G5
 Caltha leptosepala,SPECIES,138728,Caltha leptosepala,Slender-sepal Marsh-marigold,Standard,G5,G5
 Caltha natans,SPECIES,149804,Caltha natans,Floating Marsh-marigold,Standard,G5,G5
@@ -183,6 +187,7 @@ Carex acutiformis,SPECIES,151159,Carex acutiformis,Lesser Pond Sedge,Standard,GN
 Carex adelostoma,SPECIES,142591,Carex adelostoma,Circumpolar Sedge,Standard,G4,G4
 Carex aquatilis,SPECIES,131510,Carex aquatilis,Water Sedge,Standard,G5,G5
 Carex atherodes,SPECIES,131667,Carex atherodes,Awned Sedge,Standard,G5,G5
+Carex atlantica,SPECIES,152310,Carex atlantica,Prickly Bog Sedge,Standard,G5,G5
 Carex bebbii,SPECIES,131511,Carex bebbii,Bebb's Sedge,Standard,G5,G5
 Carex bicolor,SPECIES,143873,Carex bicolor,Two-color Sedge,Standard,G5,G5
 Carex brunnescens,SPECIES,128098,Carex brunnescens,Brownish Sedge,Standard,G5,G5
@@ -197,6 +202,7 @@ Carex diandra,SPECIES,156628,Carex diandra,Lesser Panicled Sedge,Standard,G5,G5
 Carex distans,SPECIES,128694,Carex distans,Distant Sedge,Standard,GNR,GNR
 Carex divisa,SPECIES,143776,Carex divisa,Separated Sedge,Standard,GNR,GNR
 Carex echinata,SPECIES,154335,Carex echinata,Little Prickly Sedge,Standard,G5,G5
+Carex exilis,SPECIES,148060,Carex exilis,Coastal Sedge,Standard,G5,G5
 Carex extensa,SPECIES,154615,Carex extensa,Long-bract Sedge,Standard,GNR,GNR
 Carex flava,SPECIES,143346,Carex flava,Yellow Sedge,Standard,G5,G5
 Carex folliculata,SPECIES,158881,Carex folliculata,Long Sedge,Standard,G5,G5
@@ -204,6 +210,7 @@ Carex glareosa,SPECIES,141293,Carex glareosa,Weak-cluster Sedge,Standard,G5,G5
 Carex granularis,SPECIES,128657,Carex granularis,Meadow Sedge,Standard,G5,G5
 Carex gynandra,SPECIES,151412,Carex gynandra,Nodding Sedge,Standard,G5,G5
 Carex gynocrates,SPECIES,143345,Carex gynocrates,Northern Bog Sedge,Standard,G5,G5
+Carex haydenii,SPECIES,130368,Carex haydenii,Cloud Sedge,Standard,G5,G5
 Carex heleonastes,SPECIES,129532,Carex heleonastes,Hudson Bay Sedge,Standard,G4,G4
 Carex holostoma,SPECIES,148064,Carex holostoma,Arctic Marsh Sedge,Standard,G4,G4G5
 Carex hyalinolepis,SPECIES,128113,Carex hyalinolepis,Shoreline Sedge,Standard,G4,G4G5
@@ -211,6 +218,7 @@ Carex hystericina,SPECIES,130672,Carex hystericina,Porcupine Sedge,Standard,G5,G
 Carex interior,SPECIES,129531,Carex interior,Inland Sedge,Standard,G5,G5
 Carex intumescens,SPECIES,152678,Carex intumescens,Greater Bladder Sedge,Standard,G5,G5
 Carex lacustris,SPECIES,130802,Carex lacustris,Lake-bank Sedge,Standard,G5,G5
+Carex laevivaginata,SPECIES,142795,Carex laevivaginata,Smooth-sheath Sedge,Standard,G5,G5
 Carex lapponica,SPECIES,131038,Carex lapponica,Lapland Sedge,Standard,G4,G4G5
 Carex lasiocarpa,SPECIES,141058,Carex lasiocarpa,Slender Sedge,Standard,G5,G5
 Carex laxa,SPECIES,128660,Carex laxa,Weak Sedge,Standard,G5,G5?
@@ -235,11 +243,12 @@ Carex paleacea,SPECIES,151090,Carex paleacea,Chaffy Sedge,Standard,G5,G5
 Carex pauciflora,SPECIES,154231,Carex pauciflora,Few-flower Sedge,Standard,G5,G5
 Carex pedunculata,SPECIES,130427,Carex pedunculata,Longstalk Sedge,Standard,G5,G5
 Carex pellita,SPECIES,147074,Carex pellita,Woolly Sedge,Standard,G5,G5
+Carex pluriflora,SPECIES,145405,Carex pluriflora,Several-flowered Sedge,Standard,G5,G5
+Carex prairea,SPECIES,158457,Carex prairea,Prairie Sedge,Standard,G5,G5
 Carex prasina,SPECIES,133041,Carex prasina,Drooping Sedge,Standard,G4,G4
 Carex pseudocyperus,SPECIES,128309,Carex pseudocyperus,Cyperus-like Sedge,Standard,G5,G5
 Carex rariflora,SPECIES,130224,Carex rariflora,Loose-flower Alpine Sedge,Standard,G5,G5
 Carex retrorsa,SPECIES,155374,Carex retrorsa,Retrorse Sedge,Standard,G5,G5
-Carex rostrata,SPECIES,132537,Carex rostrata,Beaked Sedge,Standard,G5,G5
 Carex rotundata,SPECIES,158462,Carex rotundata,Roundfruit Sedge,Standard,G5,G5
 Carex sartwellii,SPECIES,150840,Carex sartwellii,Sartwell's Sedge,Standard,G5,G5
 Carex saxatilis,SPECIES,156981,Carex saxatilis,Russet Sedge,Standard,G5,G5
@@ -252,10 +261,12 @@ Carex subspathacea,SPECIES,155891,Carex subspathacea,Hoppner's Sedge,Standard,G5
 Carex tenuiflora,SPECIES,145888,Carex tenuiflora,Sparse-flower Sedge,Standard,G5,G5
 Carex trisperma,SPECIES,145403,Carex trisperma,Three-seeded Sedge,Standard,G5,G5
 Carex tuckermanii,SPECIES,145976,Carex tuckermanii,Tuckerman's Sedge,Standard,G5,G5
+Carex unilateralis,SPECIES,158135,Carex unilateralis,One-sided Sedge,Standard,G5,G5
 Carex utriculata,SPECIES,157731,Carex utriculata,Beaked Sedge,Standard,G5,G5
 Carex vaginata,SPECIES,130645,Carex vaginata,Sheathed Sedge,Standard,G5,G5
 Carex vesicaria,SPECIES,156717,Carex vesicaria,Inflated Sedge,Standard,G5,G5
 Carex vulpinoidea,SPECIES,159438,Carex vulpinoidea,Fox Sedge,Standard,G5,G5
+Carex wiegandii,SPECIES,152271,Carex wiegandii,Wiegand's Sedge,Standard,G4,G4G5
 Carnegiea gigantea,SPECIES,131072,Carnegiea gigantea,Saguaro,Standard,G5,G5
 Carpinus caroliniana,SPECIES,149194,Carpinus caroliniana,American Hornbeam,Standard,G5,G5
 Carya aquatica,SPECIES,139393,Carya aquatica,Water Hickory,Standard,G5,G5
@@ -268,6 +279,7 @@ Carya myristiciformis,SPECIES,129485,Carya myristiciformis,Nutmeg Hickory,Standa
 Carya ovata,SPECIES,152371,Carya ovata,Shagbark Hickory,Standard,G5,G5
 Carya pallida,SPECIES,153561,Carya pallida,Sand Hickory,Standard,G5,G5
 Carya texana,SPECIES,139016,Carya texana,Black Hickory,Standard,G4,G4
+Carya tomentosa,SPECIES,140258,Carya tomentosa,Mockernut Hickory,Standard,G5,G5
 Casasia clusiifolia,SPECIES,155489,Casasia clusiifolia,Seven-year Apple,Standard,G4,G3G5
 Castanea dentata,SPECIES,153295,Castanea dentata,American Chestnut,Standard,G3,G3
 Castela erecta,SPECIES,141274,Castela erecta,Erect Crucifixion-thorn,Standard,G4,G4G5
@@ -310,6 +322,7 @@ Cicuta virosa,SPECIES,151755,Cicuta virosa,Mackenzie's Water-hemlock,Standard,G5
 Citharexylum spinosum,SPECIES,137404,Citharexylum spinosum,Spiny Fiddlewood,Standard,GNR,GNR
 Cladium mariscoides,SPECIES,155072,Cladium mariscoides,Twig-rush,Standard,G5,G5
 Cladium mariscus,SPECIES,129764,Cladium mariscus,Sawgrass,Standard,G5,G5
+Claytonia cordifolia,SPECIES,153517,Claytonia cordifolia,Heartleaf Springbeauty,Standard,G5,G5
 Claytonia sarmentosa,SPECIES,136479,Claytonia sarmentosa,Alaska Springbeauty,Standard,G4,G4G5
 Claytonia tuberosa,SPECIES,160818,Claytonia tuberosa,Tuber Springbeauty,Standard,G4,G4G5
 Clusia rosea,SPECIES,160463,Clusia rosea,Balsam-fig,Standard,G4,G4G5
@@ -317,6 +330,7 @@ Coccoloba diversifolia,SPECIES,152214,Coccoloba diversifolia,Pigeon-plum,Standar
 Coccoloba uvifera,SPECIES,144368,Coccoloba uvifera,Uva de Playa,Standard,G5,G5
 Coleanthus subtilis,SPECIES,160581,Coleanthus subtilis,Moss Grass,Standard,G4,G3G5
 Colubrina arborescens,SPECIES,135841,Colubrina arborescens,Greenheart,Standard,G4,G4
+Colubrina elliptica,SPECIES,129103,Colubrina elliptica,Soldierwood,Standard,G4,G4
 Colubrina greggii,SPECIES,135357,Colubrina greggii,Sierra Snakewood,Standard,G5,G5?
 Comarum palustre,SPECIES,128286,Comarum palustre,Marsh Cinquefoil,Standard,G5,G5
 Commelina benghalensis,SPECIES,128215,Commelina benghalensis,Hairy Honohono,Standard,G5,G5
@@ -327,6 +341,7 @@ Conocarpus erectus,SPECIES,143047,Conocarpus erectus,Button Mangrove,Standard,G5
 Cordia boissieri,SPECIES,138412,Cordia boissieri,Anacahuita,Standard,G5,G5
 Cordia sebestena,SPECIES,153586,Cordia sebestena,Geiger Tree,Standard,G4,G3G5
 Cordyline fruticosa,SPECIES,131996,Cordyline fruticosa,Bayoneta,Standard,GNR,GNR
+Coreopsis rosea,SPECIES,157053,Coreopsis rosea,Rose Coreopsis,Standard,G3,G3
 Cornus alternifolia,SPECIES,142544,Cornus alternifolia,Alternate-leaf Dogwood,Standard,G5,G5
 Cornus amomum,SPECIES,145276,Cornus amomum,Silky Dogwood,Standard,G5,G5
 Cornus drummondii,SPECIES,148084,Cornus drummondii,Northern Roughleaf Dogwood,Standard,G5,G5
@@ -336,19 +351,28 @@ Cornus glabrata,SPECIES,157955,Cornus glabrata,Brown Dogwood,Standard,G4,G4G5
 Cornus nuttallii,SPECIES,159922,Cornus nuttallii,Pacific Dogwood,Standard,G5,G5
 Cornus rugosa,SPECIES,147218,Cornus rugosa,Roundleaf Dogwood,Standard,G5,G5
 Cornus sericea,SPECIES,140261,Cornus sericea,Red-osier Dogwood,Standard,G5,G5
+Cornus sessilis,SPECIES,134153,Cornus sessilis,Black-fruit Dogwood,Standard,G4,G4?
 Coronilla valentina,SPECIES,161614,Coronilla valentina,Mediterranean Crown-vetch,Standard,GNR,GNR
 Corylus americana,SPECIES,135795,Corylus americana,American Hazelnut,Standard,G5,G5
+Coryphantha echinus,SPECIES,140788,Coryphantha echinus,Prickly Beehive Cactus,Standard,G4,G4G5
+Coryphantha macromeris,SPECIES,143688,Coryphantha macromeris,Long Mamma Foxtail-cactus,Standard,G5,G5
+Coryphantha ramillosa,SPECIES,136023,Coryphantha ramillosa,Bunched Cory Cactus,Standard,G2,G2G3
 Coryphantha recurvata,SPECIES,159570,Coryphantha recurvata,Recurved Cory Cactus,Standard,G3,G3
+Coryphantha sulcata,SPECIES,148301,Coryphantha sulcata,Pineapple Cactus,Standard,G3,G3G4
 Cotinus obovatus,SPECIES,153598,Cotinus obovatus,American Smoketree,Standard,G4,G4
 Coursetia caribaea,SPECIES,157683,Coursetia caribaea,Anil Falso,Standard,G5,G5
 Coursetia glandulosa,SPECIES,138569,Coursetia glandulosa,Rosary Baby-bonnets,Standard,G4,G4G5
 Crataegus berberifolia,SPECIES,137026,Crataegus berberifolia,Barberry-leaf Hawthorn,Standard,G4,G4G5Q
+Crataegus calpodendron,SPECIES,143604,Crataegus calpodendron,Pear Hawthorn,Standard,G5,G5
 Crataegus chrysocarpa,SPECIES,735669,Crataegus chrysocarpa,Fireberry Hawthorn,Standard,G5,G5
 Crataegus coccinea,SPECIES,828152,Crataegus coccinea,Scarlet Hawthorn,Provisional,G5,G5
 Crataegus crus-galli,SPECIES,156740,Crataegus crus-galli,Cockspur Hawthorn,Standard,G5,G5
 Crataegus douglasii,SPECIES,735775,Crataegus douglasii,Douglas' Hawthorn,Standard,G5,G5
+Crataegus erythropoda,SPECIES,158042,Crataegus erythropoda,Cerro Hawthorn,Standard,G5,G5
+Crataegus holmesiana,SPECIES,135429,Crataegus holmesiana,Holmes' Hawthorn,Standard,G5,G5
 Crataegus marshallii,SPECIES,143603,Crataegus marshallii,Parsley-leaf Hawthorn,Standard,G5,G5
 Crataegus mollis,SPECIES,135468,Crataegus mollis,Downy Hawthorn,Standard,G5,G5
+Crataegus opaca,SPECIES,135096,Crataegus opaca,Riverflat Hawthorn,Standard,G5,G5
 Crataegus phaenopyrum,SPECIES,131803,Crataegus phaenopyrum,Washington Hawthorn,Standard,G4,G4?
 Crataegus pruinosa,SPECIES,951257,Crataegus pruinosa,Frosted Hawthorn,Standard,G5,G5
 Crataegus punctata,SPECIES,131890,Crataegus punctata,Dotted Hawthorn,Standard,G5,G5
@@ -367,7 +391,9 @@ Cucurbita digitata,SPECIES,137211,Cucurbita digitata,Fingerleaf Gourd,Standard,G
 Cucurbita foetidissima,SPECIES,149005,Cucurbita foetidissima,Missouri Gourd,Standard,G5,G5
 Cucurbita palmata,SPECIES,160806,Cucurbita palmata,Coyote Gourd,Standard,G4,G4G5
 Cucurbita pepo,SPECIES,639033,Cucurbita pepo,Field Pumpkin,Standard,G4,G4G5
+Cupania glabra,SPECIES,161344,Cupania glabra,Florida Toadwood,Standard,G4,G4
 Cupressus arizonica,SPECIES,156348,Cupressus arizonica,Arizona Cypress,Standard,G4,G4
+Cupressus goveniana,SPECIES,151683,Cupressus goveniana,Gowen Cypress,Standard,G2,G2
 Cupressus macrocarpa,SPECIES,128986,Cupressus macrocarpa,Monterey Cypress,Standard,G1,G1
 Cupressus sargentii,SPECIES,130652,Cupressus sargentii,Sargent's Cypress,Standard,G4,G4
 Cuscuta gronovii,SPECIES,128408,Cuscuta gronovii,Gronovius Dodder,Standard,G5,G5
@@ -376,6 +402,7 @@ Cynodon transvaalensis,SPECIES,138363,Cynodon transvaalensis,Transvaal Dog's-too
 Cyperus amabilis,SPECIES,151232,Cyperus amabilis,Foothill Flatsedge,Standard,G5,G5
 Cyperus articulatus,SPECIES,147921,Cyperus articulatus,Jointed Flatsedge,Standard,G4,G4G5
 Cyperus compressus,SPECIES,151857,Cyperus compressus,Poorland Flatsedge,Standard,G5,G5
+Cyperus dentatus,SPECIES,147423,Cyperus dentatus,Toothed Flatsedge,Standard,G4,G4
 Cyperus distans,SPECIES,158797,Cyperus distans,Mexican Flatsedge,Standard,G5,G5
 Cyperus eragrostis,SPECIES,154403,Cyperus eragrostis,Tall Flatsedge,Standard,G5,G5
 Cyperus erythrorhizos,SPECIES,158829,Cyperus erythrorhizos,Red-root Flatsedge,Standard,G5,G5
@@ -393,8 +420,10 @@ Cyperus strigosus,SPECIES,132274,Cyperus strigosus,Straw-colored Flatsedge,Stand
 Cypripedium acaule,SPECIES,138178,Cypripedium acaule,Pink Lady's-slipper,Standard,G5,G5
 Cypripedium arietinum,SPECIES,150310,Cypripedium arietinum,Ram's-head Lady's-slipper,Standard,G3,G3
 Cypripedium californicum,SPECIES,152204,Cypripedium californicum,California Lady's-slipper,Standard,G3,G3
+Cypripedium candidum,SPECIES,157660,Cypripedium candidum,Small White Lady's-slipper,Standard,G4,G4
 Cypripedium fasciculatum,SPECIES,159788,Cypripedium fasciculatum,Clustered Lady's-slipper,Standard,G4,G4
 Cypripedium guttatum,SPECIES,130189,Cypripedium guttatum,Spotted Lady's-slipper,Standard,G5,G5
+Cypripedium kentuckiense,SPECIES,140924,Cypripedium kentuckiense,Southern Lady's-slipper,Standard,G3,G3
 Cypripedium montanum,SPECIES,147481,Cypripedium montanum,Mountain Lady's-slipper,Standard,G4,G4G5
 Cypripedium parviflorum,SPECIES,144288,Cypripedium parviflorum,American Yellow Lady's-slipper,Standard,G5,G5
 Cypripedium passerinum,SPECIES,136292,Cypripedium passerinum,Sparrow's-egg Lady's-slipper,Standard,G5,G5
@@ -402,25 +431,29 @@ Cypripedium reginae,SPECIES,159904,Cypripedium reginae,Showy Lady's-slipper,Stan
 Cyrilla racemiflora,SPECIES,131680,Cyrilla racemiflora,Swamp Cyrilla,Standard,G5,G5
 Cytisus striatus,SPECIES,859768,Cytisus striatus,Striped Broom,Standard,GNR,GNR
 Dalea formosa,SPECIES,148959,Dalea formosa,Feather-plume Dalea,Standard,G5,G5
+Darlingtonia californica,SPECIES,147374,Darlingtonia californica,California Pitcherplant,Standard,G3,G3G4
 Dasylirion wheeleri,SPECIES,136036,Dasylirion wheeleri,Spoonflower,Standard,G4,G4G5
 Daucus pusillus,SPECIES,144434,Daucus pusillus,Southwestern Carrot,Standard,G5,G5
 Decodon verticillatus,SPECIES,134197,Decodon verticillatus,Hairy Swamp Loosestrife,Standard,G5,G5
 Delonix regia,SPECIES,149217,Delonix regia,Flamboyant-tree,Standard,GNR,GNR
 Dendromecon rigida,SPECIES,148124,Dendromecon rigida,Tree Poppy,Standard,G4,G4
-Desmodium glutinosum,SPECIES,139483,Desmodium glutinosum,Large Tick-trefoil,Standard,G5,G5
 Desmodium intortum,SPECIES,130117,Desmodium intortum,Maricao,Standard,G5,G5
 Dichrostachys cinerea,SPECIES,134966,Dichrostachys cinerea,Aroma,Standard,GNR,GNR
 Dicranopteris linearis,SPECIES,136050,Dicranopteris linearis,Old World Forked Fern,Standard,G5,G5
 Distichlis spicata,SPECIES,155306,Distichlis spicata,Seashore Saltgrass,Standard,G5,G5
 Dodonaea viscosa,SPECIES,159407,Dodonaea viscosa,Varnish-leaf,Standard,G5,G5
 Doellingeria umbellata,SPECIES,137087,Doellingeria umbellata,Flat-top White Aster,Standard,G5,G5
+Dopatrium junceum,SPECIES,155142,Dopatrium junceum,Dopatrium,Standard,GNR,GNR
+Downingia elegans,SPECIES,129487,Downingia elegans,Common Downingia,Standard,G5,G5
 Drosera filiformis,SPECIES,140608,Drosera filiformis,Threadleaf Sundew,Standard,G4,G4
 Drosera linearis,SPECIES,148004,Drosera linearis,Slenderleaf Sundew,Standard,G4,G4G5
 Drosera rotundifolia,SPECIES,158710,Drosera rotundifolia,Roundleaf Sundew,Standard,G5,G5
 Drypetes lateriflora,SPECIES,128614,Drypetes lateriflora,Guiana Plum,Standard,G4,G4G5
 Dulichium arundinaceum,SPECIES,143588,Dulichium arundinaceum,Threeway Sedge,Standard,G5,G5
 Duranta erecta,SPECIES,154807,Duranta erecta,Golden Dewdrops,Standard,G5,G5
+Ebenopsis ebano,SPECIES,138175,Ebenopsis ebano,Ebony Blackbead,Standard,G4,G4
 Echinocactus horizonthalonius,SPECIES,155968,Echinocactus horizonthalonius,Turk's-head Cactus,Standard,G4,G4
+Echinocactus polycephalus,SPECIES,156077,Echinocactus polycephalus,Cottontop Cactus,Standard,G3,G3G4
 Echinocactus texensis,SPECIES,154191,Echinocactus texensis,Horse Crippler,Standard,G5,G5
 Echinocereus coccineus,SPECIES,160783,Echinocereus coccineus,Scarlet Hedgehog Cactus,Standard,G5,G5
 Echinocereus engelmannii,SPECIES,160314,Echinocereus engelmannii,Engelmann's Hedgehog Cactus,Standard,G5,G5
@@ -429,15 +462,17 @@ Echinocereus fendleri,SPECIES,130027,Echinocereus fendleri,Fendler's Hedgehog Ca
 Echinocereus nicholii,SPECIES,141155,Echinocereus nicholii,Nichol's Hedgehog Cactus,Standard,G4,G4?Q
 Echinocereus pectinatus,SPECIES,155859,Echinocereus pectinatus,Arizona Rainbow Cactus,Standard,G5,G5
 Echinocereus pentalophus,SPECIES,153989,Echinocereus pentalophus,Lady-finger Hedgehog Cactus,Standard,G4,G4
+Echinocereus poselgeri,SPECIES,128760,Echinocereus poselgeri,Dahlia Apple Cactus,Standard,G4,G4
 Echinocereus reichenbachii,SPECIES,134871,Echinocereus reichenbachii,Reichenbach's Hedgehog Cactus,Standard,G5,G5
 Echinocereus rigidissimus,SPECIES,157022,Echinocereus rigidissimus,Arizona Rainbow Cactus,Standard,G5,G5
-Echinocereus santaritensis,SPECIES,902821,Echinocereus santaritensis,NA,Provisional,GNR,GNR
 Echinocereus stramineus,SPECIES,161746,Echinocereus stramineus,Strawberry Hedgehog Cactus,Standard,G4,G4?
 Echinocereus triglochidiatus,SPECIES,134499,Echinocereus triglochidiatus,Mound Hedgehog Cactus,Standard,G5,G5
 Echinocereus viridiflorus,SPECIES,150914,Echinocereus viridiflorus,Green-flower Hedgehog Cactus,Standard,G5,G5
 Echinochloa crus-galli,SPECIES,158283,Echinochloa crus-galli,Barnyard Grass,Standard,GNR,GNR
 Echinochloa crus-pavonis,SPECIES,135870,Echinochloa crus-pavonis,Gulf Cockspur,Standard,G5,G5
 Echinochloa frumentacea,SPECIES,155893,Echinochloa frumentacea,Billion Dollar Grass,Standard,GNR,GNR
+Echinochloa walteri,SPECIES,135237,Echinochloa walteri,Walter's Barnyard Grass,Standard,G5,G5
+Eclipta prostrata,SPECIES,128180,Eclipta prostrata,False Daisy,Standard,G5,G5
 Ehretia anacua,SPECIES,132890,Ehretia anacua,Anaqua,Standard,G5,G5
 Ehrharta stipoides,SPECIES,131617,Ehrharta stipoides,Weeping Grass,Standard,GNR,GNR
 Elaeagnus angustifolia,SPECIES,153771,Elaeagnus angustifolia,Russian Olive,Standard,GNR,GNR
@@ -447,6 +482,7 @@ Elatine brachysperma,SPECIES,149608,Elatine brachysperma,Shortseed Waterwort,Sta
 Elatine triandra,SPECIES,161078,Elatine triandra,Longstem Waterwort,Standard,G5,G5
 Eleocharis acicularis,SPECIES,133011,Eleocharis acicularis,Least Spikerush,Standard,G5,G5
 Eleocharis atropurpurea,SPECIES,142942,Eleocharis atropurpurea,Purple Spikerush,Standard,G4,G4G5
+Eleocharis compressa,SPECIES,157237,Eleocharis compressa,Flat-stem Spikerush,Standard,G4,G4
 Eleocharis elliptica,SPECIES,159915,Eleocharis elliptica,Slender Spikerush,Standard,G5,G5
 Eleocharis erythropoda,SPECIES,146043,Eleocharis erythropoda,Bald Spikerush,Standard,G5,G5
 Eleocharis geniculata,SPECIES,131214,Eleocharis geniculata,Capitate Spikerush,Standard,G5,G5
@@ -460,30 +496,32 @@ Eleocharis uniglumis,SPECIES,128007,Eleocharis uniglumis,Creeping Spikerush,Stan
 Eleusine indica,SPECIES,134487,Eleusine indica,Indian Goosegrass,Standard,GNR,GNR
 Elodea canadensis,SPECIES,142773,Elodea canadensis,Broad Waterweed,Standard,G5,G5
 Elodea nuttallii,SPECIES,157069,Elodea nuttallii,Nuttall's Waterweed,Standard,G5,G5
+Ephedra antisyphilitica,SPECIES,154740,Ephedra antisyphilitica,Mormon-tea,Standard,G3,G3G4
 Ephedra nevadensis,SPECIES,138666,Ephedra nevadensis,Nevada Mormon-tea,Standard,G5,G5
+Ephedra torreyana,SPECIES,160772,Ephedra torreyana,Torrey's Mormon-tea,Standard,G5,G5?
+Ephedra trifurca,SPECIES,142549,Ephedra trifurca,Longleaf Mormon-tea,Standard,G5,G5
 Ephedra viridis,SPECIES,137122,Ephedra viridis,Green Mormon-tea,Standard,G5,G5
 Epilobium ciliatum,SPECIES,152732,Epilobium ciliatum,Hairy Willowherb,Standard,G5,G5
 Epilobium coloratum,SPECIES,136644,Epilobium coloratum,Purpleleaf Willowherb,Standard,G5,G5
-Epilobium hirsutum,SPECIES,160682,Epilobium hirsutum,Great Hairy Willowherb,Standard,GNR,GNR
 Epilobium leptophyllum,SPECIES,137477,Epilobium leptophyllum,Linear-leaf Willowherb,Standard,G5,G5
 Epilobium palustre,SPECIES,140433,Epilobium palustre,Marsh Willowherb,Standard,G5,G5
 Epilobium parviflorum,SPECIES,139279,Epilobium parviflorum,Small-flower Hairy Willowherb,Standard,GNR,GNR
 Epipactis gigantea,SPECIES,152197,Epipactis gigantea,Giant Helleborine,Standard,G4,G4
 Epithelantha micromeris,SPECIES,130371,Epithelantha micromeris,Ping-pong-ball Button Cactus,Standard,G4,G4
-Equisetum arvense,SPECIES,153749,Equisetum arvense,Field Horsetail,Standard,G5,G5
-Equisetum fluviatile,SPECIES,155525,Equisetum fluviatile,Water Horsetail,Standard,G5,G5
 Equisetum hyemale,SPECIES,150054,Equisetum hyemale,Rough Horsetail,Standard,G5,G5
 Equisetum palustre,SPECIES,142666,Equisetum palustre,Marsh Horsetail,Standard,G5,G5
 Equisetum ramosissimum,SPECIES,152636,Equisetum ramosissimum,Branched Horsetail,Standard,GNR,GNR
 Equisetum scirpoides,SPECIES,152751,Equisetum scirpoides,Dwarf Scouring-rush,Standard,G5,G5
 Equisetum telmateia,SPECIES,145046,Equisetum telmateia,Giant Horsetail,Standard,G5,G5
+Eragrostis hypnoides,SPECIES,152049,Eragrostis hypnoides,Teal Lovegrass,Standard,G5,G5
 Eragrostis prolifera,SPECIES,152895,Eragrostis prolifera,Dominican Lovegrass,Standard,G4,G4G5
 Eragrostis unioloides,SPECIES,149078,Eragrostis unioloides,Chinese Lovegrass,Standard,GNR,GNR
 Erica lusitanica,SPECIES,153557,Erica lusitanica,Spanish Heath,Standard,GNR,GNR
+Erigeron lonchophyllus,SPECIES,133937,Erigeron lonchophyllus,Short-ray Fleabane,Standard,G5,G5
 Eriocaulon aquaticum,SPECIES,137092,Eriocaulon aquaticum,Seven-angle Pipewort,Standard,G5,G5
-Eriophorum angustifolium,SPECIES,141049,Eriophorum angustifolium,Narrowleaf Cotton-grass,Standard,G5,G5
 Eriophorum callitrix,SPECIES,137540,Eriophorum callitrix,Sheathed Cotton-grass,Standard,G5,G5
 Eriophorum chamissonis,SPECIES,131863,Eriophorum chamissonis,Russet Cotton-grass,Standard,G5,G5
+Eriophorum tenellum,SPECIES,153796,Eriophorum tenellum,Rough Cotton-grass,Standard,G5,G5
 Eriophorum vaginatum,SPECIES,150356,Eriophorum vaginatum,Tussock Cotton-grass,Standard,G5,G5
 Eriophorum virginicum,SPECIES,144373,Eriophorum virginicum,Tawny Cotton-grass,Standard,G5,G5
 Eriophorum viridicarinatum,SPECIES,140875,Eriophorum viridicarinatum,Green Keeled Cotton-grass,Standard,G5,G5
@@ -493,15 +531,22 @@ Erythrina flabelliformis,SPECIES,132361,Erythrina flabelliformis,Southwestern Co
 Erythrina herbacea,SPECIES,148191,Erythrina herbacea,Eastern Coral-bean,Standard,G5,G5
 Erythrina sandwicensis,SPECIES,141199,Erythrina sandwicensis,Wiliwili,Standard,G2,G2
 Erythrina variegata,SPECIES,152445,Erythrina variegata,Tiger's-claw,Standard,GNR,GNR
+Escobaria dasyacantha,SPECIES,157462,Escobaria dasyacantha,Big Bend Foxtail Cactus,Standard,G3,G3
+Escobaria emskoetteriana,SPECIES,140485,Escobaria emskoetteriana,Robert's Foxtail Cactus,Standard,G4,G4
+Escobaria minima,SPECIES,129850,Escobaria minima,Nellie Cory Cactus,Standard,G1,G1
 Escobaria missouriensis,SPECIES,140613,Escobaria missouriensis,Missouri Foxtail Cactus,Standard,G5,G5
+Escobaria sneedii,SPECIES,154759,Escobaria sneedii,Carpet Foxtail Cactus,Standard,G2,G2G3Q
 Escobaria tuberculosa,SPECIES,154965,Escobaria tuberculosa,Incense Cory Cactus,Standard,G4,G4
 Escobaria vivipara,SPECIES,129632,Escobaria vivipara,Spinystar,Standard,G5,G5
 Eucalyptus bridgesiana,SPECIES,154146,Eucalyptus bridgesiana,Apple-box,Standard,GNR,GNR
 Eucalyptus grandis,SPECIES,885217,Eucalyptus grandis,Grand Eucalyptus,Provisional,GNR,GNR
 Eucalyptus marginata,SPECIES,144751,Eucalyptus marginata,Jarrah,Standard,GNR,GNR
 Eucalyptus pilularis,SPECIES,160277,Eucalyptus pilularis,Blackbutt,Standard,GNR,GNR
+Eucephalus engelmannii,SPECIES,141115,Eucephalus engelmannii,Engelmann's Aster,Standard,G5,G5
 Eugenia axillaris,SPECIES,140743,Eugenia axillaris,White Stopper,Standard,G4,G4G5
+Eugenia confusa,SPECIES,148760,Eugenia confusa,Red-berry Eugenia,Standard,G4,G4G5
 Eugenia foetida,SPECIES,151190,Eugenia foetida,Spanish Stopper,Standard,G5,G5?
+Eugenia rhombea,SPECIES,151781,Eugenia rhombea,Spiceberry Eugenia,Standard,G5,G5
 Euonymus atropurpureus,SPECIES,149909,Euonymus atropurpureus,Wahoo,Standard,G5,G5
 Euonymus occidentalis,SPECIES,128602,Euonymus occidentalis,Western Strawberry-bush,Standard,G5,G5
 Eupatorium maculatum,SPECIES,130824,Eupatorium maculatum,Spotted Joe-pyeweed,Standard,G5,G5
@@ -519,7 +564,7 @@ Fauria crista-galli,SPECIES,130542,Fauria crista-galli,Deer-cabbage,Standard,G5,
 Ferocactus cylindraceus,SPECIES,149666,Ferocactus cylindraceus,California Barrel Cactus,Standard,G5,G5
 Ferocactus emoryi,SPECIES,145675,Ferocactus emoryi,Emory's Barrel Cactus,Standard,G4,G4
 Ferocactus hamatacanthus,SPECIES,155544,Ferocactus hamatacanthus,Biznaga-de-Limilla,Standard,G4,G4
-Ferocactus wislizeni,SPECIES,134095,Ferocactus wislizeni,Southwestern Barrel Cactus,Standard,G4,G4
+Ferocactus viridescens,SPECIES,134427,Ferocactus viridescens,San Diego Barrel Cactus,Standard,G4,G4
 Ficus americana,SPECIES,143216,Ficus americana,Jamaican Cherry Fig,Standard,GNR,GNR
 Ficus citrifolia,SPECIES,138301,Ficus citrifolia,Wild Banyantree,Standard,G5,G5?
 Fimbristylis autumnalis,SPECIES,160144,Fimbristylis autumnalis,Slender Fimbry,Standard,G5,G5
@@ -533,6 +578,7 @@ Frangula caroliniana,SPECIES,129472,Frangula caroliniana,Carolina Buckthorn,Stan
 Frangula purshiana,SPECIES,157732,Frangula purshiana,Cascara False Buckthorn,Standard,G5,G5
 Fraxinus americana,SPECIES,146402,Fraxinus americana,White Ash,Standard,G5,G5
 Fraxinus anomala,SPECIES,141843,Fraxinus anomala,Single-leaf Ash,Standard,G4,G4
+Fraxinus berlandieriana,SPECIES,153406,Fraxinus berlandieriana,Mexican Ash,Standard,G5,G5
 Fraxinus caroliniana,SPECIES,158551,Fraxinus caroliniana,Carolina Ash,Standard,G4,G4G5
 Fraxinus cuspidata,SPECIES,135170,Fraxinus cuspidata,Fragrant Ash,Standard,G4,G4?
 Fraxinus dipetala,SPECIES,149501,Fraxinus dipetala,California Ash,Standard,G5,G5
@@ -553,17 +599,20 @@ Galium trifidum,SPECIES,142616,Galium trifidum,Small Bedstraw,Standard,G5,G5
 Galium triflorum,SPECIES,129672,Galium triflorum,Sweet-scent Bedstraw,Standard,G5,G5
 Galium uliginosum,SPECIES,128596,Galium uliginosum,Far-northern Bedstraw,Standard,GNR,GNR
 Garrya elliptica,SPECIES,136259,Garrya elliptica,Coast Silktassel,Standard,G5,G5
-Garrya flavescens,SPECIES,160479,Garrya flavescens,Ashy Silktassel,Standard,G3,G3G4
+Garrya flavescens,SPECIES,1207611,Garrya flavescens,Ashy Silktassel,Standard,G3,G3G4
 Garrya fremontii,SPECIES,159464,Garrya fremontii,Fremont's Silktassel,Standard,G4,G4G5
 Garrya ovata,SPECIES,141131,Garrya ovata,Eggleaf Silktassel,Standard,G5,G5
 Garrya wrightii,SPECIES,137304,Garrya wrightii,Wright's Silktassel,Standard,G5,G5
 Gaultheria hispidula,SPECIES,158738,Gaultheria hispidula,Creeping Snowberry,Standard,G5,G5
+Gaylussacia bigeloviana,SPECIES,143470,Gaylussacia bigeloviana,Northern Dwarf Huckleberry,Standard,G4,G4G5
 Gentiana douglasiana,SPECIES,161348,Gentiana douglasiana,Swamp Gentian,Standard,G5,G5
+Gentiana rubricaulis,SPECIES,137888,Gentiana rubricaulis,Closed Gentian,Standard,G4,G4?
 Gentiana sceptrum,SPECIES,140290,Gentiana sceptrum,Pacific Gentian,Standard,G5,G5
 Gentianopsis crinita,SPECIES,161426,Gentianopsis crinita,Fringed Gentian,Standard,G5,G5
 Gentianopsis detonsa,SPECIES,149197,Gentianopsis detonsa,Sheared Gentian,Standard,G4,G3G5
 Gentianopsis virgata,SPECIES,961230,Gentianopsis virgata,Lesser Fringed Gentian,Provisional,G5,G5
 Geocaulon lividum,SPECIES,153775,Geocaulon lividum,Northern Comandra,Standard,G5,G5
+Geum peckii,SPECIES,146728,Geum peckii,Mountain Avens,Standard,G2,G2G3
 Geum rivale,SPECIES,128845,Geum rivale,Purple Avens,Standard,G5,G5
 Gladiolus italicus,SPECIES,144271,Gladiolus italicus,Italian Gladiolus,Standard,GNR,GNR
 Gleditsia aquatica,SPECIES,131884,Gleditsia aquatica,Water-locust,Standard,G5,G5
@@ -574,12 +623,15 @@ Glyceria canadensis,SPECIES,153667,Glyceria canadensis,Canada Mannagrass,Standar
 Glyceria fluitans,SPECIES,135030,Glyceria fluitans,Water Mannagrass,Standard,GNR,GNR
 Glyceria grandis,SPECIES,136537,Glyceria grandis,American Mannagrass,Standard,G5,G5
 Glyceria maxima,SPECIES,141191,Glyceria maxima,Reed Mannagrass,Standard,GNR,GNR
+Glyceria obtusa,SPECIES,157305,Glyceria obtusa,Blunt Mannagrass,Standard,G5,G5
 Glyceria striata,SPECIES,159461,Glyceria striata,Fowl Mannagrass,Standard,G5,G5
 Glycyrrhiza lepidota,SPECIES,132846,Glycyrrhiza lepidota,Wild Licorice,Standard,G5,G5
 Gnaphalium palustre,SPECIES,154470,Gnaphalium palustre,Western Marsh Cudweed,Standard,G5,G5
+Gordonia lasianthus,SPECIES,139306,Gordonia lasianthus,Loblolly Bay,Standard,G5,G5
 Gossypium thurberi,SPECIES,155593,Gossypium thurberi,Thurber's Cotton,Standard,G4,G4
 Gossypium tomentosum,SPECIES,152685,Gossypium tomentosum,Hawai`i Cotton,Standard,G2,G2
 Gratiola aurea,SPECIES,157040,Gratiola aurea,Golden Hedge-hyssop,Standard,G5,G5
+Gratiola ebracteata,SPECIES,142579,Gratiola ebracteata,Bractless Hedge-hyssop,Standard,G4,G4
 Gratiola neglecta,SPECIES,159571,Gratiola neglecta,Clammy Hedge-hyssop,Standard,G5,G5
 Guaiacum sanctum,SPECIES,139929,Guaiacum sanctum,Holywood Lignumvitae,Standard,G2,G2G3
 Guettarda elliptica,SPECIES,155649,Guettarda elliptica,Tropical Velvet-seed,Standard,G4,G3G5
@@ -605,9 +657,11 @@ Helianthus giganteus,SPECIES,149677,Helianthus giganteus,Tall Sunflower,Standard
 Helianthus grosseserratus,SPECIES,157634,Helianthus grosseserratus,Sawtooth Sunflower,Standard,G5,G5
 Helianthus hirsutus,SPECIES,149618,Helianthus hirsutus,Stiff-hair Sunflower,Standard,G5,G5
 Helianthus maximiliani,SPECIES,135891,Helianthus maximiliani,Maximilian Sunflower,Standard,G5,G5
+Helianthus niveus,SPECIES,140488,Helianthus niveus,Desert Sunflower,Standard,G4,G4
 Helianthus pauciflorus,SPECIES,140489,Helianthus pauciflorus,Stiff Sunflower,Standard,G5,G5
 Helianthus petiolaris,SPECIES,128992,Helianthus petiolaris,Prairie Sunflower,Standard,G5,G5
 Helianthus salicifolius,SPECIES,138381,Helianthus salicifolius,Willowleaf Sunflower,Standard,G4,G4
+Helianthus silphioides,SPECIES,157776,Helianthus silphioides,Silphium Sunflower,Standard,G4,G4
 Helianthus tuberosus,SPECIES,138458,Helianthus tuberosus,Jerusalem Artichoke,Standard,G5,G5
 Helietta parvifolia,SPECIES,151313,Helietta parvifolia,Barreta,Standard,G4,G4
 Heliotropium curassavicum,SPECIES,144438,Heliotropium curassavicum,Seaside Heliotrope,Standard,G5,G5
@@ -635,6 +689,7 @@ Hydrocotyle sibthorpioides,SPECIES,152497,Hydrocotyle sibthorpioides,Lawn Pennyw
 Hydrocotyle umbellata,SPECIES,157659,Hydrocotyle umbellata,Many-flower Marsh-pennywort,Standard,G5,G5
 Hylocereus undatus,SPECIES,144242,Hylocereus undatus,Night-blooming Cereus,Standard,G5,G5
 Hypericum anagalloides,SPECIES,132010,Hypericum anagalloides,Tinker's-penny,Standard,G5,G5
+Hypericum boreale,SPECIES,129344,Hypericum boreale,Northern St. John's-wort,Standard,G5,G5
 Hypericum ellipticum,SPECIES,140275,Hypericum ellipticum,Pale St. John's-wort,Standard,G5,G5
 Hypericum majus,SPECIES,151639,Hypericum majus,Larger Canadian St. John's-wort,Standard,G5,G5
 Ilex ambigua,SPECIES,158416,Ilex ambigua,Carolina Holly,Standard,G5,G5
@@ -651,18 +706,23 @@ Ilex vomitoria,SPECIES,144160,Ilex vomitoria,Yaupon Holly,Standard,G5,G5
 Illicium floridanum,SPECIES,160358,Illicium floridanum,Florida Anisetree,Standard,G5,G5
 Impatiens capensis,SPECIES,130664,Impatiens capensis,Orange Jewelweed,Standard,G5,G5
 Impatiens noli-tangere,SPECIES,149328,Impatiens noli-tangere,Western Jewelweed,Standard,G5,G5
+Indigofera miniata,SPECIES,160548,Indigofera miniata,Coast Indigo,Standard,G5,G5
 Indigofera trita,SPECIES,1027712,Indigofera trita,Asian Indigo,Provisional,GNR,GNR
 Ipomoea aquatica,SPECIES,141813,Ipomoea aquatica,Swamp-cabbage,Standard,G5,G5
 Ipomoea cordatotriloba,SPECIES,146432,Ipomoea cordatotriloba,Tievine,Standard,G5,G5
 Ipomoea lacunosa,SPECIES,161643,Ipomoea lacunosa,Whitestar,Standard,G5,G5?
 Ipomoea littoralis,SPECIES,149533,Ipomoea littoralis,White-flower Beach Morning-glory,Standard,G5,G5
 Ipomoea triloba,SPECIES,146433,Ipomoea triloba,Little-bell,Standard,GNR,GNR
+Iris brevicaulis,SPECIES,130010,Iris brevicaulis,Lamance Iris,Standard,G4,G4
 Iris lacustris,SPECIES,149152,Iris lacustris,Dwarf Lake Iris,Standard,G3,G3
 Iris missouriensis,SPECIES,157303,Iris missouriensis,Western Blue Iris,Standard,G5,G5
 Iris versicolor,SPECIES,132305,Iris versicolor,Harlequin Blueflag,Standard,G5,G5
 Iris virginica,SPECIES,136392,Iris virginica,Virginia Blueflag,Standard,G5,G5
+Isoetes bolanderi,SPECIES,141815,Isoetes bolanderi,Bolander's Quillwort,Standard,G4,G4
 Isoetes echinospora,SPECIES,136878,Isoetes echinospora,Spiny-spore Quillwort,Standard,G5,G5
 Isoetes lacustris,SPECIES,738978,Isoetes lacustris,Western Lake Quillwort,Standard,G5,G5
+Isoetes maritima,SPECIES,133966,Isoetes maritima,Maritime Quillwort,Standard,G4,G4
+Isoetes nuttallii,SPECIES,137970,Isoetes nuttallii,Nuttall's Quillwort,Standard,G4,G4?
 Isolepis cernua,SPECIES,137576,Isolepis cernua,Low Bulrush,Standard,G5,G5
 Isolepis setacea,SPECIES,132747,Isolepis setacea,Bristle-leaf Bulrush,Standard,GNR,GNR
 Iva xanthifolia,SPECIES,132443,Iva xanthifolia,Coarse Sumpweed,Standard,G5,G5
@@ -678,7 +738,6 @@ Juglans nigra,SPECIES,141124,Juglans nigra,Black Walnut,Standard,G5,G5
 Juncus acuminatus,SPECIES,158814,Juncus acuminatus,Sharp-fruit Rush,Standard,G5,G5
 Juncus acutus,SPECIES,132207,Juncus acutus,Spiny Rush,Standard,G5,G5
 Juncus alpinoarticulatus,SPECIES,138025,Juncus alpinoarticulatus,Northern Green Rush,Standard,G5,G5
-Juncus articulatus,SPECIES,158094,Juncus articulatus,Jointed Rush,Standard,G5,G5
 Juncus balticus,SPECIES,153100,Juncus balticus,Baltic Rush,Standard,G5,G5
 Juncus biglumis,SPECIES,149682,Juncus biglumis,Two-flower Rush,Standard,G5,G5
 Juncus brachycephalus,SPECIES,134779,Juncus brachycephalus,Small-head Rush,Standard,G5,G5
@@ -687,7 +746,6 @@ Juncus bulbosus,SPECIES,147893,Juncus bulbosus,Bulbous Rush,Standard,G5,G5?
 Juncus canadensis,SPECIES,136489,Juncus canadensis,Canada Rush,Standard,G5,G5
 Juncus compressus,SPECIES,138026,Juncus compressus,Flattened Rush,Standard,G5,G5
 Juncus dudleyi,SPECIES,148398,Juncus dudleyi,Dudley's Rush,Standard,G5,G5
-Juncus effusus,SPECIES,138704,Juncus effusus,Soft Rush,Standard,G5,G5
 Juncus filiformis,SPECIES,140874,Juncus filiformis,Thread Rush,Standard,G5,G5
 Juncus inflexus,SPECIES,135924,Juncus inflexus,European Meadow Rush,Standard,G5,G5
 Juncus marginatus,SPECIES,140520,Juncus marginatus,Grassleaf Rush,Standard,G5,G5
@@ -721,8 +779,10 @@ Larix laricina,SPECIES,152910,Larix laricina,American Larch,Standard,G5,G5
 Larix lyallii,SPECIES,158144,Larix lyallii,Subalpine Larch,Standard,G5,G5
 Larix occidentalis,SPECIES,139937,Larix occidentalis,Western Larch,Standard,G5,G5
 Lasiacis divaricata,SPECIES,148525,Lasiacis divaricata,Small-cane,Standard,G5,G5
+Lasthenia glaberrima,SPECIES,138802,Lasthenia glaberrima,Smooth Goldfields,Standard,G5,G5
 Lathyrus angulatus,SPECIES,145325,Lathyrus angulatus,Angled Peavine,Standard,GNR,GNR
 Lathyrus aphaca,SPECIES,157474,Lathyrus aphaca,Yellow Peavine,Standard,GNR,GNR
+Lathyrus cicera,SPECIES,132572,Lathyrus cicera,Flat-pod Peavine,Standard,GNR,GNR
 Lathyrus hirsutus,SPECIES,154055,Lathyrus hirsutus,Single-tary Pea,Standard,GNR,GNR
 Lathyrus japonicus,SPECIES,146360,Lathyrus japonicus,Beach Pea,Standard,G5,G5
 Lathyrus latifolius,SPECIES,132581,Lathyrus latifolius,Perennial Pea,Standard,GNR,GNR
@@ -737,13 +797,17 @@ Lemna aequinoctialis,SPECIES,142929,Lemna aequinoctialis,Lesser Duckweed,Standar
 Lemna gibba,SPECIES,152574,Lemna gibba,Inflated Duckweed,Standard,G4,G4G5
 Lemna minor,SPECIES,128499,Lemna minor,Lesser Duckweed,Standard,G5,G5
 Lemna minuta,SPECIES,157771,Lemna minuta,Least Duckweed,Standard,G4,G4
+Lemna perpusilla,SPECIES,141853,Lemna perpusilla,Minute Duckweed,Standard,G5,G5
 Lemna trisulca,SPECIES,154220,Lemna trisulca,Star Duckweed,Standard,G5,G5
 Lemna turionifera,SPECIES,141234,Lemna turionifera,Turion Duckweed,Standard,G5,G5
 Lepidospartum squamatum,SPECIES,143026,Lepidospartum squamatum,California Broomshrub,Standard,G4,G4?
 Lespedeza cuneata,SPECIES,156630,Lespedeza cuneata,Chinese Bushclover,Standard,GNR,GNR
+Lespedeza hirta,SPECIES,147658,Lespedeza hirta,Hairy Bushclover,Standard,G5,G5
+Lespedeza thunbergii,SPECIES,142375,Lespedeza thunbergii,Thunberg's Bushclover,Standard,GNR,GNR
 Leucaena pulverulenta,SPECIES,132635,Leucaena pulverulenta,Great Leucaena,Standard,G5,G5
 Leucaena retusa,SPECIES,157027,Leucaena retusa,Littleleaf Leucaena,Standard,G4,G4G5
 Leucojum aestivum,SPECIES,149515,Leucojum aestivum,Summer Snowflake,Standard,GNR,GNR
+Licaria triandra,SPECIES,149470,Licaria triandra,Gulf Licaria,Standard,G4,G4
 Ligustrum lucidum,SPECIES,147021,Ligustrum lucidum,Glossy Privet,Standard,G5,G5
 Limosella aquatica,SPECIES,128093,Limosella aquatica,Northern Mudwort,Standard,G5,G5
 Lindera benzoin,SPECIES,139731,Lindera benzoin,Northern Spicebush,Standard,G5,G5
@@ -751,6 +815,7 @@ Lindernia dubia,SPECIES,158192,Lindernia dubia,Yellowseed False Pimpernel,Standa
 Lipocarpha micrantha,SPECIES,144682,Lipocarpha micrantha,Dwarf Bulrush,Standard,G5,G5
 Liquidambar styraciflua,SPECIES,148447,Liquidambar styraciflua,Sweetgum,Standard,G5,G5
 Liriodendron tulipifera,SPECIES,145843,Liriodendron tulipifera,Tuliptree,Standard,G5,G5
+Littorella uniflora,SPECIES,152404,Littorella uniflora,American Shore-grass,Standard,G5,G5
 Lobelia cardinalis,SPECIES,153707,Lobelia cardinalis,Cardinal-flower,Standard,G5,G5
 Lobelia dortmanna,SPECIES,146561,Lobelia dortmanna,Water Lobelia,Standard,G5,G5
 Lobelia kalmii,SPECIES,142920,Lobelia kalmii,Kalm's Lobelia,Standard,G5,G5
@@ -758,19 +823,24 @@ Lobelia siphilitica,SPECIES,135214,Lobelia siphilitica,Great Blue Lobelia,Standa
 Lobelia spicata,SPECIES,136909,Lobelia spicata,Pale-spike Lobelia,Standard,G5,G5
 Lomatogonium rotatum,SPECIES,127992,Lomatogonium rotatum,Marsh Felwort,Standard,G5,G5
 Lonicera caerulea,SPECIES,144394,Lonicera caerulea,Western Honeysuckle,Standard,G5,G5
-Lophophora williamsii,SPECIES,139920,Lophophora williamsii,Peyote,Standard,G4,G4
+Lonicera oblongifolia,SPECIES,143040,Lonicera oblongifolia,Swamp Fly-honeysuckle,Standard,G5,G5
+Lophophora williamsii,SPECIES,139920,Lophophora williamsii,Peyote,Standard,G3,G3
 Ludwigia alternifolia,SPECIES,155113,Ludwigia alternifolia,Bushy Seedbox,Standard,G5,G5
 Ludwigia leptocarpa,SPECIES,148069,Ludwigia leptocarpa,River Seedbox,Standard,G5,G5
 Ludwigia octovalvis,SPECIES,150786,Ludwigia octovalvis,Mexican Seedbox,Standard,G5,G5
 Ludwigia palustris,SPECIES,160602,Ludwigia palustris,Marsh Seedbox,Standard,G5,G5
 Ludwigia polycarpa,SPECIES,149107,Ludwigia polycarpa,Many-fruit False Loosestrife,Standard,G4,G4
+Lupinus argenteus,SPECIES,156602,Lupinus argenteus,Silvery Lupine,Standard,G5,G5
+Lupinus breweri,SPECIES,130454,Lupinus breweri,Mat Lupine,Standard,G5,G5
+Lupinus diffusus,SPECIES,136741,Lupinus diffusus,Oak Ridge Lupine,Standard,G5,G5
 Lupinus nootkatensis,SPECIES,139295,Lupinus nootkatensis,Nootka Lupine,Standard,G5,G5
 Lupinus texensis,SPECIES,158091,Lupinus texensis,Texas Bluebonnet,Standard,G5,G5
 Luzula wahlenbergii,SPECIES,150043,Luzula wahlenbergii,Wahlenberg's Woodrush,Standard,G4,G4
+Lycopodiella appressa,SPECIES,133400,Lycopodiella appressa,Southern Bog Clubmoss,Standard,G5,G5
 Lycopodiella inundata,SPECIES,136631,Lycopodiella inundata,Bog Clubmoss,Standard,G5,G5
 Lycopus americanus,SPECIES,142682,Lycopus americanus,American Bugleweed,Standard,G5,G5
 Lycopus asper,SPECIES,158383,Lycopus asper,Rough Bugleweed,Standard,G5,G5
-Lycopus europaeus,SPECIES,148964,Lycopus europaeus,European Bugleweed,Standard,GNR,GNR
+Lycopus rubellus,SPECIES,155814,Lycopus rubellus,Taperleaf Bugleweed,Standard,G5,G5
 Lycopus uniflorus,SPECIES,145060,Lycopus uniflorus,Northern Bugleweed,Standard,G5,G5
 Lycopus virginicus,SPECIES,132011,Lycopus virginicus,Virginia Bugleweed,Standard,G5,G5
 Lysichiton americanus,SPECIES,159884,Lysichiton americanus,Yellow Skunk Cabbage,Standard,G5,G5
@@ -780,7 +850,6 @@ Lysimachia ciliata,SPECIES,146527,Lysimachia ciliata,Fringed Loosestrife,Standar
 Lysimachia punctata,SPECIES,142102,Lysimachia punctata,Spotted Loosestrife,Standard,GNR,GNR
 Lysimachia terrestris,SPECIES,141713,Lysimachia terrestris,Swamp Loosestrife,Standard,G5,G5
 Lysimachia thyrsiflora,SPECIES,129957,Lysimachia thyrsiflora,Water Loosestrife,Standard,G5,G5
-Lysimachia vulgaris,SPECIES,158816,Lysimachia vulgaris,Garden Loosestrife,Standard,GNR,GNR
 Lythrum alatum,SPECIES,157008,Lythrum alatum,Winged-loosestrife,Standard,G5,G5
 Lythrum hyssopifolia,SPECIES,136862,Lythrum hyssopifolia,Hyssop Loosestrife,Standard,G5,G5
 Lythrum portula,SPECIES,138405,Lythrum portula,Spatulaleaf Loosestrife,Standard,GNR,GNR
@@ -788,7 +857,6 @@ Maclura pomifera,SPECIES,134467,Maclura pomifera,Osage-orange,Standard,G5,G5
 Magnolia acuminata,SPECIES,156102,Magnolia acuminata,Cucumber Magnolia,Standard,G5,G5
 Magnolia fraseri,SPECIES,148823,Magnolia fraseri,Fraser Magnolia,Standard,G5,G5
 Magnolia grandiflora,SPECIES,146090,Magnolia grandiflora,Large-flower Magnolia,Standard,G5,G5
-Magnolia macrophylla,SPECIES,145212,Magnolia macrophylla,Bigleaf Magnolia,Standard,G5,G5
 Magnolia tripetala,SPECIES,147677,Magnolia tripetala,Umbrella Magnolia,Standard,G5,G5
 Magnolia virginiana,SPECIES,144735,Magnolia virginiana,Sweetbay Magnolia,Standard,G5,G5
 Malpighia glabra,SPECIES,161409,Malpighia glabra,Wild Crapemyrtle,Standard,G5,G5
@@ -799,7 +867,10 @@ Malus ioensis,SPECIES,141984,Malus ioensis,Iowa Crabapple,Standard,G4,G4G5
 Mammillaria dioica,SPECIES,161565,Mammillaria dioica,Strawberry Cactus,Standard,G3,G3?
 Mammillaria grahamii,SPECIES,128920,Mammillaria grahamii,Graham's Nipple Cactus,Standard,G4,G4
 Mammillaria heyderi,SPECIES,157451,Mammillaria heyderi,Little Nipple Cactus,Standard,G4,G4?
+Mammillaria lasiacantha,SPECIES,147920,Mammillaria lasiacantha,Lace-spine Nipple Cactus,Standard,G4,G4
 Mammillaria pottsii,SPECIES,157526,Mammillaria pottsii,Potts' Nipple Cactus,Standard,G4,G4
+Mammillaria prolifera,SPECIES,142234,Mammillaria prolifera,West Indian Nipple Cactus,Standard,G4,G4
+Mammillaria sphaerica,SPECIES,145649,Mammillaria sphaerica,Long Mamma Nipple Cactus,Standard,G4,G4G5
 Mammillaria tetrancistra,SPECIES,138081,Mammillaria tetrancistra,Common Fishhook Cactus,Standard,G3,G3G4
 Manihot angustiloba,SPECIES,136994,Manihot angustiloba,Desert Mountain Manihot,Standard,G4,G4G5
 Manilkara jaimiqui,SPECIES,150637,Manilkara jaimiqui,Wild Dilly,Standard,G4,G4
@@ -818,6 +889,7 @@ Mimosa quadrivalvis,SPECIES,147333,Mimosa quadrivalvis,Four-valve Mimosa,Standar
 Mimulus alatus,SPECIES,141759,Mimulus alatus,Sharp-wing Monkeyflower,Standard,G5,G5
 Mimulus moschatus,SPECIES,151577,Mimulus moschatus,Muskflower,Standard,G5,G5
 Mimulus ringens,SPECIES,129067,Mimulus ringens,Square-stem Monkeyflower,Standard,G5,G5
+Montia chamissoi,SPECIES,132416,Montia chamissoi,Chamisso's Miner's-lettuce,Standard,G5,G5
 Montia parvifolia,SPECIES,144189,Montia parvifolia,Littleleaf Miner's-lettuce,Standard,G4,G4G5
 Morella californica,SPECIES,140737,Morella californica,California Bayberry,Standard,G5,G5
 Morella cerifera,SPECIES,140133,Morella cerifera,Southern Bayberry,Standard,G5,G5
@@ -837,13 +909,14 @@ Myriophyllum spicatum,SPECIES,159460,Myriophyllum spicatum,Eurasian Water-milfoi
 Myriophyllum tenellum,SPECIES,161017,Myriophyllum tenellum,Slender Water-milfoil,Standard,G5,G5
 Myriophyllum verticillatum,SPECIES,148677,Myriophyllum verticillatum,Whorled Water-milfoil,Standard,G5,G5
 Najas flexilis,SPECIES,148420,Najas flexilis,Slender Naiad,Standard,G5,G5
+Najas gracillima,SPECIES,149473,Najas gracillima,Thread-like Naiad,Standard,G5,G5?
+Najas guadalupensis,SPECIES,129954,Najas guadalupensis,Southern Naiad,Standard,G5,G5
 Najas marina,SPECIES,153202,Najas marina,Holly-leaf Naiad,Standard,G5,G5
 Najas minor,SPECIES,157427,Najas minor,Brittle Naiad,Standard,GNR,GNR
 Navarretia leucocephala,SPECIES,145588,Navarretia leucocephala,White-flower Navarretia,Standard,G4,G4
 Nelumbo lutea,SPECIES,135254,Nelumbo lutea,American Lotus,Standard,G4,G4
 Neolloydia conoidea,SPECIES,156253,Neolloydia conoidea,Chihuahuan Desert Butterfly-cactus,Standard,G4,G4
 Neptunia plena,SPECIES,159301,Neptunia plena,Water Neptunia,Standard,G5,G5
-Nerium oleander,SPECIES,144510,Nerium oleander,Common Oleander,Standard,GNR,GNR
 Nolina bigelovii,SPECIES,129685,Nolina bigelovii,Bigelow's Bear-grass,Standard,GNR,GNR
 Nymphaea leibergii,SPECIES,135296,Nymphaea leibergii,Dwarf Water-lily,Standard,G5,G5
 Nymphaea odorata,SPECIES,149765,Nymphaea odorata,American Water-lily,Standard,G5,G5
@@ -860,6 +933,9 @@ Oenanthe aquatica,SPECIES,154827,Oenanthe aquatica,Marsh Dropwort,Standard,GNR,G
 Oenanthe sarmentosa,SPECIES,136873,Oenanthe sarmentosa,Water-parsley,Standard,G5,G5
 Olneya tesota,SPECIES,157385,Olneya tesota,Ironwood Tree,Standard,G4,G4G5
 Onoclea sensibilis,SPECIES,137058,Onoclea sensibilis,Sensitive Fern,Standard,G5,G5
+Opuntia atrispina,SPECIES,151416,Opuntia atrispina,Border Prickly-pear,Standard,G4,G4
+Opuntia aurea,SPECIES,153609,Opuntia aurea,Golden Prickly-pear,Standard,G3,G3
+Opuntia aureispina,SPECIES,129479,Opuntia aureispina,Golden-spined Prickly-pear,Standard,G1,G1
 Opuntia basilaris,SPECIES,147857,Opuntia basilaris,Beavertail Prickly-pear,Standard,G5,G5
 Opuntia chlorotica,SPECIES,154407,Opuntia chlorotica,Dollar-joint Prickly-pear,Standard,G4,G4
 Opuntia engelmannii,SPECIES,137078,Opuntia engelmannii,Cactus-apple,Standard,G5,G5
@@ -870,13 +946,16 @@ Opuntia macrocentra,SPECIES,137095,Opuntia macrocentra,Purple Prickly-pear,Stand
 Opuntia macrorhiza,SPECIES,146667,Opuntia macrorhiza,Twisted-spine Prickly-pear,Standard,G5,G5
 Opuntia phaeacantha,SPECIES,146302,Opuntia phaeacantha,New Mexico Prickly-pear,Standard,G5,G5
 Opuntia polyacantha,SPECIES,154408,Opuntia polyacantha,Panhandle Prickly-pear,Standard,G5,G5
+Opuntia pusilla,SPECIES,147111,Opuntia pusilla,Little Prickly-pear,Standard,G4,G4
 Opuntia rufida,SPECIES,133071,Opuntia rufida,Blind Prickly-pear,Standard,G4,G4
 Opuntia stricta,SPECIES,130743,Opuntia stricta,Erect Prickly-pear,Standard,G4,G4?
 Osmunda regalis,SPECIES,161307,Osmunda regalis,Royal Fern,Standard,G5,G5
+Ostrya knowltonii,SPECIES,145153,Ostrya knowltonii,Knowlton's Hophornbeam,Standard,G4,G4
 Ostrya virginiana,SPECIES,144978,Ostrya virginiana,Eastern Hophornbeam,Standard,G5,G5
 Ottelia alismoides,SPECIES,152784,Ottelia alismoides,Duck-lettuce,Standard,GNR,GNR
 Oxydendrum arboreum,SPECIES,150848,Oxydendrum arboreum,Sourwood,Standard,G5,G5
 Oxypolis rigidior,SPECIES,140563,Oxypolis rigidior,Stiff Cowbane,Standard,G5,G5
+Oxytropis lambertii,SPECIES,137140,Oxytropis lambertii,Stemless Point-vetch,Standard,G5,G5
 Pachycereus schottii,SPECIES,156887,Pachycereus schottii,Senita Cactus,Standard,G4,G4
 Pandanus tectorius,SPECIES,131058,Pandanus tectorius,Tahitian Screw-pine,Standard,GNR,GNR
 Parkinsonia aculeata,SPECIES,129366,Parkinsonia aculeata,Jerusalem-thorn,Standard,G5,G5
@@ -888,6 +967,7 @@ Parnassia palustris,SPECIES,740516,Parnassia palustris,Marsh Grass-of-Parnassus,
 Paspalidium geminatum,SPECIES,138582,Paspalidium geminatum,Egyptian Paspalum,Standard,G5,G5
 Paspalum conjugatum,SPECIES,132047,Paspalum conjugatum,Sour Crowngrass,Standard,G5,G5
 Paspalum distichum,SPECIES,147763,Paspalum distichum,Joint Paspalum,Standard,G5,G5
+Paspalum repens,SPECIES,133624,Paspalum repens,Water Paspalum,Provisional,G5,G5?
 Paspalum scrobiculatum,SPECIES,141455,Paspalum scrobiculatum,India Paspalum,Standard,GNR,GNR
 Paspalum vaginatum,SPECIES,155393,Paspalum vaginatum,Seashore Paspalum,Standard,G5,G5
 Pedicularis groenlandica,SPECIES,153390,Pedicularis groenlandica,Bull Elephant's-head,Standard,G5,G5
@@ -896,7 +976,11 @@ Pedicularis lanceolata,SPECIES,132098,Pedicularis lanceolata,Swamp Lousewort,Sta
 Pedicularis palustris,SPECIES,135174,Pedicularis palustris,Purple Lousewort,Standard,G4,G4G5
 Pedicularis parviflora,SPECIES,154084,Pedicularis parviflora,Small-flower Lousewort,Standard,G4,G4G5
 Pedicularis sudetica,SPECIES,128264,Pedicularis sudetica,Sudetic Lousewort,Standard,G5,G5
+Pediocactus bradyi,SPECIES,128223,Pediocactus bradyi,Brady's Pincushion Cactus,Standard,G1,G1
 Pediocactus nigrispinus,SPECIES,796904,Pediocactus nigrispinus,Snowball Cactus,Standard,G4,G4
+Pediocactus paradinei,SPECIES,156067,Pediocactus paradinei,Park Pincushion Cactus,Standard,G1,G1G2
+Pediocactus peeblesianus,SPECIES,133095,Pediocactus peeblesianus,Peebles' Hedgehog Cactus,Standard,G2,G2
+Pediocactus simpsonii,SPECIES,893052,Pediocactus simpsonii,Simpson's Hedgehog Cactus,Standard,G5,G5?
 Peltandra virginica,SPECIES,152139,Peltandra virginica,Green Arrow-arum,Standard,G5,G5
 Peniocereus greggii,SPECIES,149459,Peniocereus greggii,Desert Night-blooming Cereus,Standard,G3,G3G4
 Penthorum sedoides,SPECIES,155509,Penthorum sedoides,Ditch-stonecrop,Standard,G5,G5
@@ -909,13 +993,14 @@ Persicaria maculosa,SPECIES,151956,Persicaria maculosa,Spotted Lady's-thumb,Stan
 Persicaria sagittata,SPECIES,146803,Persicaria sagittata,Arrowleaf Tearthumb,Standard,G5,G5
 Petasites frigidus,SPECIES,145028,Petasites frigidus,Arctic Butter-bur,Standard,G5,G5
 Peucephyllum schottii,SPECIES,154289,Peucephyllum schottii,Schott's Pygmy-cedar,Standard,G5,G5
-Phalaris arundinacea,SPECIES,159238,Phalaris arundinacea,Reed Canarygrass,Standard,G5,G5
 Phaseolus filiformis,SPECIES,138414,Phaseolus filiformis,Wright's Phaseolus,Standard,G5,G5
+Phaseolus maculatus,SPECIES,145648,Phaseolus maculatus,Melcalfe's Bean,Standard,G4,G3G5
 Phippsia algida,SPECIES,131896,Phippsia algida,Ice Grass,Standard,G5,G5
 Phleum alpinum,SPECIES,143148,Phleum alpinum,Mountain Timothy,Standard,G5,G5
 Phyla lanceolata,SPECIES,135994,Phyla lanceolata,Fogfruit,Standard,G5,G5
 Phyla nodiflora,SPECIES,161322,Phyla nodiflora,Common Fogfruit,Standard,G5,G5
 Phyllospadix serrulatus,SPECIES,151350,Phyllospadix serrulatus,Serrulate Surf-grass,Standard,G4,G4
+Physalis acutifolia,SPECIES,159680,Physalis acutifolia,Sharp-leaf Ground-cherry,Standard,G5,G5?
 Physalis angulata,SPECIES,141806,Physalis angulata,Cutleaf Ground-cherry,Standard,G5,G5
 Physalis cinerascens,SPECIES,154783,Physalis cinerascens,Small-flower Ground-cherry,Standard,G4,G4G5
 Physalis crassifolia,SPECIES,153745,Physalis crassifolia,Thick-leaf Ground-cherry,Standard,G5,G5
@@ -938,6 +1023,7 @@ Pinguicula vulgaris,SPECIES,153631,Pinguicula vulgaris,Common Butterwort,Standar
 Pinus albicaulis,SPECIES,128475,Pinus albicaulis,Whitebark Pine,Standard,G3,G3G4
 Pinus aristata,SPECIES,150471,Pinus aristata,Bristlecone Pine,Standard,G3,G3
 Pinus arizonica,SPECIES,145941,Pinus arizonica,Arizona Pine,Standard,G4,G4
+Pinus attenuata,SPECIES,158875,Pinus attenuata,Knobcone Pine,Standard,G5,G5
 Pinus balfouriana,SPECIES,151759,Pinus balfouriana,Foxtail Pine,Standard,G4,G4
 Pinus banksiana,SPECIES,137380,Pinus banksiana,Jack Pine,Standard,G5,G5
 Pinus cembroides,SPECIES,128155,Pinus cembroides,Mexican Pinyon,Standard,G4,G4
@@ -949,6 +1035,7 @@ Pinus edulis,SPECIES,156774,Pinus edulis,Two-needle Pinyon Pine,Standard,G5,G5
 Pinus elliottii,SPECIES,148214,Pinus elliottii,Slash Pine,Standard,G5,G5
 Pinus engelmannii,SPECIES,145943,Pinus engelmannii,Engelmann Pine,Standard,G4,G4G5
 Pinus flexilis,SPECIES,140758,Pinus flexilis,Limber Pine,Standard,G4,G4
+Pinus glabra,SPECIES,137407,Pinus glabra,Spruce Pine,Standard,G5,G5?
 Pinus jeffreyi,SPECIES,127906,Pinus jeffreyi,Jeffrey's Pine,Standard,G5,G5
 Pinus lambertiana,SPECIES,161150,Pinus lambertiana,Sugar Pine,Standard,G5,G5
 Pinus leiophylla,SPECIES,145830,Pinus leiophylla,Chihuahuan Pine,Standard,G5,G5
@@ -958,10 +1045,12 @@ Pinus monticola,SPECIES,136952,Pinus monticola,Western White Pine,Standard,G4,G4
 Pinus muricata,SPECIES,146943,Pinus muricata,Bishop Pine,Standard,G5,G5
 Pinus palustris,SPECIES,152746,Pinus palustris,Longleaf Pine,Standard,G5,G5
 Pinus ponderosa,SPECIES,137495,Pinus ponderosa,Ponderosa Pine,Standard,G5,G5
+Pinus pungens,SPECIES,131783,Pinus pungens,Table Mountain Pine,Standard,G4,G4
 Pinus radiata,SPECIES,147411,Pinus radiata,Monterey Pine,Standard,G1,G1
 Pinus resinosa,SPECIES,151468,Pinus resinosa,Red Pine,Standard,G5,G5
 Pinus rigida,SPECIES,161753,Pinus rigida,Pitch Pine,Standard,G5,G5
 Pinus sabiniana,SPECIES,133005,Pinus sabiniana,California Foothill Pine,Standard,G4,G4
+Pinus serotina,SPECIES,147377,Pinus serotina,Pond Pine,Standard,G5,G5
 Pinus strobiformis,SPECIES,153551,Pinus strobiformis,Southwestern White Pine,Standard,G5,G5?
 Pinus strobus,SPECIES,161641,Pinus strobus,Eastern White Pine,Standard,G5,G5
 Pinus taeda,SPECIES,155267,Pinus taeda,Loblolly Pine,Standard,G5,G5
@@ -972,6 +1061,7 @@ Piscidia piscipula,SPECIES,135857,Piscidia piscipula,Florida Fishpoison-tree,Sta
 Pisonia aculeata,SPECIES,151061,Pisonia aculeata,Devil's Claws,Standard,G5,G5
 Pistia stratiotes,SPECIES,151080,Pistia stratiotes,Water-lettuce,Standard,G5,G5
 Planera aquatica,SPECIES,142132,Planera aquatica,Planertree,Standard,G5,G5
+Plantago cordata,SPECIES,155726,Plantago cordata,Heartleaf Plantain,Standard,G4,G4
 Plantago eriopoda,SPECIES,129914,Plantago eriopoda,Saline Plantain,Standard,G5,G5
 Plantago macrocarpa,SPECIES,134525,Plantago macrocarpa,Alaska Plantain,Standard,G4,G4
 Plantago maritima,SPECIES,144194,Plantago maritima,Seaside Plantain,Standard,G5,G5
@@ -980,13 +1070,16 @@ Platanthera chapmanii,SPECIES,141093,Platanthera chapmanii,Chapman's Fringed Orc
 Platanthera chorisiana,SPECIES,144177,Platanthera chorisiana,Choriso Bog Orchid,Standard,G4,G4
 Platanthera clavellata,SPECIES,156984,Platanthera clavellata,Small Green Woodland Orchid,Standard,G5,G5
 Platanthera hyperborea,SPECIES,136810,Platanthera hyperborea,Leafy Northern Green Orchid,Standard,G5,G5
+Platanthera integrilabia,SPECIES,155927,Platanthera integrilabia,White Fringeless Orchid,Standard,G2,G2G3
 Platanthera tipuloides,SPECIES,140151,Platanthera tipuloides,Aleutian Bog Orchid,Standard,G4,G4G5
 Platanus occidentalis,SPECIES,138935,Platanus occidentalis,Sycamore,Standard,G5,G5
+Pleuropogon refractus,SPECIES,132116,Pleuropogon refractus,Nodding False Semaphore Grass,Standard,G4,G4
 Pleuropogon sabinei,SPECIES,156375,Pleuropogon sabinei,Sabine-grass,Standard,G4,G4G5
 Pluchea carolinensis,SPECIES,158088,Pluchea carolinensis,Cure-for-All,Standard,G5,G5
 Plumeria obtusa,SPECIES,144755,Plumeria obtusa,Krugii Cimarron,Standard,G4,G4G5
 Poa palustris,SPECIES,149461,Poa palustris,Fowl Bluegrass,Standard,G5,G5
 Poa pratensis,SPECIES,149735,Poa pratensis,Kentucky Bluegrass,Standard,G5,G5
+Podostemum ceratophyllum,SPECIES,149034,Podostemum ceratophyllum,Threadfoot,Standard,G5,G5
 Pogonia ophioglossoides,SPECIES,144805,Pogonia ophioglossoides,Rose Pogonia,Standard,G5,G5
 Polemonium acutiflorum,SPECIES,147247,Polemonium acutiflorum,Tall Jacob's-ladder,Standard,G5,G5
 Polemonium pulcherrimum,SPECIES,145386,Polemonium pulcherrimum,Showy Jacob's-ladder,Standard,G5,G5
@@ -1005,13 +1098,17 @@ Potamogeton berchtoldii,SPECIES,1141078,Potamogeton berchtoldii,NA,Provisional,G
 Potamogeton confervoides,SPECIES,128747,Potamogeton confervoides,Algae-like Pondweed,Standard,G5,G5
 Potamogeton crispus,SPECIES,145742,Potamogeton crispus,Curly Pondweed,Standard,G5,G5
 Potamogeton epihydrus,SPECIES,144293,Potamogeton epihydrus,Nuttall's Pondweed,Standard,G5,G5
+Potamogeton foliosus,SPECIES,150233,Potamogeton foliosus,Leafy Pondweed,Standard,G5,G5
 Potamogeton friesii,SPECIES,140507,Potamogeton friesii,Fries' Pondweed,Standard,G5,G5
 Potamogeton gramineus,SPECIES,142488,Potamogeton gramineus,Grassleaf Pondweed,Standard,G5,G5
 Potamogeton natans,SPECIES,148022,Potamogeton natans,Floating Pondweed,Standard,G5,G5
+Potamogeton oakesianus,SPECIES,138810,Potamogeton oakesianus,Oakes' Pondweed,Standard,G5,G5
 Potamogeton obtusifolius,SPECIES,132578,Potamogeton obtusifolius,Bluntleaf Pondweed,Standard,G5,G5
 Potamogeton perfoliatus,SPECIES,149208,Potamogeton perfoliatus,Claspingleaf Pondweed,Standard,G5,G5
 Potamogeton praelongus,SPECIES,155381,Potamogeton praelongus,White-stem Pondweed,Standard,G5,G5
 Potamogeton pusillus,SPECIES,128182,Potamogeton pusillus,Slender Pondweed,Standard,G5,G5
+Potamogeton robbinsii,SPECIES,148296,Potamogeton robbinsii,Flatleaf Pondweed,Standard,G5,G5
+Potamogeton spirillus,SPECIES,161465,Potamogeton spirillus,Spiral Pondweed,Standard,G5,G5
 Potamogeton subsibiricus,SPECIES,131013,Potamogeton subsibiricus,Yenisei River Pondweed,Standard,G3,G3G4
 Potentilla anserina,SPECIES,947355,Potentilla anserina,Common Silverweed,Standard,G5,G5
 Potentilla norvegica,SPECIES,134447,Potentilla norvegica,Norwegian Cinquefoil,Standard,G5,G5
@@ -1022,10 +1119,10 @@ Primula incana,SPECIES,160869,Primula incana,Jones Primrose,Standard,G5,G5
 Primula mistassinica,SPECIES,133453,Primula mistassinica,Bird's-eye Primrose,Standard,G5,G5
 Primula stricta,SPECIES,130109,Primula stricta,Stiff Primrose,Standard,G4,G4G5
 Proserpinaca palustris,SPECIES,132561,Proserpinaca palustris,Marsh Mermaidweed,Standard,G5,G5
+Proserpinaca pectinata,SPECIES,135919,Proserpinaca pectinata,Combleaf Mermaidweed,Standard,G5,G5
 Prosopis glandulosa,SPECIES,144175,Prosopis glandulosa,Honey Mesquite,Standard,G5,G5?
 Prosopis pubescens,SPECIES,158270,Prosopis pubescens,Screwbean Mesquite,Standard,G5,G5
 Prosopis velutina,SPECIES,130333,Prosopis velutina,Velvet Mesquite,Standard,G5,G5
-Prunella vulgaris,SPECIES,144842,Prunella vulgaris,Self-heal,Standard,G5,G5
 Prunus americana,SPECIES,161452,Prunus americana,American Plum,Standard,G5,G5
 Prunus angustifolia,SPECIES,153981,Prunus angustifolia,Chickasaw Plum,Standard,G5,G5
 Prunus caroliniana,SPECIES,147889,Prunus caroliniana,Carolina Laurel Cherry,Standard,G5,G5
@@ -1054,6 +1151,7 @@ Quercus agrifolia,SPECIES,143622,Quercus agrifolia,California Live Oak,Standard,
 Quercus alba,SPECIES,138617,Quercus alba,White Oak,Standard,G5,G5
 Quercus arizonica,SPECIES,156006,Quercus arizonica,Arizona Oak,Standard,G5,G5
 Quercus arkansana,SPECIES,154443,Quercus arkansana,Arkansas Oak,Standard,G3,G3
+Quercus austrina,SPECIES,160238,Quercus austrina,Bluff Oak,Standard,G4,G4?
 Quercus berberidifolia,SPECIES,784907,Quercus berberidifolia,California Scrub Oak,Standard,G5,G5
 Quercus bicolor,SPECIES,145299,Quercus bicolor,Swamp White Oak,Standard,G5,G5
 Quercus buckleyi,SPECIES,159416,Quercus buckleyi,Buckley Oak,Standard,G5,G5
@@ -1063,6 +1161,7 @@ Quercus chihuahuensis,SPECIES,155518,Quercus chihuahuensis,Chihuahuan Oak,Standa
 Quercus chrysolepis,SPECIES,129996,Quercus chrysolepis,Canyon Live Oak,Standard,G5,G5
 Quercus coccinea,SPECIES,146415,Quercus coccinea,Scarlet Oak,Standard,G5,G5
 Quercus cornelius-mulleri,SPECIES,142784,Quercus cornelius-mulleri,Scrub Oak,Standard,G4,G4
+Quercus depressipes,SPECIES,158439,Quercus depressipes,Mexican Dwarf Oak,Standard,G3,G3
 Quercus douglasii,SPECIES,156621,Quercus douglasii,Douglas Oak,Standard,G4,G4?
 Quercus dumosa,SPECIES,154209,Quercus dumosa,California Scrub Oak,Standard,G3,G3
 Quercus durata,SPECIES,145748,Quercus durata,Leather Oak,Standard,G4,G4
@@ -1082,6 +1181,7 @@ Quercus hypoleucoides,SPECIES,159417,Quercus hypoleucoides,Silver-leaf Oak,Stand
 Quercus ilicifolia,SPECIES,141826,Quercus ilicifolia,Scrub Oak,Standard,G5,G5
 Quercus imbricaria,SPECIES,129997,Quercus imbricaria,Shingle Oak,Standard,G5,G5
 Quercus incana,SPECIES,132247,Quercus incana,Blue Jack Oak,Standard,G5,G5
+Quercus inopina,SPECIES,128742,Quercus inopina,Myrtle Oak,Standard,G4,G4
 Quercus kelloggii,SPECIES,157648,Quercus kelloggii,California Black Oak,Standard,G5,G5
 Quercus laceyi,SPECIES,145668,Quercus laceyi,Lacey Oak,Standard,G4,G4
 Quercus laevis,SPECIES,143757,Quercus laevis,Turkey Oak,Standard,G5,G5
@@ -1105,6 +1205,7 @@ Quercus polymorpha,SPECIES,140206,Quercus polymorpha,Netleaf White Oak,Standard,
 Quercus prinoides,SPECIES,131048,Quercus prinoides,Dwarf Chinquapin Oak,Standard,G5,G5
 Quercus rubra,SPECIES,155953,Quercus rubra,Northern Red Oak,Standard,G5,G5
 Quercus rugosa,SPECIES,132832,Quercus rugosa,Netleaf Oak,Standard,G4,G4G5
+Quercus sadleriana,SPECIES,133035,Quercus sadleriana,Sadler's Oak,Standard,GNR,GNR
 Quercus shumardii,SPECIES,158440,Quercus shumardii,Shumard Oak,Standard,G5,G5
 Quercus sinuata,SPECIES,154210,Quercus sinuata,Durand Oak,Standard,G4,G4G5
 Quercus stellata,SPECIES,131142,Quercus stellata,Post Oak,Standard,G5,G5
@@ -1112,6 +1213,7 @@ Quercus tomentella,SPECIES,145747,Quercus tomentella,Island Oak,Standard,G3,G3
 Quercus turbinella,SPECIES,144542,Quercus turbinella,Shrub Live Oak,Standard,G5,G5
 Quercus vacciniifolia,SPECIES,155711,Quercus vacciniifolia,Huckleberry Oak,Standard,G4,G4G5
 Quercus velutina,SPECIES,133488,Quercus velutina,Black Oak,Standard,G5,G5
+Quercus viminea,SPECIES,784916,Quercus viminea,Sonoran Oak,Standard,G4,G4G5
 Quercus virginiana,SPECIES,147876,Quercus virginiana,Live Oak,Standard,G5,G5
 Quercus wislizeni,SPECIES,140280,Quercus wislizeni,Interior Live Oak,Standard,G5,G5
 Randia aculeata,SPECIES,128706,Randia aculeata,White Indigoberry,Standard,G5,G5
@@ -1123,6 +1225,7 @@ Ranunculus gmelinii,SPECIES,151899,Ranunculus gmelinii,Small Yellow Water-crowfo
 Ranunculus hederaceus,SPECIES,146813,Ranunculus hederaceus,Long-stalked Crowfoot,Standard,G5,G5
 Ranunculus hispidus,SPECIES,152208,Ranunculus hispidus,Hispid Buttercup,Standard,G5,G5
 Ranunculus hyperboreus,SPECIES,137998,Ranunculus hyperboreus,Arctic Buttercup,Standard,G5,G5
+Ranunculus macounii,SPECIES,160589,Ranunculus macounii,Macoun's Buttercup,Standard,G5,G5
 Ranunculus sceleratus,SPECIES,153299,Ranunculus sceleratus,Cursed Crowfoot,Standard,G5,G5
 Ranunculus trichophyllus,SPECIES,145147,Ranunculus trichophyllus,Northeastern White Water Crowfoot,Standard,G5,G5
 Rhexia virginica,SPECIES,145014,Rhexia virginica,Virginia Meadowbeauty,Standard,G5,G5
@@ -1144,7 +1247,7 @@ Rhynchospora fusca,SPECIES,150333,Rhynchospora fusca,Brown Beakrush,Standard,G4,
 Rhynchospora rugosa,SPECIES,134726,Rhynchospora rugosa,Claybank Beaksedge,Standard,G5,G5
 Ribes glandulosum,SPECIES,147967,Ribes glandulosum,Skunk Currant,Standard,G5,G5
 Robinia hispida,SPECIES,149692,Robinia hispida,Bristly Locust,Standard,G4,G4
-Robinia pseudoacacia,SPECIES,157931,Robinia pseudoacacia,Black Locust,Standard,G5,G5
+Robinia neomexicana,SPECIES,155582,Robinia neomexicana,New Mexico Locust,Standard,G4,G4
 Rorippa austriaca,SPECIES,146889,Rorippa austriaca,Austrian Yellowcress,Standard,GNR,GNR
 Rorippa islandica,SPECIES,131437,Rorippa islandica,Northern Marsh Yellowcress,Standard,G5,G5?
 Rorippa microphylla,SPECIES,132321,Rorippa microphylla,One-row Watercress,Standard,GNR,GNR
@@ -1160,12 +1263,12 @@ Rubus pubescens,SPECIES,128843,Rubus pubescens,Dwarf Red Raspberry,Standard,G5,G
 Ruppia maritima,SPECIES,149214,Ruppia maritima,Ditch-grass,Standard,G5,G5
 Sabal mexicana,SPECIES,159246,Sabal mexicana,Texas Palmetto,Standard,G5,G5
 Sabal minor,SPECIES,138270,Sabal minor,Dwarf Palmetto,Standard,G5,G5
-Sabatia kennedyana,SPECIES,153435,Sabatia kennedyana,Plymouth Rose-gentian,Standard,G3,G3?
+Sabatia kennedyana,SPECIES,153435,Sabatia kennedyana,Plymouth Rose-gentian,Standard,G3,G3G4
 Sagittaria cuneata,SPECIES,132174,Sagittaria cuneata,Wapatum Arrowhead,Standard,G5,G5
 Sagittaria graminea,SPECIES,128871,Sagittaria graminea,Grassleaf Arrowhead,Standard,G5,G5
 Sagittaria latifolia,SPECIES,146682,Sagittaria latifolia,Broadleaf Arrowhead,Standard,G5,G5
 Sagittaria rigida,SPECIES,149084,Sagittaria rigida,Sessile-fruit Arrowhead,Standard,G5,G5
-Salicornia rubra,SPECIES,128652,Salicornia rubra,Western Glasswort,Standard,G5,G5
+Salicornia rubra,SPECIES,952511,Salicornia rubra,Red Glasswort,Standard,G5,G5
 Salix alaxensis,SPECIES,147724,Salix alaxensis,Alaska Willow,Standard,G5,G5
 Salix amygdaloides,SPECIES,152536,Salix amygdaloides,Peachleaf Willow,Standard,G5,G5
 Salix barclayi,SPECIES,158317,Salix barclayi,Barclay's Willow,Standard,G5,G5
@@ -1173,7 +1276,6 @@ Salix bebbiana,SPECIES,142015,Salix bebbiana,Bebb's Willow,Standard,G5,G5
 Salix bonplandiana,SPECIES,135180,Salix bonplandiana,Red Willow,Standard,G4,G4
 Salix candida,SPECIES,140413,Salix candida,Hoary Willow,Standard,G5,G5
 Salix caroliniana,SPECIES,139202,Salix caroliniana,Carolina Willow,Standard,G5,G5
-Salix cinerea,SPECIES,158109,Salix cinerea,European Gray Willow,Standard,G5,G5
 Salix commutata,SPECIES,129482,Salix commutata,Undergreen Willow,Standard,G5,G5
 Salix discolor,SPECIES,144049,Salix discolor,Pussy Willow,Standard,G5,G5
 Salix eriocephala,SPECIES,129982,Salix eriocephala,Heartleaf Willow,Standard,G5,G5
@@ -1191,22 +1293,30 @@ Salix nigra,SPECIES,153412,Salix nigra,Black Willow,Standard,G5,G5
 Salix pedicellaris,SPECIES,135178,Salix pedicellaris,Bog Willow,Standard,G5,G5
 Salix pellita,SPECIES,154751,Salix pellita,Satiny Willow,Standard,G5,G5
 Salix petiolaris,SPECIES,140637,Salix petiolaris,Meadow Willow,Standard,G5,G5
+Salix planifolia,SPECIES,129484,Salix planifolia,Tealeaf Willow,Standard,G5,G5
 Salix pyrifolia,SPECIES,138979,Salix pyrifolia,Balsam Willow,Standard,G5,G5
 Salix richardsonii,SPECIES,134892,Salix richardsonii,Lanate Willow,Standard,G5,G5
 Salix scouleriana,SPECIES,160146,Salix scouleriana,Scouler's Willow,Standard,G5,G5
 Salix sericea,SPECIES,130815,Salix sericea,Silky Willow,Standard,G5,G5
+Salix serissima,SPECIES,140522,Salix serissima,Autumn Willow,Standard,G5,G5
 Salix sitchensis,SPECIES,156101,Salix sitchensis,Sitka Willow,Standard,G5,G5
+Salix taxifolia,SPECIES,153888,Salix taxifolia,Yewleaf Willow,Standard,G5,G5
 Sambucus racemosa,SPECIES,140704,Sambucus racemosa,Red Elderberry,Standard,G5,G5
 Samolus valerandi,SPECIES,131427,Samolus valerandi,Valerand's Brookweed,Standard,G5,G5
 Sanguisorba officinalis,SPECIES,128406,Sanguisorba officinalis,Great Burnet,Standard,G5,G5?
 Sapindus saponaria,SPECIES,130682,Sapindus saponaria,Wingleaf Soapberry,Standard,G5,G5
 Sarcobatus vermiculatus,SPECIES,155765,Sarcobatus vermiculatus,Greasewood,Standard,G5,G5
+Sarracenia alata,SPECIES,135627,Sarracenia alata,Yellow Trumpets,Standard,G4,G4
+Sarracenia flava,SPECIES,160353,Sarracenia flava,Yellow Pitcherplant,Standard,G5,G5?
+Sarracenia minor,SPECIES,142149,Sarracenia minor,Hooded Pitcherplant,Standard,G4,G4
 Sassafras albidum,SPECIES,130071,Sassafras albidum,Sassafras,Standard,G5,G5
 Saururus cernuus,SPECIES,129260,Saururus cernuus,Lizard's-tail,Standard,G5,G5
 Saxifraga hirculus,SPECIES,129802,Saxifraga hirculus,Yellow Marsh Saxifrage,Standard,G5,G5
 Scheuchzeria palustris,SPECIES,157508,Scheuchzeria palustris,Marsh Scheuchzeria,Standard,G5,G5
 Schizaea pusilla,SPECIES,148574,Schizaea pusilla,Curly-grass Fern,Standard,G3,G3G4
 Schoenoplectiella mucronata,SPECIES,141150,Schoenoplectiella mucronata,Bog Bulrush,Standard,GNR,GNR
+Schoenoplectiella purshiana,SPECIES,129061,Schoenoplectiella purshiana,Weakstalk Bulrush,Standard,G4,G4G5
+Schoenoplectiella smithii,SPECIES,159404,Schoenoplectiella smithii,Smith's Bulrush,Standard,G5,G5?
 Schoenoplectus acutus,SPECIES,768309,Schoenoplectus acutus,Hardstem Bulrush,Standard,G5,G5
 Schoenoplectus americanus,SPECIES,160106,Schoenoplectus americanus,Three-square Bulrush,Standard,G5,G5
 Schoenoplectus tabernaemontani,SPECIES,148187,Schoenoplectus tabernaemontani,Softstem Bulrush,Standard,G5,G5
@@ -1217,14 +1327,22 @@ Scirpus atrocinctus,SPECIES,142153,Scirpus atrocinctus,Black-girdle Bulrush,Stan
 Scirpus atrovirens,SPECIES,141428,Scirpus atrovirens,Woolgrass Bulrush,Standard,G5,G5
 Scirpus cyperinus,SPECIES,144209,Scirpus cyperinus,Cottongrass Bulrush,Standard,G5,G5
 Scirpus hattorianus,SPECIES,139652,Scirpus hattorianus,Mosquito Bulrush,Standard,G5,G5
+Scirpus longii,SPECIES,142877,Scirpus longii,Long's Bulrush,Standard,G3,G3
 Scirpus microcarpus,SPECIES,160492,Scirpus microcarpus,Small-fruit Bulrush,Standard,G5,G5
 Scirpus pendulus,SPECIES,150647,Scirpus pendulus,Pendulous Bulrush,Standard,G5,G5
 Scleria lithosperma,SPECIES,159790,Scleria lithosperma,Florida Keys Nutrush,Standard,G5,G5
 Scleria verticillata,SPECIES,139233,Scleria verticillata,Low Nutrush,Standard,G5,G5
+Sclerocactus papyracanthus,SPECIES,159618,Sclerocactus papyracanthus,Grama Grass Cactus,Standard,G4,G4
+Sclerocactus parviflorus,SPECIES,958466,Sclerocactus parviflorus,Small-flower Fishhook Cactus,Standard,G4,G4
+Sclerocactus polyancistrus,SPECIES,155505,Sclerocactus polyancistrus,Mohave Fishhook Cactus,Standard,G3,G3
+Sclerocactus spinosior,SPECIES,131675,Sclerocactus spinosior,Desert Valley Fishhook Cactus,Standard,G2,G1G3
+Sclerocactus uncinatus,SPECIES,156090,Sclerocactus uncinatus,Chihuahuan Fishhook Cactus,Standard,G4,G4
 Scolochloa festucacea,SPECIES,147731,Scolochloa festucacea,Sprangletop,Standard,G5,G5
 Scrophularia umbrosa,SPECIES,139275,Scrophularia umbrosa,Water Figwort,Standard,GNR,GNR
 Scutellaria galericulata,SPECIES,135492,Scutellaria galericulata,Hooded Skullcap,Standard,G5,G5
 Scutellaria lateriflora,SPECIES,137419,Scutellaria lateriflora,Mad-dog Skullcap,Standard,G5,G5
+Selenicereus grandiflorus,SPECIES,157389,Selenicereus grandiflorus,Queen-of-the-Night,Standard,G5,G5
+Senecio hydrophilus,SPECIES,156936,Senecio hydrophilus,Great Swamp Ragwort,Standard,G5,G5
 Senna obtusifolia,SPECIES,147336,Senna obtusifolia,Blunt-leaf Senna,Standard,G5,G5
 Senna pendula,SPECIES,145859,Senna pendula,Valamuerto,Standard,GNR,GNR
 Sequoia sempervirens,SPECIES,140518,Sequoia sempervirens,Redwood,Standard,G4,G4
@@ -1235,10 +1353,10 @@ Shepherdia argentea,SPECIES,143084,Shepherdia argentea,Silver Buffaloberry,Stand
 Sidalcea hendersonii,SPECIES,142638,Sidalcea hendersonii,Henderson's Checker-mallow,Standard,G3,G3
 Sideroxylon celastrinum,SPECIES,132074,Sideroxylon celastrinum,Saffron-plum,Standard,G5,G5
 Sideroxylon lycioides,SPECIES,158895,Sideroxylon lycioides,Buckthorn Bully,Standard,G5,G5
-Silene vulgaris,SPECIES,157916,Silene vulgaris,Maiden's-tears,Standard,GNR,GNR
 Simarouba glauca,SPECIES,147610,Simarouba glauca,Paradise-tree,Standard,G5,G5
 Sium suave,SPECIES,154306,Sium suave,Hemlock Water-parsnip,Standard,G5,G5
 Solanum bahamense,SPECIES,145501,Solanum bahamense,Bahama Horse-nettle,Standard,G5,G5
+Solanum jamesii,SPECIES,139869,Solanum jamesii,Wild Potato,Standard,G4,G3G5
 Solidago patula,SPECIES,159227,Solidago patula,Roundleaf Goldenrod,Standard,G5,G5
 Solidago uliginosa,SPECIES,142749,Solidago uliginosa,Bog Goldenrod,Standard,G5,G5
 Sonchus palustris,SPECIES,158747,Sonchus palustris,Marsh Sowthistle,Standard,GNR,GNR
@@ -1252,10 +1370,12 @@ Sparganium angustifolium,SPECIES,156857,Sparganium angustifolium,Narrowleaf Bur-
 Sparganium emersum,SPECIES,155067,Sparganium emersum,Green-fruit Bur-reed,Provisional,G5,G5
 Sparganium erectum,SPECIES,159818,Sparganium erectum,Simple-stem Bur-reed,Standard,G5,G5
 Sparganium eurycarpum,SPECIES,140735,Sparganium eurycarpum,Large Bur-reed,Standard,G5,G5
+Sparganium fluctuans,SPECIES,128119,Sparganium fluctuans,Floating Bur-reed,Standard,G5,G5
 Sparganium glomeratum,SPECIES,128205,Sparganium glomeratum,Northern Bur-reed,Standard,G4,G4?
 Sparganium hyperboreum,SPECIES,136031,Sparganium hyperboreum,Northern Bur-reed,Standard,G5,G5
 Sparganium natans,SPECIES,147182,Sparganium natans,Small Bur-reed,Standard,G5,G5
 Spartina alterniflora,SPECIES,150874,Spartina alterniflora,Saltwater Cordgrass,Standard,G5,G5
+Spartina gracilis,SPECIES,137633,Spartina gracilis,Alkali Cordgrass,Standard,G5,G5
 Spartina pectinata,SPECIES,144026,Spartina pectinata,Fresh Water Cordgrass,Standard,G5,G5
 Spathodea campanulata,SPECIES,137729,Spathodea campanulata,African Tuliptree,Standard,GNR,GNR
 Sphaerophysa salsula,SPECIES,129365,Sphaerophysa salsula,Bladder-vetch,Standard,GNR,GNR
@@ -1265,10 +1385,13 @@ Spiranthes romanzoffiana,SPECIES,136951,Spiranthes romanzoffiana,Hooded Ladies'-
 Spiranthes torta,SPECIES,145760,Spiranthes torta,Southern Ladies'-tresses,Standard,G5,G5
 Stachys palustris,SPECIES,136456,Stachys palustris,Marsh Hedge-nettle,Standard,G5,G5
 Staphylea trifolia,SPECIES,128869,Staphylea trifolia,American Bladdernut,Standard,G5,G5
+Stellaria calycantha,SPECIES,151091,Stellaria calycantha,Northern Stitchwort,Standard,G5,G5
 Stellaria humifusa,SPECIES,148751,Stellaria humifusa,Creeping Sandwort,Standard,G5,G5
 Stenocereus thurberi,SPECIES,128983,Stenocereus thurberi,Organ Pipe Cactus,Standard,G5,G5
 Stewartia malacodendron,SPECIES,156280,Stewartia malacodendron,Silky Camellia,Standard,G4,G4
+Stewartia ovata,SPECIES,148162,Stewartia ovata,Mountain Camellia,Standard,G4,G4
 Stictocardia tiliifolia,SPECIES,155982,Stictocardia tiliifolia,Spotted-heart,Standard,G4,G4G5
+Strumpfia maritima,SPECIES,134784,Strumpfia maritima,Pride-of-Big-Pine,Standard,G4,G4
 Stuckenia filiformis,SPECIES,161467,Stuckenia filiformis,Slender Pondweed,Standard,G5,G5
 Stuckenia pectinata,SPECIES,132095,Stuckenia pectinata,Sago Pondweed,Standard,G5,G5
 Stuckenia vaginata,SPECIES,141847,Stuckenia vaginata,Sheathed Pondweed,Standard,G5,G5
@@ -1292,9 +1415,9 @@ Taxodium mucronatum,SPECIES,154509,Taxodium mucronatum,Montezuma Bald-cypress,St
 Taxus brevifolia,SPECIES,149952,Taxus brevifolia,Pacific Yew,Standard,G5,G5
 Taxus canadensis,SPECIES,156448,Taxus canadensis,Canadian Yew,Standard,G5,G5
 Tecoma stans,SPECIES,153855,Tecoma stans,Yellow Trumpetbush,Standard,G5,G5
-Tetrazygia bicolor,SPECIES,130392,Tetrazygia bicolor,Florida Tetrazygia,Standard,G4,G4?
 Thalassia testudinum,SPECIES,151379,Thalassia testudinum,Turtle-grass,Standard,G4,G4G5
 Thelocactus bicolor,SPECIES,148978,Thelocactus bicolor,Straw Thelocactus,Standard,G4,G4
+Thelocactus setispinus,SPECIES,144719,Thelocactus setispinus,Miniature Barrel Cactus,Standard,G4,G4
 Thelypteris palustris,SPECIES,128026,Thelypteris palustris,Eastern Marsh Fern,Standard,G5,G5
 Thermopsis montana,SPECIES,134613,Thermopsis montana,Mountain Golden-banner,Standard,G4,G4G5
 Thespesia populnea,SPECIES,142619,Thespesia populnea,Portia-tree,Standard,G5,G5
@@ -1305,6 +1428,7 @@ Tillandsia fasciculata,SPECIES,146854,Tillandsia fasciculata,Quill-leaf Airplant
 Tillandsia ionantha,SPECIES,885210,Tillandsia ionantha,NA,Provisional,GNR,GNR
 Tillandsia usneoides,SPECIES,132985,Tillandsia usneoides,Spanish-moss,Standard,G5,G5
 Torreya californica,SPECIES,135995,Torreya californica,California Torreya,Standard,G4,G4
+Torreya taxifolia,SPECIES,137133,Torreya taxifolia,Florida Torreya,Standard,G1,G1
 Toxicodendron vernix,SPECIES,146258,Toxicodendron vernix,Poison-sumac,Standard,G5,G5
 Tradescantia occidentalis,SPECIES,139914,Tradescantia occidentalis,Prairie Spiderwort,Standard,G5,G5
 Trapa natans,SPECIES,149241,Trapa natans,Water Chestnut,Standard,GNR,GNR
@@ -1313,7 +1437,9 @@ Triadenum virginicum,SPECIES,132701,Triadenum virginicum,Virginia Marsh-St. John
 Triadica sebifera,SPECIES,147870,Triadica sebifera,Chinese Tallowtree,Standard,GNR,GNR
 Trichophorum alpinum,SPECIES,159344,Trichophorum alpinum,Alpine Cotton-grass,Standard,G5,G5
 Trichophorum caespitosum,SPECIES,133090,Trichophorum caespitosum,Tufted Clubrush,Standard,G5,G5
+Trichophorum clintonii,SPECIES,154250,Trichophorum clintonii,Clinton's Bulrush,Standard,G4,G4
 Trichostigma octandrum,SPECIES,147308,Trichostigma octandrum,Hoop Vine,Standard,G4,G4G5
+Trientalis borealis,SPECIES,141286,Trientalis borealis,Northern Starflower,Standard,G5,G5
 Trifolium amabile,SPECIES,1134355,Trifolium amabile,Aztec Clover,Standard,GNR,GNR
 Trifolium subterraneum,SPECIES,160617,Trifolium subterraneum,Subterranean Clover,Standard,GNR,GNR
 Triglochin maritima,SPECIES,135893,Triglochin maritima,Common Bog Arrow-grass,Standard,G5,G5
@@ -1326,7 +1452,6 @@ Tsuga heterophylla,SPECIES,140839,Tsuga heterophylla,Western Hemlock,Standard,G5
 Tsuga mertensiana,SPECIES,156219,Tsuga mertensiana,Mountain Hemlock,Standard,G5,G5
 Typha angustifolia,SPECIES,160663,Typha angustifolia,Narrowleaf Cattail,Standard,G5,G5
 Typha domingensis,SPECIES,144988,Typha domingensis,Southern Cattail,Standard,G4,G4G5
-Typha latifolia,SPECIES,153503,Typha latifolia,Broadleaf Cattail,Standard,G5,G5
 Ulex europaeus,SPECIES,146475,Ulex europaeus,Gorse,Standard,GNR,GNR
 Ulmus alata,SPECIES,143910,Ulmus alata,Winged Elm,Standard,G5,G5
 Ulmus americana,SPECIES,136896,Ulmus americana,American Elm,Standard,G4,G4
@@ -1336,6 +1461,7 @@ Ulmus rubra,SPECIES,128125,Ulmus rubra,Slippery Elm,Standard,G5,G5
 Ulmus serotina,SPECIES,147050,Ulmus serotina,September Elm,Standard,G4,G4
 Ulmus thomasii,SPECIES,141424,Ulmus thomasii,Rock Elm,Standard,G5,G5
 Umbellularia californica,SPECIES,144045,Umbellularia californica,California Bay,Standard,G5,G5
+Utricularia amethystina,SPECIES,137174,Utricularia amethystina,Florida Purple Bladderwort,Standard,G5,G5?
 Utricularia cornuta,SPECIES,158697,Utricularia cornuta,Horned Bladderwort,Standard,G5,G5
 Utricularia foliosa,SPECIES,136424,Utricularia foliosa,Leafy Bladderwort,Standard,G5,G5
 Utricularia geminiscapa,SPECIES,138607,Utricularia geminiscapa,Hidden-fruit Bladderwort,Standard,G4,G4G5
@@ -1349,7 +1475,6 @@ Utricularia resupinata,SPECIES,146380,Utricularia resupinata,Northeastern Bladde
 Utricularia subulata,SPECIES,140741,Utricularia subulata,Zigzag Bladderwort,Standard,G5,G5
 Vaccinium arboreum,SPECIES,139991,Vaccinium arboreum,Farkleberry,Standard,G5,G5
 Vaccinium oxycoccos,SPECIES,153122,Vaccinium oxycoccos,Small Cranberry,Standard,G5,G5
-Vaccinium vitis-idaea,SPECIES,129786,Vaccinium vitis-idaea,Mountain Cranberry,Standard,G5,G5
 Valeriana dioica,SPECIES,157994,Valeriana dioica,Wood Valerian,Standard,G5,G5
 Valeriana uliginosa,SPECIES,156903,Valeriana uliginosa,Marsh Valerian,Standard,G4,G4
 Vallesia glabra,SPECIES,156233,Vallesia glabra,Pearlberry,Standard,G5,G5?
@@ -1367,13 +1492,16 @@ Viburnum recognitum,SPECIES,159187,Viburnum recognitum,Northern Arrow-wood,Stand
 Viburnum rufidulum,SPECIES,159679,Viburnum rufidulum,Rusty Blackhaw,Standard,G5,G5
 Vicia lathyroides,SPECIES,145453,Vicia lathyroides,Spring Vetch,Standard,GNR,GNR
 Vigna luteola,SPECIES,160219,Vigna luteola,Wild Cow-pea,Standard,G5,G5
+Viola chamissoniana,SPECIES,152900,Viola chamissoniana,`Olopu,Standard,G2,G2G3
 Viola lanceolata,SPECIES,141474,Viola lanceolata,Lanceleaf Violet,Standard,G5,G5
 Viola macloskeyi,SPECIES,132510,Viola macloskeyi,Smooth White Violet,Standard,G5,G5
 Viola nephrophylla,SPECIES,154954,Viola nephrophylla,Northern Bog Violet,Standard,G5,G5
 Viola palustris,SPECIES,157505,Viola palustris,Alpine Marsh Violet,Standard,G5,G5
 Viola renifolia,SPECIES,154297,Viola renifolia,Kidneyleaf White Violet,Standard,G5,G5
+Vulpia octoflora,SPECIES,152879,Vulpia octoflora,Slender 8-flowered Fescue,Standard,G5,G5
 Washingtonia filifera,SPECIES,131363,Washingtonia filifera,California Fan Palm,Standard,G4,G4
 Wilkesia gymnoxiphium,SPECIES,129016,Wilkesia gymnoxiphium,Iliau,Standard,G2,G2
+Wolffia borealis,SPECIES,130509,Wolffia borealis,Dotted Watermeal,Standard,G5,G5
 Wolffia brasiliensis,SPECIES,154468,Wolffia brasiliensis,Pointed Watermeal,Standard,G5,G5
 Wolffia columbiana,SPECIES,145488,Wolffia columbiana,Columbian Watermeal,Standard,G5,G5
 Woodwardia areolata,SPECIES,129577,Woodwardia areolata,Netted Chainfern,Standard,G5,G5
@@ -1394,6 +1522,8 @@ Zannichellia palustris,SPECIES,147401,Zannichellia palustris,Horned Pondweed,Sta
 Zanthoxylum americanum,SPECIES,133451,Zanthoxylum americanum,Northern Prickly-ash,Standard,G5,G5
 Zanthoxylum clava-herculis,SPECIES,157110,Zanthoxylum clava-herculis,Southern Prickly-ash,Standard,G4,G4
 Zanthoxylum fagara,SPECIES,129832,Zanthoxylum fagara,Lime Prickly-ash,Standard,G4,G4G5
+Zanthoxylum flavum,SPECIES,145188,Zanthoxylum flavum,Yellow-head,Standard,G3,G3
+Zeuxine strateumatica,SPECIES,134844,Zeuxine strateumatica,Soldier's Orchid,Standard,GNR,GNR
 Zingiber zerumbet,SPECIES,159334,Zingiber zerumbet,Bitter Ginger,Standard,GNR,GNR
 Zizania aquatica,SPECIES,150875,Zizania aquatica,Eastern Wild Rice,Standard,G5,G5
 Zizania palustris,SPECIES,142393,Zizania palustris,Northern Wild Rice,Standard,G5,G5
