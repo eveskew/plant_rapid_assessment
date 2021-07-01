@@ -8,8 +8,8 @@ library(dotwhisker)
 #==============================================================================
 
 
-# Import the cleaned GBIF occurrence 
-# (filtering to only species with > 3 points)
+# Import the cleaned GBIF occurrence data
+# (filtering to only species with >= 3 points)
 d <- read_csv("data/gbif_cleaned/gbif_all.csv")
 d <- d %>%
   left_join(
@@ -19,7 +19,7 @@ d <- d %>%
       summarize(number_of_points = n()),
     by = "species"
   ) %>%
-  filter(number_of_points > 3)
+  filter(number_of_points >= 3)
 
 # Import the IUCN assessment data
 a <- read_csv("data/IUCN/assessments.csv")
@@ -70,6 +70,9 @@ color.under <- "firebrick4"
 
 data.for.plotting <- rcat %>%
   mutate(
+    iucn_redlist_category = ifelse(
+      iucn_redlist_category == "Lower Risk/least concern",
+      "Least Concern", iucn_redlist_category),
     iucn_redlist_category = ifelse(
       iucn_redlist_category == "Lower Risk/near threatened",
       "Near Threatened", iucn_redlist_category),
@@ -147,6 +150,9 @@ ggsave("outputs/tile_plot.jpg", width = 14, height = 7)
 data.for.plotting <- rcat %>%
   mutate(
     iucn_redlist_category = ifelse(
+      iucn_redlist_category == "Lower Risk/least concern",
+      "Least Concern", iucn_redlist_category),
+    iucn_redlist_category = ifelse(
       iucn_redlist_category == "Lower Risk/near threatened",
       "Near Threatened", iucn_redlist_category),
     iucn_redlist_category = factor(
@@ -206,7 +212,7 @@ data.for.plotting %>%
   ) +
   geom_vline(xintercept = 5.5, size = 2)
 
-ggsave("outputs/tile_plot_color_flipped.jpg", width = 14, height = 7)
+ggsave("outputs/tile_plot_color_flipped.jpg", width = 16, height = 8)
 
 
 data.for.plotting <- rcat %>%
@@ -217,6 +223,9 @@ data.for.plotting <- rcat %>%
   ) %>%
   filter(!is.na(scientificName)) %>%
   mutate(
+    iucn_redlist_category = ifelse(
+      iucn_redlist_category == "Lower Risk/least concern",
+      "Least Concern", iucn_redlist_category),
     iucn_redlist_category = ifelse(
       iucn_redlist_category == "Lower Risk/near threatened",
       "Near Threatened", iucn_redlist_category),
@@ -302,7 +311,7 @@ plot1 <- d %>%
   ggplot(aes(x = year, y = n, group = query_name)) +
   geom_point(size = 0.05) +
   geom_line(size = 0.5, color = alpha("black", 0.2)) +
-  coord_cartesian(ylim = c(0, 15000)) +
+  coord_cartesian(ylim = c(0, 25000)) +
   ylab("number of GBIF occurrence records") +
   theme_minimal()
 
@@ -312,7 +321,7 @@ plot2 <- d %>%
   ggplot(aes(x = year, y = n, group = query_name)) +
   geom_point(size = 0.05) +
   geom_line(size = 0.5, color = alpha("black", 0.2)) +
-  coord_cartesian(xlim = c(1950, max(d$year)), ylim = c(0, 15000)) +
+  coord_cartesian(xlim = c(1950, max(d$year)), ylim = c(0, 25000)) +
   ylab("number of GBIF occurrence records") +
   theme_minimal()
   
@@ -480,7 +489,7 @@ for(x in sample.size.scenarios$scaled_N) {
       m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aAnnual,
       m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aGeophyte,
       m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aSucculent,
-      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aHydrophyte,
+      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aMoss_Hydrophyte,
       m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aVines_Epi_Litho,
       m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aFern
     )
@@ -493,7 +502,7 @@ d.preds <- data.frame(
   plant_group = rep(
     rep(
       c("Tree", "Shrub", "Graminoid", "Forb or Herb", 
-        "Annual", "Geophyte", "Succulent", "Hydrophyte", 
+        "Annual", "Geophyte", "Succulent", "Moss/Hydrophyte", 
         "Vines/Epiphyte/Lithophyte", "Fern"), 
       each = nrow(m.stan.samples$a)
     ),
@@ -547,7 +556,7 @@ for(x in sample.size.scenarios$scaled_N) {
       m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aAnnual,
       m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aGeophyte,
       m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aSucculent,
-      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aHydrophyte,
+      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aMoss_Hydrophyte,
       m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aVines_Epi_Litho,
       m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aFern
     )
@@ -560,7 +569,7 @@ d.preds <- data.frame(
   plant_group = rep(
     rep(
       c("Tree", "Shrub", "Graminoid", "Forb or Herb", 
-        "Annual", "Geophyte", "Succulent", "Hydrophyte", 
+        "Annual", "Geophyte", "Succulent", "Moss/Hydrophyte", 
         "Vines/Epiphyte/Lithophyte", "Fern"), 
       each = nrow(m.stan.samples$a)
     ),
@@ -619,7 +628,7 @@ for(x in sample.size.scenarios$scaled_N) {
   temp <- logistic(
     c(
       m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aResidential_and_commercial_development,
-      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aAgriculture_and_Aquaculture,
+      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aAgriculture_and_aquaculture,
       m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aEnergy_production_and_mining,
       m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aTransportation_and_service_corridors,
       m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aBiological_resource_use,
@@ -627,6 +636,7 @@ for(x in sample.size.scenarios$scaled_N) {
       m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aNatural_system_modifications,
       m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aInvasive_and_other_problematic_species_genes_and_disease,
       m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aPollution,
+      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aGeological_events,
       m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aClimate_change_and_severe_weather,
       m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aOther_options
     )
@@ -648,6 +658,7 @@ d.preds <- data.frame(
         "Natural system modifications",
         "Invasive species, genes, & diseases",
         "Pollution",
+        "Geological events",
         "Climate change & severe weather",
         "Other options"
       ), 
@@ -655,7 +666,7 @@ d.preds <- data.frame(
     ),
     times = nrow(sample.size.scenarios)
   ),
-  sample_size = rep(sample.size.scenarios$raw_N, each = nrow(m.stan.samples$a)*11),
+  sample_size = rep(sample.size.scenarios$raw_N, each = nrow(m.stan.samples$a)*12),
   predicted_probs = predicted.probs
 )
 
@@ -697,7 +708,7 @@ for(x in sample.size.scenarios$scaled_N) {
   temp <- logistic(
     c(
       m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aResidential_and_commercial_development,
-      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aAgriculture_and_Aquaculture,
+      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aAgriculture_and_aquaculture,
       m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aEnergy_production_and_mining,
       m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aTransportation_and_service_corridors,
       m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aBiological_resource_use,
@@ -705,6 +716,7 @@ for(x in sample.size.scenarios$scaled_N) {
       m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aNatural_system_modifications,
       m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aInvasive_and_other_problematic_species_genes_and_disease,
       m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aPollution,
+      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aGeological_events,
       m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aClimate_change_and_severe_weather,
       m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aOther_options
     )
@@ -726,6 +738,7 @@ d.preds <- data.frame(
         "Natural system modifications",
         "Invasive species, genes, & diseases",
         "Pollution",
+        "Geological events",
         "Climate change & severe weather",
         "Other options"
       ), 
@@ -733,7 +746,7 @@ d.preds <- data.frame(
     ),
     times = nrow(sample.size.scenarios)
   ),
-  sample_size = rep(sample.size.scenarios$raw_N, each = nrow(m.stan.samples$a)*11),
+  sample_size = rep(sample.size.scenarios$raw_N, each = nrow(m.stan.samples$a)*12),
   predicted_probs = predicted.probs
 )
 
@@ -799,7 +812,7 @@ for(i in 1:nrow(dd)) {
         m.stan.samples$aAnnual*dd$Annual[i] +
         m.stan.samples$aGeophyte*dd$Geophyte[i] +
         m.stan.samples$aSucculent*dd$Succulent[i] +
-        m.stan.samples$aHydrophyte*dd$Hydrophyte[i] +
+        m.stan.samples$aMoss_Hydrophyte*dd$Moss.Hydrophyte[i] +
         m.stan.samples$aVines_Epi_Litho*dd$Vines.Epiphyte.Lithophyte[i] +
         m.stan.samples$aFern*dd$Fern[i]
     )
@@ -825,7 +838,7 @@ dd.preds.plot <- d.preds %>%
   ylab("Density") +
   xlim(0, 1) +
   theme_minimal() +
-  facet_wrap(~plant_species, ncol = 3, scales = "free_y") +
+  facet_wrap(~plant_species, ncol = 4, scales = "free_y") +
   theme(
     text = element_text(size = 16),
     axis.title = element_text(size = 20)
@@ -859,9 +872,15 @@ table.for.prop.plots <- rcat %>%
 # Clean and filter this dataset
 
 table.for.prop.plots.mod <- table.for.prop.plots %>%
+  # Change the very few instances of "Lower Risk/least concern" to just
+  # "Least Concern"
   # Change the very few instances of "Lower Risk/near threatened" to just
   # "Near Threatened"
   mutate(
+    iucn_redlist_category = ifelse(
+      iucn_redlist_category == "Lower Risk/least concern",
+      "Least Concern", iucn_redlist_category
+    ),
     iucn_redlist_category = ifelse(
       iucn_redlist_category == "Lower Risk/near threatened",
       "Near Threatened", iucn_redlist_category
@@ -939,6 +958,9 @@ table.for.prop.plots.mod <- table.for.prop.plots %>%
         typeName == "Vines" ~ "Vines/Epiphyte/Lithophyte",
         typeName == "Epiphyte" ~ "Vines/Epiphyte/Lithophyte",
         typeName == "Lithophyte" ~ "Vines/Epiphyte/Lithophyte",
+        # Group Moss, Hydrophyte
+        typeName == "Moss" ~ "Moss/Hydrophyte",
+        typeName == "Hydrophyte" ~ "Moss/Hydrophyte",
         TRUE ~ typeName
       )
   )
@@ -1006,6 +1028,7 @@ table.for.prop.plots.mod %>%
       primaryThreat == "7" ~ "Natural system modifications",
       primaryThreat == "8" ~ "Invasive species, genes, & diseases",
       primaryThreat == "9" ~ "Pollution",
+      primaryThreat == "10" ~ "Geological events",
       primaryThreat == "11" ~ "Climate change & severe weather",
       primaryThreat == "12" ~ "Other options")
   ) %>%
