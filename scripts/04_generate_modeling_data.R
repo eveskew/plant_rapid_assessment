@@ -116,6 +116,9 @@ d2 <- d %>%
       typeName == "Vines" ~ "Vines/Epiphyte/Lithophyte",
       typeName == "Epiphyte" ~ "Vines/Epiphyte/Lithophyte",
       typeName == "Lithophyte" ~ "Vines/Epiphyte/Lithophyte",
+      # Group Moss, Hydrophyte
+      typeName == "Moss" ~ "Moss/Hydrophyte",
+      typeName == "Hydrophyte" ~ "Moss/Hydrophyte",
       TRUE ~ typeName
     )
   )

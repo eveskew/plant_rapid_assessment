@@ -21,8 +21,10 @@ f <- read_csv("data/modeling_data/full_modeling_data.csv") %>%
     t4 = "4",
     t6 = "6",
     t3 = "3",
+    t10 = "10",
     t12 = "12",
     Forb_Herb = "Forb or Herb",
+    Moss_Hydrophyte = "Moss/Hydrophyte",
     Vines_Epi_Litho = "Vines/Epiphyte/Lithophyte"
   ) %>%
   mutate(NOP_s = scale(NOP)) %>%
@@ -60,7 +62,7 @@ m.correct.type.stan <- map2stan(
       aAnnual * Annual +
       aGeophyte * Geophyte +
       aSucculent * Succulent + 
-      aHydrophyte * Hydrophyte +
+      aMoss_Hydrophyte * Moss_Hydrophyte +
       aVines_Epi_Litho * Vines_Epi_Litho +
       aFern * Fern,
     a ~ dnorm(0, 5),
@@ -73,7 +75,7 @@ m.correct.type.stan <- map2stan(
     aAnnual ~ dnorm(0, sigma_plant_type),
     aGeophyte ~ dnorm(0, sigma_plant_type),
     aSucculent ~ dnorm(0, sigma_plant_type), 
-    aHydrophyte ~ dnorm(0, sigma_plant_type),
+    aMoss_Hydrophyte ~ dnorm(0, sigma_plant_type),
     aVines_Epi_Litho ~ dnorm(0, sigma_plant_type),
     aFern ~ dnorm(0, sigma_plant_type)
   ),
@@ -86,7 +88,10 @@ m.correct.type.stan <- map2stan(
 
 precis(m.correct.type.stan, prob = 0.99)
 
-rstan::traceplot(m.correct.type.stan@stanfit)
+rstan::traceplot(
+  m.correct.type.stan@stanfit,
+  pars = m.correct.type.stan@pars
+)
 
 # Fit the same model with underclassification as the outcome
 
@@ -103,7 +108,7 @@ m.under.type.stan <- map2stan(
       aAnnual * Annual +
       aGeophyte * Geophyte +
       aSucculent * Succulent + 
-      aHydrophyte * Hydrophyte +
+      aMoss_Hydrophyte * Moss_Hydrophyte +
       aVines_Epi_Litho * Vines_Epi_Litho +
       aFern * Fern,
     a ~ dnorm(0, 5),
@@ -116,7 +121,7 @@ m.under.type.stan <- map2stan(
     aAnnual ~ dnorm(0, sigma_plant_type),
     aGeophyte ~ dnorm(0, sigma_plant_type),
     aSucculent ~ dnorm(0, sigma_plant_type), 
-    aHydrophyte ~ dnorm(0, sigma_plant_type),
+    aMoss_Hydrophyte ~ dnorm(0, sigma_plant_type),
     aVines_Epi_Litho ~ dnorm(0, sigma_plant_type),
     aFern ~ dnorm(0, sigma_plant_type)
   ),
@@ -129,7 +134,10 @@ m.under.type.stan <- map2stan(
 
 precis(m.under.type.stan, prob = 0.99)
 
-rstan::traceplot(m.under.type.stan@stanfit)
+rstan::traceplot(
+  m.under.type.stan@stanfit,
+  pars = m.under.type.stan@pars
+)
 
 
 # Models fitting the effect of number of points and plant threats
@@ -163,7 +171,7 @@ m.correct.threat.stan <- map2stan(
     logit(p) <-   
       a + bN*NOP_s +
       aResidential_and_commercial_development * t1 + 
-      aAgriculture_and_Aquaculture * t2 + 
+      aAgriculture_and_aquaculture * t2 + 
       aEnergy_production_and_mining * t3 + 
       aTransportation_and_service_corridors * t4 + 
       aBiological_resource_use * t5 + 
@@ -171,13 +179,14 @@ m.correct.threat.stan <- map2stan(
       aNatural_system_modifications * t7 + 
       aInvasive_and_other_problematic_species_genes_and_disease * t8 + 
       aPollution * t9 + 
+      aGeological_events * t10 +
       aClimate_change_and_severe_weather * t11 + 
       aOther_options * t12,
     a ~ dnorm(0, 5),
     bN ~ dnorm(0, 5),
     sigma_threats ~ dcauchy(0, 5),
     aResidential_and_commercial_development ~ dnorm(0, sigma_threats),
-    aAgriculture_and_Aquaculture ~ dnorm(0, sigma_threats), 
+    aAgriculture_and_aquaculture ~ dnorm(0, sigma_threats), 
     aEnergy_production_and_mining ~ dnorm(0, sigma_threats), 
     aTransportation_and_service_corridors ~ dnorm(0, sigma_threats), 
     aBiological_resource_use ~ dnorm(0, sigma_threats), 
@@ -185,6 +194,7 @@ m.correct.threat.stan <- map2stan(
     aNatural_system_modifications ~ dnorm(0, sigma_threats),
     aInvasive_and_other_problematic_species_genes_and_disease ~ dnorm(0, sigma_threats),
     aPollution ~ dnorm(0, sigma_threats),
+    aGeological_events ~ dnorm(0, sigma_threats),
     aClimate_change_and_severe_weather ~ dnorm(0, sigma_threats),
     aOther_options ~ dnorm(0, sigma_threats)
   ),
@@ -197,7 +207,10 @@ m.correct.threat.stan <- map2stan(
 
 precis(m.correct.threat.stan, prob = 0.99)
 
-rstan::traceplot(m.correct.threat.stan@stanfit)
+rstan::traceplot(
+  m.correct.threat.stan@stanfit,
+  pars = m.correct.threat.stan@pars
+)
 
 # Fit the same model with underclassification as the outcome
 
@@ -208,7 +221,7 @@ m.under.threat.stan <- map2stan(
     logit(p) <-   
       a + bN*NOP_s +
       aResidential_and_commercial_development * t1 + 
-      aAgriculture_and_Aquaculture * t2 + 
+      aAgriculture_and_aquaculture * t2 + 
       aEnergy_production_and_mining * t3 + 
       aTransportation_and_service_corridors * t4 + 
       aBiological_resource_use * t5 + 
@@ -216,13 +229,14 @@ m.under.threat.stan <- map2stan(
       aNatural_system_modifications * t7 + 
       aInvasive_and_other_problematic_species_genes_and_disease * t8 + 
       aPollution * t9 + 
+      aGeological_events * t10 +
       aClimate_change_and_severe_weather * t11 + 
       aOther_options * t12,
     a ~ dnorm(0, 5),
     bN ~ dnorm(0, 5),
     sigma_threats ~ dcauchy(0, 5),
     aResidential_and_commercial_development ~ dnorm(0, sigma_threats),
-    aAgriculture_and_Aquaculture ~ dnorm(0, sigma_threats), 
+    aAgriculture_and_aquaculture ~ dnorm(0, sigma_threats), 
     aEnergy_production_and_mining ~ dnorm(0, sigma_threats), 
     aTransportation_and_service_corridors ~ dnorm(0, sigma_threats), 
     aBiological_resource_use ~ dnorm(0, sigma_threats), 
@@ -230,6 +244,7 @@ m.under.threat.stan <- map2stan(
     aNatural_system_modifications ~ dnorm(0, sigma_threats),
     aInvasive_and_other_problematic_species_genes_and_disease ~ dnorm(0, sigma_threats),
     aPollution ~ dnorm(0, sigma_threats),
+    aGeological_events ~ dnorm(0, sigma_threats),
     aClimate_change_and_severe_weather ~ dnorm(0, sigma_threats),
     aOther_options ~ dnorm(0, sigma_threats)
   ),
@@ -242,7 +257,10 @@ m.under.threat.stan <- map2stan(
 
 precis(m.under.threat.stan, prob = 0.99)
 
-rstan::traceplot(m.under.threat.stan@stanfit)
+rstan::traceplot(
+  m.under.threat.stan@stanfit,
+  pars = m.under.threat.stan@pars
+)
 
 #==============================================================================
 
