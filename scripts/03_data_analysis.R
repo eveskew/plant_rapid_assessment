@@ -11,21 +11,8 @@ source("R/functions.R")
 #==============================================================================
 
 
-# Import the cleaned GBIF occurrence records 
-# (filtering to only species with >= 3 points)
+# Import the cleaned GBIF occurrence data
 d <- read_csv("data/gbif_cleaned/gbif_all.csv")
-d <- d %>%
-  left_join(
-    .,
-    d %>%
-      group_by(species) %>%
-      summarize(number_of_points = n()),
-    by = "species"
-  ) %>%
-  filter(number_of_points >= 3)
-
-n_distinct(d$query_name) # number of cleaned species with >= 3 points
-n_distinct(d$species)
 
 # Import the IUCN assessment data
 a <- read_csv("data/IUCN/assessments.csv")

@@ -9,17 +9,7 @@ library(dotwhisker)
 
 
 # Import the cleaned GBIF occurrence data
-# (filtering to only species with >= 3 points)
 d <- read_csv("data/gbif_cleaned/gbif_all.csv")
-d <- d %>%
-  left_join(
-    .,
-    d %>%
-      group_by(species) %>%
-      summarize(number_of_points = n()),
-    by = "species"
-  ) %>%
-  filter(number_of_points >= 3)
 
 # Import the IUCN assessment data
 a <- read_csv("data/IUCN/assessments.csv")

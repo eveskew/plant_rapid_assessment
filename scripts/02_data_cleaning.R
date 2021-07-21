@@ -154,6 +154,42 @@ d <- d %>%
 dim(d)
 # How many plant species represented?
 n_distinct(d$query_name)
+n_distinct(d$species)
+
+#==============================================================================
+
+
+# Filter to only species with >= 3 occurrence points
+
+d <- d %>%
+  left_join(
+    .,
+    d %>%
+      group_by(species) %>%
+      summarize(number_of_points = n()),
+    by = "species"
+  ) %>%
+  filter(number_of_points >= 3)
+
+dim(d)
+# How many plant species represented?
+n_distinct(d$query_name)
+n_distinct(d$species)
+
+# Generate and save metadata on this derived dataset for GBIF citation purposes
+derived.dataset.metadata <- d %>%
+  group_by(datasetKey) %>%
+  summarize(nOccurrencesInDerivedDataset = n()) %>%
+  ungroup()
+
+assertthat::assert_that(
+  sum(derived.dataset.metadata$nOccurrencesInDerivedDataset) == nrow(d)
+)
+
+write_csv(
+  derived.dataset.metadata, 
+  "data/gbif_miscellaneous/gbif_derived_dataset_metadata.csv"
+)
 
 #==============================================================================
 
