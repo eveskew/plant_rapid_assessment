@@ -13,12 +13,30 @@ rcat <- read_csv("data/rcat/rCAT_output.csv") %>%
   mutate(scientificName = query_name) %>%
   dplyr::select(scientificName, everything(), -query_name)
 
-threat.set <- read.csv("data/IUCN/threats.csv") %>%
+# Get assessment data in order to generate binary predictor variables
+# indicating whether or not criteria B1 or B2 were identified in the
+# assessments
+assessment.set <- read_csv("data/IUCN/assessments.csv") %>%
+  mutate(
+    # Pare down annoying criteria entries that have alternative criteria
+    # after the B criteria, making the regex job more complicated
+    redlistCriteria_mod = str_extract(redlistCriteria, "B.+?(?=;)"),
+    redlistCriteria_mod = 
+      ifelse(is.na(redlistCriteria_mod), redlistCriteria, redlistCriteria_mod),
+    # Generate the binary predictor variables
+    B1_binary = as.numeric(str_detect(redlistCriteria_mod, "B1")),
+    B2_binary = as.numeric(str_detect(redlistCriteria_mod, "B2|B1.*2")),
+    B1_binary = ifelse(is.na(B1_binary), 0, B1_binary),
+    B2_binary = ifelse(is.na(B2_binary), 0, B2_binary),
+  ) %>%
+  dplyr::select(scientificName, redlistCriteria, B1_binary, B2_binary)
+
+threat.set <- read_csv("data/IUCN/threats.csv") %>%
   distinct() %>%
   mutate(threatCode = code, threatName = name) %>%
   dplyr::select(scientificName, threatCode, threatName)
 
-type.set <- read.csv("data/IUCN/plant_specific.csv") %>%
+type.set <- read_csv("data/IUCN/plant_specific.csv") %>%
   distinct() %>%
   mutate(typeCode = code, typeName = name) %>%
   dplyr::select(scientificName, typeCode, typeName)
@@ -26,6 +44,7 @@ type.set <- read.csv("data/IUCN/plant_specific.csv") %>%
 # Join them all into a single dataset
 
 d <- rcat %>%
+  left_join(., assessment.set, by = "scientificName") %>%
   left_join(., threat.set, by = "scientificName") %>%
   left_join(., type.set, by = "scientificName")
 
@@ -152,7 +171,8 @@ d3 <- wide.type %>%
   left_join(wide.threats, ., by = "scientificName") %>%
   dplyr::group_by(
     scientificName, 
-    overClassified, underClassified, correctlyClassified
+    overClassified, underClassified, correctlyClassified,
+    redlistCriteria, B1_binary, B2_binary
   ) %>%
   summarise_at(
     vars(`5`:`Fern`), 
@@ -243,6 +263,26 @@ assert_that(sum(class.count == 1) == length(class.count))
 
 # Write to disk
 write_csv(full.modeling.data, "data/modeling_data/full_modeling_data.csv")
+
+#==============================================================================
+
+
+# Generate modeling dataset for non-LC species
+
+nonLC.modeling.data <- full.data %>%
+  filter(!(iucn_redlist_category %in% c("Least Concern", "Data Deficient")))
+
+# Verify every species in this dataset has at least one associated plant
+# type
+col1 <- which(colnames(nonLC.modeling.data) == "Tree")
+col2 <- which(colnames(nonLC.modeling.data) == "Fern")
+type.count <- nonLC.modeling.data %>%
+  mutate(type.count = rowSums(.[col1:col2])) %>%
+  pull(type.count)
+assert_that(sum(type.count > 0) == length(type.count))
+
+# Write to disk
+write_csv(nonLC.modeling.data, "data/modeling_data/nonLC_modeling_data.csv")
 
 #==============================================================================
 

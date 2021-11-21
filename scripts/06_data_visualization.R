@@ -528,7 +528,7 @@ ggsave("outputs/plant_type_preds_plot.jpg", plot = preds.plot1,
 
 
 m.under.type.stan <- readRDS("data/fit_models/m.under.type.stan.RDS")
-m.stan.samples <- extract.samples(m.under.type.stan)
+m.stan.samples <- rstan::extract(m.under.type.stan@stanfit)
 
 sample.size.scenarios <- data.frame(raw_N = c(100, 1000, 10000, 20000)) %>%
   mutate(scaled_N = (raw_N - mean(f$NOP))/sd(f$NOP))
@@ -686,7 +686,7 @@ ggsave("outputs/plant_threat_preds_plot.jpg", plot = preds.plot2,
 
 
 m.under.threat.stan <- readRDS("data/fit_models/m.under.threat.stan.RDS")
-m.stan.samples <- extract.samples(m.under.threat.stan)
+m.stan.samples <- rstan::extract(m.under.threat.stan@stanfit)
 
 sample.size.scenarios <- data.frame(raw_N = c(100, 1000, 10000, 20000)) %>%
   mutate(scaled_N = (raw_N - mean(f$NOP))/sd(f$NOP))
@@ -704,7 +704,7 @@ for(x in sample.size.scenarios$scaled_N) {
       m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aBiological_resource_use,
       m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aHuman_intrusions_and_disturbance,
       m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aNatural_system_modifications,
-      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aInvasive_and_other_problematic_species_genes_and_disease,
+      m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aInvasive,
       m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aPollution,
       m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aGeological_events,
       m.stan.samples$a + m.stan.samples$bN*x + m.stan.samples$aClimate_change_and_severe_weather,
