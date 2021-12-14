@@ -2,7 +2,7 @@
 
 This repository contains code, data, and figures that support:
 
-Levin, M., J.B. Meek, B. Boom, S.M. Kross, and E.A. Eskew. In review. Leveraging publicly available data to conduct rapid assessments of extinction risk.
+Levin, M.O., J.B. Meek, B. Boom, S.M. Kross, and E.A. Eskew. In review. Using publicly available data to conduct rapid assessments of extinction risk.
 
 --- 
 
@@ -21,7 +21,7 @@ Levin, M., J.B. Meek, B. Boom, S.M. Kross, and E.A. Eskew. In review. Leveraging
 - [`/R`](/R) contains code for functions that are sourced in the analysis scripts
 
 - [`/scripts`](/scripts) contains the primary analysis scripts, ordered sequentially by number
-  - [`01_data_acquisition.R`](/scripts/01_data_acquisition.R) uses [`rgbif`](https://github.com/ropensci/rgbif) to harvest occurrence records
+  - [`01_data_acquisition.R`](/scripts/01_data_acquisition.R) uses [`rgbif`](https://github.com/ropensci/rgbif) to harvest plant occurrence records
   - [`02_data_cleaning.R`](/scripts/02_data_cleaning.R) cleans the resulting occurrence data
   - [`03_data_analysis.R`](/scripts/03_data_analysis.R) uses [`rCAT`](https://cran.r-project.org/web/packages/rCAT/index.html) and custom methods to generate conservation metrics for each species
   - [`04_generate_modeling_data.R`](/scripts/04_generate_modeling_data.R) cleans and organizes the data for statistical modeling purposes
