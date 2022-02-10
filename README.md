@@ -2,7 +2,7 @@
 
 This repository contains code, data, and figures that support:
 
-Levin, M.O., J.B. Meek, B. Boom, S.M. Kross, and E.A. Eskew. In review. Using publicly available data to conduct rapid assessments of extinction risk.
+Levin, M.O., J.B. Meek, B. Boom, S.M. Kross, and E.A. Eskew. 2022. [Using publicly available data to conduct rapid assessments of extinction risk](https://doi.org/10.1111/csp2.12628). Conservation Science and Practice.
 
 --- 
 
